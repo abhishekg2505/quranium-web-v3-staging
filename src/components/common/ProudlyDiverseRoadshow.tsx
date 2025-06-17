@@ -20,7 +20,7 @@ const renderMarquee = (
   }[],
   reverse = false
 ) => (
-  <Marquee pauseOnHover reverse={reverse} className="[--duration:100s] mt-4:first-child">
+  <Marquee pauseOnHover reverse={reverse} className="[--duration:80s] mt-4:first-child">
     {cities.map((city) => (
       <CitiesCard key={city.name} name={city.name} />
     ))}

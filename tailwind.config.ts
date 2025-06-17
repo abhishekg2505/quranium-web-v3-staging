@@ -17,6 +17,9 @@ const config: Config = {
       },
     },
     extend: {
+      mixBlendMode: {
+        difference: "difference",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

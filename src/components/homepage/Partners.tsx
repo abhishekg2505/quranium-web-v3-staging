@@ -9,18 +9,31 @@ const Partners = () => {
   const tweenRef = useRef<gsap.core.Tween | null>(null);
 
   const partnersLogos = [
-    { src: "/partners-logo/align-ai.svg", alt: "Align AI Logo" },
+    { src: "/partners-logo/alignai.svg", alt: "Align AI Logo" },
+    { src: "/partners-logo/animoca.svg", alt: "Animoca Logo" },
+    { src: "/partners-logo/asured-defi.svg", alt: "Asured Defi Logo" },
     { src: "/partners-logo/biskit.svg", alt: "Biskit Logo" },
-    { src: "/partners-logo/bybit.svg", alt: "Bybit Logo" },
+    { src: "/partners-logo/blockspirit.svg", alt: "Block Spirit Logo" },
+    { src: "/partners-logo/cryptodotcom.svg", alt: "Cryptodotcom Logo" },
+    { src: "/partners-logo/dmcc.svg", alt: "Cryptodotcom Logo" },
     { src: "/partners-logo/exequantum.svg", alt: "Exequantum Logo" },
-    { src: "/partners-logo/happy-bridge.svg", alt: "Happy Bridge Logo" },
-    { src: "/partners-logo/icp-logo.svg", alt: "ICP Logo" },
+    { src: "/partners-logo/fetchai.svg", alt: "fetchai Logo" },
+    { src: "/partners-logo/galxe.svg", alt: "galxe Logo" },
+    { src: "/partners-logo/hacken.svg", alt: "hacken Logo" },
+    { src: "/partners-logo/halburn.svg", alt: "halburn Logo" },
+    { src: "/partners-logo/happybridge.svg", alt: "happybridge Logo" },
+    { src: "/partners-logo/hyperscaled.svg", alt: "hyperscaled Logo" },
+    { src: "/partners-logo/icp-korea.svg", alt: "icp korea Logo" },
     { src: "/partners-logo/inofi.svg", alt: "Inofi Logo" },
+    { src: "/partners-logo/luma.svg", alt: "Luma Logo" },
     { src: "/partners-logo/matter-id.svg", alt: "Matter ID Logo" },
     { src: "/partners-logo/metasig.svg", alt: "Metasig Logo" },
     { src: "/partners-logo/pwc.svg", alt: "PwC Logo" },
     { src: "/partners-logo/qnet.svg", alt: "QNet Logo" },
-    { src: "/partners-logo/turf-gaming.svg", alt: "Turf Gaming Logo" },
+    { src: "/partners-logo/quantum-basel.svg", alt: "Quantum Basel Logo" },
+    { src: "/partners-logo/sandbox.svg", alt: "Sandbox Logo" },
+    { src: "/partners-logo/turfgg.svg", alt: "Turf Gaming Logo" },
+    { src: "/partners-logo/undaas.svg", alt: "undaas Logo" },
   ];
 
   useEffect(() => {
@@ -56,7 +69,9 @@ const Partners = () => {
 
   return (
     <section>
-      <h2 className="text-h4 text-center font-montserrat font-semibold">Our Partners</h2>
+      <h2 className="text-h4 text-center font-montserrat font-semibold">
+        Partners and Collaborators
+      </h2>
       <div className="relative pt-5 pb-20 overflow-hidden">
         <div className={`absolute w-full h-full origin-top-left rotate-[2.42deg]`}>
           <div className="bg-violet-2 -mx-[10vw] px-[10vw] py-12">

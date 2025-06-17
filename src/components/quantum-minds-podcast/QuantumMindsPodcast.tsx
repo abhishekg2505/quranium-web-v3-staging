@@ -81,7 +81,7 @@ const QuantumMindsPodcast = () => {
               alt="Quantum Minds Podcast"
               width={687}
               height={386}
-              className="w-full mb-5 md:mb-0"
+              className="w-full mb-5 md:mb-0 rounded-[20px]"
               ref={cardsRef}
             />
           </div>
