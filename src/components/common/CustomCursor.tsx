@@ -11,8 +11,8 @@ export default function CustomCursor() {
       gsap.to(cursorRef.current, {
         x: e.clientX - 16 / 2,
         y: e.clientY - 16 / 2,
-        duration: 1,
-        ease: "power3.out",
+        duration: 0.5,
+        ease: "back.out",
       });
     };
 
