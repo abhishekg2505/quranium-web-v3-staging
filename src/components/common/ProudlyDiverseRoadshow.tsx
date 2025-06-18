@@ -30,7 +30,7 @@ const renderMarquee = (
 const ProudlyDiverse = () => {
   const [firstRow, secondRow] = [
     ROADSHOW_CITIES.slice(0, ROADSHOW_CITIES.length / 2),
-    ROADSHOW_CITIES.slice(ROADSHOW_CITIES.length / 2),
+    ROADSHOW_CITIES.slice(0, ROADSHOW_CITIES.length / 2),
   ];
   return (
     <section className="">
