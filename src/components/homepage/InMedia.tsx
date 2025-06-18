@@ -42,22 +42,6 @@ const InMedia = () => {
     <section className="py-16 container mx-auto px-4">
       <div>
         <h2 className="text-h4 text-center font-montserrat font-semibold">In the Media</h2>
-        {/* <div className="pt-5 md:pt-10 flex flex-col md:flex-row gap-10">
-          {media.map((item) => (
-            <Link key={item.imageSrc} href={item.link} target="_blank" rel="noopener noreferrer">
-              <div>
-                <div>
-                  <div className="rounded-[20px] overflow-hidden">
-                    <Image src={item.imageSrc} alt={item.altText} width={1200} height={627} />
-                  </div>
-                  <p className="pt-5 text-p2 md:text-h5 font-open-sans text-white-2">
-                    {item.description}
-                  </p>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div> */}
 
         <div className="pt-10">
           <div className="p-[1.1px] bg-roadshow-stats-border rounded-[30px]">

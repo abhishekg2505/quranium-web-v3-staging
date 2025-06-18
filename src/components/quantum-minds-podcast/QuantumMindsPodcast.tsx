@@ -72,7 +72,7 @@ const QuantumMindsPodcast = () => {
 
   return (
     <div ref={sectionRef} className="rounded-[20px] mt-[75px] md:mt-40 px-4 md:px-20">
-      <div className="max-w-7xl mx-auto py-0 md:py-10 px-4 md:px-10 bg-black rounded-[20px]">
+      <div className="max-w-7xl mx-auto pt-0 pb-8 md:py-10 px-4 md:px-10 bg-black rounded-[20px]">
         <div className="grid grid-cols-1 md:[grid-template-columns:3fr_2fr] gap-0 md:gap-10 items-center text-center md:text-left">
           {/* Left Side - Image (60%) */}
           <div className="flex items-center justify-center mt-10 md:mt-0 relative w-full">
