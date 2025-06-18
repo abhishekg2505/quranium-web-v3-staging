@@ -9,9 +9,9 @@ export default function CustomCursor() {
   useEffect(() => {
     const moveCursor = (e: MouseEvent) => {
       gsap.to(cursorRef.current, {
-        x: e.clientX - 16 / 2,
-        y: e.clientY - 16 / 2,
-        duration: 0.5,
+        x: e.clientX - 8,
+        y: e.clientY - 8,
+        duration: 0.15,
         ease: "back.out",
       });
     };
