@@ -12,7 +12,7 @@ export const leadership = [
     ],
   },
   {
-    name: "Yaduvendra Mukherjee",
+    name: "Yaduvendra Yadav",
     designation: "CTO & CO-FOUNDER",
     twitter: "https://x.com/aqui1991",
     linkedin: "https://www.linkedin.com/in/ysy0304/",
