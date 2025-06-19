@@ -42,9 +42,16 @@ export default function HeroSection() {
           />
           Your browser does not support the video tag.
         </video> */}
-        <div className="absolute inset-0 w-full h-full object-cover z-0">
+        <div className="hidden sm:block absolute inset-0 w-full h-full object-cover z-0">
           <iframe
             src="https://my.spline.design/heroicanimationwebsitefilechangedaniamtion-kOrpiG9mfKpIeZ5TneoG9LRy/"
+            width="100%"
+            height="100%"
+          ></iframe>
+        </div>
+        <div className="block sm:hidden absolute inset-0 w-full h-full object-cover z-0">
+          <iframe
+            src="https://my.spline.design/heroicanimationwebsitefilemobilever-p44JR9ATT8kicWBhdAiVVsZa/"
             width="100%"
             height="100%"
           ></iframe>

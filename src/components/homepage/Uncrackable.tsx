@@ -93,7 +93,7 @@ const Uncrackable = () => {
         end: `+=${window.innerHeight * titles.length}`,
         scrub: true,
         pin: true,
-        anticipatePin: 1,
+        //anticipatePin: 1,
       });
 
       // Animate each title on scroll
@@ -121,7 +121,7 @@ const Uncrackable = () => {
               scrub: true,
               markers: false,
             },
-            ease: "power2.out",
+            ease: "back.out",
           }
         );
       });
