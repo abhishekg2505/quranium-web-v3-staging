@@ -10,6 +10,7 @@ const Feature = () => {
       <div className="relative py-16 md:py-20 rounded-[20px] overflow-hidden">
         {/* Background image */}
         <div className="absolute inset-0 bg-[url('/images/homepage/forging/bg-image-forging.webp')] bg-no-repeat bg-cover opacity-25" />
+        {/* <div className="absolute inset-0 bg-multi-layer-gradient opacity-25" /> */}
 
         {/* Foreground content */}
         <div className="relative z-10 max-w-[984px] mx-auto text-white">

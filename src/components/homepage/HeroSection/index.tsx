@@ -29,7 +29,7 @@ export default function HeroSection() {
 
       <div className=" relative min-h-[89vh] md:min-h-[100dvh] w-full overflow-hidden">
         {/* Background video */}
-        <video
+        {/* <video
           autoPlay
           muted
           loop
@@ -48,8 +48,21 @@ export default function HeroSection() {
         >
           <source src="/videos/homepage/home-hero-mobile.mp4" type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
-
+        </video> */}
+        <div className="hidden sm:block absolute inset-0 w-full h-full object-cover z-0">
+          <iframe
+            src="https://my.spline.design/heroicanimationwebsitefilechangedaniamtion-kOrpiG9mfKpIeZ5TneoG9LRy/"
+            width="100%"
+            height="100%"
+          ></iframe>
+        </div>
+        <div className="block sm:hidden absolute inset-0 w-full h-full object-cover z-0">
+          <iframe
+            src="https://my.spline.design/heroicanimationwebsitefilemobilever-p44JR9ATT8kicWBhdAiVVsZa/"
+            width="100%"
+            height="100%"
+          ></iframe>
+        </div>
         <div className="absolute left-1/2 -translate-x-1/2 w-max bottom-10 md:bottom-10 2xl:bottom-20 z-20">
           <HeroConvergence />
         </div>
