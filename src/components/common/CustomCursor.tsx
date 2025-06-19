@@ -26,7 +26,7 @@ export default function CustomCursor() {
   return (
     <div
       ref={cursorRef}
-      className="fixed top-0 left-0 z-[9999] pointer-events-none w-4 h-4 bg-[#ffffff9a] rounded-full mix-blend-difference1 transition-transform duration-200"
+      className="hidden md:block fixed top-0 left-0 z-[9999] pointer-events-none w-4 h-4 bg-[#ffffff9a] rounded-full mix-blend-difference1 transition-transform duration-200"
     />
   );
 }
