@@ -93,7 +93,8 @@ const Uncrackable = () => {
         end: `+=${window.innerHeight * titles.length}`,
         scrub: true,
         pin: true,
-        //anticipatePin: 1,
+        anticipatePin: 1,
+        // markers: true,
       });
 
       // Animate each title on scroll
