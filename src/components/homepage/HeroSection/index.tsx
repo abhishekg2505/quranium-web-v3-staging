@@ -56,13 +56,16 @@ export default function HeroSection() {
             height="100%"
           ></iframe>
         </div>
-        <div className="block sm:hidden absolute inset-0 w-full h-full object-cover z-0">
-          <iframe
-            src="https://my.spline.design/heroicanimationwebsitefilemobilever-p44JR9ATT8kicWBhdAiVVsZa/"
-            width="100%"
-            height="100%"
-          ></iframe>
-        </div>
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="block sm:hidden absolute inset-0 w-full h-full object-cover z-0"
+        >
+          <source src="/videos/homepage/home-hero-mobile.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="absolute left-1/2 -translate-x-1/2 w-max bottom-10 md:bottom-10 2xl:bottom-20 z-20">
           <HeroConvergence />
         </div>
