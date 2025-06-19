@@ -12,7 +12,7 @@ export default function CustomCursor() {
         x: e.clientX - 8,
         y: e.clientY - 8,
         duration: 0.05,
-        ease: "power1.inOut",
+        //ease: "power1.inOut",
       });
     };
 
