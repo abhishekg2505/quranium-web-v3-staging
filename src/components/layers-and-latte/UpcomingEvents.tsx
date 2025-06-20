@@ -139,8 +139,8 @@ const UpcomingEvents = () => {
           </h2>
         </div>
 
-        <div className="relative mt-[60px] md:px-10  rounded-[20px] container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center relative z-10 mx-auto">
+        <div className="relative mt-[60px] rounded-[20px] max-w-7xl mx-auto md:px-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-5 items-center relative z-10 mx-auto">
             <div>
               <Image
                 src="/images/landl/20june-event.webp"
@@ -150,26 +150,29 @@ const UpcomingEvents = () => {
                 className="w-full md:w-[625px] md:h-[321px]"
                 ref={img1Ref}
               />
-              <h4 ref={heading1Ref} className="text-white text-h5 md:text-h4 font-semibold mt-10">
+              <h4
+                ref={heading1Ref}
+                className="text-white text-h5 md:text-h4 font-semibold mt-5 md:mt-10"
+              >
                 Friday, June 20
               </h4>
 
-              <h5 ref={para1Ref} className="text-h5 font-montserrat font-medium mt-[5px] mb-10">
+              <h5
+                ref={para1Ref}
+                className="text-h5 font-montserrat font-medium mt-[5px] mb-5 md:mb-10"
+              >
                 8:30 AM - 10:00 AM GMT+8
               </h5>
-              <Link
-                ref={btn1Ref}
-                href="https://lu.ma/w00qjfcb"
-                target="_blank"
-                rel="noopener noreferrer"
+
+              <Button
+                disabled
+                className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]"
               >
-                <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
-                  <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                  <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
-                    Register Now
-                  </span>
-                </Button>
-              </Link>
+                <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
+                <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
+                  Registeration Closed
+                </span>
+              </Button>
             </div>
 
             <div>
@@ -181,11 +184,17 @@ const UpcomingEvents = () => {
                 className="w-full max-w-full md:w-[625px] md:h-[321px]"
                 ref={img2Ref}
               />
-              <h4 ref={heading2Ref} className="text-white text-h5 md:text-h4 font-semibold mt-10">
+              <h4
+                ref={heading2Ref}
+                className="text-white text-h5 md:text-h4 font-semibold mt-5 md:mt-10"
+              >
                 Friday, June 27
               </h4>
 
-              <h5 ref={para2Ref} className="text-h5 font-montserrat font-medium mt-[5px] mb-10">
+              <h5
+                ref={para2Ref}
+                className="text-h5 font-montserrat font-medium mt-[5px] mb-5 md:mb-10"
+              >
                 8:30 AM - 10:00 AM GMT+8
               </h5>
               <Link

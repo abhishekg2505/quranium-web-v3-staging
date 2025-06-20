@@ -101,8 +101,8 @@ export default function HeroSection() {
               {/* Right Content Section */}
               <div className="flex flex-col items-start space-y-6">
                 <h1 className="hero-title text-h5 md:text-h4 font-montserrat font-medium md:font-semibold text-white  text-center md:text-left max-w-md">
-                  Monthly Breakfast Meetup series designed to engage with leaders in blockchain, AI,
-                  and Quantum.
+                  A monthly breakfast meetup series designed to engage with leaders in blockchain,
+                  AI, and quantum
                 </h1>
               </div>
             </div>

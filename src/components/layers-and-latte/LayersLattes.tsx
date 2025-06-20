@@ -75,12 +75,15 @@ const LayersLattes = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left ">
           {/* Left Side */}
           <div className="relative z-10 md:pr-20">
-            <h3 ref={mainTitleRef} className="text-h3 font-montserrat font-semibold mb-5">
+            <h3
+              ref={mainTitleRef}
+              className="text-h3 font-montserrat font-semibold mb-5 md:text-left text-center"
+            >
               Layers & Lattes
             </h3>
             <h3
               ref={headingRef}
-              className="text-left text-p1 font-open-sans font-normal text-white"
+              className="md:text-left text-center text-p1 font-open-sans font-normal text-white"
             >
               The Convergence Breakfast Series is a bi-monthly meetup for ecosystem players across
               AI, blockchain, and quamtum. Designed to spark meaningful conversations over breakfast

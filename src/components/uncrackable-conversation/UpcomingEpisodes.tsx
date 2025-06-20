@@ -108,7 +108,7 @@ const UpcomingEpisodes = () => {
               target="_blank"
             >
               <h4 ref={heading2Ref} className="text-white text-h5 md:text-h4 font-semibold">
-                27 June, 12noon UTC, The Uncrackable Conversation, Episode #3.
+                25 July, 12noon UTC, The Uncrackable Conversation, Episode #3.
               </h4>
 
               <div className="pt-5">
