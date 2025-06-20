@@ -14,12 +14,15 @@ import Feature from "../components/homepage/Feature";
 import InMedia from "../components/homepage/InMedia";
 import RoadshowV2 from "../components/homepage/RoadshowV2";
 import Pulse from "../components/homepage/Pulse";
+import TextReveal from "@/src/components/homepage/TextReveal";
 
 export default function Home() {
   return (
     <main className="flex flex-col bg-background">
       <HeroSection />
       <Uncrackable />
+      <TextReveal text="In a world where machines make decisions, data moves autonomously, and quantum computers challenge the very structure of digital trust, we need more than a Blockchain." />
+
       <div className="z-10 bg-background">
         <Feature />
         <Partners />
