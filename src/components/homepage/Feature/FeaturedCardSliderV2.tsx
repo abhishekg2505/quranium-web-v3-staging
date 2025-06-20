@@ -38,7 +38,7 @@ const cards = [
 
 export default function FeaturedCardSlider() {
   return (
-    <div className="relative pt-[60px] pb-[30px]">
+    <div className="relative md:pt-[60px] pb-[30px]">
       <div className="relative px-4">
         <Swiper
           modules={[Navigation, Autoplay, EffectCoverflow]}

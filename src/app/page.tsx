@@ -15,6 +15,7 @@ import InMedia from "../components/homepage/InMedia";
 import RoadshowV2 from "../components/homepage/RoadshowV2";
 import Pulse from "../components/homepage/Pulse";
 import TextReveal from "@/src/components/homepage/TextReveal";
+import QsafeWallet from "@/src/components/homepage/QsafeWallet";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <div className="z-10 bg-background">
         <Feature />
         <Partners />
+        <QsafeWallet />
         {/* <Roadshow /> */}
         <RoadshowV2 />
 

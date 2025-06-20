@@ -20,7 +20,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
         scrollTrigger: {
           trigger: containerRef.current,
           start: "top top",
-          end: "+=100", // 👈 enough scroll distance to animate slowly
+          end: "bottom bottom", // 👈 enough scroll distance to animate slowly
           scrub: true,
           pin: true, // 👈 pin until animation finishes
         },
@@ -37,9 +37,9 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
           {
             width: "0%",
             ease: "power2.out",
-            duration: 1.3 + letters.length * 1.4,
+            duration: 5 + letters.length * 1.4,
           },
-          `+=${wordIndex * 0.4}` // delay each word
+          `+=${wordIndex * 5}` // delay each word
         );
       });
     }, containerRef);
@@ -50,7 +50,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
   return (
     <section
       ref={containerRef}
-      className="max-w-4xl mx-auto px-4 py-40 text-2xl md:text-4xl font-semibold leading-relaxed flex flex-wrap gap-x-3 gap-y-4"
+      className="container mx-auto px-4 md:px-10 py-40  flex flex-wrap gap-x-3 gap-y-4 text-h5 md:text-h2 font-montserrat font-semibold"
     >
       {text.split(" ").map((word, wordIndex) => (
         <div
@@ -62,7 +62,10 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
         >
           <div className="relative z-0 flex">
             {word.split("").map((letter, letterIndex) => (
-              <span key={letterIndex} className="letter text-white/30 inline-block">
+              <span
+                key={letterIndex}
+                className="letter text-[#EAEAEA] inline-block text-h5 md:text-h2 font-montserrat font-semibold"
+              >
                 {letter}
               </span>
             ))}

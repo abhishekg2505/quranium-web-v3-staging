@@ -7,17 +7,13 @@ import FeaturedCardSlider from "./FeaturedCardSliderV2";
 const Feature = () => {
   return (
     <section className="py-16 md:py-[107px] container mx-auto px-4">
-      <div className="relative py-16 md:py-20 rounded-[20px] overflow-hidden">
+      <div className="relative pt-0 pb-16 md:py-20 rounded-[20px] overflow-hidden">
         {/* Background image */}
         {/* <div className="absolute inset-0 bg-[url('/images/homepage/forging/bg-image-forging.webp')] bg-no-repeat bg-cover opacity-25" /> */}
-        <div className="absolute inset-0 bg-multi-layer-gradient" />
+        {/* <div className="absolute inset-0 bg-multi-layer-gradient" /> */}
 
         {/* Foreground content */}
         <div className="relative z-10 max-w-[984px] mx-auto text-white">
-          <p className="pt-4 text-center text-p2 max-w-[732px] mx-auto font-open-sans text-white-2">
-            In a world where machines make decisions, data moves autonomously, and quantum computers
-            challenge the very structure of digital trust, we need more than a Blockchain.
-          </p>
           <FeaturedCardSlider />
           <div className="flex flex-col items-center gap-y-5">
             <p className="text-h4">Secure. Fast. Intelligent</p>
