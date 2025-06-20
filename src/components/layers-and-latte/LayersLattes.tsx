@@ -70,7 +70,7 @@ const LayersLattes = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="rounded-[20px] px-4 md:px-20 bg-[#000000CC]">
+    <div ref={sectionRef} className="rounded-[20px] px-4 md:px-20 bg-[#0F0825]">
       <div className="max-w-7xl mx-auto py-[50px] md:py-20 px-[16px] md:px-[60px]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left ">
           {/* Left Side */}
@@ -80,7 +80,7 @@ const LayersLattes = () => {
             </h3>
             <h3
               ref={headingRef}
-              className="text-left text-p1 font-open-sans font-regular text-white"
+              className="text-left text-p1 font-open-sans font-normal text-white"
             >
               The Convergence Breakfast Series is a bi-monthly meetup for ecosystem players across
               AI, blockchain, and quamtum. Designed to spark meaningful conversations over breakfast
@@ -103,7 +103,7 @@ const LayersLattes = () => {
               alt="Uncrackable Conversations"
               width={468}
               height={368}
-              className="w-full"
+              className="w-full md:w-[468px] md:h-[368px]"
             />
           </div>
         </div>

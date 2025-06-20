@@ -34,4 +34,9 @@ export const socialMedia = [
     link: "https://discord.gg/quranium",
     logo: "/social-logo/discord.svg",
   },
+  {
+    name: "Medium",
+    link: "https://quranium-org.medium.com/",
+    logo: "/social-logo/medium.svg",
+  },
 ];

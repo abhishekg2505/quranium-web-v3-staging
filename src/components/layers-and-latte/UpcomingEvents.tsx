@@ -131,7 +131,7 @@ const UpcomingEvents = () => {
     <div>
       <div
         ref={sectionRef}
-        className="container px-4 md:px-10 py-10 md:py-20 p-[1px] rounded-[20px]"
+        className="container px-4 md:px-10 py-10 md:pt-20 md:pb-[120px] p-[1px] rounded-[20px]"
       >
         <div className="relative z-10 md:px-10 mx-auto">
           <h2 ref={mainTitleRef} className="text-white text-h4 md:text-h3 font-semibold">
