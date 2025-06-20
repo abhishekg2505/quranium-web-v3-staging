@@ -71,6 +71,10 @@ export const navLinks = [
         subMenuName: "Next Gen Innovators",
         subMenuLink: ROUTES?.NEXT_GEN_INNOVATORS,
       },
+      {
+        subMenuName: "Layers & Lattes",
+        subMenuLink: ROUTES?.LAYERS_AND_LATTES,
+      },
     ],
   },
   // {

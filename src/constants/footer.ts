@@ -40,6 +40,7 @@ export const footer = [
       { name: "Quantum Minds Podcast", href: `${ROUTES.QUANTUM_MINDS_PODCAST}` },
       { name: "Next Gen Innovators", href: `${ROUTES.NEXT_GEN_INNOVATORS}` },
       { name: "The Uncrackable Conversation", href: `${ROUTES.UNCRACKABLE_CONVERSATION}` },
+      { name: "Layers & Lattes", href: `${ROUTES.LAYERS_AND_LATTES}` },
     ],
   },
   {
