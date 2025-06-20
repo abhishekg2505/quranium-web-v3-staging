@@ -70,11 +70,11 @@ const LayersLattes = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="rounded-[20px] px-4 md:px-20 bg-[#0F0825]">
-      <div className="max-w-7xl mx-auto py-[50px] md:py-20 px-[16px] md:px-[60px]">
+    <div ref={sectionRef} className="rounded-[20px] py-[50px] md:py-20 px-4 md:px-20 bg-[#0F0825]">
+      <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left ">
           {/* Left Side */}
-          <div className="relative z-10">
+          <div className="relative z-10 md:pr-20">
             <h3 ref={mainTitleRef} className="text-h3 font-montserrat font-semibold mb-5">
               Layers & Lattes
             </h3>
@@ -88,9 +88,6 @@ const LayersLattes = () => {
               researchers, exploring how disruptive technologies are shaping tomorrow&rsquo;s
               infrastructure.
             </h3>
-
-            {/* Inline Pill Boxes */}
-            <div className="mt-6 flex flex-col md:flex-row items-center justify-center md:justify-start gap-4"></div>
           </div>
 
           {/* Right Side - Video */}
