@@ -37,7 +37,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
           {
             xPercent: 100,
             ease: "power2.out",
-            duration: 50 + letters.length * 4,
+            duration: 150 + letters.length * 4,
           },
           `+=${wordIndex * 8}`
         );
