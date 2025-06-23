@@ -20,7 +20,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
         scrollTrigger: {
           trigger: containerRef.current,
           start: "top top",
-          end: "bottom bottom",
+          end: "bottom bottom", // 👈 enough scroll distance to animate slowly
           scrub: true,
           pin: true, // 👈 pin until animation finishes
         },
@@ -37,9 +37,9 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
           {
             xPercent: 100,
             ease: "power2.out",
-            duration: 4 + letters.length * 2,
+            duration: 50 + letters.length * 4,
           },
-          `+=${wordIndex * 2}`
+          `+=${wordIndex * 8}`
         );
       });
     }, containerRef);
