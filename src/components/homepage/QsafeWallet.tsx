@@ -39,7 +39,7 @@ const QsafeWallet = () => {
             </h1>
             <p className="text-p1 font-open-sans mb-10">Built for the next generation.</p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 relative z-1">
               <Link href="https://www.qsafewallet.com/" target="_blank">
                 <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
                   <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
