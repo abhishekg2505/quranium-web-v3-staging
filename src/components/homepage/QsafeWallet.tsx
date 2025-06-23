@@ -8,7 +8,17 @@ import { MoveRight } from "lucide-react";
 const QsafeWallet = () => {
   return (
     <section className="pt-[100px] container mx-auto px-4">
-      <div className="relative container mx-auto px-0 rounded-[20px]  flex flex-col md:flex-row items-center justify-between gap-10 bg-[url('/images/homepage/qsafe-wallet/qsafewallet-home.webp')] bg-cover bg-right sm:bg-center">
+      <div className="relative container  mx-auto px-0 rounded-[20px]  flex flex-col md:flex-row items-center justify-between gap-10">
+        <video
+          className="absolute inset-0 w-full h-full object-cover z-0 rounded-[20px]"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/videos/homepage/qsafe-herovideo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         {/* Left Content */}
         <div className="max-w-2xl md:pl-[50px] pt-[62px] md:pb-[80px]">
           <div className="flex items-center gap-2 mb-4">
