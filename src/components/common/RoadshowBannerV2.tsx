@@ -24,7 +24,7 @@ const stats = [
 const RoadshowBannerV2Mobile = () => {
   return (
     <div className="p-[1px] rounded-[20px] bg-roadshow-border md:hidden">
-      <div className="relative py-[40px] px-[20px] rounded-[20px] bg-roadshow-gradient h-[500px] overflow-hidden">
+      <div className="relative py-[40px] px-[20px] rounded-[20px] bg-roadshow-gradient1 h-[500px] overflow-hidden bg-[url('/images/homepage/gradiant.webp')] bg-cover bg-right sm:bg-center">
         <div className="relative z-10 max-w-xs">
           <h2 className="text-white text-h4 font-montserrat font-semibold">Our Global Roadshow</h2>
           <p className="pt-2.5 text-white text-p2 font-open-sans">
@@ -42,7 +42,7 @@ const RoadshowBannerV2Mobile = () => {
             </Link>
           </div>
         </div>
-        <div className="absolute bottom-0 right-0 w-full md:w-auto">
+        <div className="absolute -bottom-10 right-0 w-full md:w-auto">
           <Image
             src="/images/common/roadshow/world-planet-2.webp"
             alt="Roadshow World Planet"
@@ -80,7 +80,7 @@ const RoadshowBannerV2 = () => {
         {/* <div className="absolute top-0 left-0 w-[20px] h-full bg-globe-gradient"></div> */}
         {/* <div className="absolute top-0 right-0 w-[20px] h-full bg-gradient-to-l from-black to-transparent"></div> */}
         <div className="rounded-[20px] bg-roadshow-border1">
-          <div className="relative py-[110px] px-[60px] rounded-[20px] bg-globe-gradient">
+          <div className="relative py-[110px] px-[60px] rounded-[20px] bg-globe-gradient bg-[url('/images/homepage/gradiant.webp')] bg-cover bg-right sm:bg-top">
             <div className="relative z-10 max-w-[582px]">
               <h2 className="text-white text-h3 font-montserrat font-semibold">
                 Our Global Roadshow
@@ -118,14 +118,14 @@ const RoadshowBannerV2 = () => {
                 </Link>
               </div>
             </div>
-            <div className="absolute bottom-0 right-0">
+            <div className="absolute bottom-16 right-0">
               <Image
                 src="/images/common/roadshow/world-planet-2.png"
                 alt="Roadshow World Planet"
                 width={652}
                 height={426}
               />
-              <div className="absolute top-[58px] right-[156px]">
+              <div className="absolute top-[100px] right-[156px]">
                 <Image
                   src="/images/common/roadshow/beuncrackable-logo.svg"
                   alt="Be Uncrackable Logo"
@@ -134,7 +134,7 @@ const RoadshowBannerV2 = () => {
                 />
               </div>
               <div className="relative">
-                <div className="absolute bottom-16 right-0">
+                <div className="absolute -bottom-3 right-0">
                   <div className="relative max-w-full md:max-w-[663px]">
                     <ProudlyDiverseRoadshow />
                     <div className="absolute top-1/2 -translate-y-1/2 left-0 w-16 h-[104px] bg-gradient-to-r from-transparent/80 to-transparent/0" />

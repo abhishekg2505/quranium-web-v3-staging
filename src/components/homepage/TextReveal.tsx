@@ -20,8 +20,8 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
         scrollTrigger: {
           trigger: containerRef.current,
           start: "top top",
-          end: "+=150", // 👈 enough scroll distance to animate slowly
-          scrub: true,
+          end: "bottom bottom", // 👈 enough scroll distance to animate slowly
+          scrub: 5,
           pin: true, // 👈 pin until animation finishes
         },
       });
@@ -50,7 +50,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
   return (
     <section
       ref={containerRef}
-      className="container mx-auto px-4 md:px-10 py-40  flex flex-wrap gap-x-3 gap-y-4 text-h5 md:text-h2 font-montserrat font-semibold"
+      className="container mx-auto px-4 md:px-10 py-40 flex flex-wrap gap-x-3 gap-y-4 text-h5 md:text-h2 font-montserrat font-semibold"
     >
       {text.split(" ").map((word, wordIndex) => (
         <div
