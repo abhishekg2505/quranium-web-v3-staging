@@ -7,8 +7,8 @@ import { MoveRight } from "lucide-react";
 
 const QsafeWallet = () => {
   return (
-    <section className="pt-[100px] px-4 md:px-0">
-      <div className="relative containerpx-10 mx-auto rounded-[20px] px-4 flex flex-col md:flex-row items-center justify-between gap-10 bg-[url('/images/homepage/qsafe-wallet/qsafewallet-home.webp')] bg-cover bg-right sm:bg-center">
+    <section className="pt-[100px] container mx-auto px-4">
+      <div className="relative container mx-auto px-0 rounded-[20px]  flex flex-col md:flex-row items-center justify-between gap-10 bg-[url('/images/homepage/qsafe-wallet/qsafewallet-home.webp')] bg-cover bg-right sm:bg-center">
         {/* Left Content */}
         <div className="max-w-2xl md:pl-[50px] pt-[62px] md:pb-[80px]">
           <div className="flex items-center gap-2 mb-4">
@@ -22,14 +22,14 @@ const QsafeWallet = () => {
             </div>
           </div>
 
-          <h1 className="text-white text-h3 font-montserrat font-semibold mb-5">
+          <h1 className="text-white text-h4 md:text-h3 font-montserrat font-semibold mb-5">
             Multi-chain, <br />
             quantum-secure wallet.
           </h1>
           <p className="text-p1 font-open-sans mb-10">Built for the next generation.</p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="#">
+            <Link href="https://www.qsafewallet.com/" target="_blank">
               <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
                 <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                 <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
@@ -38,7 +38,7 @@ const QsafeWallet = () => {
                 </span>
               </Button>
             </Link>
-            <Link href="#">
+            <Link href="https://www.qsafewallet.com/#download" target="_blank">
               <Button variant="outline" className="group relative overflow-hidden">
                 <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                 <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">

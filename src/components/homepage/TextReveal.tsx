@@ -35,11 +35,11 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
         tl.to(
           mask,
           {
-            width: "0%",
+            xPercent: 100,
             ease: "power2.out",
-            duration: 5 + letters.length * 1.4,
+            duration: 50 + letters.length * 4,
           },
-          `+=${wordIndex * 5}` // delay each word
+          `+=${wordIndex * 10}`
         );
       });
     }, containerRef);
