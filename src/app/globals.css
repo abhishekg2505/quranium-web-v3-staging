@@ -134,15 +134,16 @@ button:hover svg {
 .word {
   position: relative;
   display: inline-block;
-  overflow: hidden;
+  white-space: nowrap;
 }
-
 .line-mask {
   position: absolute;
   top: 0;
-  left: 0;
-  height: 100%;
+  right: 0;
   width: 100%;
-  z-index: 1;
+  height: 100%;
+  background-color: #0d0d0d;
+  opacity: 0.8;
+  z-index: 2;
   pointer-events: none;
 }

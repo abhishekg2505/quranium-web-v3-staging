@@ -22,7 +22,7 @@ export default function Home() {
     <main className="flex flex-col bg-background">
       <HeroSection />
       <Uncrackable />
-      <TextReveal text="In a world where machines make decisions, data moves autonomously, and quantum computers challenge the very structure of digital trust, we need more than a Blockchain." />
+      <TextReveal />
 
       <div className="z-10 bg-background">
         <Feature />

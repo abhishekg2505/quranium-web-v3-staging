@@ -7,7 +7,7 @@ import FeaturedCardSlider from "./FeaturedCardSliderV2";
 const Feature = () => {
   return (
     <section className="py-16 md:pt-[0px] md:pb-[107px] container mx-auto px-4">
-      <div className="relative pt-0 pb-16 md:py-20 rounded-[20px] overflow-hidden">
+      <div className="relative pt-0 pb-16 md:pb-20 rounded-[20px] overflow-hidden">
         {/* Background image */}
         {/* <div className="absolute inset-0 bg-[url('/images/homepage/forging/bg-image-forging.webp')] bg-no-repeat bg-cover opacity-25" /> */}
         {/* <div className="absolute inset-0 bg-multi-layer-gradient" /> */}
