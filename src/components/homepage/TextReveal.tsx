@@ -20,6 +20,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
         scrollTrigger: {
           trigger: containerRef.current,
           start: "top 10%",
+          end: "bottom bottom",
           scrub: 5,
           pin: true, // 👈 pin until animation finishes
         },

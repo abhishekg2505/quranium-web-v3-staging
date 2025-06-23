@@ -61,7 +61,7 @@ const QsafeWallet = () => {
           </div>
 
           {/* Right Image */}
-          <div className="w-[300px] md:w-[400px] xl:w-[555px] md:absolute md:right-0 md:bottom-0">
+          <div className="w-[300px] md:w-[400px] xl:w-[555px] md:absolute md:right-0 md:bottom-0 z-[1]">
             <Image
               src="/images/homepage/qsafe-wallet/captainQ.webp"
               alt="QSafe Robot"
