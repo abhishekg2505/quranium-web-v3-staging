@@ -20,7 +20,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
         scrollTrigger: {
           trigger: containerRef.current,
           start: "top top",
-          end: "bottom bottom", // 👈 enough scroll distance to animate slowly
+          end: "+=150", // 👈 enough scroll distance to animate slowly
           scrub: true,
           pin: true, // 👈 pin until animation finishes
         },
@@ -37,9 +37,9 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
           {
             xPercent: 100,
             ease: "power2.out",
-            duration: 50 + letters.length * 4,
+            duration: 4 + letters.length * 2,
           },
-          `+=${wordIndex * 10}`
+          `+=${wordIndex * 2}`
         );
       });
     }, containerRef);
@@ -64,7 +64,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
             {word.split("").map((letter, letterIndex) => (
               <span
                 key={letterIndex}
-                className="letter text-[#EAEAEA] inline-block text-h5 md:text-h2 font-montserrat font-semibold"
+                className="letter text-[#EAEAEA] inline-block text-h5 md:text-h2 font-montserrat font-semibold md:leading-[74px]"
               >
                 {letter}
               </span>
