@@ -19,9 +19,9 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: containerRef.current,
-          start: "top 10%",
+          start: "top top",
           end: "bottom bottom",
-          scrub: 5,
+          scrub: 2,
           pin: true, // 👈 pin until animation finishes
         },
       });
