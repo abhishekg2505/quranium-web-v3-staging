@@ -70,7 +70,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
               </span>
             ))}
           </div>
-          <div className="line-mask absolute top-0 left-0 h-full w-full bg-[#0d0d0d] opacity-90 z-10 pointer-events-none" />
+          <div className="line-mask absolute top-0 left-0 h-full w-full bg-[#0C0318] opacity-90 z-10 pointer-events-none" />
         </div>
       ))}
     </section>
