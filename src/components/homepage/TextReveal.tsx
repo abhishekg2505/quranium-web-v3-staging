@@ -21,7 +21,7 @@ const TextReveal: React.FC<TextRevealProps> = ({ text }) => {
           trigger: containerRef.current,
           start: "top top",
           end: "bottom bottom",
-          scrub: 2,
+          scrub: true,
           pin: true, // 👈 pin until animation finishes
         },
       });

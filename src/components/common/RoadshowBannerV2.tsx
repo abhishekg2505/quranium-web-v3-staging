@@ -80,7 +80,7 @@ const RoadshowBannerV2 = () => {
         {/* <div className="absolute top-0 left-0 w-[20px] h-full bg-globe-gradient"></div> */}
         {/* <div className="absolute top-0 right-0 w-[20px] h-full bg-gradient-to-l from-black to-transparent"></div> */}
         <div className="rounded-[20px] bg-roadshow-border1">
-          <div className="relative py-[110px] px-[60px] rounded-[20px] bg-globe-gradient bg-[url('/images/homepage/gradiant.webp')] bg-cover bg-right sm:bg-top">
+          <div className="relative py-[110px] px-[60px] rounded-[20px] bg-globe-gradient1 bg-[url('/images/homepage/gradiant.webp')] bg-cover bg-right sm:bg-top">
             <div className="relative z-10 max-w-[582px]">
               <h2 className="text-white text-h3 font-montserrat font-semibold">
                 Our Global Roadshow
