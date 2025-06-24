@@ -144,7 +144,7 @@ const TextReveal = () => {
     <div ref={containerRef} className="container mx-auto px-4">
       <div
         ref={textRef}
-        className="split-word text-[38px] md:text-h2 font-montserrat font-semibold md:leading-[74px] text-white px-4 md:px-10 py-10"
+        className="split-word text-[38px] leading-[48px] md:text-h2 font-montserrat font-semibold md:leading-[74px] text-white px-4 md:px-10 py-10"
       >
         In a world where machines make decisions, data moves autonomously, and quantum computers
         challenge the very structure of digital trust, we need more than a Blockchain.
