@@ -84,16 +84,36 @@ export const advisors = [
       "He served as the Director General of the World Intellectual Property Organization (WIPO) from 2008 to 2020, bringing extensive knowledge of IP and innovation to the company.",
     ],
   },
+  // {
+  //   name: "Robin Joffe",
+  //   designation: "Partner, Managing Director,Middle East, Africa and South Asia - Frost & Sullivan",
+  //   twitter: "https://x.com/robinjoffe",
+  //   linkedin: "https://www.linkedin.com/in/robinjoffe/",
+  //   img: "/images/about/team/robin.webp",
+  //   description: [
+  //     "Robin Joffe is an experienced growth strategist specializing in Asia-Pacific and the Middle East.",
+  //     "Currently a Managing Director at Frost & Sullivan, he has held leadership roles across regions, including Japan and the UAE, focused on sales strategy, market entry, and channel management.",
+  //     "With over a decade at Gartner and prior roles at Vox ware and Pitney Bowes, Robin brings deep expertise in building scalable, client-focused business models globally.",
+  //   ],
+  // },
   {
-    name: "Robin Joffe",
-    designation: "Partner, Managing Director,Middle East, Africa and South Asia - Frost & Sullivan",
-    twitter: "https://x.com/robinjoffe",
-    linkedin: "https://www.linkedin.com/in/robinjoffe/",
-    img: "/images/about/team/robin.webp",
+    name: "Sebastien Borget",
+    designation: "Co-founder & COO of The Sandbox",
+    twitter: "https://x.com/borgetsebastien?s=21&t=FGV9psahzzulGFKR5j3tKw",
+    linkedin: "http://linkedin.com/in/borgetsebastien",
+    img: "/images/about/team/sebastien-borget.webp",
     description: [
-      "Robin Joffe is an experienced growth strategist specializing in Asia-Pacific and the Middle East.",
-      "Currently a Managing Director at Frost & Sullivan, he has held leadership roles across regions, including Japan and the UAE, focused on sales strategy, market entry, and channel management.",
-      "With over a decade at Gartner and prior roles at Vox ware and Pitney Bowes, Robin brings deep expertise in building scalable, client-focused business models globally.",
+      "Sebastien is a visionary Web3 entrepreneur and ecosystem builder with over 14 years of experience scaling startups across blockchain, gaming, and digital art. As Co-Founder and COO of The Sandbox, he pioneered a decentralized metaverse where over 40 million players create, own, and monetize voxel experiences using NFTs and SAND tokens. He is also a Co-Founder of Artverse and President of Blockchain Game Alliance.",
+    ],
+  },
+  {
+    name: "John Keith King",
+    designation: "Former White House Lead Communications Engineer",
+    twitter: "",
+    linkedin: "http://linkedin.com/in/keith-king-03a172128",
+    img: "/images/about/team/john-keith-king.webp",
+    description: [
+      "John Keith King is a highly accomplished enterprise architect and cybersecurity strategist with a distinguished career in U.S. national security and defense technology. His extensive experience reflects a remarkable career in secure communications and advanced technology within high-stakes government environments. Notably, he served as Lead Engineer for the U.S. Presidential Direct Communications Link between The White House and the Kremlin, and has held critical roles at USSPACECOM, USAFRICOM, and the Joint Chiefs of Staff. His work at the U.S. Army Pacific Command, AFRICOM, and SPACECOM further demonstrates his expertise in strategic leadership, cybersecurity, and program management.",
     ],
   },
 ];
@@ -206,6 +226,16 @@ export const executives = [
     img: "/images/about/team/ian.webp",
     description: [
       "Ian is the Senior Business Development Manager at Quranium, driving growth in North America with over 9 years of Web3, crypto, and DeFi experience. Excelling in strategic growth and market expansion, he has scaled companies, forged impactful partnerships, and led projects like Hedge-Finance to a $50M market cap.",
+    ],
+  },
+  {
+    name: "Maz Zaman",
+    designation: "Chief Growth Officer",
+    twitter: "https://x.com/maz_zaman?s=21&t=FGV9psahzzulGFKR5j3tKw",
+    linkedin: "",
+    img: "/images/about/team/maz-zaman.webp",
+    description: [
+      "Maz is a serial entrepreneur and growth architect with a specialized focus on scaling blockchain and Web3 ventures through data-driven strategies. His expertise spans tokenomics design, decentralized ecosystem development, and go-to-market execution for transformative technologies. He has worked with forward-thinking companies such as HyperScaled Ventures and Loop Protocol.",
     ],
   },
 ];

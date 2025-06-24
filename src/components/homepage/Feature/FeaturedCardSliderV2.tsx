@@ -71,7 +71,7 @@ export default function FeaturedCardSlider() {
             cards.map((card, index) => (
               <SwiperSlide
                 key={`${repeatIndex}-${index}`}
-                className="md:!w-[582px] h-[350px] md:h-[380px]"
+                className="md:!w-[700px] h-[350px] md:h-[493px]"
               >
                 <div className="bg-slider-border rounded-[20px] p-[1px] w-full mx-auto h-full">
                   <div className="bg-[url('/images/common/bg/mesh-bg.svg')] !min-h-[350px] md:!min-h-[380px] bg-no-repeat bg-top bg-contain bg-[#0C0318] rounded-[20px] flex flex-col justify-between items-center text-center p-6 h-full">
@@ -96,10 +96,10 @@ export default function FeaturedCardSlider() {
         </Swiper>
 
         {/* Navigation Arrows */}
-        <div className="swiper-prev absolute left-0 lg:-left-24 top-1/2 transform -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 p-2 rounded-full cursor-pointer bg-[#3C3747]">
+        <div className="swiper-prev absolute left-0  top-1/2 transform -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 p-2 rounded-full cursor-pointer bg-[#3C3747]">
           <MoveLeft className="text-white" />
         </div>
-        <div className="swiper-next absolute right-0 lg:-right-24 top-1/2 transform -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 p-2 rounded-full cursor-pointer bg-[#3C3747]">
+        <div className="swiper-next absolute right-0  top-1/2 transform -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 p-2 rounded-full cursor-pointer bg-[#3C3747]">
           <MoveRight className="text-white" />
         </div>
       </div>
