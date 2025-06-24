@@ -62,7 +62,7 @@ export const advisors = [
     ],
   },
   {
-    name: "James Bernad",
+    name: "James Bernard",
     designation: "COO Radiant Souls (AR Rahman), Ex DMCC Director FZ",
     twitter: "https://x.com/JamesDBernard",
     linkedin: "https://www.linkedin.com/in/jamesdbernard/",
@@ -120,7 +120,7 @@ export const advisors = [
 
 export const executives = [
   {
-    name: "Mohit Kapadia",
+    name: "Mohit Kapadiya",
     designation: "Chief Product Officer",
     twitter: "https://x.com/Mohtajj95",
     linkedin: "https://www.linkedin.com/in/mohit-kapadiya/",
