@@ -79,8 +79,8 @@ export default function FeaturedCardSlider() {
                       <Image
                         src={card.image}
                         alt="Shield Icon"
-                        width={110}
-                        height={150}
+                        width={185}
+                        height={256}
                         className="flex-shrink-0"
                       />
                       <h3 className="mt-5 font-medium text-h6 md:text-h5">{card.title}</h3>

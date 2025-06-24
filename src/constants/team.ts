@@ -73,17 +73,17 @@ export const advisors = [
       "James guides tech startups, supporting the UAE’s rise as a global Web3 and AI hub.",
     ],
   },
-  {
-    name: "Francis Gurry",
-    designation: "Former Director General, World Intellectual Property Organization",
-    twitter: "https://x.com/Interna55021012",
-    linkedin: "https://www.linkedin.com/in/francis-gurry-9bb75a/",
-    img: "/images/about/team/francis.webp",
-    description: [
-      "Francis is an internationally renowned Intellectual Property expert and Advisor at Quranium.",
-      "He served as the Director General of the World Intellectual Property Organization (WIPO) from 2008 to 2020, bringing extensive knowledge of IP and innovation to the company.",
-    ],
-  },
+  // {
+  //   name: "Francis Gurry",
+  //   designation: "Former Director General, World Intellectual Property Organization",
+  //   twitter: "https://x.com/Interna55021012",
+  //   linkedin: "https://www.linkedin.com/in/francis-gurry-9bb75a/",
+  //   img: "/images/about/team/francis.webp",
+  //   description: [
+  //     "Francis is an internationally renowned Intellectual Property expert and Advisor at Quranium.",
+  //     "He served as the Director General of the World Intellectual Property Organization (WIPO) from 2008 to 2020, bringing extensive knowledge of IP and innovation to the company.",
+  //   ],
+  // },
   // {
   //   name: "Robin Joffe",
   //   designation: "Partner, Managing Director,Middle East, Africa and South Asia - Frost & Sullivan",
@@ -232,7 +232,7 @@ export const executives = [
     name: "Maz Zaman",
     designation: "Chief Growth Officer",
     twitter: "https://x.com/maz_zaman?s=21&t=FGV9psahzzulGFKR5j3tKw",
-    linkedin: "",
+    linkedin: "http://linkedin.com/in/maz-zaman",
     img: "/images/about/team/maz-zaman.webp",
     description: [
       "Maz is a serial entrepreneur and growth architect with a specialized focus on scaling blockchain and Web3 ventures through data-driven strategies. His expertise spans tokenomics design, decentralized ecosystem development, and go-to-market execution for transformative technologies. He has worked with forward-thinking companies such as HyperScaled Ventures and Loop Protocol.",
