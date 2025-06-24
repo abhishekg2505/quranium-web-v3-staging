@@ -68,7 +68,7 @@ export const advisors = [
     linkedin: "https://www.linkedin.com/in/jamesdbernard/",
     img: "/images/about/team/james.webp",
     description: [
-      "James is the Ex-Director-DMCC at Quranium, with a background in commodity trading and tech innovation.",
+      "James is the Ex Director at DMCC, with a background in commodity trading and tech innovation.",
       "He co-founded the Dubai Global Blockchain Council, leading blockchain initiatives and helping establish digital asset regulations.",
       "James guides tech startups, supporting the UAE’s rise as a global Web3 and AI hub.",
     ],
