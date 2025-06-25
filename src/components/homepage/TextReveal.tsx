@@ -141,7 +141,7 @@ const TextReveal = () => {
   }, []);
 
   return (
-    <div ref={containerRef} className="container mx-auto px-4 pt-20">
+    <div ref={containerRef} className="container mx-auto px-4 pb-16">
       <div
         ref={textRef}
         className="split-word text-[38px] leading-[43px] md:text-h2 font-montserrat font-semibold md:leading-[74px] text-white px-4 md:px-10 py-10"
