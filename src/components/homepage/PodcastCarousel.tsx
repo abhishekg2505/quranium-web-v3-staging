@@ -108,13 +108,14 @@ const PodcastCarousel: React.FC<PodcastCarouselProps> = ({ podcasts }) => {
       {podcasts.map((podcast, i) => (
         <div key={i}>
           <Link href={podcast.attributes.videoLink} target="_blank">
-            <div className="h-full shrink-0 w-80 rounded-[20px] p-[1px] bg-card-border">
+            <div className="group h-full shrink-0 w-80 rounded-[20px] p-[1px] bg-card-border">
               <div className="relative bg-[#0D0C14] rounded-[20px] overflow-hidden flex flex-col h-full">
                 <div className="relative aspect-video">
                   <Image
                     src={podcast.attributes.cover.data.attributes.url}
                     alt={podcast.attributes.title || "Podcast Cover"}
                     fill
+                    className="transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover"
                   />
                 </div>
                 <div className="px-5 pt-4 pb-10">

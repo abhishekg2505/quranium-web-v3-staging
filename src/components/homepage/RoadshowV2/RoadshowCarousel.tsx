@@ -82,9 +82,14 @@ const RoadshowCarousel = () => {
         {[...firstRow, ...firstRow].map((img, i) => (
           <div
             key={i}
-            className="relative flex-shrink-0 mx-2 w-[342px] h-[183px] rounded-[20px] overflow-hidden"
+            className="group relative flex-shrink-0 mx-2 w-[342px] h-[183px] rounded-[20px] overflow-hidden"
           >
-            <Image src={img.src} alt={`image-${i}`} fill className="object-cover" />
+            <Image
+              src={img.src}
+              alt={`image-${i}`}
+              fill
+              className="transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover"
+            />
           </div>
         ))}
       </Carousel>
@@ -92,9 +97,14 @@ const RoadshowCarousel = () => {
         {[...secondRow, ...secondRow].map((img, i) => (
           <div
             key={i}
-            className="relative flex-shrink-0 mx-2 w-[342px] h-[183px] rounded-[20px] overflow-hidden"
+            className="group relative flex-shrink-0 mx-2 w-[342px] h-[183px] rounded-[20px] overflow-hidden"
           >
-            <Image src={img.src} alt={`image-${i}`} fill className="object-cover" />
+            <Image
+              src={img.src}
+              alt={`image-${i}`}
+              fill
+              className="transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover"
+            />
           </div>
         ))}
       </Carousel>
