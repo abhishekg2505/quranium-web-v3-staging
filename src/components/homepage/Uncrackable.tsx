@@ -208,7 +208,7 @@ const Uncrackable = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="bg-background py-32 space-y-32 px-4 md:px-10">
+    <section ref={sectionRef} className="bg-background px-4 md:px-10">
       {titles.map((title, index) => (
         <div
           key={index}
@@ -217,7 +217,7 @@ const Uncrackable = () => {
           }}
           className="flex items-center justify-center will-change-transform transform-gpu h-[100vh]"
         >
-          <h2 className="text-center text-h4 md:text-h2 lg:text-[130px] lg:leading-[132px] font-montserrat font-bold bg-gradient-to-r from-white-1 to-[#B18FFF] bg-clip-text text-transparent">
+          <h2 className="text-center text-h3 md:text-h2 lg:text-[130px] lg:leading-[132px] font-montserrat font-bold bg-gradient-to-r from-white-1 to-[#B18FFF] bg-clip-text text-transparent">
             {title}
           </h2>
         </div>
