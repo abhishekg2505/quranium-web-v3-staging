@@ -7,7 +7,7 @@ import { MoveRight } from "lucide-react";
 
 const QsafeWallet = () => {
   return (
-    <section className="pt-[100px] mt-14 container mx-auto px-4">
+    <section className="md:pt-[100px] mt-6 md:mt-14 container mx-auto px-4">
       <div className="relative container  mx-auto px-0 rounded-[20px]">
         <video
           className="absolute inset-0 w-full h-full object-cover z-0 rounded-[20px]"
