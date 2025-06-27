@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="no-bg pt-32">
+    <div className="no-bg pt-32 pb-[120px]">
       <div className="p-6 max-w-3xl mx-auto text-gray-800">
         <h1 className="text-h3 font-montserrat font-semibold text-white mb-10">Privacy Policy</h1>
         <p className="mb-5 text-p2 font-open-sans">
