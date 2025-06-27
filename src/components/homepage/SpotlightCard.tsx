@@ -10,7 +10,7 @@ export const SpotlightCard = ({ spotlight }: { spotlight: SpotlightData }) => {
             src={spotlight.attributes.image.data?.attributes?.url}
             alt={spotlight.attributes.title}
             fill
-            className="transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover"
+            className="transition-transform duration-500 ease-in-out group-hover:scale-110 object-fill"
           />
         </div>
         <div className="px-5 pt-4 pb-10">
