@@ -52,37 +52,39 @@ const CookiesPolicy = () => {
         <div className="pointers mt-10">
           <h2 className="text-h4 font-montserrat font-semibold">3. Types of Cookies We Use</h2>
           <div className="overflow-x-auto mt-5">
-            <table className="min-w-full border border-gray-300 text-left text-sm">
-              <thead className="bg-gray-100">
+            <table className="min-w-full border border-gray-700 text-left text-sm">
+              <thead className="bg-[rgba(255,255,255,0.2)]">
                 <tr>
-                  <th className="px-4 py-2 border-b font-medium text-gray-700">Type</th>
-                  <th className="px-4 py-2 border-b font-medium text-gray-700">Purpose</th>
-                  <th className="px-4 py-2 border-b font-medium text-gray-700">Retention Period</th>
+                  <th className="px-4 py-2 border-b border-gray-700 font-medium">Type</th>
+                  <th className="px-4 py-2 border-b border-gray-700 font-medium">Purpose</th>
+                  <th className="px-4 py-2 border-b border-gray-700 font-medium">
+                    Retention Period
+                  </th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b">
+                <tr className="border-b border-gray-700">
                   <td className="px-4 py-2">Essential Cookies</td>
                   <td className="px-4 py-2">
                     Enable core site functionality such as page navigation and access control.
                   </td>
                   <td className="px-4 py-2">Session only</td>
                 </tr>
-                <tr className="border-b">
+                <tr className="border-b border-gray-700">
                   <td className="px-4 py-2">Performance Cookies</td>
                   <td className="px-4 py-2">
                     Collect anonymous data on how visitors use the site to improve usability.
                   </td>
                   <td className="px-4 py-2">6 months</td>
                 </tr>
-                <tr className="border-b">
+                <tr className="border-b border-gray-700">
                   <td className="px-4 py-2">Functionality Cookies</td>
                   <td className="px-4 py-2">
                     Remember user settings and enhance personalized features.
                   </td>
                   <td className="px-4 py-2">12 months</td>
                 </tr>
-                <tr className="border-b">
+                <tr className="border-b border-gray-700">
                   <td className="px-4 py-2">Targeting Cookies</td>
                   <td className="px-4 py-2">
                     Deliver relevant ads or track marketing performance (if applicable).
