@@ -10,6 +10,8 @@ export const ROUTES = {
   GLOBAL_ROADSHOW: "https://beuncrackable.com/",
   QUANTUM_SECURITY_AWARENESS_DAY: "quantum-security-awareness-day",
   QUANTUM_MINDS_PODCAST: "quantum-minds-podcast",
+  PRIVACY_POLICY: "privacy-policy",
+  COOKIES_POLICY: "cookies-policy",
   NEXT_GEN_INNOVATORS: "next-gen-innovators",
   LAYERS_AND_LATTES: "layers-and-lattes",
   UNCRACKABLE_CONVERSATION: "the-uncrackable-conversation",

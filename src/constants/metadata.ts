@@ -108,3 +108,12 @@ export const uncrackableMetaData = {
   url: "https://quranium.org/the-uncrackable-conversation",
   image: "",
 };
+export const layersAndLattesMetaData = {
+  title: "Layers & Lattes",
+  language: "",
+  theme: "",
+  description:
+    "Description: Hosted by Quranium, Layers & Lattes is a bi-monthly breakfast meetup with ecosystem players exploring the convergence of AI, blockchain, quantum, and Web3.",
+  url: "https://quranium.org/layers-and-lattes",
+  image: "",
+};

@@ -98,6 +98,16 @@ const page = () => {
         </li>
         <li>
           <Link
+            href="https://quranium.org/layers-and-lattes"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-2xl mb-20"
+          >
+            Layers & Lattes
+          </Link>
+        </li>
+        <li>
+          <Link
             href="https://quranium.org/contact-us"
             target="_blank"
             rel="noopener noreferrer"

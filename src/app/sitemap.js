@@ -63,6 +63,12 @@ export default async function sitemap() {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/layers-and-lattes`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/contact-us`,
       lastModified,
       changeFrequency: "monthly",

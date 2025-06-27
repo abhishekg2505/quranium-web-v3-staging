@@ -44,10 +44,11 @@ const Partners = () => {
 
     // Kill existing tween if any
     tweenRef.current?.kill();
-
+    const isMobile = window.innerWidth < 768; // adjust breakpoint as needed
+    const speed = isMobile ? 21 : 20; // faster on mobile
     const tween = gsap.to(marquee, {
       x: `-${totalWidth}px`,
-      duration: 20,
+      duration: speed,
       ease: "none",
       repeat: -1,
     });

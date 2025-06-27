@@ -88,4 +88,8 @@ export const footer = [
       },
     ],
   },
+  {
+    title: "Legal",
+    links: [{ name: "Privacy Policy", href: `${ROUTES.PRIVACY_POLICY}` }],
+  },
 ];
