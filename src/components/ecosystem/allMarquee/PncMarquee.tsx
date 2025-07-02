@@ -15,8 +15,9 @@ const mpLogoImage = (logo: { src: any; alt: string; href?: string }) => (
 );
 
 const PncMarquee = () => {
-  const [firstRow, secondRow] = [
+  const [firstRow, secondRow, thirdRow] = [
     pncLogos.slice(0, pncLogos.length / 2),
+    pncLogos.slice(pncLogos.length / 2),
     pncLogos.slice(pncLogos.length / 2),
   ];
 
@@ -39,6 +40,14 @@ const PncMarquee = () => {
             className="[--duration:80s] !overflow-auto !overflow-x-visible !overflow-y-visible"
           >
             {secondRow.map((logo) => (
+              <>{mpLogoImage(logo)}</>
+            ))}
+          </Marquee>
+          <Marquee
+            pauseOnHover
+            className="[--duration:80s] !overflow-auto !overflow-x-visible !overflow-y-visible"
+          >
+            {thirdRow.map((logo) => (
               <>{mpLogoImage(logo)}</>
             ))}
           </Marquee>
