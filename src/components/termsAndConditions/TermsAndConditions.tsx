@@ -5,8 +5,7 @@ const TermsAndConditions = () => {
     <div className="no-bg pt-32 pb-[120px]">
       <div className="p-6 text-gray-800 max-w-3xl mx-auto">
         <h1 className="text-h3 font-montserrat font-semibold mb-2">Terms and Conditions</h1>
-        <h2 className="text-xl mb-4">For Quranium.org</h2>
-        <p className="mb-4">Effective Date:</p>
+        <p className="mb-4">Effective Date: 1 Juy 2025</p>
         <p className="mb-6 text-p2 font-open-sans">
           These Terms and Conditions (&rsquo;Terms&rsquo;) govern your use of the website (the
           &rsquo;Website&rsquo;) operated by Quranium SA (&rsquo;we&rsquo;, &rsquo;us&rsquo;, or

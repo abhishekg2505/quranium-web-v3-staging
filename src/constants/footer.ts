@@ -93,7 +93,7 @@ export const footer = [
     links: [
       { name: "Privacy Policy", href: `${ROUTES.PRIVACY_POLICY}` },
       { name: "Cookies Policy", href: `${ROUTES.COOKIES_POLICY}` },
-      { name: "Terms & conditions", href: `${ROUTES.TERMS_AND_CONDITIONS}` },
+      { name: "Terms & Conditions", href: `${ROUTES.TERMS_AND_CONDITIONS}` },
     ],
   },
 ];

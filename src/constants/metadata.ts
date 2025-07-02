@@ -36,7 +36,7 @@ export const contactUsMetaData = {
   image: "",
 };
 
-export const ecosystemMetaData = {
+export const buildWithUsMetaData = {
   title: "Build on Quranium | Join the Quantum-Secure Ecosystem",
   language: "",
   theme: "",

@@ -2,6 +2,7 @@ export const ROUTES = {
   ABOUT: "about-us",
   TECHNICAL: "technical",
   CONTACT_US: "contact-us",
+  BUILD_WITH_US: "build-with-us",
   ECOSYSTEM: "ecosystem",
   DEQUIP: "dequip",
   CAREERS: "careers",

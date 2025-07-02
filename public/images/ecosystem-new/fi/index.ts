@@ -1,0 +1,12 @@
+export { default as fi1 } from "./fi1.svg";
+export { default as fi2 } from "./fi2.svg";
+export { default as fi3 } from "./fi3.svg";
+export { default as fi4 } from "./fi4.svg";
+export { default as fi5 } from "./fi5.svg";
+export { default as fi6 } from "./fi6.svg";
+export { default as fi7 } from "./fi7.svg";
+export { default as fi8 } from "./fi8.svg";
+export { default as fi9 } from "./fi9.svg";
+export { default as fi10 } from "./fi10.svg";
+export { default as fi11 } from "./fi11.svg";
+export { default as fi12 } from "./fi12.svg";

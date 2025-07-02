@@ -1,51 +1,45 @@
-import BeHonest from "@/src/components/ecosystem/BeHonest";
-import CallToActionEcoSysytem from "@/src/components/ecosystem/CallToActionEcoSysytem";
-import ConvergenceFuture from "@/src/components/ecosystem/ConvergenceFuture";
-import DevelopersBuilder from "@/src/components/ecosystem/DevelopersBuilder";
-import ForPartners from "@/src/components/ecosystem/ForPartners";
 import HeroSection from "@/src/components/ecosystem/HeroSection";
-import { ecosystemMetaData } from "@/src/constants/metadata";
+import { buildWithUsMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
+import JoinQEcosystem from "@/src/components/ecosystem/JoinQEcosystem";
+import TabSection from "@/src/components/ecosystem/TabSection";
 
 export const metadata = {
   title: {
-    default: ecosystemMetaData.title,
-    template: `%s | ${ecosystemMetaData.title}`,
+    default: buildWithUsMetaData.title,
+    template: `%s | ${buildWithUsMetaData.title}`,
   },
-  description: ecosystemMetaData.description,
+  description: buildWithUsMetaData.description,
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: ecosystemMetaData.url,
-    title: ecosystemMetaData.title,
-    description: ecosystemMetaData.description,
-    siteName: ecosystemMetaData.title,
+    url: buildWithUsMetaData.url,
+    title: buildWithUsMetaData.title,
+    description: buildWithUsMetaData.description,
+    siteName: buildWithUsMetaData.title,
     images: [
       {
         width: 1200,
         height: 630,
         url: `${quraniumPreview.src}?_=44fc893`,
-        alt: ecosystemMetaData.title,
+        alt: buildWithUsMetaData.title,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: ecosystemMetaData.title,
-    description: ecosystemMetaData.description,
+    title: buildWithUsMetaData.title,
+    description: buildWithUsMetaData.description,
     images: [`${quraniumPreview.src}?_=44fc893`],
   },
 };
 
-export default function Technical() {
+export default function Ecosystem() {
   return (
     <main className="flex min-h-screen flex-col bg-background">
       <HeroSection />
-      <BeHonest />
-      <DevelopersBuilder />
-      <ForPartners />
-      <ConvergenceFuture />
-      <CallToActionEcoSysytem />
+      <TabSection />
+      <JoinQEcosystem />
     </main>
   );
 }

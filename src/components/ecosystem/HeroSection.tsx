@@ -76,15 +76,6 @@ export default function HeroSection() {
         stagger: 0.01,
         delay: 1,
       });
-      const isMobile = window.innerWidth < 640;
-      const buttonClass = isMobile ? ".hero-button" : ".sm-hero-button";
-      gsap.from(buttonClass, {
-        y: 50,
-        opacity: 0,
-        duration: 1,
-        ease: "power4.out",
-        delay: 1.8,
-      });
     }, containerRef);
 
     return () => ctx.revert();
@@ -93,7 +84,7 @@ export default function HeroSection() {
   return (
     <section
       ref={containerRef}
-      className="relative w-full bg-[url('/images/ecosystem/ecosystem-hero-bg.webp')] bg-cover bg-right sm:bg-center"
+      className="relative w-full bg-[url('/images/ecosystem-new/heroBanner.webp')] bg-cover bg-right sm:bg-center"
     >
       <div className="absolute inset-0 bg-black z-20 hero-overlay" />
       <div className="relative pt-36 pb-40 md:pt-72 md:pb-60 w-full">
@@ -103,56 +94,21 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row items-center justify-between gap-10">
               {/* Left Text Section */}
               <div className="w-full md:w-auto">
-                <h1 className="text-h4 md:text-h2 font-montserrat font-bold text-left hero-title">
-                  Built to <br />
-                  Be Uncrackable
+                <h1 className="text-h4 md:text-h2 font-montserrat font-bold text-left hero-title leading-none">
+                  Ecosystem
                 </h1>
-                <div className="hidden sm:flex gap-4 mt-5 sm-hero-button">
-                  <Link href="https://qsafewallet.com/" target="_blank">
-                    <Button variant="outline" className="group relative overflow-hidden">
-                      <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                      <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
-                        Access QSafe
-                      </span>
-                    </Button>
-                  </Link>
-                  <Link href="https://www.qremix.org/" target="_blank">
-                    <Button variant="outline" className="group relative overflow-hidden">
-                      <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                      <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
-                        Build Smart Contracts
-                      </span>
-                    </Button>
-                  </Link>
-                </div>
+                <h6 className="text-h6 font-montserrat font-medium">
+                  Here, security isn&rsquo;t a feature. It&rsquo;s a foundation.
+                </h6>
               </div>
 
               {/* Right Content Section */}
               <div className="flex flex-col items-start space-y-6">
                 <p className="text-p1 font-open-sans max-w-md hero-subtext">
-                  Quranium isn&rsquo;t just quantum-proof; it&rsquo;s the first infrastructure
-                  purpose-built to converge quantum security, AI, and decentralized trust. While
-                  others patch and scramble, Quranium stands unified, engineered from the ground up
-                  to power the future.
+                  Our Uncrackable Ecosystem is our network of aligned innovators, institutions, and
+                  investors who share our mission to build a digital world that&rsquo;s
+                  quantum-secure, AI-ready, and radically resilient.
                 </p>
-                <div className="flex flex-col gap-4 mt-5 sm:hidden hero-button">
-                  <Link href="https://qsafewallet.com/" target="_blank">
-                    <Button variant="outline" className="group relative overflow-hidden">
-                      <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                      <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
-                        Access QSafe
-                      </span>
-                    </Button>
-                  </Link>
-                  <Link href="https://www.qremix.org/" target="_blank">
-                    <Button variant="outline" className="group relative overflow-hidden">
-                      <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                      <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
-                        Build Smart Contracts
-                      </span>
-                    </Button>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

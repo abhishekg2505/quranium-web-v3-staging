@@ -7,7 +7,7 @@ export const navLinks = [
   },
   {
     itemName: "Build with us",
-    link: ROUTES?.ECOSYSTEM,
+    link: ROUTES?.BUILD_WITH_US,
   },
   // {
   //   itemName: "Technology",
