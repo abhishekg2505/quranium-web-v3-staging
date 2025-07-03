@@ -5,6 +5,7 @@ const CookiesPolicy = () => {
     <div className="no-bg pt-32 pb-[120px]">
       <div className="p-6 max-w-3xl mx-auto text-gray-800">
         <h1 className="text-h3 font-montserrat font-semibold text-white mb-10">Cookies Policy</h1>
+        <p className="mb-5 text-p2 font-open-sans">Last Updated: 1 July 2025</p>
         <p className="mb-5 text-p2 font-open-sans">
           Welcome to <strong>Quranium.</strong> This Cookies Policy explains how we use cookies and
           similar technologies when you visit our website. It is intended to be read alongside our

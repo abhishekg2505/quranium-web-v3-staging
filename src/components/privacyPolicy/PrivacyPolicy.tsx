@@ -5,10 +5,11 @@ const PrivacyPolicy = () => {
     <div className="no-bg pt-32 pb-[120px]">
       <div className="p-6 max-w-3xl mx-auto text-gray-800">
         <h1 className="text-h3 font-montserrat font-semibold text-white mb-10">Privacy Policy</h1>
+        <p className="mb-5 text-p2 font-open-sans">Last Updated: 1 July 2025</p>
         <p className="mb-5 text-p2 font-open-sans">
-          Welcome to Quranium. This Privacy Policy explains how we collect, use, disclose, and
-          protect your information when you visit our website and use our services (the
-          &rsquo;Services&rsquo;).
+          Welcome to <strong>Quranium</strong>. This Privacy Policy explains how we collect, use,
+          disclose, and protect your information when you visit our website and use our services
+          (the &rsquo;Services&rsquo;).
         </p>
         <p className="mb-5 text-p2 font-open-sans">
           By accessing or using our Services, you acknowledge that you have read, understood, and
