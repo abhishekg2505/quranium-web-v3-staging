@@ -44,8 +44,8 @@ const FiMarquee = () => {
           </Marquee>
         </div>
 
-        <div className="absolute top-0 left-0 w-40 h-full bg-gradient-to-r from-transparent/80 to-transparent/0" />
-        <div className="absolute top-0 right-0 w-40 h-full bg-gradient-to-l from-transparent/80 to-transparent/0" />
+        <div className="absolute top-0 left-0 w-40 h-full bg-gradient-to-r from-[rgba(12,3,24,1)] to-transparent/0" />
+        <div className="absolute top-0 right-0 w-40 h-full bg-gradient-to-l from-[rgba(12,3,24,1)] to-transparent/0" />
       </div>
     </div>
   );
