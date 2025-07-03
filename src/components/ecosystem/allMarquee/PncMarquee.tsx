@@ -8,8 +8,8 @@ const mpLogoImage = (logo: { src: any; alt: string; href?: string }) => (
     src={logo.src}
     alt={logo.alt}
     className={`h-auto w-auto object-contain max-h-10 md:max-h-14 rounded-[9px]`}
-    width={120}
-    height={40}
+    width={224}
+    height={50}
     priority
   />
 );

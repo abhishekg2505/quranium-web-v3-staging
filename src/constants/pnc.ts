@@ -24,6 +24,8 @@ import {
   pnc23,
   pnc24,
   pnc25,
+  pnc26,
+  pnc27,
 } from "@/public/images/ecosystem-new/pnc";
 
 export const pncLogos = [
@@ -126,5 +128,13 @@ export const pncLogos = [
   {
     src: pnc25,
     alt: pnc25,
+  },
+  {
+    src: pnc26,
+    alt: pnc26,
+  },
+  {
+    src: pnc27,
+    alt: pnc27,
   },
 ];

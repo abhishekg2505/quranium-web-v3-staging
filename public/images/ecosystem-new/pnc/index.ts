@@ -23,3 +23,5 @@ export { default as pnc22 } from "./pnc22.svg";
 export { default as pnc23 } from "./pnc23.svg";
 export { default as pnc24 } from "./pnc24.svg";
 export { default as pnc25 } from "./pnc25.svg";
+export { default as pnc26 } from "./pnc26.svg";
+export { default as pnc27 } from "./pnc27.svg";
