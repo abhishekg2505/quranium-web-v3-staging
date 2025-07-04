@@ -2,6 +2,7 @@ export { default as business } from "./business.svg";
 export { default as market } from "./market.svg";
 export { default as cointele } from "./cointelegraph.svg";
 export { default as benzinga } from "./benzinga.svg";
+export { default as cryptonomist } from "./cryptonomist.svg";
 export { default as Nokia } from "./nokia.svg";
 export { default as coinlive } from "./coinlive.svg";
 export { default as MiddleEastHeadline } from "./middleeast.svg";

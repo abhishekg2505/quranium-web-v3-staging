@@ -8,6 +8,7 @@ import {
   cointele,
   cryptopanic,
   CryptoRank,
+  cryptonomist,
   market,
   MiddleEastHeadline,
   newsnow,
@@ -58,6 +59,12 @@ export const newsLogos = [
     alt: "CoinMarketCap",
     href: "https://coinmarketcap.com/currencies/quranium/",
   },
+  {
+    src: cryptonomist,
+    alt: "Cryptonomist",
+    href: "",
+  },
+
   { src: binance, alt: "BINANCE", href: "https://www.binance.com/en/square/post/14853969824953" },
   { src: cryptopanic, alt: "Crypto Panic", href: "" },
   {

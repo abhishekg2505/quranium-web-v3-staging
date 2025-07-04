@@ -5,27 +5,43 @@ import Link from "next/link";
 
 const pressReleases = [
   {
+    imageSrc: "/images/common/press-releases/qrn-rush-pr.webp",
+    altText: "Quranium Debuts QRNRush to Reward Real Community Engagement",
+    date: "2 July, 2025",
+    description: "Quranium Debuts QRNRush to Reward Real Community Engagement",
+    link: "https://quranium-org.medium.com/from-action-to-access-quranium-debuts-qrnrush-to-reward-real-community-engagement-de879373bcd9",
+  },
+  {
+    imageSrc: "/images/common/press-releases/abasssador-program.webp",
+    altText:
+      "Quranium’s Ambassador Program Ignites a Global Movement for Quantum-Secure Decentralization",
+    date: "4 July, 2025",
+    description:
+      "Quranium’s Ambassador Program Ignites a Global Movement for Quantum-Secure Decentralization",
+    link: "https://quranium-org.medium.com/quraniums-ambassador-program-ignites-a-global-movement-for-quantum-secure-decentralization-b0cc9c14b72f",
+  },
+  {
     imageSrc: "/images/common/press-releases/quantum-secure-onvergence-layer.jpg",
     altText: "Quantum-Secure Convergence Layer",
     date: "2 June, 2025",
     description: "Quranium Secures Investment from Animoca Brands",
     link: "https://quranium-org.medium.com/quranium-the-quantum-secure-convergence-layer-for-ai-web3-and-the-next-internet-secures-57432aebbf1a",
   },
-  {
-    imageSrc: "/images/common/press-releases/quantum-secure.png",
-    altText: "Quantum-Secure Innovation Across Borders",
-    date: "29 May, 2025",
-    description: "Who’s Building the Future? Quantum-Secure Innovation Across Borders",
-    link: "https://quranium-org.medium.com/whos-building-the-future-quantum-secure-innovation-across-borders-f80c83012134",
-  },
-  {
-    imageSrc: "/images/common/press-releases/quranium-announces-global-roadshow-2025.png",
-    altText: "Quranium Announces Global Roadshow 2025",
-    date: "27 March, 2025",
-    description:
-      "Quranium Announces Global Roadshow 2025: Uniting the World to Secure the Future of Blockchain",
-    link: "https://quranium-org.medium.com/quranium-announces-global-roadshow-2025-uniting-the-world-to-secure-the-future-of-blockchain-790821bb42f8",
-  },
+  // {
+  //   imageSrc: "/images/common/press-releases/quantum-secure.png",
+  //   altText: "Quantum-Secure Innovation Across Borders",
+  //   date: "29 May, 2025",
+  //   description: "Who’s Building the Future? Quantum-Secure Innovation Across Borders",
+  //   link: "https://quranium-org.medium.com/whos-building-the-future-quantum-secure-innovation-across-borders-f80c83012134",
+  // },
+  // {
+  //   imageSrc: "/images/common/press-releases/quranium-announces-global-roadshow-2025.png",
+  //   altText: "Quranium Announces Global Roadshow 2025",
+  //   date: "27 March, 2025",
+  //   description:
+  //     "Quranium Announces Global Roadshow 2025: Uniting the World to Secure the Future of Blockchain",
+  //   link: "https://quranium-org.medium.com/quranium-announces-global-roadshow-2025-uniting-the-world-to-secure-the-future-of-blockchain-790821bb42f8",
+  // },
 ];
 
 export default function PressReleases() {

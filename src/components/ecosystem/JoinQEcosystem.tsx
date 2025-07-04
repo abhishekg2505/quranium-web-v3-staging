@@ -83,7 +83,7 @@ const JoinQEcosystem = () => {
     <div>
       <div
         ref={sectionRef}
-        className="mt-40 px-4 md:px-20 py-10 md:py-40 p-[1px] bg-[url('/images/ecosystem-new/join-q.webp')] bg-cover bg-center md:bg-right"
+        className="mt-10 md:mt-40 px-4 md:px-20 py-10 md:py-40 p-[1px] bg-[url('/images/ecosystem-new/join-q.webp')] md:bg-cover bg-center md:bg-right"
       >
         <div className="relative px-4 md:px-10 container mx-auto">
           <div className="relative z-10 max-w-4xl mx-auto text-center">
@@ -91,13 +91,16 @@ const JoinQEcosystem = () => {
               Join the Quranium Ecosystem
             </h2>
             <div className="max-w-[722px] mx-auto mt-[15px]">
-              <h3 ref={paraRef} className="text-white text-p2 font-open-sans font-semibold">
+              <h3
+                ref={paraRef}
+                className="text-white text-p2 font-open-sans font-thin md:font-semibold"
+              >
                 We believe true security is a collective effort, and the future will be built by
                 those bold enough to converge across disciplines, technologies, and industries.
               </h3>
             </div>
 
-            <div className="mt-[15px] mb-10 p-[10px] bg-[#A47FFF26] rounded-[10px] max-w-[576px] mx-auto flex ">
+            <div className="mt-[15px] mb-10 p-[10px] bg-[#A47FFF26] rounded-[10px] max-w-[576px] mx-auto flex gap-[14px]">
               <Image
                 src="images/ecosystem-new/hand.svg"
                 alt="icon"
@@ -107,7 +110,7 @@ const JoinQEcosystem = () => {
               />
               <p
                 ref={buttonRef}
-                className="text-p3 italic text-[#EAEAEA] font-open-sans leading-normal"
+                className="text-p3 italic text-[#EAEAEA] font-open-sans leading-normal text-left"
               >
                 If you&rsquo;re a potential partner, collaborator, or media outlet aligned with our
                 mission to build an uncrackable digital world, we&rsquo;d love to hear from you.
