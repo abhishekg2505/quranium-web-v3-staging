@@ -6,6 +6,7 @@ export const footer = [
     links: [
       { name: "Home", href: "/" },
       { name: "About", href: ROUTES?.ABOUT },
+      { name: "Ecosystem", href: ROUTES?.ECOSYSTEM },
       { name: "Careers", href: ROUTES?.CAREERS },
       { name: "Contact", href: ROUTES?.CONTACT_US },
     ],

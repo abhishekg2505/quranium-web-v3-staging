@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Carousel from "../common/Carousel";
-import { mpLogos } from "@/src/constants/mediaPartnersLogo";
+import { mpLogos } from "@/src/constants/mp";
 import Link from "next/link";
 import Marquee from "@/src/components/ui/marquee";
 
