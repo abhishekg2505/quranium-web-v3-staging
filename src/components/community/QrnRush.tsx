@@ -119,9 +119,9 @@ const QrnRush = () => {
 
           <div ref={rightCardRef} className="mt-6">
             <Link href="#" target="_self" rel="noopener noreferrer">
-              <Button variant="outline" className="group relative overflow-hidden">
+              <Button variant="outline" className="group relative overflow-hidden bg-transparent">
                 <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
+                <span className="relative z-10 flex items-center bg-transparent text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
                   Explore
                 </span>
               </Button>
