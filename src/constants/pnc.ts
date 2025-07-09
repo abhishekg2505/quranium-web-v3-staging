@@ -14,7 +14,6 @@ import {
   fetchai,
   galxe,
   hacken,
-  halborn,
   happybridge,
   hyperscaled,
   icpkorea,
@@ -93,10 +92,7 @@ export const pncLogos = [
     src: hacken,
     alt: hacken,
   },
-  {
-    src: halborn,
-    alt: halborn,
-  },
+
   {
     src: happybridge,
     alt: happybridge,

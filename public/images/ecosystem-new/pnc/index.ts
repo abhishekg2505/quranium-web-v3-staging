@@ -13,7 +13,6 @@ export { default as exequantum } from "./exequantum.svg";
 export { default as fetchai } from "./fetchai.svg";
 export { default as galxe } from "./galxe.svg";
 export { default as hacken } from "./hacken.svg";
-export { default as halborn } from "./halborn.svg";
 export { default as happybridge } from "./happybridge.svg";
 export { default as hyperscaled } from "./hyperscaled.svg";
 export { default as icpkorea } from "./icpkorea.svg";
