@@ -139,7 +139,6 @@ button:hover svg {
   position: relative;
   display: inline-block;
   white-space: nowrap;
-  overflow: hidden;
 }
 .line-mask {
   position: absolute;

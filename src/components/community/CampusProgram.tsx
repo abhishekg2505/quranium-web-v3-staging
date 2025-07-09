@@ -61,9 +61,11 @@ const CampusProgram = () => {
         <div className="animation-wrapper relative  py-[40px] px-4 md:px-20 rounded-[20px] container mx-auto bg-[url('/images/community/ctabg.webp')] bg-cover bg-right sm:bg-right">
           <div className="flex flex-col md:flex-row md:justify-between items-center relative z-10 max-w-7xl mx-auto">
             <div className="max-w-[553px]">
-              <h2 className="team-title text-white text-h5 md:text-h4 font-semibold">
-                A dedicated Campus Ambassador Program, designed to activate Gen-Z leaders through
-                on-campus blockchain and quantum education campaigns.
+              <h2 className="team-title text-white text-h5 md:text-h4 font-normal">
+                A dedicated <span className="font-semibold">Campus Ambassador Program,</span>{" "}
+                designed to activate <span className="font-semibold">Gen-Z leaders</span> through{" "}
+                <span className="font-semibold">on-campus blockchain</span> and{" "}
+                <span className="font-semibold">quantum education campaigns.</span>
               </h2>
             </div>
 

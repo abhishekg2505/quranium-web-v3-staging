@@ -12,29 +12,35 @@ gsap.registerPlugin(ScrollTrigger);
 interface ThreatCardProps {
   media: string;
   title: string;
+  url: string;
 }
 
 const threats: ThreatCardProps[] = [
   {
     media: "/images/community/access.svg",
     title: "Early access to protocol updates and innovations",
+    url: "#",
   },
   {
     media: "/images/community/userchecked.svg",
     title: "Brand amplification across Quranium’s global channels",
+    url: "#",
   },
   {
     media: "/images/community/rewards.svg",
     title: "Monthly $QRN token rewards and performance-based USDT bonuses",
+    url: "#",
   },
   {
     media: "/images/community/tshirt.svg",
     title: "Exclusive merch, global event access, and premium networking opportunities",
+    url: "#",
   },
   {
     media: "/images/community/prestige.svg",
     title:
       "Quarterly recognition for top contributors, with the top 5% unlocking insider roles and ecosystem prestige",
+    url: "#",
   },
 ];
 
@@ -147,8 +153,8 @@ const PromoteQuranium: React.FC = () => {
                   className="group perspective"
                 >
                   <div className="relative w-full h-[305px]">
-                    <div className="absolute inset-0 bg-roadshow-reverse-border p-[1px] rounded-[20px]">
-                      <div className="bg-[#0D031B] p-6 h-full rounded-[20px] flex flex-col justify-start items-start text-left hover:bg-[#1B0637] transition-colors duration-300 ease-in-out">
+                    <div className="absolute inset-0  rounded-[20px]">
+                      <div className="bg-[#0C0318] p-6 h-full rounded-[20px] flex flex-col justify-start items-start text-left hover:bg-[#1B0637] transition-colors duration-300 ease-in-out">
                         <Image src={threat.media} alt="icon" width={70} height={70} />
                         <h6 className="text-h6 font-montserrat font-medium mt-5">{threat.title}</h6>
                       </div>
