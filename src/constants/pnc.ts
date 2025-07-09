@@ -1,10 +1,13 @@
 import {
+  abatis,
+  aira,
   alignai,
   animocabrands,
   assuredeffi,
   biskit,
   blockspirit,
   bybit,
+  cog,
   cryfi,
   cryptodotcom,
   exequantum,
@@ -20,6 +23,7 @@ import {
   matterid,
   metasig,
   oxgasless,
+  polytrade,
   pwc,
   qnet,
   quantumbasel,
@@ -29,6 +33,14 @@ import {
 } from "@/public/images/ecosystem-new/pnc";
 
 export const pncLogos = [
+  {
+    src: abatis,
+    alt: abatis,
+  },
+  {
+    src: aira,
+    alt: aira,
+  },
   {
     src: alignai,
     alt: alignai,
@@ -52,6 +64,10 @@ export const pncLogos = [
   {
     src: bybit,
     alt: bybit,
+  },
+  {
+    src: cog,
+    alt: cog,
   },
   {
     src: cryfi,
@@ -112,6 +128,10 @@ export const pncLogos = [
   {
     src: oxgasless,
     alt: oxgasless,
+  },
+  {
+    src: polytrade,
+    alt: polytrade,
   },
   {
     src: pwc,
