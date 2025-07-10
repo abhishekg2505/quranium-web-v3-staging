@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { mpLogos } from "@/src/constants/mp";
+import Link from "next/link";
 
 const MpGrid = () => {
   return (
@@ -8,7 +9,12 @@ const MpGrid = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-x-10 gap-y-[60px] items-center">
           {mpLogos.map((logo, idx) => (
-            <div key={idx} className="flex justify-center items-center">
+            <Link
+              href={logo.url}
+              target="_blank"
+              key={idx}
+              className="flex justify-center items-center"
+            >
               <Image
                 src={logo.src}
                 alt={logo.alt}
@@ -17,7 +23,7 @@ const MpGrid = () => {
                 height={50}
                 priority
               />
-            </div>
+            </Link>
           ))}
         </div>
       </div>

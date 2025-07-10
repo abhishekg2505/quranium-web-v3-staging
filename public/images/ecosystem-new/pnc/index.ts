@@ -7,7 +7,6 @@ export { default as biskit } from "./biskit.svg";
 export { default as blockspirit } from "./blockspirit.svg";
 export { default as bybit } from "./bybit.svg";
 export { default as cog } from "./cog.svg";
-export { default as cryfi } from "./cryfi.svg";
 export { default as cryptodotcom } from "./cryptodotcom.svg";
 export { default as exequantum } from "./exequantum.svg";
 export { default as fetchai } from "./fetchai.svg";
