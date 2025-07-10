@@ -98,7 +98,7 @@ const QrnRush = () => {
           <Image
             src="/images/community/qrn-rush.svg"
             alt="icon"
-            width={395}
+            width={244}
             height={96}
             className="mx-auto"
           />

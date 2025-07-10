@@ -17,12 +17,12 @@ export const fiLogos = [
   {
     src: binance,
     alt: binance,
-    url: "",
+    url: "https://www.binance.com/en/square/post/14853969824953",
   },
   {
     src: cnbcarabia,
     alt: cnbcarabia,
-    url: "",
+    url: "https://www.nokia.com/thought-leadership/articles/clear-road-to-quantum-internet/",
   },
   {
     src: coingecko,
@@ -32,7 +32,7 @@ export const fiLogos = [
   {
     src: coinlive,
     alt: coinlive,
-    url: "",
+    url: "https://www.coinlive.com/news/how-should-we-correctly-understand-the-meme-coin-super-cycle",
   },
   {
     src: coinmarketcap,
@@ -42,7 +42,7 @@ export const fiLogos = [
   {
     src: cointelegraph,
     alt: cointelegraph,
-    url: "",
+    url: "https://cointelegraph.com/press-releases/quranium-node-presale-unveiled-be-part-of-the-quantum-uncrackable-revolution",
   },
   {
     src: cryptopanic,
@@ -52,7 +52,7 @@ export const fiLogos = [
   {
     src: cryptorank,
     alt: cryptorank,
-    url: "",
+    url: "https://cryptorank.io/news/feed/4102e-importance-of-quantum-proof-security-in-blockchain",
   },
   {
     src: middleeastheadlines,
@@ -67,11 +67,11 @@ export const fiLogos = [
   {
     src: nokia,
     alt: nokia,
-    url: "",
+    url: "https://www.nokia.com/thought-leadership/articles/clear-road-to-quantum-internet/",
   },
   {
     src: wired,
     alt: wired,
-    url: "",
+    url: "https://www.wired.com/story/q-day-apocalypse-quantum-computers-encryption/",
   },
 ];
