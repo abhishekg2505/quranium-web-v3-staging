@@ -2,21 +2,12 @@ import { ROUTES } from "./routes";
 
 export const navLinks = [
   {
-    itemName: "Company",
-    subMenu: [
-      {
-        subMenuName: "About",
-        subMenuLink: ROUTES?.ABOUT,
-      },
-      {
-        subMenuName: "Ecosystem",
-        subMenuLink: ROUTES?.ECOSYSTEM,
-      },
-    ],
+    itemName: "About",
+    link: ROUTES?.ABOUT,
   },
   {
-    itemName: "Build with us",
-    link: ROUTES?.BUILD_WITH_US,
+    itemName: "Ecosystem",
+    link: ROUTES?.ECOSYSTEM,
   },
   {
     itemName: "Community",

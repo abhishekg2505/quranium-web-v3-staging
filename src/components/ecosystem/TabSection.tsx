@@ -12,17 +12,17 @@ export default function TabSection() {
   const isMobile = useIsMobile();
   const tabs = [
     {
-      label: "Partners and Collaborators",
+      label: "Strategic Partners",
       content: isMobile ? <PncMarquee /> : <PncGrid />,
     },
     {
       label: "Media Partners",
       content: isMobile ? <MpMarquee /> : <MpGrid />,
     },
-    {
-      label: "Featured In",
-      content: isMobile ? <FiMarquee /> : <FiGrid />,
-    },
+    // {
+    //   label: "Featured In",
+    //   content: isMobile ? <FiMarquee /> : <FiGrid />,
+    // },
   ];
 
   return (

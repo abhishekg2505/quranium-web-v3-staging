@@ -40,7 +40,7 @@ export default function Footer() {
           </div>
 
           {/* Links */}
-          <div className="lg:max-w-full lg:mx-auto px-4 grid grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="lg:max-w-full lg:mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6">
             {footer.map((section) => (
               <div key={section.title} className="pb-6">
                 <h3 className="text-p3 pb-2 md:pb-6 opacity-40">{section.title}</h3>

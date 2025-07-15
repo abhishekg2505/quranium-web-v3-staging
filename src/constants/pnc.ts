@@ -162,7 +162,7 @@ export const pncLogos = [
   {
     src: qnet,
     alt: qnet,
-    url: "#",
+    url: "",
   },
   {
     src: quantumbasel,

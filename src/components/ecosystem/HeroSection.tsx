@@ -76,6 +76,15 @@ export default function HeroSection() {
         stagger: 0.01,
         delay: 1,
       });
+      const isMobile = window.innerWidth < 640;
+      const buttonClass = isMobile ? ".hero-button" : ".sm-hero-button";
+      gsap.from(buttonClass, {
+        y: 50,
+        opacity: 0,
+        duration: 1,
+        ease: "power4.out",
+        delay: 1.8,
+      });
     }, containerRef);
 
     return () => ctx.revert();
@@ -84,7 +93,7 @@ export default function HeroSection() {
   return (
     <section
       ref={containerRef}
-      className="relative w-full bg-[url('/images/ecosystem-new/heroBanner.webp')] bg-cover bg-right sm:bg-center"
+      className="relative w-full bg-[url('/images/ecosystem/ecosystem-hero-bg.webp')] bg-cover bg-right sm:bg-center"
     >
       <div className="absolute inset-0 bg-black z-20 hero-overlay" />
       <div className="relative pt-36 pb-40 md:pt-72 md:pb-60 w-full">
@@ -94,20 +103,18 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row items-center justify-between gap-10">
               {/* Left Text Section */}
               <div className="w-full md:w-auto">
-                <h1 className="text-h4 md:text-h2 font-montserrat font-bold text-left hero-title leading-none">
+                <h1 className="text-h4 md:text-h2 font-montserrat font-bold text-left hero-title">
+                  Our Uncrackable <br />
                   Ecosystem
                 </h1>
-                <h6 className="text-h6 font-montserrat font-medium">
-                  Here, security isn&rsquo;t a feature. It&rsquo;s a foundation.
-                </h6>
               </div>
 
               {/* Right Content Section */}
               <div className="flex flex-col items-start space-y-6">
                 <p className="text-p1 font-open-sans max-w-md hero-subtext">
-                  Our Uncrackable Ecosystem is our network of aligned innovators, institutions, and
-                  investors who share our mission to build a digital world that&rsquo;s
-                  quantum-secure, AI-ready, and radically resilient.
+                  A global network of builders, institutions, partners, ambassadors, investors, and
+                  our community; united to create a quantum-secure, AI-ready, resilient digital
+                  future.
                 </p>
               </div>
             </div>
