@@ -93,7 +93,7 @@ const OurStrategicPartners = () => {
               infrastructure providers, Web3 platforms, investors, GTM collaborators, and ecosystem
               builders.
             </p>
-            <Link href="#">
+            <Link href="mailto:business@quranium.org">
               <Button variant="outline" className="group relative overflow-hidden">
                 <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                 <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
