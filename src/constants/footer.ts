@@ -38,7 +38,7 @@ export const footer = [
         href: `${ROUTES?.COMMUNITY}#quranium-ambassador-program`,
       },
       {
-        name: "Qwarriors",
+        name: "QWarriors",
         href: `${ROUTES?.COMMUNITY}#qwarriors`,
       },
     ],
