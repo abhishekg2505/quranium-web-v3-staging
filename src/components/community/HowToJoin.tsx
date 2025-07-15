@@ -100,7 +100,7 @@ const HowToJoin = () => {
               Applications for Intake 1 are now closed. Future intakes will open throughout 2025,
               with curated onboarding to ensure quality, impact, and community integrity.{" "}
             </p>
-            <div className="mt-[15px] mb-10 p-[10px] bg-[#A47FFF26] rounded-[10px] flex gap-[5px] w-fit">
+            <div className="mt-[15px] mb-10 p-[10px] bg-[#A47FFF26] rounded-[10px] flex items-start gap-[5px] w-fit">
               <Image src="images/community/like.svg" alt="icon" width={16} height={16} />
               <p className="text-p3 italic text-[#EAEAEA] font-open-sans leading-normal text-left">
                 Follow Quranium on social to stay updated on the next round or sign-up to Pulse, our

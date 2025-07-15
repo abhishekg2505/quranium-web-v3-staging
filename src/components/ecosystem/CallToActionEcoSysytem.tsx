@@ -116,7 +116,7 @@ const CallToActionEcoSysytem: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <h2
           ref={mainTitle1Ref}
-          className="text-h5 md:text-h3 font-montserrat font-bold mb-[60px] text-center"
+          className="text-h5 md:text-h3 font-montserrat font-bold text-center"
         >
           Build with Quranium
         </h2>

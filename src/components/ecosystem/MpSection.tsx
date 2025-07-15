@@ -23,31 +23,33 @@ const MpSection = () => {
   ];
 
   return (
-    <div className="p-[1.1px] bg-roadshow-stats-border rounded-[30px]">
-      <div className="relative flex flex-col max-w-7xl mx-auto py-10 bg-black rounded-[30px] overflow-hidden">
-        {/* Logo Rows */}
-        <div className="flex flex-wrap justify-start gap-4 md:gap-2">
-          <Marquee
-            pauseOnHover
-            className="[--duration:80s] !overflow-auto !overflow-x-visible !overflow-y-visible"
-          >
-            {firstRow.map((logo) => (
-              <>{mpLogoImage(logo)}</>
-            ))}
-          </Marquee>
-          <Marquee
-            reverse
-            pauseOnHover
-            className="[--duration:80s] !overflow-auto !overflow-x-visible !overflow-y-visible"
-          >
-            {secondRow.map((logo) => (
-              <>{mpLogoImage(logo)}</>
-            ))}
-          </Marquee>
-        </div>
+    <div className="max-w-7xl mx-auto">
+      <div className="p-[1.1px] bg-roadshow-stats-border rounded-[30px]">
+        <div className="relative flex flex-col mx-auto py-10 bg-black rounded-[30px] overflow-hidden">
+          {/* Logo Rows */}
+          <div className="flex flex-wrap justify-start gap-4 md:gap-2">
+            <Marquee
+              pauseOnHover
+              className="[--duration:80s] !overflow-auto !overflow-x-visible !overflow-y-visible"
+            >
+              {firstRow.map((logo) => (
+                <>{mpLogoImage(logo)}</>
+              ))}
+            </Marquee>
+            <Marquee
+              reverse
+              pauseOnHover
+              className="[--duration:80s] !overflow-auto !overflow-x-visible !overflow-y-visible"
+            >
+              {secondRow.map((logo) => (
+                <>{mpLogoImage(logo)}</>
+              ))}
+            </Marquee>
+          </div>
 
-        <div className="absolute top-0 left-0 w-40 h-full bg-gradient-to-r from-transparent/80 to-transparent/0" />
-        <div className="absolute top-0 right-0 w-40 h-full bg-gradient-to-l from-transparent/80 to-transparent/0" />
+          <div className="absolute top-0 left-0 w-40 h-full bg-gradient-to-r from-transparent/80 to-transparent/0" />
+          <div className="absolute top-0 right-0 w-40 h-full bg-gradient-to-l from-transparent/80 to-transparent/0" />
+        </div>
       </div>
     </div>
   );

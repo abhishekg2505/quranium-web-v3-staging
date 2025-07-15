@@ -82,8 +82,9 @@ const OurCommunity = () => {
   return (
     <div>
       <div
+        id="community"
         ref={sectionRef}
-        className="mt-10 px-4 md:px-20 py-10 md:py-40 p-[1px] bg-[url('/images/ecosystem-new/community.webp')] md:bg-cover bg-center md:bg-right"
+        className="scroll-mt-24 mt-10 px-4 md:px-20 py-10 md:py-40 p-[1px] bg-[url('/images/ecosystem-new/community.webp')] md:bg-cover bg-center md:bg-right"
       >
         <div className="relative container mx-auto">
           <div className="relative z-10 max-w-4xl mx-auto text-center">
@@ -99,7 +100,7 @@ const OurCommunity = () => {
               </h3>
             </div>
             <div ref={rightCardRef} className="mt-6 text-center w-full flex justify-center">
-              <Link href="#" target="_blank" rel="noopener noreferrer" className="text-center">
+              <Link href="/community" rel="noopener noreferrer" className="text-center">
                 <Button
                   variant="outline"
                   className="group relative text-buttons !flex overflow-hidden bg-transparent"

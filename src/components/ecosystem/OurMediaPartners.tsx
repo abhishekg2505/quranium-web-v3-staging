@@ -83,8 +83,9 @@ const OurMediaPartners = () => {
   return (
     <div>
       <div
+        id="media"
         ref={sectionRef}
-        className="px-4 md:px-20 py-10 md:py-40 p-[1px] bg-[url('/images/ecosystem-new/join-q.webp')] md:bg-cover bg-center md:bg-right"
+        className="scroll-mt-24 px-4 md:px-20 py-10 md:py-40 p-[1px] bg-[url('/images/ecosystem-new/join-q.webp')] md:bg-cover bg-center md:bg-right"
       >
         <div className="relative container mx-auto">
           <div className="relative z-10 max-w-4xl mx-auto text-center">
@@ -119,7 +120,12 @@ const OurMediaPartners = () => {
         </div>
         <MpSection />
         <div ref={rightCardRef} className="mt-6 text-center w-full flex justify-center">
-          <Link href="#" target="_blank" rel="noopener noreferrer" className="text-center">
+          <Link
+            href="mailto:business@quranium.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-center"
+          >
             <Button
               variant="outline"
               className="group relative text-buttons !flex overflow-hidden bg-transparent"

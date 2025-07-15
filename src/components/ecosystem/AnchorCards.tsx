@@ -6,27 +6,27 @@ import { MoveRight } from "lucide-react";
 const anchorCards = [
   {
     title: "Builders",
-    link: "#",
+    link: "#builders",
     media: "/images/ecosystem-new/find-out-more/builders.svg",
   },
   {
     title: "Ambassadors",
-    link: "#",
+    link: "#ambassadors",
     media: "/images/ecosystem-new/find-out-more/ambassadors.svg",
   },
   {
     title: "Strategic Partners",
-    link: "#",
+    link: "#strategic-partners",
     media: "/images/ecosystem-new/find-out-more/strategic-partners.svg",
   },
   {
     title: "Community",
-    link: "#",
+    link: "#community",
     media: "/images/ecosystem-new/find-out-more/community.svg",
   },
   {
     title: "Media",
-    link: "#",
+    link: "#media",
     media: "/images/ecosystem-new/find-out-more/media.svg",
   },
 ];

@@ -53,7 +53,11 @@ const ForPartners = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="bg-[#0C0318] px-4 md:px-20 py-10 rounded-[20px]">
+    <div
+      id="builders"
+      ref={sectionRef}
+      className="scroll-mt-24 bg-[#0C0318] px-4 md:px-20 py-10 rounded-[20px]"
+    >
       <div
         className="max-w-7xl mx-auto pt-[50px] pb-[0px] md:py-[0px]  rounded-[20px]"
         style={{
