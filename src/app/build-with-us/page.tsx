@@ -6,6 +6,10 @@ import ForPartners from "@/src/components/buildWithUs/ForPartners";
 import HeroSection from "@/src/components/buildWithUs/HeroSection";
 import { buildWithUsMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
+import TabSection from "@/src/components/buildWithUs/TabSection";
+import AnchorCards from "@/src/components/buildWithUs/AnchorCards";
+import QaProgram from "@/src/components/buildWithUs/QaProgram";
+import OurStrategicPartners from "@/src/components/buildWithUs/OurStrategicPartners";
 
 export const metadata = {
   title: {
@@ -41,11 +45,15 @@ export default function Technical() {
   return (
     <main className="flex min-h-screen flex-col bg-background">
       <HeroSection />
-      <BeHonest />
-      <DevelopersBuilder />
+      <TabSection />
+      <AnchorCards />
       <ForPartners />
-      <ConvergenceFuture />
+      {/* <BeHonest />  old one*/}
+      <DevelopersBuilder />
+      {/* <ConvergenceFuture /> old*/}
       <CallToActionEcoSysytem />
+      <QaProgram />
+      <OurStrategicPartners />
     </main>
   );
 }

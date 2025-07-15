@@ -107,7 +107,10 @@ const PromoteQuranium: React.FC = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="px-4 md:px-20 pb-[60px] bg-black text-white">
+    <section
+      ref={sectionRef}
+      className="px-4 md:px-20 pb-[60px] bg-black text-white overflow-hidden"
+    >
       <div className="max-w-7xl mx-auto text-center md:text-left">
         <h5 ref={para1Ref} className="text-h5 font-montserrat font-medium mt-20">
           Ambassadors don&rsquo;t just promote Quranium; they help build it. In return for

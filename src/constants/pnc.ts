@@ -3,6 +3,7 @@ import {
   aira,
   alignai,
   animocabrands,
+  ankr,
   assuredeffi,
   biskit,
   blockspirit,
@@ -50,6 +51,11 @@ export const pncLogos = [
     src: animocabrands,
     alt: animocabrands,
     url: "https://www.animocabrands.com/",
+  },
+  {
+    src: ankr,
+    alt: ankr,
+    url: "https://www.ankr.com/",
   },
   {
     src: assuredeffi,

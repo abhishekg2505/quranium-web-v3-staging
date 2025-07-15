@@ -80,7 +80,7 @@ const QrnRush = () => {
   }, []);
 
   return (
-    <div className="relative px-4 md:px-20 py-10 md:py-[50px] bg-black">
+    <div className="relative px-4 md:px-20 py-10 md:py-[50px]">
       {/* Background Layer */}
       <div className="absolute inset-0">
         <Image

@@ -1,14 +1,14 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "@/src/components/ui/button";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Button } from "../ui/button";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const HowToJoin = () => {
+const QaProgram = () => {
   const sectionRef = useRef(null);
   const mainTitleRef = useRef(null);
   const lineRef = useRef(null);
@@ -71,50 +71,48 @@ const HowToJoin = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="px-4 md:px-20 bg-[#0F0825]">
-      <div className="max-w-7xl mx-auto py-[50px] md:py-20 px-[16px]">
-        <div className="grid grid-cols-1 md:grid-cols-[30%_70%] gap-10 items-center text-center md:text-left ">
+    <div ref={sectionRef} className="rounded-[20px] px-4 md:px-20 bg-[#130525]">
+      <div className="max-w-7xl mx-auto py-[50px] md:py-20 px-[16px] md:px-[60px]">
+        <div className="grid grid-cols-1 md:grid-cols-[60%_40%] gap-10 items-center text-center md:text-left ">
           {/* Left Side */}
+          <div className="relative z-10">
+            <h3
+              ref={mainTitleRef}
+              className="text-left text-h4 md:text-h3 font-montserrat font-semibold"
+            >
+              The Quranium Ambassador Program
+            </h3>
+            <h5 className="text-left text-h5 font-montserrat font-medium mt-[15px]">
+              Real Voices. Real Impact.
+            </h5>
+            <p className="text-p2 font-open-sans mt-[15px] mb-[20px]">
+              The Quranium Ambassador Program is where talent meets purpose; a global initiative
+              that empowers individuals to actively shape the future of quantum-secure
+              infrastructure. Whether you&rsquo;re a public thought leader, a community educator, or
+              a hands-on builder, there&rsquo;s a place for you here.
+            </p>
+            <Link href="#">
+              <Button variant="outline" className="group relative overflow-hidden">
+                <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
+                <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
+                  Find out more
+                </span>
+              </Button>
+            </Link>
+          </div>
+
+          {/* Right Side - Video */}
           <div
             ref={cardsRef}
             className="flex items-center justify-center mt-10 md:mt-0 relative w-full"
           >
             <Image
-              src="/images/community/howtojoin.webp"
-              alt="Quantum"
-              width={406}
-              height={459}
+              src="/images/ecosystem-new/qap.webp"
+              alt="QAP"
+              width={336}
+              height={362}
               className="w-full"
             />
-          </div>
-
-          {/* Right Side - Video */}
-          <div className="relative z-10">
-            <h3
-              ref={mainTitleRef}
-              className="text-left text-h3 font-montserrat font-semibold text-white mb-[15px]"
-            >
-              How to Join
-            </h3>
-            <p ref={headingRef} className="text-p2 font-open-sans mb-[15px]">
-              Applications for Intake 1 are now closed. Future intakes will open throughout 2025,
-              with curated onboarding to ensure quality, impact, and community integrity.{" "}
-            </p>
-            <div className="mt-[15px] mb-10 p-[10px] bg-[#A47FFF26] rounded-[10px] flex gap-[5px] w-fit">
-              <Image src="images/community/like.svg" alt="icon" width={16} height={16} />
-              <p className="text-p3 italic text-[#EAEAEA] font-open-sans leading-normal text-left">
-                Follow Quranium on social to stay updated on the next round or sign-up to Pulse, our
-                monthly newsletter.
-              </p>
-            </div>
-            <Link href="mailto:business@quranium.org" target="_self" rel="noopener noreferrer">
-              <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
-                <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
-                  Contact us
-                </span>
-              </Button>
-            </Link>
           </div>
         </div>
       </div>
@@ -122,4 +120,4 @@ const HowToJoin = () => {
   );
 };
 
-export default HowToJoin;
+export default QaProgram;

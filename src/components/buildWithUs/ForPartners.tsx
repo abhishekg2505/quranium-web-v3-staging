@@ -69,12 +69,13 @@ const ForPartners = () => {
               ref={mainTitleRef}
               className="text-h5 md:text-h4 font-montserrat font-medium md:font-semibold"
             >
-              Scaling Through Supercomputing
+              The uncrackable platform builders of the decentralized world have been waiting for.
             </h3>
             <p ref={headingRef} className="pt-[10px] text-white text-p2 font-open-sans">
-              Quranium is using high performance supercomputing nodes to validate post-quantum
-              signatures and process smart contracts - laying the groundwork for seamless
-              integration with quantum hardware as it matures
+              Supercomputing, quantum, blockchain and AI are colliding to reshape the digital world.
+              Quranium Is built for this convergence: unbreakable security, intelligent
+              infrastructure, and limitless scalability. Not patched together. Not upgraded after
+              the fact. Engineered for what&rsquo;s next. The age of convergence has begun.
             </p>
           </div>
           <div ref={lineRef} className="relative w-full flex items-end justify-end h-full pt-10">

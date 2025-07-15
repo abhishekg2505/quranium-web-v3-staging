@@ -104,55 +104,18 @@ export default function HeroSection() {
               {/* Left Text Section */}
               <div className="w-full md:w-auto">
                 <h1 className="text-h4 md:text-h2 font-montserrat font-bold text-left hero-title">
-                  Built to <br />
-                  Be Uncrackable
+                  Our Uncrackable <br />
+                  Ecosystem
                 </h1>
-                <div className="hidden sm:flex gap-4 mt-5 sm-hero-button">
-                  <Link href="https://qsafewallet.com/" target="_blank">
-                    <Button variant="outline" className="group relative overflow-hidden">
-                      <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                      <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
-                        Access QSafe
-                      </span>
-                    </Button>
-                  </Link>
-                  <Link href="https://www.qremix.org/" target="_blank">
-                    <Button variant="outline" className="group relative overflow-hidden">
-                      <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                      <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
-                        Build Smart Contracts
-                      </span>
-                    </Button>
-                  </Link>
-                </div>
               </div>
 
               {/* Right Content Section */}
               <div className="flex flex-col items-start space-y-6">
                 <p className="text-p1 font-open-sans max-w-md hero-subtext">
-                  Quranium isn&rsquo;t just quantum-proof; it&rsquo;s the first infrastructure
-                  purpose-built to converge quantum security, AI, and decentralized trust. While
-                  others patch and scramble, Quranium stands unified, engineered from the ground up
-                  to power the future.
+                  A global network of builders, institutions, partners, ambassadors, investors, and
+                  our community; united to create a quantum-secure, AI-ready, resilient digital
+                  future.
                 </p>
-                <div className="flex flex-col gap-4 mt-5 sm:hidden hero-button">
-                  <Link href="https://qsafewallet.com/" target="_blank">
-                    <Button variant="outline" className="group relative overflow-hidden">
-                      <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                      <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
-                        Access QSafe
-                      </span>
-                    </Button>
-                  </Link>
-                  <Link href="https://www.qremix.org/" target="_blank">
-                    <Button variant="outline" className="group relative overflow-hidden">
-                      <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                      <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
-                        Build Smart Contracts
-                      </span>
-                    </Button>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

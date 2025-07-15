@@ -8,7 +8,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const CampusProgram = () => {
+const Qwarriors = () => {
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -58,26 +58,22 @@ const CampusProgram = () => {
         ref={sectionRef}
         className="px-4 md:px-20 pb-10 md:pb-[80px] p-[1px] rounded-[20px] bg-black"
       >
-        <div className="animation-wrapper relative  py-[40px] px-4 md:px-10 rounded-[20px] container mx-auto bg-[url('/images/community/ctabg.webp')] bg-cover bg-right sm:bg-right">
-          <div className="flex flex-col md:flex-row md:justify-between items-center relative z-10 max-w-7xl mx-auto">
-            <div className="max-w-[817px]">
-              <h2 className="team-title text-white text-h5 md:text-h4 font-normal">
-                A dedicated <span className="font-semibold">Campus Ambassador Program, </span>
-                designed to <br /> activate <span className="font-semibold">
-                  Gen-Z leaders
-                </span>{" "}
-                through <span className="font-semibold">on-campus blockchain</span> and
-                <br /> <span className="font-semibold">quantum education campaigns.</span>
+        <div className="animation-wrapper relative  p-4 md:p-[30px] rounded-[20px] container mx-auto bg-[#0F0825]">
+          <div className="flex flex-col md:flex-row md:justify-between items-start relative z-10 max-w-7xl mx-auto">
+            <div className="max-w-[246px]">
+              <h2 className="team-title text-white text-h4 md:text-h3 font-montserrat font-semibold">
+                Q-Warriors
               </h2>
             </div>
 
-            <div className="team-button pt-5">
-              <Button disabled variant="outline" className="group relative overflow-hidden">
-                <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
-                  Coming Soon
-                </span>
-              </Button>
+            <div className="team-button pt-5 md:pt-0 max-w-[610px]">
+              <p className="text-p2 font-open-sans">
+                <span className="font-bold">Q-Warriors</span> are an elite circle of Quranium
+                believers dedicated to shaping the world alongside our mission.{" "}
+                <span className="font-bold">Not core ambassadors,</span> but a vital force within
+                the ecosystem, they earn special recognition, exclusive perks, prizes, and monthly
+                raffles as they help power Quranium forward.
+              </p>
             </div>
           </div>
         </div>
@@ -86,4 +82,4 @@ const CampusProgram = () => {
   );
 };
 
-export default CampusProgram;
+export default Qwarriors;

@@ -1,11 +1,13 @@
 import {
   bitcoin,
+  bitcoininsider,
   bittwome,
-  blockchain,
   blockchainmagazine,
+  blockchainreporter,
   blockhead,
   catenaa,
   cim,
+  coinchapter,
   coincu,
   coinedition,
   coingape,
@@ -13,15 +15,19 @@ import {
   coinpedia,
   coinwire,
   cryptobreakingnews,
+  cryptocoinshow,
+  cryptodotnews,
   cryptonews,
   cryptopolitan,
   cryptoslate,
   cryptoweekly,
+  disruptionbanking,
   dlnews,
   droomdroom,
   forklog,
   koreaittimes,
   ngglobalmedia,
+  santiment,
   startupnews,
   thecoinrepublic,
   thecryptonomist,
@@ -35,18 +41,24 @@ export const mpLogos = [
     url: "https://news.bitcoin.com/",
   },
   {
+    src: bitcoininsider,
+    alt: bitcoininsider,
+    url: "https://www.bitcoininsider.org/",
+  },
+  {
     src: bittwome,
     alt: bittwome,
     url: "https://bit2me.com/",
   },
-  {
-    src: blockchain,
-    alt: blockchain,
-    url: "https://www.blockchaintoday.co.kr/",
-  },
+
   {
     src: blockchainmagazine,
     alt: blockchainmagazine,
+    url: "#",
+  },
+  {
+    src: blockchainreporter,
+    alt: blockchainreporter,
     url: "#",
   },
   {
@@ -63,6 +75,11 @@ export const mpLogos = [
     src: cim,
     alt: cim,
     url: "https://cryptoindiamagazine.com/",
+  },
+  {
+    src: coinchapter,
+    alt: coinchapter,
+    url: "https://coinchapter.com/",
   },
   {
     src: coincu,
@@ -100,6 +117,16 @@ export const mpLogos = [
     url: "https://www.cryptobreaking.com/",
   },
   {
+    src: cryptocoinshow,
+    alt: cryptocoinshow,
+    url: "https://cryptocoinshow.substack.com/subscribe",
+  },
+  {
+    src: cryptodotnews,
+    alt: cryptodotnews,
+    url: "https://crypto.news/",
+  },
+  {
     src: cryptonews,
     alt: cryptonews,
     url: "https://crypto.news/",
@@ -118,6 +145,11 @@ export const mpLogos = [
     src: cryptoweekly,
     alt: cryptoweekly,
     url: "https://cryptoweekly.co/",
+  },
+  {
+    src: disruptionbanking,
+    alt: disruptionbanking,
+    url: "#",
   },
   {
     src: dlnews,
@@ -143,6 +175,11 @@ export const mpLogos = [
     src: ngglobalmedia,
     alt: ngglobalmedia,
     url: "https://www.ncglobalmedia.com/",
+  },
+  {
+    src: santiment,
+    alt: santiment,
+    url: "https://www.quranium.org/quantum-minds-podcast",
   },
   {
     src: startupnews,

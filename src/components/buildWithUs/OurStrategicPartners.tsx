@@ -1,14 +1,15 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "@/src/components/ui/button";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Button } from "../ui/button";
+import Pnc from "./Pnc";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const HowToJoin = () => {
+const OurStrategicPartners = () => {
   const sectionRef = useRef(null);
   const mainTitleRef = useRef(null);
   const lineRef = useRef(null);
@@ -71,55 +72,55 @@ const HowToJoin = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="px-4 md:px-20 bg-[#0F0825]">
+    <div ref={sectionRef} className="rounded-[20px] pb-10 px-4 md:px-20 bg-[#0C0318]">
       <div className="max-w-7xl mx-auto py-[50px] md:py-20 px-[16px]">
-        <div className="grid grid-cols-1 md:grid-cols-[30%_70%] gap-10 items-center text-center md:text-left ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left ">
           {/* Left Side */}
-          <div
-            ref={cardsRef}
-            className="flex items-center justify-center mt-10 md:mt-0 relative w-full"
-          >
-            <Image
-              src="/images/community/howtojoin.webp"
-              alt="Quantum"
-              width={406}
-              height={459}
-              className="w-full"
-            />
-          </div>
-
-          {/* Right Side - Video */}
           <div className="relative z-10">
             <h3
               ref={mainTitleRef}
-              className="text-left text-h3 font-montserrat font-semibold text-white mb-[15px]"
+              className="text-left text-h4 md:text-h3 font-montserrat font-semibold"
             >
-              How to Join
+              Our Strategic Partners
             </h3>
-            <p ref={headingRef} className="text-p2 font-open-sans mb-[15px]">
-              Applications for Intake 1 are now closed. Future intakes will open throughout 2025,
-              with curated onboarding to ensure quality, impact, and community integrity.{" "}
+
+            <p className="text-p2 font-open-sans mt-[15px] mb-[20px]">
+              Our strategic partners span blockchain innovators, AI pioneers, cybersecurity leaders,
+              infrastructure providers, Web3 platforms, investors, GTM collaborators, and ecosystem
+              builders.
             </p>
-            <div className="mt-[15px] mb-10 p-[10px] bg-[#A47FFF26] rounded-[10px] flex gap-[5px] w-fit">
-              <Image src="images/community/like.svg" alt="icon" width={16} height={16} />
-              <p className="text-p3 italic text-[#EAEAEA] font-open-sans leading-normal text-left">
-                Follow Quranium on social to stay updated on the next round or sign-up to Pulse, our
-                monthly newsletter.
-              </p>
-            </div>
-            <Link href="mailto:business@quranium.org" target="_self" rel="noopener noreferrer">
-              <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
+            <Link href="#">
+              <Button variant="outline" className="group relative overflow-hidden">
                 <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
+                <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
                   Contact us
                 </span>
               </Button>
             </Link>
           </div>
+
+          {/* Right Side - Video */}
+          <div
+            ref={cardsRef}
+            className="flex flex-col items-center justify-center mt-10 md:mt-0 relative w-full"
+          >
+            <p className="text-p2 font-open-sans mb-5">
+              We&rsquo;re building the future of secure, intelligent infrastructure, and we&rsquo;re
+              not doing it alone. <strong>Quranium</strong> partners with visionary enterprises,
+              researchers, and developers to co-create the convergence era.
+            </p>
+            <div className="mt-[15px]  p-[10px] bg-[#A47FFF26] rounded-[10px] w-fit">
+              <p className="text-p3 italic text-[#EAEAEA] font-open-sans leading-normal text-left">
+                From joint R&D to ecosystem integration and thought leadership, we&rsquo;re always
+                looking to collaborate with those shaping tomorrow.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+      <Pnc />
     </div>
   );
 };
 
-export default HowToJoin;
+export default OurStrategicPartners;

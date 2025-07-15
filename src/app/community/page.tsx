@@ -8,6 +8,7 @@ import AmbassadorProgram from "@/src/components/community/AmbassadorProgram";
 import PromoteQuranium from "@/src/components/community/PromoteQuranium";
 import HowToJoin from "@/src/components/community/HowToJoin";
 import WhatIsQrnRush from "@/src/components/community/WhatIsQrnRush";
+import Qwarriors from "@/src/components/community/Qwarriors";
 
 export const metadata = {
   title: {
@@ -48,6 +49,7 @@ export default function Ecosystem() {
       <WhatIsQrnRush />
       <AmbassadorProgram />
       <PromoteQuranium />
+      <Qwarriors />
       <CampusProgram />
       <HowToJoin />
     </main>

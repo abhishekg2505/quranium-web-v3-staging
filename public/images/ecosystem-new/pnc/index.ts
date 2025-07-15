@@ -2,6 +2,7 @@ export { default as abatis } from "./abatis.svg";
 export { default as aira } from "./aira.svg";
 export { default as alignai } from "./alignai.svg";
 export { default as animocabrands } from "./animocabrands.svg";
+export { default as ankr } from "./ankr.svg";
 export { default as assuredeffi } from "./assuredeffi.svg";
 export { default as biskit } from "./biskit.svg";
 export { default as blockspirit } from "./blockspirit.svg";

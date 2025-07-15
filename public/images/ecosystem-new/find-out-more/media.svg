@@ -1,0 +1,22 @@
+<svg width="52" height="50" viewBox="0 0 52 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="51.25" height="50" rx="25" fill="white" fill-opacity="0.01"/>
+<rect width="51.25" height="50" rx="25" fill="url(#paint0_radial_3686_11975)" fill-opacity="0.08"/>
+<rect width="51.25" height="50" rx="25" fill="#0C0318"/>
+<rect x="0.6625" y="0.6625" width="49.925" height="48.675" rx="24.3375" stroke="white" stroke-opacity="0.1" stroke-width="1.325"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.625 18V32C17.625 33.6569 18.9681 35 20.625 35H30.625C32.2819 35 33.625 33.6569 33.625 32V22C33.625 20.3431 32.2819 19 30.625 19H18.625C18.0727 19 17.625 18.5523 17.625 18ZM20.875 25C20.875 24.5858 21.2108 24.25 21.625 24.25H29.625C30.0392 24.25 30.375 24.5858 30.375 25C30.375 25.4142 30.0392 25.75 29.625 25.75H21.625C21.2108 25.75 20.875 25.4142 20.875 25ZM20.875 28.5C20.875 28.0858 21.2108 27.75 21.625 27.75H27.125C27.5392 27.75 27.875 28.0858 27.875 28.5C27.875 28.9142 27.5392 29.25 27.125 29.25H21.625C21.2108 29.25 20.875 28.9142 20.875 28.5Z" fill="url(#paint1_linear_3686_11975)"/>
+<path d="M18.0338 17.0871C18.3823 17.2434 18.625 17.5933 18.625 18H30.625C30.9703 18 31.3054 18.0438 31.625 18.126V17.306C31.625 16.0889 30.547 15.154 29.3422 15.3261L18.5446 16.8686C18.3521 16.8961 18.1777 16.9737 18.0338 17.0871Z" fill="url(#paint2_linear_3686_11975)"/>
+<defs>
+<radialGradient id="paint0_radial_3686_11975" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(25.625 107.5) rotate(90) scale(53.75 55.0937)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint1_linear_3686_11975" x1="25.625" y1="15.3057" x2="25.625" y2="35" gradientUnits="userSpaceOnUse">
+<stop offset="0.0885417" stop-color="white" stop-opacity="0.3"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="paint2_linear_3686_11975" x1="25.625" y1="15.3057" x2="25.625" y2="35" gradientUnits="userSpaceOnUse">
+<stop offset="0.0885417" stop-color="white" stop-opacity="0.3"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>

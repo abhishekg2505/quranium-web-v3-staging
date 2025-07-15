@@ -76,11 +76,8 @@ const DevelopersBuilder: React.FC = () => {
     <section ref={sectionRef} className="px-4 md:px-20 pt-16 pb-0 bg-[#0C0318] text-white">
       <div className="max-w-7xl mx-auto text-center">
         <h2 ref={mainTitleRef} className="text-h5 md:text-h4 font-montserrat font-bold">
-          Meet Quranium - The Convergence Layer
+          Quranium is the first Layer 1 infrastructure that combines:
         </h2>
-        <p ref={headingRef} className="text-h5 font-montserrat font-medium text-gray-300 mt-4">
-          The first Layer 1 infrastructure that combines:
-        </p>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {threats.map((threat, index) => (
