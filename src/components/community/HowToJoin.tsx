@@ -107,7 +107,7 @@ const HowToJoin = () => {
                 monthly newsletter.
               </p>
             </div>
-            <Link href="community@quranium.org" target="_self" rel="noopener noreferrer">
+            <Link href="mailto:community@quranium.org" target="_self" rel="noopener noreferrer">
               <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
                 <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                 <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
