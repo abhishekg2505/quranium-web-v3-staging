@@ -11,7 +11,7 @@ const AnchorCards = () => {
         turn passion into impact.
       </h2>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 justify-center gap-x-5 gap-y-10">
-        <Link href="#">
+        <Link href="#qrn-rush">
           <div className="group perspective">
             <div className="relative w-full transition-transform">
               <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px] h-[150px]">
@@ -27,7 +27,7 @@ const AnchorCards = () => {
             </div>
           </div>
         </Link>
-        <Link href="#">
+        <Link href="#quranium-ambassador-program">
           <div className="group perspective h-[150px]">
             <div className="relative w-full h-full transition-transform">
               <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px] h-[150px]">

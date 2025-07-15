@@ -93,7 +93,11 @@ const AmbassadorProgram: React.FC = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="px-4 md:px-20 py-16 bg-black text-white">
+    <section
+      id="quranium-ambassador-program"
+      ref={sectionRef}
+      className="px-4 md:px-20 py-16 bg-black text-white"
+    >
       <div className="max-w-7xl mx-auto text-center md:text-left">
         <h2 ref={mainTitleRef} className="text-h5 md:text-h3 font-montserrat font-semibold">
           The Quranium Ambassador Program

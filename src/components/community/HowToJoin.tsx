@@ -92,7 +92,7 @@ const HowToJoin = () => {
           <div className="relative z-10">
             <h3
               ref={mainTitleRef}
-              className="text-left text-h3 font-montserrat font-semibold text-white mb-[15px]"
+              className="text-center md:text-left text-h3 font-montserrat font-semibold text-white mb-[15px]"
             >
               How to Join
             </h3>

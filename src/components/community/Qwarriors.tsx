@@ -59,7 +59,7 @@ const Qwarriors = () => {
         ref={sectionRef}
         className="px-4 md:px-20 pb-10 md:pb-[80px] p-[1px] rounded-[20px] bg-black"
       >
-        <div className="animation-wrapper relative  p-4 md:p-[30px] rounded-[20px] container mx-auto bg-[#0F0825]">
+        <div className="animation-wrapper relative  px-4 py-[40px] md:px-[30px] md:py-[40px] rounded-[20px] container mx-auto bg-[#0F0825]">
           <div className="flex flex-col md:flex-row md:justify-between items-center md:items-start relative z-10 max-w-7xl mx-auto">
             <div className="max-w-[246px]">
               <Image

@@ -34,7 +34,7 @@ const WhatIsQrnRush = () => {
         </div>
 
         {/* Features Row */}
-        <div className="mt-6 bg-[#C3C3C31A] px-4 py-3 rounded-[10px] flex flex-wrap justify-center gap-4 text-sm text-white font-medium">
+        <div className="mt-6 bg-[#C3C3C31A] px-4 py-3 rounded-[10px] hidden md:flex flex-wrap justify-center gap-4 text-sm text-white font-medium">
           <span className="flex flex-col md:flex-row items-center gap-2">
             Complete community missions{" "}
             <Image
@@ -68,7 +68,7 @@ const WhatIsQrnRush = () => {
 
         {/* CTA Button */}
         <div className="mt-6 text-center">
-          <Link href="#">
+          <Link href="https://community.quranium.org/qrnrush" target="_blank">
             <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
               <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0"></span>
               <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-300">

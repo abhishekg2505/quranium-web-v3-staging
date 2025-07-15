@@ -81,6 +81,7 @@ const QrnRush = () => {
 
   return (
     <div
+      id="qrn-rush"
       className="relative px-4 md:px-20 py-10 md:py-[50px] bg-[url('/images/community/qrnmobilebg.webp')] md:bg-[url('/images/community/qrndesktopbg.webp')]  bg-no-repeat bg-center"
       style={{ backgroundSize: "100% 100%" }}
     >
@@ -106,14 +107,14 @@ const QrnRush = () => {
       </div> */}
 
       {/* Content Container */}
-      <div className="relative px-4 md:px-10 pb-[55px] container mx-auto">
+      <div className="relative px-4 pt-5 md:px-10 pb-[55px] container mx-auto">
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <Image
             src="/images/community/qrn-rush.svg"
             alt="icon"
             width={244}
             height={96}
-            className="mx-auto"
+            className="mx-auto w-[200px] h-[60px] md:w-[244px] md-h-[96px]"
           />
 
           <h2 ref={mainTitleRef} className="text-white text-p2 font-normal mt-[21px]">
@@ -131,7 +132,11 @@ const QrnRush = () => {
           </div>
 
           <div ref={rightCardRef} className="mt-6">
-            <Link href="#" target="_self" rel="noopener noreferrer">
+            <Link
+              href="https://community.quranium.org/qrnrush"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button variant="outline" className="group relative overflow-hidden bg-transparent">
                 <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                 <span className="relative z-10 flex items-center bg-transparent text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
