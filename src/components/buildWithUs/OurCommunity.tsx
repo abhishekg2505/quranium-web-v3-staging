@@ -83,7 +83,7 @@ const OurCommunity = () => {
     <div>
       <div
         ref={sectionRef}
-        className="mt-10 px-4 md:px-20 py-10 md:py-40 p-[1px] bg-[url('/images/ecosystem-new/join-q.webp')] md:bg-cover bg-center md:bg-right"
+        className="mt-10 px-4 md:px-20 py-10 md:py-40 p-[1px] bg-[url('/images/ecosystem-new/community.webp')] md:bg-cover bg-center md:bg-right"
       >
         <div className="relative container mx-auto">
           <div className="relative z-10 max-w-4xl mx-auto text-center">
