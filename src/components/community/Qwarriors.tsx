@@ -5,6 +5,7 @@ import { MoveRight } from "lucide-react";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -59,14 +60,19 @@ const Qwarriors = () => {
         className="px-4 md:px-20 pb-10 md:pb-[80px] p-[1px] rounded-[20px] bg-black"
       >
         <div className="animation-wrapper relative  p-4 md:p-[30px] rounded-[20px] container mx-auto bg-[#0F0825]">
-          <div className="flex flex-col md:flex-row md:justify-between items-start relative z-10 max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row md:justify-between items-center md:items-start relative z-10 max-w-7xl mx-auto">
             <div className="max-w-[246px]">
-              <h2 className="team-title text-white text-h4 md:text-h3 font-montserrat font-semibold">
-                Q-Warriors
-              </h2>
+              <Image
+                src="/images/community/qwarrior.svg"
+                alt="Background"
+                width={212}
+                height={48}
+                priority
+                className="w-full h-full"
+              />
             </div>
 
-            <div className="team-button pt-5 md:pt-0 max-w-[610px]">
+            <div className="team-button pt-5 md:pt-0 max-w-[610px] text-center md:text-left">
               <p className="text-p2 font-open-sans">
                 <span className="font-bold">Q-Warriors</span> are an elite circle of Quranium
                 believers dedicated to shaping the world alongside our mission.{" "}

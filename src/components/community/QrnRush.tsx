@@ -80,17 +80,27 @@ const QrnRush = () => {
   }, []);
 
   return (
-    <div className="relative px-4 md:px-20 py-10 md:py-[50px]">
+    <div className="relative px-4 md:px-20 py-10 md:py-[50px] bg-[url('/images/community/qrnmobilebg.webp')] md:bg-[url('/images/community/qrndesktopbg.webp')] bg-contain md:bg-cover bg-no-repeat bg-center">
       {/* Background Layer */}
-      <div className="absolute inset-0">
+      {/* <div className="absolute inset-0 hidden sm:block">
         <Image
-          src="/images/community/qrnrushbg.webp"
+          src="/images/community/qrndesktopbg.webp"
           alt="Background"
           fill
           priority
           className="w-full h-full"
         />
       </div>
+      <div className="absolute inset-0 sm:hidden block">
+        <Image
+          src="/images/community/qrnmobilebg.webp"
+          alt="Background"
+          width={400}
+          height={460}
+          priority
+          className="w-full h-full"
+        />
+      </div> */}
 
       {/* Content Container */}
       <div className="relative px-4 md:px-10 pb-[55px] container mx-auto">
@@ -103,7 +113,7 @@ const QrnRush = () => {
             className="mx-auto"
           />
 
-          <h2 ref={mainTitleRef} className="text-white text-p2 font-thin mt-[21px]">
+          <h2 ref={mainTitleRef} className="text-white text-p2 font-normal mt-[21px]">
             <span className="font-semibold">Talk Less. Quest More,</span> Turn Your Voice Into Value
           </h2>
 

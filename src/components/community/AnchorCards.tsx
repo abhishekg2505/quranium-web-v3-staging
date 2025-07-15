@@ -6,7 +6,7 @@ import { MoveRight } from "lucide-react";
 const AnchorCards = () => {
   return (
     <section className="py-16 container mx-auto px-4 md:px-20">
-      <h2 className="text-h4 font-montserrat font-semibold mb-[60px]">
+      <h2 className="text-h5 md:text-h4 font-montserrat font-semibold mb-[60px]">
         Through initiatives like QRNRush and our Ambassador Program, we empower every contributor to
         turn passion into impact.
       </h2>
@@ -33,7 +33,7 @@ const AnchorCards = () => {
               <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px] h-[150px]">
                 <div className="bg-[#0D031B] py-[22px] px-[30px] h-full rounded-[20px] flex flex-row justify-between items-center text-left hover:bg-[#1B0637] transition-colors duration-300 ease-in-out">
                   <div className="md:basis-10/12">
-                    <h3 className="text-h4 font-montserrat font-semibold">
+                    <h3 className="text-h5 md:text-h4 font-montserrat font-semibold">
                       The Quranium <br />
                       Ambassador Program
                     </h3>

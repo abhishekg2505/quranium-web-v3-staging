@@ -13,13 +13,15 @@ const WhatIsQrnRush = () => {
         <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px]">
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8 bg-[#000000] p-5 rounded-[20px]">
             <div>
-              <h2 className="text-h3 font-montserrat font-semibold">What&rsquo;s QRN Rush?</h2>
+              <h2 className="text-h4 md:text-h3 font-montserrat font-semibold">
+                What&rsquo;s QRN Rush?
+              </h2>
               <p className="text-[#EAEAEA] text-p1 font-open-sans mt-5 max-w-md">
                 A dynamic quest-based platform that rewards you for showing up, speaking out, and
                 building alongside Quranium.
               </p>
             </div>
-            <div className=" p-4 max-w-md">
+            <div className="md:p-4 max-w-md">
               <p className="text-[#B3B3B3]">
                 QPoint rewards are transparent, trackable, and trusted. Finally, rewards that
                 reflect real impact.
@@ -33,7 +35,7 @@ const WhatIsQrnRush = () => {
 
         {/* Features Row */}
         <div className="mt-6 bg-[#C3C3C31A] px-4 py-3 rounded-[10px] flex flex-wrap justify-center gap-4 text-sm text-white font-medium">
-          <span className="flex items-center gap-2">
+          <span className="flex flex-col md:flex-row items-center gap-2">
             Complete community missions{" "}
             <Image
               src="/images/community/rightArrow.svg"
@@ -41,17 +43,21 @@ const WhatIsQrnRush = () => {
               width={24}
               height={24}
               priority
+              className="rotate-90 md:rotate-0"
             />
           </span>
-          <span className="flex items-center gap-2">
-            <Image src="/images/community/earn.svg" alt="earn" width={24} height={24} priority />
-            Earn QPoints{" "}
+          <span className="flex flex-col md:flex-row items-center gap-2">
+            <div className="flex gap-2">
+              <Image src="/images/community/earn.svg" alt="earn" width={24} height={24} priority />
+              Earn QPoints{" "}
+            </div>
             <Image
               src="/images/community/rightArrow.svg"
               alt="lock"
               width={24}
               height={24}
               priority
+              className="rotate-90 md:rotate-0"
             />
           </span>
           <span className="flex items-center gap-2 text-center">

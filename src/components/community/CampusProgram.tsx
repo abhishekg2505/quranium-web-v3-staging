@@ -58,10 +58,10 @@ const CampusProgram = () => {
         ref={sectionRef}
         className="px-4 md:px-20 pb-10 md:pb-[80px] p-[1px] rounded-[20px] bg-black"
       >
-        <div className="animation-wrapper relative  py-[40px] px-4 md:px-10 rounded-[20px] container mx-auto bg-[url('/images/community/ctabg.webp')] bg-cover bg-right sm:bg-right">
+        <div className="animation-wrapper relative  py-[40px] px-4 md:px-10 rounded-[20px] container mx-auto bg-[url('/images/community/ctabg.webp')] bg-cover bg-center sm:bg-right">
           <div className="flex flex-col md:flex-row md:justify-between items-center relative z-10 max-w-7xl mx-auto">
             <div className="max-w-[817px]">
-              <h2 className="team-title text-white text-h5 md:text-h4 font-normal">
+              <h2 className="team-title text-white text-h5 md:text-h4 font-normal text-center md:text-left">
                 A dedicated <span className="font-semibold">Campus Ambassador Program, </span>
                 designed to <br /> activate <span className="font-semibold">
                   Gen-Z leaders

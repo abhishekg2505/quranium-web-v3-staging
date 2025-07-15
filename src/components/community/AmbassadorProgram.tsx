@@ -120,11 +120,13 @@ const AmbassadorProgram: React.FC = () => {
               key={index}
               className="group perspective"
             >
-              <div className="relative w-full h-[305px]">
-                <div className="absolute inset-0 rounded-[20px]">
+              <div className="relative w-full h-auto md:h-[305px]">
+                <div className="rounded-[20px]">
                   <div className="bg-[#0C0318] p-6 h-full rounded-[20px] flex flex-col justify-start items-start text-left hover:bg-[#1B0637] transition-colors duration-300 ease-in-out">
                     <Image src={threat.media} alt="icon" width={70} height={70} />
-                    <h3 className="text-h4 font-montserrat font-semibold mt-5">{threat.title}</h3>
+                    <h3 className="text-h5 md:text-h4 font-montserrat font-semibold mt-5">
+                      {threat.title}
+                    </h3>
                     <h6 className="text-h6 font-montserrat font-medium mt-5">{threat.desc}</h6>
                   </div>
                 </div>

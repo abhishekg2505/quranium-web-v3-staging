@@ -95,9 +95,9 @@ export default function HeroSection() {
               {/* Left Text Section */}
               <div className="w-full md:w-auto">
                 <h1 className="text-h4 md:text-h2 font-montserrat font-bold text-left hero-title leading-none">
-                  Community
+                  Our Community
                 </h1>
-                <h6 className="text-h6 font-montserrat font-medium">Powered by People</h6>
+                <h6 className="text-h6 font-montserrat font-medium">Be uncrackable. Together.</h6>
               </div>
 
               {/* Right Content Section */}
