@@ -13,6 +13,7 @@ export const ROUTES = {
   QUANTUM_MINDS_PODCAST: "https://www.quantummindspodcast.com/",
   PRIVACY_POLICY: "privacy-policy",
   COOKIES_POLICY: "cookies-policy",
+  COMMUNITY: "community",
   TERMS_AND_CONDITIONS: "terms-and-conditions",
   NEXT_GEN_INNOVATORS: "next-gen-innovators",
   LAYERS_AND_LATTES: "layers-and-lattes",

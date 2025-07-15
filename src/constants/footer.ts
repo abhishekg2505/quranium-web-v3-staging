@@ -30,6 +30,16 @@ export const footer = [
     ],
   },
   {
+    title: "Community",
+    links: [
+      { name: "QRN Rush", href: `${ROUTES?.COMMUNITY}#qrn-rush` },
+      {
+        name: "Quranium Ambassador Program",
+        href: `${ROUTES?.COMMUNITY}#quranium-ambassador-program`,
+      },
+    ],
+  },
+  {
     title: "Initiatives",
     links: [
       { name: "Global Roadshow 2025", href: `https://beuncrackable.com/`, target: true },

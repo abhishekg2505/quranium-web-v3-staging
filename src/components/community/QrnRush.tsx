@@ -82,7 +82,7 @@ const QrnRush = () => {
   return (
     <div
       id="qrn-rush"
-      className="relative px-4 md:px-20 py-10 md:py-[50px] bg-[url('/images/community/qrnmobilebg.webp')] md:bg-[url('/images/community/qrndesktopbg.webp')]  bg-no-repeat bg-center"
+      className="scroll-mt-24 relative px-4 md:px-20 py-10 md:py-[50px] bg-[url('/images/community/qrnmobilebg.webp')] md:bg-[url('/images/community/qrndesktopbg.webp')]  bg-no-repeat bg-center"
       style={{ backgroundSize: "100% 100%" }}
     >
       {/* Background Layer */}

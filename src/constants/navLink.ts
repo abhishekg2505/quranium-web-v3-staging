@@ -18,6 +18,10 @@ export const navLinks = [
     itemName: "Build with us",
     link: ROUTES?.BUILD_WITH_US,
   },
+  {
+    itemName: "Community",
+    link: ROUTES?.COMMUNITY,
+  },
   // {
   //   itemName: "Technology",
   //   subMenu: [
