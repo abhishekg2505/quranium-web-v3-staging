@@ -24,7 +24,7 @@ const MpSection = () => {
 
   return (
     <div className="max-w-7xl mx-auto">
-      <div className="p-[1.1px] bg-roadshow-stats-border rounded-[30px]">
+      <div className="p-[1.1px] bg-roadshow-stats-border rounded-[30px] overflow-hidden">
         <div className="relative flex flex-col mx-auto py-10 bg-black rounded-[30px] overflow-hidden">
           {/* Logo Rows */}
           <div className="flex flex-wrap justify-start gap-4 md:gap-2">
