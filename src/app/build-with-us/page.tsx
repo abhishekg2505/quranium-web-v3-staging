@@ -10,6 +10,8 @@ import TabSection from "@/src/components/buildWithUs/TabSection";
 import AnchorCards from "@/src/components/buildWithUs/AnchorCards";
 import QaProgram from "@/src/components/buildWithUs/QaProgram";
 import OurStrategicPartners from "@/src/components/buildWithUs/OurStrategicPartners";
+import OurMediaPartners from "@/src/components/buildWithUs/OurMediaPartners";
+import OurCommunity from "@/src/components/buildWithUs/OurCommunity";
 
 export const metadata = {
   title: {
@@ -54,6 +56,8 @@ export default function Technical() {
       <CallToActionEcoSysytem />
       <QaProgram />
       <OurStrategicPartners />
+      <OurCommunity />
+      <OurMediaPartners />
     </main>
   );
 }

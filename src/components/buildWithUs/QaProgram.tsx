@@ -72,7 +72,7 @@ const QaProgram = () => {
 
   return (
     <div ref={sectionRef} className="rounded-[20px] px-4 md:px-20 bg-[#130525]">
-      <div className="max-w-7xl mx-auto py-[50px] md:py-20 px-[16px] md:px-[60px]">
+      <div className="max-w-7xl mx-auto py-[50px] md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-[60%_40%] gap-10 items-center text-center md:text-left ">
           {/* Left Side */}
           <div className="relative z-10">

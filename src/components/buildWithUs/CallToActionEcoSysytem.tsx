@@ -34,6 +34,7 @@ const CallToActionEcoSysytem: React.FC = () => {
   const mapRef = useRef(null);
   const cardsRef = useRef<Array<HTMLDivElement | null>>([]);
   const headingRef = useRef(null);
+  const lineRef = useRef(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -93,6 +94,16 @@ const CallToActionEcoSysytem: React.FC = () => {
         y: 30,
         duration: 0.8,
         delay: 0.3,
+        ease: "power2.out",
+      });
+      gsap.from(lineRef.current, {
+        scrollTrigger: {
+          trigger: lineRef.current,
+          start: "top 95%",
+        },
+        scaleX: 0,
+        transformOrigin: "center center",
+        duration: 1,
         ease: "power2.out",
       });
     }, sectionRef);
@@ -209,6 +220,18 @@ const CallToActionEcoSysytem: React.FC = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div>
+          <h4
+            ref={headingRef}
+            className="text-h5 md:text-h4 font-montserrat font-bold mt-10 text-center"
+          >
+            This is where you belong - on the uncrackable platform for the decentralized world.
+          </h4>
+          <div
+            ref={lineRef}
+            className="w-[300px] mt-5 md:w-[441px] mx-auto h-[1px] bg-gradient-to-r from-[#FFFFFF00] via-white-1 to-[#FFFFFF00]"
+          />
         </div>
       </div>
     </section>
