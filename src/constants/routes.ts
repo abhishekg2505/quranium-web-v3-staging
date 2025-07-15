@@ -10,7 +10,7 @@ export const ROUTES = {
   MEDIA_KIT: "https://drive.google.com/drive/folders/1YJtJEUIhaVR7U3EfXrWx0kAPhvSK_Fx0",
   GLOBAL_ROADSHOW: "https://beuncrackable.com/",
   QUANTUM_SECURITY_AWARENESS_DAY: "quantum-security-awareness-day",
-  QUANTUM_MINDS_PODCAST: "quantum-minds-podcast",
+  QUANTUM_MINDS_PODCAST: "https://www.quantummindspodcast.com/",
   PRIVACY_POLICY: "privacy-policy",
   COOKIES_POLICY: "cookies-policy",
   TERMS_AND_CONDITIONS: "terms-and-conditions",
