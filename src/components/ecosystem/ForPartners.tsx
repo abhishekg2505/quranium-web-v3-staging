@@ -56,10 +56,10 @@ const ForPartners = () => {
     <div
       id="builders"
       ref={sectionRef}
-      className="scroll-mt-24 bg-[#0C0318] px-4 md:px-20 py-10 rounded-[20px]"
+      className="scroll-mt-24 bg-[#0C0318] px-4 md:px-20 pt-0 md:py-10 rounded-[20px]"
     >
       <div
-        className="max-w-7xl mx-auto pt-[50px] pb-[0px] md:py-[0px]  rounded-[20px]"
+        className="max-w-7xl mx-auto pt-[0px] pb-[0px] md:py-[0px]  rounded-[20px]"
         style={{
           background: `
         linear-gradient(133.13deg, #090716 60%, #400061 137.26%),
@@ -68,7 +68,7 @@ const ForPartners = () => {
         }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          <div className="relative z-10 pb-4 pl-10">
+          <div className="relative z-10 pb-4 md:pl-10">
             <h3
               ref={mainTitleRef}
               className="text-h5 md:text-h4 font-montserrat font-medium md:font-semibold"

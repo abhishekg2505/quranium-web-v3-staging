@@ -82,11 +82,11 @@ const QaProgram = () => {
           <div className="relative z-10">
             <h3
               ref={mainTitleRef}
-              className="text-left text-h4 md:text-h3 font-montserrat font-semibold"
+              className="text-center md:text-left text-h4 md:text-h3 font-montserrat font-semibold"
             >
               The Quranium Ambassador Program
             </h3>
-            <h5 className="text-left text-h5 font-montserrat font-medium mt-[15px]">
+            <h5 className="text-center md:text-left text-h5 font-montserrat font-medium mt-[15px]">
               Real Voices. Real Impact.
             </h5>
             <p className="text-p2 font-open-sans mt-[15px] mb-[20px]">

@@ -83,7 +83,7 @@ const OurStrategicPartners = () => {
           <div className="relative z-10">
             <h3
               ref={mainTitleRef}
-              className="text-left text-h4 md:text-h3 font-montserrat font-semibold"
+              className="text-center md:text-left text-h4 md:text-h3 font-montserrat font-semibold"
             >
               Our Strategic Partners
             </h3>

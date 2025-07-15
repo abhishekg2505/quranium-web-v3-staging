@@ -87,7 +87,7 @@ const OurMediaPartners = () => {
         ref={sectionRef}
         className="scroll-mt-24 px-4 md:px-20 py-10 md:py-40 p-[1px] bg-[url('/images/ecosystem-new/join-q.webp')] md:bg-cover bg-center md:bg-right"
       >
-        <div className="relative container mx-auto">
+        <div className="relative container mx-auto px-0">
           <div className="relative z-10 max-w-4xl mx-auto text-center">
             <h2 ref={mainTitleRef} className="text-white text-h4 md:text-h3 font-semibold">
               Our Media Partners
