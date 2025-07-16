@@ -117,3 +117,39 @@ export const layersAndLattesMetaData = {
   url: "https://quranium.org/layers-and-lattes",
   image: "",
 };
+export const ecosystemMetaData = {
+  title: "Quranium Ecosystem | Building a Quantum-Secure Future",
+  language: "",
+  theme: "",
+  description:
+    "Explore Quranium's global ecosystem of partners, builders, and ambassadors driving quantum-secure, AI-ready, and decentralized infrastructure forward.",
+  url: "https://quranium.org/ecosystem",
+  image: "",
+};
+export const privacypolicyMetaData = {
+  title: "Quranium Privacy Policy",
+  language: "",
+  theme: "",
+  description:
+    "Learn how Quranium collects, stores, and protects your data. Our policy ensures compliance with privacy laws and transparency for all users.",
+  url: "https://quranium.org/privacy-policy",
+  image: "",
+};
+export const cookiespolicyMetaData = {
+  title: "Quranium Cookie Policy - Understanding Our Use of Cookies",
+  language: "",
+  theme: "",
+  description:
+    "Discover how Quranium uses cookies to enhance your Browse experience. Our Cookie Policy explains cookie types, their purpose, and how you can manage your preferences.",
+  url: "https://quranium.org/cookies-policy",
+  image: "",
+};
+export const tandcMetaData = {
+  title: "Quranium Terms & Conditions - Legal Agreement & User Guidelines",
+  language: "",
+  theme: "",
+  description:
+    "Review the Terms & Conditions for using Quranium’s services. This legal agreement outlines responsibilities, intellectual property, legal rights, and limitations. Using our platform means accepting these terms and policies.",
+  url: "https://quranium.org/terms-and-conditions",
+  image: "",
+};

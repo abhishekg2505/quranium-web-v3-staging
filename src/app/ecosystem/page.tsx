@@ -4,7 +4,7 @@ import ConvergenceFuture from "@/src/components/ecosystem/ConvergenceFuture";
 import DevelopersBuilder from "@/src/components/ecosystem/DevelopersBuilder";
 import ForPartners from "@/src/components/ecosystem/ForPartners";
 import HeroSection from "@/src/components/ecosystem/HeroSection";
-import { buildWithUsMetaData } from "@/src/constants/metadata";
+import { ecosystemMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
 import TabSection from "@/src/components/ecosystem/TabSection";
 import AnchorCards from "@/src/components/ecosystem/AnchorCards";
@@ -15,30 +15,30 @@ import OurCommunity from "@/src/components/ecosystem/OurCommunity";
 
 export const metadata = {
   title: {
-    default: buildWithUsMetaData.title,
-    template: `%s | ${buildWithUsMetaData.title}`,
+    default: ecosystemMetaData.title,
+    template: `%s | ${ecosystemMetaData.title}`,
   },
-  description: buildWithUsMetaData.description,
+  description: ecosystemMetaData.description,
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: buildWithUsMetaData.url,
-    title: buildWithUsMetaData.title,
-    description: buildWithUsMetaData.description,
-    siteName: buildWithUsMetaData.title,
+    url: ecosystemMetaData.url,
+    title: ecosystemMetaData.title,
+    description: ecosystemMetaData.description,
+    siteName: ecosystemMetaData.title,
     images: [
       {
         width: 1200,
         height: 630,
         url: `${quraniumPreview.src}?_=44fc893`,
-        alt: buildWithUsMetaData.title,
+        alt: ecosystemMetaData.title,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: buildWithUsMetaData.title,
-    description: buildWithUsMetaData.description,
+    title: ecosystemMetaData.title,
+    description: ecosystemMetaData.description,
     images: [`${quraniumPreview.src}?_=44fc893`],
   },
 };
