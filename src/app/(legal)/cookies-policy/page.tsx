@@ -1,6 +1,6 @@
 import CookiesPolicy from "@/src/components/cookiesPolicy/CookiesPolicy";
 import { cookiespolicyMetaData } from "@/src/constants/metadata";
-import quraniumPreview from "../../../public/images/quraniumPreview.png";
+import quraniumPreview from "../../../../public/images/quraniumPreview.png";
 export const metadata = {
   title: {
     default: cookiespolicyMetaData.title,

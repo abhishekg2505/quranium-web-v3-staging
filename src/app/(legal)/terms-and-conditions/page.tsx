@@ -1,6 +1,6 @@
 import TermsAndConditions from "@/src/components/termsAndConditions/TermsAndConditions";
 import { tandcMetaData } from "@/src/constants/metadata";
-import quraniumPreview from "../../../public/images/quraniumPreview.png";
+import quraniumPreview from "../../../../public/images/quraniumPreview.png";
 export const metadata = {
   title: {
     default: tandcMetaData.title,
