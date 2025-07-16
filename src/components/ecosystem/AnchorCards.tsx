@@ -45,7 +45,7 @@ const AnchorCards = () => {
                 <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px]">
                   <div className="bg-[#0D031B] py-[22px] px-[30px] h-full rounded-[20px] flex flex-col justify-start items-start text-left hover:bg-[#1B0637] bg-[url(/images/ecosystem-new/find-out-more/mesh.png)] bg-right-top transition-colors duration-300 ease-in-out">
                     <Image src={card.media} alt="icon" width={50} height={50} />
-                    <div className="flex flex-col md:flex-row flex-wrap items-end justify-between w-full">
+                    <div className="flex flex-row flex-wrap items-end justify-between w-full">
                       <div className="md:basis-10/12">
                         <h3 className="md:text-p2 font-open-sans text-h6 md:font-montserrat md:font-regular font-medium mt-5">
                           {card.title}
