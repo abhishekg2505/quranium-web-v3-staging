@@ -13,7 +13,7 @@ const pressReleases = [
     date: "15 July 2025",
     description:
       "Quantum Leap for Indian Robotics: Quranium & AIRA Forge Landmark Partnership to Secure the Future of Automation",
-    link: "https://quranium-org.medium.com/from-action-to-access-quranium-debuts-qrnrush-to-reward-real-community-engagement-de879373bcd9",
+    link: "https://medium.com/@quranium-org/quantum-leap-for-indian-robotics-quranium-aira-forge-landmark-partnership-to-secure-the-future-9454f6ca4103",
   },
   {
     imageSrc: "/images/common/press-releases/qrn-rush-pr.webp",
