@@ -2,8 +2,19 @@
 import Image from "next/image";
 import { Button } from "@/src/components/ui/button";
 import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
+import { MoveLeft, MoveRight } from "lucide-react";
 
 const pressReleases = [
+  {
+    imageSrc: "/images/common/press-releases/quantum-leap.webp",
+    altText: "Quranium & AIRA Forge Landmark Partnership to Secure the Future of Automation",
+    date: "15 July 2025",
+    description:
+      "Quantum Leap for Indian Robotics: Quranium & AIRA Forge Landmark Partnership to Secure the Future of Automation",
+    link: "https://quranium-org.medium.com/from-action-to-access-quranium-debuts-qrnrush-to-reward-real-community-engagement-de879373bcd9",
+  },
   {
     imageSrc: "/images/common/press-releases/qrn-rush-pr.webp",
     altText: "Quranium Debuts QRNRush to Reward Real Community Engagement",
@@ -99,7 +110,63 @@ export default function PressReleases() {
         {/* Bottom Slider */}
 
         {/* <div className="flex items-center gap-4"> */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="relative">
+          <Swiper
+            modules={[Navigation]}
+            loop
+            navigation={{
+              nextEl: ".swiper-next",
+              prevEl: ".swiper-prev",
+            }}
+            spaceBetween={24}
+            slidesPerView={1}
+            breakpoints={{
+              768: {
+                slidesPerView: 1,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+            }}
+            className="overflow-hidden flex mt-10 h-full"
+          >
+            {pressReleases.map((release, index) => (
+              <SwiperSlide key={index} className="h-full">
+                <div className="group perspective md:h-[385px]">
+                  <Link key={index} href={release.link} target="_blank" className="h-full">
+                    <div
+                      key={index}
+                      className="flex-1 h-full border border-white-1/10 rounded-2xl overflow-hidden shadow-lg"
+                    >
+                      <Image
+                        src={release.imageSrc}
+                        alt={release.altText}
+                        width={1200}
+                        height={627}
+                        className="object-cover"
+                      />
+                      <div className="p-4 space-y-2">
+                        <h5 className="text-h6 font-montserrat font-bold text-transparent bg-clip-text bg-date-gradient">
+                          {release.date}
+                        </h5>
+                        <p className="text-h6 text-white-1">{release.description}</p>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          {/* Navigation Arrows */}
+          <div className="swiper-prev absolute left-0  top-1/2 transform -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 p-2 rounded-full cursor-pointer bg-[#3C3747]">
+            <MoveLeft className="text-white" />
+          </div>
+          <div className="swiper-next absolute right-0  top-1/2 transform -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 p-2 rounded-full cursor-pointer bg-[#3C3747]">
+            <MoveRight className="text-white" />
+          </div>
+        </div>
+
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {pressReleases.map((release, index) => (
             <Link key={index} href={release.link} target="_blank" className="h-full">
               <div
@@ -122,7 +189,7 @@ export default function PressReleases() {
               </div>
             </Link>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

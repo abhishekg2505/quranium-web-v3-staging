@@ -141,7 +141,7 @@ const UpcomingEvents = () => {
 
         <div className="relative mt-[60px] rounded-[20px] max-w-7xl mx-auto md:px-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-5 items-center relative z-10 mx-auto">
-            <div>
+            {/* <div>
               <Image
                 src="/images/landl/20june-event.webp"
                 alt="20 June Event"
@@ -207,6 +207,38 @@ const UpcomingEvents = () => {
                   Registeration Closed
                 </span>
               </Button>
+            </div> */}
+
+            <div>
+              <Image
+                src="/images/landl/25july-event.webp"
+                alt="27 June Event"
+                width={625}
+                height={321}
+                className="w-full max-w-full md:w-[625px] md:h-[321px] rounded-[24px]"
+                ref={img2Ref}
+              />
+              <h4
+                ref={heading2Ref}
+                className="text-white text-h5 md:text-h4 font-semibold mt-5 md:mt-10"
+              >
+                Friday, July 25
+              </h4>
+
+              <h5
+                ref={para2Ref}
+                className="text-h5 font-montserrat font-medium mt-[5px] mb-5 md:mb-10"
+              >
+                8:30 AM - 10:00 AM GMT+8
+              </h5>
+              <Link href="https://lu.ma/ois88t8e" target="_blank">
+                <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
+                  <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
+                  <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
+                    Registeration open
+                  </span>
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
