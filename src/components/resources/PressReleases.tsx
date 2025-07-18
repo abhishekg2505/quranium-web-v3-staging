@@ -8,6 +8,15 @@ import { MoveLeft, MoveRight } from "lucide-react";
 
 const pressReleases = [
   {
+    imageSrc: "/images/common/press-releases/abatis.webp",
+    altText:
+      "Quranium and Abatis Forge Strategic Alliance to Secure Blockchain Infrastructure at the Endpoint Layer",
+    date: "17 July 2025",
+    description:
+      "Quranium and Abatis Forge Strategic Alliance to Secure Blockchain Infrastructure at the Endpoint Layer",
+    link: "https://quranium-org.medium.com/quranium-and-abatis-forge-strategic-alliance-to-secure-blockchain-infrastructure-at-the-endpoint-d1c9e4fd3bb9",
+  },
+  {
     imageSrc: "/images/common/press-releases/quantum-leap.webp",
     altText: "Quranium & AIRA Forge Landmark Partnership to Secure the Future of Automation",
     date: "15 July 2025",

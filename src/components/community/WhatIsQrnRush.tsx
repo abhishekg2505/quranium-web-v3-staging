@@ -7,8 +7,8 @@ import Image from "next/image";
 
 const WhatIsQrnRush = () => {
   return (
-    <section className="py-10 px-4 md:px-12">
-      <div className="max-w-6xl mx-auto rounded-[20px]  p-6 md:p-10 ">
+    <section className="py-10 px-4 md:px-20">
+      <div className="max-w-6xl mx-auto rounded-[20px]">
         {/* Headings Row */}
         <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px]">
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8 bg-[#000000] p-5 rounded-[20px]">
