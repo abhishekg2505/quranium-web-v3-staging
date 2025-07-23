@@ -5,6 +5,7 @@ import {
   bittwome,
   blockchainmagazine,
   blockchainreporter,
+  blockchaintoday,
   blockhead,
   catenaa,
   cim,
@@ -14,9 +15,10 @@ import {
   coingape,
   coinpasar,
   coinpedia,
+  coinrank,
   coinwire,
   cryptobreakingnews,
-  cryptocoinshow,
+  cryptodashnews,
   cryptodotnews,
   cryptonews,
   cryptopolitan,
@@ -26,10 +28,14 @@ import {
   dlnews,
   droomdroom,
   forklog,
+  fxstreet,
+  klarda,
   koreaittimes,
+  newschain,
   ngglobalmedia,
   santiment,
   startupnews,
+  theblockpedia,
   thecoinrepublic,
   thecryptonomist,
   thejournalwire,
@@ -60,12 +66,17 @@ export const mpLogos = [
   {
     src: blockchainmagazine,
     alt: blockchainmagazine,
-    url: "",
+    url: "https://blockchainmagazine.com/",
   },
   {
     src: blockchainreporter,
     alt: blockchainreporter,
-    url: "",
+    url: "https://blockchainreporter.net/",
+  },
+  {
+    src: blockchaintoday,
+    alt: blockchaintoday,
+    url: "https://www.blockchaintoday.co.kr/",
   },
   {
     src: blockhead,
@@ -113,6 +124,11 @@ export const mpLogos = [
     url: "https://coinpedia.org/",
   },
   {
+    src: coinrank,
+    alt: coinrank,
+    url: "https://www.coinrank.io/",
+  },
+  {
     src: coinwire,
     alt: coinwire,
     url: "https://coinwirez.com/",
@@ -123,9 +139,9 @@ export const mpLogos = [
     url: "https://www.cryptobreaking.com/",
   },
   {
-    src: cryptocoinshow,
-    alt: cryptocoinshow,
-    url: "https://cryptocoinshow.substack.com/subscribe",
+    src: cryptodashnews,
+    alt: cryptodashnews,
+    url: "https://cryptonews.net/",
   },
   {
     src: cryptodotnews,
@@ -155,7 +171,7 @@ export const mpLogos = [
   {
     src: disruptionbanking,
     alt: disruptionbanking,
-    url: "",
+    url: "https://www.disruptionbanking.com/",
   },
   {
     src: dlnews,
@@ -173,9 +189,24 @@ export const mpLogos = [
     url: "https://forklog.com.ua/",
   },
   {
+    src: fxstreet,
+    alt: fxstreet,
+    url: "https://www.fxstreet.com/",
+  },
+  {
+    src: klarda,
+    alt: klarda,
+    url: "https://klarda.com/en",
+  },
+  {
     src: koreaittimes,
     alt: koreaittimes,
     url: "https://www.koreaittimes.com/",
+  },
+  {
+    src: newschain,
+    alt: newschain,
+    url: "https://newzchain.com/",
   },
   {
     src: ngglobalmedia,
@@ -185,12 +216,17 @@ export const mpLogos = [
   {
     src: santiment,
     alt: santiment,
-    url: "",
+    url: "https://t.co/hxhgitN4Z4",
   },
   {
     src: startupnews,
     alt: startupnews,
     url: "https://startupnews.fyi/",
+  },
+  {
+    src: theblockpedia,
+    alt: theblockpedia,
+    url: "https://theblockopedia.com/",
   },
   {
     src: thecoinrepublic,

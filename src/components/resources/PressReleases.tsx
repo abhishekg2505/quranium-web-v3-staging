@@ -8,6 +8,13 @@ import { MoveLeft, MoveRight } from "lucide-react";
 
 const pressReleases = [
   {
+    imageSrc: "/images/common/press-releases/s2e1PR.webp",
+    altText: "Quranium’s Quantum Minds Returns with Yat Siu, Web3 Visionary of Animoca Brands",
+    date: "17 July 2025",
+    description: "Quranium’s Quantum Minds Returns with Yat Siu, Web3 Visionary of Animoca Brands",
+    link: "https://quranium-org.medium.com/quraniums-quantum-minds-returns-with-yat-siu-web3-visionary-of-animoca-brands-bc71e9954e82",
+  },
+  {
     imageSrc: "/images/common/press-releases/abatis.webp",
     altText:
       "Quranium and Abatis Forge Strategic Alliance to Secure Blockchain Infrastructure at the Endpoint Layer",
