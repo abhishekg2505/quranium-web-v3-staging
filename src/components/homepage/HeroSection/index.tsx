@@ -56,7 +56,26 @@ export default function HeroSection() {
             height="100%"
           ></iframe>
         </div>
-        <video
+        {/* <div className="block sm:hidden absolute inset-0 w-full h-full z-0">
+          <iframe
+            src="https://my.spline.design/heroicanimationwebsitefilemobilever-p44JR9ATT8kicWBhdAiVVsZa/"
+            width="100%"
+            height="100%"
+            className="w-full"
+          ></iframe>
+        </div> */}
+        <div className="block sm:hidden absolute inset-0 z-0 overflow-hidden">
+          <div className="relative w-[450px] h-full left-1/2 -translate-x-1/2">
+            <iframe
+              src="https://my.spline.design/heroicanimationwebsitefilemobilever-p44JR9ATT8kicWBhdAiVVsZa/"
+              width="450"
+              height="100%"
+              className="pointer-events-none w-[450px] h-full"
+            ></iframe>
+          </div>
+        </div>
+
+        {/* <video
           autoPlay
           muted
           loop
@@ -65,7 +84,7 @@ export default function HeroSection() {
         >
           <source src="/videos/homepage/home-hero-mobile.mp4" type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
         <div className="absolute left-1/2 -translate-x-1/2 w-max bottom-10 md:bottom-10 2xl:bottom-20 z-20">
           <HeroConvergence />
         </div>

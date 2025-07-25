@@ -8,6 +8,14 @@ import { MoveLeft, MoveRight } from "lucide-react";
 
 const pressReleases = [
   {
+    imageSrc: "/images/common/press-releases/circle-of-games.webp",
+    altText: "Power Move in Web3: Circle of Games Integrates Quranium for Smarter, Safer Gameplay",
+    date: "22 July 2025",
+    description:
+      "Power Move in Web3: Circle of Games Integrates Quranium for Smarter, Safer Gameplay",
+    link: "https://quranium-org.medium.com/power-move-in-web3-circle-of-games-integrates-quranium-for-smarter-safer-gameplay-cbf83574b694",
+  },
+  {
     imageSrc: "/images/common/press-releases/s2e1PR.webp",
     altText: "Quranium’s Quantum Minds Returns with Yat Siu, Web3 Visionary of Animoca Brands",
     date: "17 July 2025",
