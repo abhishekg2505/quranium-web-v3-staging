@@ -157,6 +157,3 @@ button:hover svg {
   transition-timing-function: linear !important;
   display: flex;
 }
-.emblem-area > div > .certik-emblem:last-child {
-  display: none;
-}
