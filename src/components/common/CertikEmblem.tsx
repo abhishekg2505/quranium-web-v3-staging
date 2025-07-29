@@ -6,12 +6,6 @@ const CertikEmblem = () => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Step 1: Inject the "hideEmblem" style
-    // const style = document.createElement("style");
-    // style.innerHTML = `.certik-emblem { display: block; }`;
-    // document.head.appendChild(style);
-
-    // Step 2: Set up the certik-emblem div
     const emblemDiv = document.createElement("div");
     emblemDiv.className = "certik-emblem";
     emblemDiv.setAttribute("data-id", "90c13b53");
