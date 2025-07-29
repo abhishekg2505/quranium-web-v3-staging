@@ -207,7 +207,7 @@ const UpcomingEvents = () => {
                   Registeration Closed
                 </span>
               </Button>
-            </div> */}
+            </div> 
 
             <div>
               <Image
@@ -232,6 +232,38 @@ const UpcomingEvents = () => {
                 8:30 AM - 10:00 AM GMT+8
               </h5>
               <Link href="https://lu.ma/ois88t8e" target="_blank">
+                <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
+                  <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
+                  <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
+                    Registeration open
+                  </span>
+                </Button>
+              </Link>
+            </div>*/}
+
+            <div>
+              <Image
+                src="/images/landl/5aug25-event.webp"
+                alt="5 Aug Event"
+                width={625}
+                height={321}
+                className="w-full max-w-full md:w-[625px] md:h-[321px] rounded-[24px]"
+                ref={img2Ref}
+              />
+              <h4
+                ref={heading2Ref}
+                className="text-white text-h5 md:text-h4 font-semibold mt-5 md:mt-10"
+              >
+                Tuesday, Aug 05
+              </h4>
+
+              <h5
+                ref={para2Ref}
+                className="text-h5 font-montserrat font-medium mt-[5px] mb-5 md:mb-10"
+              >
+                8:30 AM - 10:00 AM GMT+8
+              </h5>
+              <Link href="https://lu.ma/kjin91md" target="_blank">
                 <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
                   <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                   <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">

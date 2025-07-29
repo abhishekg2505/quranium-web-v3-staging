@@ -5,6 +5,7 @@ import Link from "next/link";
 import { footer } from "@/src/constants/footer";
 import { socialMedia } from "@/src/constants/socialMedia";
 import { LangIcon } from "@/src/constants/LangIcon";
+import CertikEmblem from "@/src/components/common/CertikEmblem";
 
 export default function Footer() {
   return (
@@ -64,7 +65,8 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pb-12">
-          <div className="mt-10 py-6 md:px-4 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div className="mt-10 py-6 md:px-4 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 emblem-area">
+            <CertikEmblem />
             <div className="space-x-8 items-center hidden">
               {LangIcon.map((lang) => (
                 <Link href={lang.link} key={lang.name} target="_blank">
