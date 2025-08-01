@@ -7,7 +7,7 @@ import TeamCarousel from "@/src/components/about/TeamCarousel";
 import GlobeWithCountries from "@/src/components/about/GlobeWithCountries";
 import { aboutUsMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
-// import QuraniumJourney from "@/src/components/about/QuraniumJourney";
+import QuraniumJourney from "@/src/components/about/QuraniumJourney";
 
 export const metadata = {
   title: {
@@ -45,7 +45,7 @@ export default function About() {
       <Mission />
       <Counter />
       <TeamCarousel />
-      {/* <QuraniumJourney /> */}
+      <QuraniumJourney />
       <Team />
       <GlobeWithCountries />
       <UncrackableTeam />

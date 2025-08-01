@@ -157,3 +157,12 @@ button:hover svg {
   transition-timing-function: linear !important;
   display: flex;
 }
+
+/* styles/globals.css or app/globals.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

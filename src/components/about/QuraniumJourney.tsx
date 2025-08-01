@@ -1,42 +1,64 @@
-"use client";
+import Image from "next/image";
 import { timelineData } from "@/src/constants/timelineData";
-import clsx from "clsx";
+import QuraniumJourneyCard from "./QuraniumJourney/QuraniumJourneyCard";
 
 export default function QuraniumJourney() {
+  const aboveEvents = timelineData.filter((e) => e.row === "above");
+  const belowEvents = timelineData.filter((e) => e.row === "below");
+
+  // To align the dots, assume both arrays have same length/order
+  // If not, you’ll need more alignment logic (such as sorting by time)
+  // Here, for the dot row, use the combined length for a consistent dot count
+  const eventsLength = Math.max(aboveEvents.length, belowEvents.length);
+
   return (
-    <div className="relative w-full overflow-x-auto py-12 px-4">
-      {/* Timeline line */}
-      <div className="absolute top-1/2 left-0 w-full h-1 bg-blue-500/30 z-0" />
+    <div className="w-full overflow-x-auto scrollbar-hide py-24 px-4 md:pl-20 relative">
+      {/* Center line */}
+      <div className="absolute left-20 right-0 top-1/2 w-[2000px] h-[1.5px] bg-[linear-gradient(90deg,_rgba(164,127,255,0)_0%,_#A47FFF_10.58%,_#A47FFF_79.33%,_rgba(164,127,255,0)_100%)]" />
 
-      {/* Timeline container */}
-      <div className="flex space-x-10 relative z-10 min-w-max">
-        {timelineData.map((item, index) => {
-          const isAbove = index % 2 === 0;
-          return (
-            <div
-              key={index}
-              className={clsx(
-                "relative flex flex-col items-center w-72 min-w-[18rem]",
-                isAbove ? "translate-y-[-140px]" : "translate-y-[140px]"
-              )}
-            >
-              {/* Point on the line */}
-              <div className="w-4 h-4 bg-blue-500 rounded-full border-4 border-white z-10" />
+      <div className="relative z-10 min-w-max1 max-w-[2000px]">
+        {/* ABOVE ROW */}
+        <ul className="flex min-w-max mb-10">
+          {timelineData.map((event, idx) =>
+            event.row === "above" ? (
+              <li key={idx} className="flex flex-col items-center justify-end">
+                <QuraniumJourneyCard event={event} />
+                <div className="aboveImg w-[10px] relative z-10 -bottom-[40px]">
+                  <Image src="/images/about/upward.svg" alt="Upwnward" width={62} height={10} />
+                </div>
+              </li>
+            ) : (
+              <li key={idx} className="w-[80px]" />
+            )
+          )}
+        </ul>
 
-              {/* Card */}
-              <div className="bg-[#1c1a2e] text-white border border-white/10 rounded-xl p-6 mt-4 shadow-md">
-                <div className="text-sm text-white/70 mb-2">{item.quarter}</div>
-                <ul className="text-sm space-y-2">
-                  {item.items.map((point, i) => (
-                    <li key={i} className="flex items-start gap-2">
-                      <span className="text-blue-400">★</span> {point}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          );
-        })}
+        {/* DOTS ROW */}
+        <ul className="flex space-x-16 min-w-max items-center">
+          {timelineData.map((_, idx) => (
+            <li key={idx} className="flex justify-center w-[480px]">
+              {/* <span className="relative z-10 flex h-7 w-7 items-center justify-center">
+                <span className="h-5 w-5 rounded-full bg-blue-600 border-4 border-white" />
+              </span> */}
+            </li>
+          ))}
+        </ul>
+
+        {/* BELOW ROW */}
+        <ul className="flex  min-w-max mt-10">
+          {timelineData.map((event, idx) =>
+            event.row === "below" ? (
+              <li key={idx} className="flex flex-col items-center">
+                <div className="belowImg w-[10px] relative z-10 -top-[50px]">
+                  <Image src="/images/about/downward.svg" alt="Downward" width={62} height={10} />
+                </div>
+                <QuraniumJourneyCard event={event} />
+              </li>
+            ) : (
+              <li key={idx} className="w-[80px]" />
+            )
+          )}
+        </ul>
       </div>
     </div>
   );

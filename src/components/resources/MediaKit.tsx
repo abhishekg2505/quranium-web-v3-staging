@@ -25,7 +25,7 @@ const MediaKit = () => {
             </p>
           </div>
           <Link
-            href="https://drive.google.com/drive/folders/1YJtJEUIhaVR7U3EfXrWx0kAPhvSK_Fx0"
+            href="https://drive.google.com/drive/folders/1uGdjHm4IjTzvk6ZyD_1AgQctxMlQi77F?usp=sharing"
             target="_blank"
           >
             <Button className="group  mt-5 relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
