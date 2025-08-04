@@ -88,7 +88,7 @@ export default function QuraniumJourney() {
                     </div>
                   </li>
                 ) : (
-                  <li key={idx} className="w-[110px]" />
+                  <li key={idx} className="w-[80px] md:w-[110px]" />
                 )
               )}
             </ul>
@@ -116,7 +116,7 @@ export default function QuraniumJourney() {
                     <QuraniumJourneyCard event={event} />
                   </li>
                 ) : (
-                  <li key={idx} className="w-[110px]" />
+                  <li key={idx} className="w-[80px] md:w-[110px]" />
                 )
               )}
             </ul>

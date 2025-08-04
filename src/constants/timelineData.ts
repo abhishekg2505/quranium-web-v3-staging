@@ -30,9 +30,9 @@ export const timelineData: timelineData[] = [
     period: "H2 2024",
     title: "",
     items: [
-      "Grew community to <span class='font-bold'>50k+</span>",
+      "Grew community to <span class='text-p3 font-bold'>50k+</span>",
       "Established our Headquarters in Switzerland",
-      `<p class="font-semibold">
+      `<p class="text-p3 font-semibold">
     Quantum-secure PoW Testnet    
   </p>
   `,
