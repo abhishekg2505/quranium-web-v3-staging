@@ -69,7 +69,7 @@ export const timelineData: timelineData[] = [
     period: "Q2 2025",
     title: "",
     items: [
-      `<a href="#" target="_blank" style="position:relative;padding-bottom:5px;display:inline-block;">
+      `<a href="https://www.animocabrands.com/" target="_blank" style="position:relative;padding-bottom:5px;display:inline-block;">
       Animoca Brands
       <span style="content:'';position:absolute;left:0;bottom:5px;height:1px;width:100%;background:#ffffff85;"></span>
     </a> invests in Quranium`,
@@ -77,7 +77,7 @@ export const timelineData: timelineData[] = [
       PoS Convergence Layer Testnet
       <span style="content:'';position:absolute;left:0;bottom:5px;height:1px;width:100%;background:#ffffff85;"></span>
     </a>`,
-      `Released <a href="#" target="_blank" style="position:relative;padding-bottom:5px;display:inline-block;">
+      `Released <a href="https://www.linkedin.com/events/theuncrackableconversation-virt7353064349961252867/theater/" target="_blank" style="position:relative;padding-bottom:5px;display:inline-block;">
       The Uncrackable Conversation
       <span style="content:'';position:absolute;left:0;bottom:5px;height:1px;width:100%;background:#ffffff85;"></span>
     </a>
