@@ -19,9 +19,13 @@ const QuraniumJourneyCard: React.FC<CardProps> = ({ event }) => (
       <ul className="mt-2 list-none list-inside">
         {event.items.map((item, i) => (
           <li key={i} className="flex flex-row gap-x-2 justify-start items-start mt-2">
-            <div className="basis-[25px]">
-              <Image src="/images/about/star.png" alt="star" width={25} height={29} />
-            </div>
+            <Image
+              src="/images/about/star.png"
+              alt="star"
+              width={25}
+              height={29}
+              className="w-[25px] h-[29px] flex-shrink-0"
+            />
             <div className="text-p3 font-open-sans font-normal">
               <div dangerouslySetInnerHTML={{ __html: item }} />
             </div>
