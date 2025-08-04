@@ -16,13 +16,12 @@ export default function QuraniumJourney() {
         <h3 className="text-h5 md:text-h3 font-montserrat font-semibold text-center md:mb-[78px] absolute top-0 left-0 w-full">
           Quranium&rsquo;s Uncrackable Journey
         </h3>
-        <div className="absolute right-10 top-1/2 w-[100px] h-[100px] animate-left-right">
-          <p className="text-p3 font-montserrat">Slide right</p>
-          <MoveRight className="d-inline-block" />
+        <div className="absolute z-[11] right-5 top-[47%] w-[100px] h-[100px] animate-left-right">
+          <Image src="/images/about/btn.svg" alt="Right Arrow" width={72} height={72} />
         </div>
 
         {/* Center line */}
-        <div className="absolute left-20 right-0 top-1/2 w-[2000px] h-[1.5px] bg-[linear-gradient(90deg,_rgba(164,127,255,0)_0%,_#A47FFF_10.58%,_#A47FFF_79.33%,_rgba(164,127,255,0)_100%)]" />
+        <div className="absolute z-10 left-20 right-0 top-1/2 w-[2000px] h-[1.5px] bg-[linear-gradient(90deg,_rgba(164,127,255,0)_0%,_#A47FFF_10.58%,_#A47FFF_79.33%,_rgba(164,127,255,0)_100%)]" />
 
         <div className="overflow-x-auto scrollbar-hide relative pt-[125px] pb-24 px-4 pl-4 md:pl-10 ">
           <div className="relative z-10 min-w-max1 max-w-[2000px]">
