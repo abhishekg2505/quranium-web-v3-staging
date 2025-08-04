@@ -12,7 +12,9 @@ const QuraniumJourneyCard: React.FC<CardProps> = ({ event }) => (
     className={`bg-card-border p-[1px] rounded-[20px] ${event.row === "above" ? "mb-3" : "mt-3"}`}
   >
     <div
-      className={`bg-[#0D0419] hover:bg-[url(/images/about/mesh.png)] bg-contain bg-no-repeat bg-right-bottom w-[400px] rounded-[20px] px-6 py-4`}
+      className={` ${
+        event.planned ? "bg-[#0E002A]" : "bg-[#0D0419]"
+      } hover:bg-[url(/images/about/mesh.png)] bg-contain bg-no-repeat bg-right-bottom w-[400px] rounded-[20px] px-6 py-4`}
     >
       <ul className="mt-2 list-none list-inside">
         {event.items.map((item, i) => (
