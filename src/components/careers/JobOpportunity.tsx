@@ -6,16 +6,12 @@ import { Button } from "../ui/button";
 
 const anchorCards = [
   {
-    title: "AI LLM Specialist",
-    link: "https://www.careers-page.com/quranium/job/L55V45Y3",
+    title: "UI/UX Designer",
+    link: "https://www.careers-page.com/quranium/job/RY669V76",
   },
   {
-    title: "Full Stack Developer",
-    link: "https://www.careers-page.com/quranium/job/L55VY795",
-  },
-  {
-    title: "Technical Writer - Blockchain & Developer Docs",
-    link: "https://www.careers-page.com/quranium/job/L9YR5WWY",
+    title: "Web3 Marketing Manager",
+    link: "https://www.careers-page.com/quranium/job/L677VX3W",
   },
 ];
 
