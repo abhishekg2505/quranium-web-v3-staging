@@ -12,7 +12,7 @@ export default function QuraniumJourney() {
     <>
       <div className="h-[105px]"></div>
       <div className="w-full overflow-x-auto scrollbar-hide pt-24 pb-24 px-4 md:pl-10 relative">
-        <h3 className="text-h3 font-montserrat font-semibold text-center mb-[78px] absolute top-0 left-0 w-full">
+        <h3 className="text-h4 md:text-h3 font-montserrat font-semibold text-center mb-[78px] absolute top-0 left-0 w-full">
           Quranium&rsquo;s Uncrackable Journey
         </h3>
         {/* Center line */}
