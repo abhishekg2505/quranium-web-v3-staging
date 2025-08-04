@@ -33,12 +33,7 @@ export const timelineData: timelineData[] = [
       "Grew community to <span class='font-bold'>50k+</span>",
       "Established our Headquarters in Switzerland",
       `<p class="font-semibold">
-    Quantum-secure 
-    <a href="#" target="_blank" style="position:relative;padding-bottom:5px;display:inline-block;">
-      PoW Testnet
-      <span style="content:'';position:absolute;left:0;bottom:5px;height:1px;width:100%;background:#ffffff85;"></span>
-    </a>
-    
+    Quantum-secure PoW Testnet    
   </p>
   `,
       "R&D of quantum safe wallet (Qsafe)",
@@ -50,12 +45,8 @@ export const timelineData: timelineData[] = [
     period: "Q1 2025",
     title: "",
     items: [
-      `<span class="font-semibold">Quantum-secure</span>
-      <a href="#" target="_blank" style="position:relative;padding-bottom:5px;display:inline-block;">
-      PoW Mainnet live
-      <span style="content:'';position:absolute;left:0;bottom:5px;height:1px;width:100%;background:#ffffff85;"></span>
-    </a>`,
-      `<span class="font-semibold">Global Roadshow</span> announced
+      `<span class="font-semibold inline-block mb-1">Quantum-secure</span> PoW Mainnet live`,
+      `<span class="font-semibold inline-block mb-1">Global Roadshow</span> announced
       <div class="flex flex-row  justify-start items-center gap-x-2 gap-y-2">
       <div class="flex flex-row  justify-start items-center mt-[13px] text-p4 gap-x-2 px-2  bg-[#C3C3C31A] rounded-[5px] w-fit" style="padding-left: 5px; padding-right: 10px;"><span class="flex-none w-[28px] h-[28px]"><image src="/images/about/global.png" alt="Global" width="18" height="18"> </span><span class="basis-[80%]">30+ Countries</span></div>
       <div class="flex flex-row  justify-start items-center mt-[13px] text-p4 gap-x-2 px-2 bg-[#C3C3C31A] rounded-[5px] w-fit" style="padding-left: 5px; padding-right: 10px;"><span class="flex-none w-[28px] h-[28px]"><image src="/images/about/flag.png" alt="Flag" width="18" height="18"> </span><span class="basis-[80%]">300+ Events</span></div>
@@ -73,7 +64,7 @@ export const timelineData: timelineData[] = [
       Animoca Brands
       <span style="content:'';position:absolute;left:0;bottom:5px;height:1px;width:100%;background:#ffffff85;"></span>
     </a> invests in Quranium`,
-      `Launched <a href="#" target="_blank" style="position:relative;padding-bottom:5px;display:inline-block;">
+      `Launched <a href="https://testnet.qrnscan.com/" target="_blank" style="position:relative;padding-bottom:5px;display:inline-block;">
       PoS Convergence Layer Testnet
       <span style="content:'';position:absolute;left:0;bottom:5px;height:1px;width:100%;background:#ffffff85;"></span>
     </a>`,
