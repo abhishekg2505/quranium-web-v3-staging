@@ -86,7 +86,7 @@ export const timelineData: timelineData[] = [
       QSafe Wallet
       <span style="content:'';position:absolute;left:0;bottom:5px;height:1px;width:100%;background:#ffffff85;"></span>
     </a>`,
-      `Launched <a href="#" target="_blank" style="position:relative;padding-bottom:5px;display:inline-block;">
+      `Launched <a href="https://www.qremix.org/" target="_blank" style="position:relative;padding-bottom:5px;display:inline-block;">
       QRemix AI Builder
       <span style="content:'';position:absolute;left:0;bottom:5px;height:1px;width:100%;background:#ffffff85;"></span>
     </a>`,

@@ -22,7 +22,7 @@ const QuraniumJourneyCard: React.FC<CardProps> = ({ event }) => (
             <div className="basis-[25px]">
               <Image src="/images/about/star.png" alt="star" width={25} height={29} />
             </div>
-            <div className="text-p2 font-open-sans font-normal">
+            <div className="text-p3 font-open-sans font-normal">
               <div dangerouslySetInnerHTML={{ __html: item }} />
             </div>
           </li>
@@ -38,7 +38,7 @@ const QuraniumJourneyCard: React.FC<CardProps> = ({ event }) => (
         )}
         {event.planned && (
           <div className="flex flex-row items-center text-p4 font-open-sans px-3 rounded-[5px] py-1 text-[#ffffff] bg-[#601DFF] font-semibold">
-            Planned
+            <Image src="/images/about/flag.png" alt="Flag" width={18} height={18} /> Planned
           </div>
         )}
       </div>
