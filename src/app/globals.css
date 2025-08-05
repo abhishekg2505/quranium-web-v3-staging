@@ -158,7 +158,6 @@ button:hover svg {
   display: flex;
 }
 
-/* styles/globals.css or app/globals.css */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
