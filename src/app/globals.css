@@ -135,6 +135,9 @@ button:hover svg {
 }
 
 /* global.css or inside a <style jsx global> */
+.hero-title .word {
+  overflow: visible;
+}
 .word {
   position: relative;
   display: inline-block;

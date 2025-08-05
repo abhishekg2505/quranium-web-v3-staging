@@ -106,7 +106,7 @@ export default function HeroSection() {
               {/* Left Text Section */}
               <div>
                 <h1 className="text-h4 md:text-h2 font-montserrat font-bold hero-title">
-                  The World’s First <br /> Convergence Layer
+                  The World&rsquo;s First <br /> Convergence Layer
                 </h1>
                 <div className="hidden sm:flex gap-4 mt-5 sm-hero-button">
                   <Link href="/contact-us">

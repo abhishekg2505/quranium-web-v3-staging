@@ -9,7 +9,7 @@ interface CardProps {
 
 const QuraniumJourneyCard: React.FC<CardProps> = ({ event }) => (
   <div
-    className={`bg-card-border p-[1px] rounded-[20px] ${event.row === "above" ? "mb-3" : "mt-3"}`}
+    className={`bg-card-border p-[1px] rounded-[20px] ${event.row === "above" ? "mb-2.5" : "mt-1"}`}
   >
     <div
       className={` ${
@@ -22,9 +22,9 @@ const QuraniumJourneyCard: React.FC<CardProps> = ({ event }) => (
             <Image
               src="/images/about/star.png"
               alt="star"
-              width={25}
-              height={29}
-              className="w-[25px] h-[29px] flex-shrink-0"
+              width={20}
+              height={24}
+              className="w-[20px] h-[24px] flex-shrink-0"
             />
             <div className="text-p3 font-open-sans font-normal">
               <div dangerouslySetInnerHTML={{ __html: item }} />

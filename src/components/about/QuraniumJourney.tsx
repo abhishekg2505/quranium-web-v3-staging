@@ -55,7 +55,7 @@ export default function QuraniumJourney() {
         {!atStart || !atEnd ? (
           <div
             onClick={handleArrowClick}
-            className={`absolute z-[11] top-[47%] w-[100px] h-[100px] transition-all duration-500 ${
+            className={`absolute z-[11] top-[48%] md:top-[47%] w-[100px] h-[100px] transition-all duration-500 ${
               atEnd ? "left-5" : "right-5"
             } cursor-pointer animate-left-right`}
           >
@@ -64,7 +64,7 @@ export default function QuraniumJourney() {
               alt="Arrow"
               width={72}
               height={72}
-              className={`${atEnd ? "rotate-180" : ""}`}
+              className={`w-[42px] h-[42px] md:w-[72px] md:h-[72px] ${atEnd ? "rotate-180" : ""}`}
             />
           </div>
         ) : null}
