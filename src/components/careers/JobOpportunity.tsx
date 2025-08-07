@@ -13,6 +13,10 @@ const anchorCards = [
     title: "Web3 Marketing Manager",
     link: "https://www.careers-page.com/quranium/job/L677VX3W",
   },
+  {
+    title: "DevOps Engineer",
+    link: "https://www.careers-page.com/quranium/job/5WVWW87R",
+  },
 ];
 
 const JobOpportunity = () => {

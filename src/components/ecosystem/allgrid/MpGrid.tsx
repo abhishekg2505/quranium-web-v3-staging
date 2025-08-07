@@ -13,7 +13,7 @@ const MpGrid = () => {
               <Image
                 src={logo.src}
                 alt={logo.alt}
-                className="h-auto w-auto object-fill"
+                className="h-full w-full object-contain"
                 width={224}
                 height={50}
                 priority
@@ -27,11 +27,15 @@ const MpGrid = () => {
                 key={idx}
                 className="flex justify-center items-center"
               >
-                {imageElement}
+                <div className="h-[60px] w-full flex items-center justify-center">
+                  {imageElement}
+                </div>
               </Link>
             ) : (
               <div key={idx} className="flex justify-center items-center">
-                {imageElement}
+                <div className="h-[60px] w-full flex items-center justify-center">
+                  {imageElement}
+                </div>
               </div>
             );
           })}
