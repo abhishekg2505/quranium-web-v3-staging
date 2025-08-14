@@ -32,6 +32,7 @@ export default function HeroSection() {
       bg-[linear-gradient(0deg,#3E0D7A_0%,rgba(22,12,40,0)_100%)]
       bg-[length:200%_200%]
       bg-[position:50%_0%]
+      bg-gradient-safari
       animate-gradient-y
     "
       />

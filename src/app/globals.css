@@ -168,3 +168,8 @@ button:hover svg {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+.bg-gradient-safari {
+  background: linear-gradient(to top, #3E0D7A 0%, rgba(22, 12, 40, 0) 100%);
+  background-size: 200% 200%;
+  background-position: 50% 0%;
+}
