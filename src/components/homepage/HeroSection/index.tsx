@@ -25,21 +25,29 @@ export default function HeroSection() {
   return (
     // <section className="relative w-full h-screen">
     <section ref={containerRef} className="relative w-full">
-      <div className="absolute inset-0 bg-black z-20 hero-overlay" />
-
+      {/* <div className="absolute inset-0 bg-black z-20 hero-overlay" /> */}
+      <div
+        className="
+      absolute inset-0
+      bg-[linear-gradient(0deg,#3E0D7A_0%,rgba(22,12,40,0)_100%)]
+      bg-[length:200%_200%]
+      bg-[position:50%_0%]
+      animate-gradient-y
+    "
+      />
       <div className=" relative min-h-[89vh] md:min-h-[100dvh] w-full overflow-hidden">
         {/* Background video */}
-        {/* <video
+        <video
           autoPlay
           muted
           loop
           playsInline
           className="hidden sm:block absolute inset-0 w-full h-full object-cover z-0"
         >
-          <source src="/videos/homepage/home-hero-banner.mp4" type="video/mp4" />
+          <source src="/videos/homepage/convergence_element_transperent.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
-        <video
+        {/*<video
           autoPlay
           muted
           loop
@@ -49,13 +57,13 @@ export default function HeroSection() {
           <source src="/videos/homepage/home-hero-mobile.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
-        <div className="hidden sm:block absolute inset-0 w-full h-full z-0">
+        {/* <div className="hidden sm:block absolute inset-0 w-full h-full z-0">
           <iframe
             src="https://my.spline.design/heroicanimationwebsitefilechangedaniamtion-kOrpiG9mfKpIeZ5TneoG9LRy/"
             width="100%"
             height="100%"
           ></iframe>
-        </div>
+        </div> */}
         {/* <div className="block sm:hidden absolute inset-0 w-full h-full z-0">
           <iframe
             src="https://my.spline.design/heroicanimationwebsitefilemobilever-p44JR9ATT8kicWBhdAiVVsZa/"

@@ -113,6 +113,10 @@ const config: Config = {
         p5: ["12px", { lineHeight: "150%", letterSpacing: "0em" }],
       },
       keyframes: {
+        "gradient-y": {
+          "0%, 100%": { backgroundPosition: "50% 0%" },
+          "50%": { backgroundPosition: "50% 100%" },
+        },
         "left-right": {
           "0%, 100%": { transform: "translateX(0)" },
           "50%": { transform: "translateX(-10px)" },
@@ -170,6 +174,7 @@ const config: Config = {
         },
       },
       animation: {
+        "gradient-y": "gradient-y 8s ease-in-out infinite",
         "left-right": "left-right 5s ease-in-out infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
