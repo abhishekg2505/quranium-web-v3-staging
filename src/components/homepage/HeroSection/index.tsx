@@ -26,14 +26,18 @@ export default function HeroSection() {
     // <section className="relative w-full h-screen">
     <section ref={containerRef} className="relative w-full">
       {/* <div className="absolute inset-0 bg-black z-20 hero-overlay" /> */}
+
       <div
         className="
-      absolute inset-0
-      bg-[linear-gradient(0deg,#3E0D7A_0%,rgba(22,12,40,0)_100%)]
-      bg-[length:200%_200%]
-      bg-[position:50%_0%]
-      bg-gradient-safari
+      pointer-events-none absolute inset-0 z-0
+      bg-gradient-to-t from-[#3E0D7A] to-transparent
+      bg-no-repeat
+      [background-size:200%_200%]
+      [background-position:50%_0%]
       animate-gradient-y
+      will-change-[background-position]
+      [transform:translateZ(0)]
+      backface-hidden
     "
       />
       <div className=" relative min-h-[89vh] md:min-h-[100dvh] w-full overflow-hidden">
