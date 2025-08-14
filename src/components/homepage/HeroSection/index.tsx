@@ -43,7 +43,7 @@ export default function HeroSection() {
           muted
           loop
           playsInline
-          className="hidden sm:block absolute inset-0 w-full h-full object-cover z-0"
+          className="hidden1 sm:block1 absolute inset-0 w-full h-full object-cover z-0"
         >
           <source src="/videos/homepage/convergence_element_transperent.webm" type="video/webm" />
           Your browser does not support the video tag.
@@ -73,7 +73,7 @@ export default function HeroSection() {
             className="w-full"
           ></iframe>
         </div> */}
-        <div className="block sm:hidden absolute inset-0 z-0 overflow-hidden">
+        {/* <div className="block sm:hidden absolute inset-0 z-0 overflow-hidden">
           <div className="relative w-[450px] h-full left-1/2 -translate-x-1/2">
             <iframe
               src="https://my.spline.design/heroicanimationwebsitefilemobilever-p44JR9ATT8kicWBhdAiVVsZa/"
@@ -82,7 +82,7 @@ export default function HeroSection() {
               className="pointer-events-none w-[450px] h-full"
             ></iframe>
           </div>
-        </div>
+        </div> */}
 
         {/* <video
           autoPlay
