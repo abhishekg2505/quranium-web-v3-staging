@@ -25,9 +25,9 @@ export default function HeroSection() {
   return (
     // <section className="relative w-full h-screen">
     <section ref={containerRef} className="relative w-full">
-      {/* <div className="absolute inset-0 bg-black z-20 hero-overlay" /> */}
+      <div className="absolute inset-0 bg-black z-20 hero-overlay" />
 
-      <div
+      {/* <div
         className="
       pointer-events-none absolute inset-0 z-0
       bg-[#0c0318]
@@ -40,7 +40,7 @@ export default function HeroSection() {
       [transform:translateZ(0)]
       backface-hidden
     "
-      />
+      /> */}
       <div className=" relative min-h-[89vh] md:min-h-[100dvh] w-full overflow-hidden">
         {/* Background video */}
         <video
