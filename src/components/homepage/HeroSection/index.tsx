@@ -30,7 +30,7 @@ export default function HeroSection() {
       <div
         className="
       pointer-events-none absolute inset-0 z-0
-      bg-gradient-to-t from-[#3E0D7A] to-transparent
+      bg-gradient-to-t from-[#0c0318] to-transparent
       bg-no-repeat
       [background-size:200%_200%]
       [background-position:50%_0%]
