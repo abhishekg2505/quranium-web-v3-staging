@@ -35,7 +35,7 @@ export default function HeroSection() {
           playsInline
           className="hidden1 sm:block1 absolute inset-0 w-full h-full object-cover z-0"
         >
-          <source src="/videos/homepage/convergence_element_transperent.webm" type="video/webm" />
+          <source src="/videos/homepage/Comp_1.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
 
