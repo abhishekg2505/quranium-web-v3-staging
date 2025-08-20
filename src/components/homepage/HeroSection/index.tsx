@@ -5,6 +5,13 @@ import gsap from "gsap";
 
 export default function HeroSection() {
   const containerRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 1.5; // 25% faster
+    }
+  }, []);
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.to(".hero-overlay", {
@@ -29,6 +36,7 @@ export default function HeroSection() {
       <div className=" relative min-h-[89vh] md:min-h-[100dvh] w-full overflow-hidden">
         {/* Background video */}
         <video
+          ref={videoRef}
           autoPlay
           muted
           loop
