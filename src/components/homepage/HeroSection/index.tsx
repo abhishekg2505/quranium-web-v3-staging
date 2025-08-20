@@ -35,14 +35,14 @@ export default function HeroSection() {
           playsInline
           className="hidden1 sm:block1 absolute inset-0 w-full h-full object-cover z-0"
         >
-          <source src="/videos/homepage/Comp_1.webm" type="video/webm" />
+          <source src="/videos/homepage/new.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
 
         <div className="absolute left-1/2 -translate-x-1/2 w-max bottom-10 md:bottom-10 2xl:bottom-20 z-20">
           <HeroConvergence />
         </div>
-        <div className="absolute inset-0 w-full h-full bg-team-gradient z-10"></div>
+        <div className="absolute inset-0 w-full h-full bg-globe-gradient -z-[1]"></div>
       </div>
     </section>
   );
