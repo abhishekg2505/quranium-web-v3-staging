@@ -43,7 +43,7 @@ export default function HeroSection() {
           playsInline
           className="hidden1 sm:block1 absolute inset-0 w-full h-full object-cover z-0"
         >
-          <source src="/videos/homepage/new.webm" type="video/webm" />
+          <source src="/videos/homepage/new21.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
 
