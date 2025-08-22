@@ -103,20 +103,20 @@ const UpcomingEpisodes = () => {
         </div> */}
         <div className="relative mt-5 p-10 px-4 md:px-10 rounded-[20px] container mx-auto bg-[url('/images/uncrackable-conversation/Uncralable1.webp')] bg-cover bg-center md:bg-right">
           <div className="relative z-10 mx-auto text-center">
-            <Link
+            {/* <Link
               href="https://www.linkedin.com/events/theuncrackableconversation-virt7327585256180469760/theater/"
               target="_blank"
-            >
-              <h4 ref={heading2Ref} className="text-white text-h5 md:text-h4 font-semibold">
-                25 July, 12noon UTC, The Uncrackable Conversation, Episode #3.
-              </h4>
+            > */}
+            <h4 ref={heading2Ref} className="text-white text-h5 md:text-h4 font-semibold">
+              5 September 2025, 12noon UTC, The Uncrackable Conversation, Episode #4.
+            </h4>
 
-              <div className="pt-5">
-                <p ref={para2Ref} className="text-h6 font-open-sans">
-                  Theme & speakers to be announced soon.
-                </p>
-              </div>
-            </Link>
+            <div className="pt-5">
+              <p ref={para2Ref} className="text-h6 font-open-sans">
+                Theme & speakers to be announced soon.
+              </p>
+            </div>
+            {/* </Link> */}
           </div>
         </div>
       </div>
