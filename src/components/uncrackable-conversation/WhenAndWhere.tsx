@@ -107,7 +107,7 @@ const WhenAndWhere = () => {
                       />
                     </Link>
                     <Link
-                      href="https://www.linkedin.com/events/theuncrackableconversation-virt7327580808024612864/theater/"
+                      href="https://www.linkedin.com/events/theuncrackableconversation-virt7366009191754272768/theater/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
