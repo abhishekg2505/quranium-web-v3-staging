@@ -195,7 +195,7 @@ const SwagStore: React.FC = () => {
                     cardsRef.current[index] = el;
                   }}
                   key={index}
-                  className="group perspective"
+                  className="group perspective "
                 >
                   <Link
                     href={product.url}
@@ -211,7 +211,7 @@ const SwagStore: React.FC = () => {
                         className="transition-transform duration-500 ease-in-out hover:scale-110"
                       />
                     </div>
-                    <div className="flex flex-col gap-[12px] p-5">
+                    <div className="bg-[#100A29] flex flex-col gap-[12px] p-5 rounded-[0px_0px_20px_20px]">
                       <h6 className="text-h6 font-montserrat font-medium">{product.title}</h6>
                       <div className="h-full w-full flex flex-row justify-between items-center text-left transition-colors duration-300 ease-in-out">
                         <h6 className="text-h6 font-montserrat font-medium">{product.price}</h6>
