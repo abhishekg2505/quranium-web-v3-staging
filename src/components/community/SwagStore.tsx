@@ -239,7 +239,7 @@ const SwagStore: React.FC = () => {
           <div className="flex justify-center gap-6 mt-6 md:mt-0 md:block">
             {/* Left Arrow */}
             <div
-              className={`group flex align-middle justify-center swiper-prev absolute left-0 top-1/2 md:transform md:-translate-y-1/2 z-10 bg-background border border-[#999999]  w-10 h-10 rounded-full cursor-pointer ${
+              className={`group flex items-center justify-center swiper-prev absolute left-0 top-1/2 md:transform md:-translate-y-1/2 z-10 bg-background border border-[#999999]  w-10 h-10 rounded-full cursor-pointer ${
                 isBeginning ? "opacity-50 pointer-events-none" : "opacity-100"
               }`}
             >
@@ -254,7 +254,7 @@ const SwagStore: React.FC = () => {
 
             {/* Right Arrow */}
             <div
-              className={`group flex align-middle justify-center swiper-next absolute right-0 top-1/2 md:transform md:-translate-y-1/2 z-10 bg-background border border-[#999999] w-10 h-10 rounded-full cursor-pointer ${
+              className={`group flex items-center justify-center swiper-next absolute right-0 top-1/2 md:transform md:-translate-y-1/2 z-10 bg-background border border-[#999999] w-10 h-10 rounded-full cursor-pointer ${
                 isEnd ? "opacity-50 pointer-events-none" : "opacity-100"
               }`}
             >
