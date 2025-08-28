@@ -9,6 +9,7 @@ import PromoteQuranium from "@/src/components/community/PromoteQuranium";
 import HowToJoin from "@/src/components/community/HowToJoin";
 import WhatIsQrnRush from "@/src/components/community/WhatIsQrnRush";
 import Qwarriors from "@/src/components/community/Qwarriors";
+import SwagStore from "@/src/components/community/SwagStore";
 
 export const metadata = {
   title: {
@@ -45,6 +46,7 @@ export default function Ecosystem() {
     <main className="flex min-h-screen flex-col bg-background">
       <HeroSection />
       <AnchorCards />
+      <SwagStore />
       <QrnRush />
       <WhatIsQrnRush />
       <AmbassadorProgram />

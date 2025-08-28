@@ -18,7 +18,7 @@ const cards = [
     link: "http://docs.qsafewallet.com/",
   },
   {
-    title: "QRemix",
+    title: "QRemix AI",
     link: "http://docs.qremix.org",
   },
   {

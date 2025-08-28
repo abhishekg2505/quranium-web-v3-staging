@@ -1,6 +1,7 @@
 import {
   benzinga,
   binance,
+  bit2me,
   bitcourier,
   business,
   cnbc,
@@ -32,6 +33,11 @@ export const newsLogos = [
     src: binance,
     alt: "BINANCE",
     href: "https://www.binance.com/en/square/post/14853969824953",
+  },
+  {
+    src: bit2me,
+    alt: "BIT2ME",
+    href: "https://news.bit2me.com/en/quranium-quantum-network-cryptocurrency-smarts-contracts",
   },
   {
     src: bitcourier,
