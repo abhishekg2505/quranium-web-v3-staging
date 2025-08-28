@@ -124,8 +124,8 @@ const SwagStore: React.FC = () => {
       id="swag-store"
       className="scroll-mt-24 pt-16 pb-[120px] container mx-auto px-4 md:px-20 bg-background overflow-hidden"
     >
-      <div className="space-y-12">
-        <div className="grid md:grid-cols-[60%_40%] gap-6 md:gap-0 items-start pb-[60px]">
+      <div className="space-y-0 md:space-y-12">
+        <div className="grid md:grid-cols-[60%_40%] gap-6 md:gap-0 items-start pb-[0px] md:pb-[60px]">
           <div>
             <h2 className="text-h4 md:text-h3 font-montserrat font-semibold">
               Presenting Quranium Swag Store
@@ -268,7 +268,7 @@ const SwagStore: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="text-center block md:hidden mt-10">
+        <div className="text-center block md:hidden mt-0">
           <Link href="https://kashish59.wixstudio.com/swagstore" target="_blank">
             <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
               <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
