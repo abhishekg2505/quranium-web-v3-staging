@@ -186,7 +186,7 @@ const SwagStore: React.FC = () => {
                 slidesPerView: 4,
               },
             }}
-            className="my-linear-swiper overflow-hidden1 flex mt-10 "
+            className="my-linear-swiper overflow-visible flex mt-10 "
           >
             {products.map((product, index) => (
               <SwiperSlide key={index}>
