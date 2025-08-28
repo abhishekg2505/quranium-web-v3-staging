@@ -122,7 +122,7 @@ const SwagStore: React.FC = () => {
   return (
     <section
       id="swag-store"
-      className="scroll-mt-24 pt-16 pb-[120px] container mx-auto px-4 md:px-20 bg-background"
+      className="scroll-mt-24 pt-16 pb-[120px] container mx-auto px-4 md:px-20 bg-background overflow-hidden"
     >
       <div className="space-y-12">
         <div className="grid md:grid-cols-[60%_40%] gap-6 md:gap-0 items-start pb-[60px]">
