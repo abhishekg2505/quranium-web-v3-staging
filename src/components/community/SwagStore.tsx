@@ -17,6 +17,18 @@ interface ProductProps {
 
 const products: ProductProps[] = [
   {
+    title: "Be Uncrackable Cap (Black Red)",
+    price: "$25.00",
+    url: "https://kashish59.wixstudio.com/swagstore/product-page/be-uncrackable-cap-black-red",
+    imageurl: "/images/community/merch/be-uncrackable-cap-black-red.webp",
+  },
+  {
+    title: "Be Uncrackable Hoodie (Black Red)",
+    price: "$30.00",
+    url: "https://kashish59.wixstudio.com/swagstore/product-page/be-uncrackable-hoodie-black-red",
+    imageurl: "/images/community/merch/be-uncrackable-hoodie-black-red.webp",
+  },
+  {
     title: "Build on Quranium Cap (Black)",
     price: "$25.00",
     url: "https://kashish59.wixstudio.com/swagstore/product-page/be-uncrackable-cap",
@@ -25,7 +37,7 @@ const products: ProductProps[] = [
   {
     title: "Build on Quranium Cap (white)",
     price: "$25.00",
-    url: "https://kashish59.wixstudio.com/swagstore/product-page/be-uncrackable-cap-white-red",
+    url: "https://kashish59.wixstudio.com/swagstore/product-page/build-on-quranium-cap-white",
     imageurl: "/images/community/merch/build-on-quranium-cap-white.webp",
   },
   {
