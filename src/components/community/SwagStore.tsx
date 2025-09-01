@@ -29,6 +29,24 @@ const products: ProductProps[] = [
     imageurl: "/images/community/merch/be-uncrackable-hoodie-black-red.webp",
   },
   {
+    title: "Be Uncrackable Tshirt (Black Red)",
+    price: "$20.00",
+    url: "https://kashish59.wixstudio.com/swagstore/product-page/be-uncrackable-tshirt-black-red",
+    imageurl: "/images/community/merch/be-uncrackable-tshirt-black-red.webp",
+  },
+  {
+    title: "Build on Quranium Tshirt (Black)",
+    price: "$20.00",
+    url: "https://kashish59.wixstudio.com/swagstore/product-page/build-on-quranium-tshirt",
+    imageurl: "/images/community/merch/build-on-quranium-tshirt-black.webp",
+  },
+  {
+    title: "Build on Quranium Tshirt (White)",
+    price: "$20.00",
+    url: "https://kashish59.wixstudio.com/swagstore/product-page/build-on-quranium-tshirt-white",
+    imageurl: "/images/community/merch/build-on-quranium-tshirt-white.webp",
+  },
+  {
     title: "Build on Quranium Cap (Black)",
     price: "$25.00",
     url: "https://kashish59.wixstudio.com/swagstore/product-page/be-uncrackable-cap",
@@ -52,18 +70,7 @@ const products: ProductProps[] = [
     url: "https://kashish59.wixstudio.com/swagstore/product-page/captainq-hoodie-white",
     imageurl: "/images/community/merch/captainq-hoodie-white.webp",
   },
-  {
-    title: "Build on Quranium Tshirt (Black)",
-    price: "$20.00",
-    url: "https://kashish59.wixstudio.com/swagstore/product-page/build-on-quranium-tshirt",
-    imageurl: "/images/community/merch/build-on-quranium-tshirt-black.webp",
-  },
-  {
-    title: "Build on Quranium Tshirt (White)",
-    price: "$20.00",
-    url: "https://kashish59.wixstudio.com/swagstore/product-page/build-on-quranium-tshirt-white",
-    imageurl: "/images/community/merch/build-on-quranium-tshirt-white.webp",
-  },
+
   {
     title: "CaptainQ Tshirt (Black)",
     price: "$20.00",
