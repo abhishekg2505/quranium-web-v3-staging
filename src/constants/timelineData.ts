@@ -95,7 +95,7 @@ export const timelineData: timelineData[] = [
       "Grant Program Launch",
       "Launchpad Public Sales",
       "TGE & Exchange Listings",
-      "Q-DEX Mainnet and staking",
+      "QxSwap Mainnet and staking",
       "100+ AI Games Market Launch",
       "QSafe Wallet Staking Integration",
       "Mainnet Launch of Quranium Layer 1",
