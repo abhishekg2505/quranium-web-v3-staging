@@ -10,6 +10,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import EpisodeOne from "./episodes/EpisodeOne";
 import EpisodeTwo from "./episodes/EpisodeTwo";
 import EpisodeThree from "./episodes/EpisodeThree";
+import EpisodeFour from "./episodes/EpisodeFour";
 gsap.registerPlugin(ScrollTrigger);
 const FirstUncrackableConversation: React.FC = () => {
   const sectionRef = useRef(null);
@@ -105,6 +106,7 @@ const FirstUncrackableConversation: React.FC = () => {
             The Uncrackable Conversations
           </h2>
         </div>
+        <EpisodeFour />
         <EpisodeThree />
         <EpisodeTwo />
         <EpisodeOne />

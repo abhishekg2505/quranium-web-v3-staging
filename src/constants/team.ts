@@ -73,17 +73,36 @@ export const advisors = [
       "James guides tech startups, supporting the UAE’s rise as a global Web3 and AI hub.",
     ],
   },
-  // {
-  //   name: "Francis Gurry",
-  //   designation: "Former Director General, World Intellectual Property Organization",
-  //   twitter: "https://x.com/Interna55021012",
-  //   linkedin: "https://www.linkedin.com/in/francis-gurry-9bb75a/",
-  //   img: "/images/about/team/francis.webp",
-  //   description: [
-  //     "Francis is an internationally renowned Intellectual Property expert and Advisor at Quranium.",
-  //     "He served as the Director General of the World Intellectual Property Organization (WIPO) from 2008 to 2020, bringing extensive knowledge of IP and innovation to the company.",
-  //   ],
-  // },
+  {
+    name: "Francis Gurry",
+    designation: "Former Director General of WIPO",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/francis-gurry-9bb75a/?originalSubdomain=ch",
+    img: "/images/about/team/francis.webp",
+    description: [
+      "Francis Gurry, former Director General of WIPO, is a renowned IP law expert. An Australian lawyer with a PhD from Cambridge, he modernized global patent and copyright systems, and authored Gurry on Breach of Confidence, a leading UK legal text.",
+    ],
+  },
+  {
+    name: "David Chaum",
+    designation: "Founder of the xx network",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/david-chaum-3b219b183/",
+    img: "/images/about/team/david.webp",
+    description: [
+      "David Chaum	David Chaum, founder of the xx network, is the inventor of digital cash and a pioneer in cryptography. With a PhD from UC Berkeley, he created eCash, authored the first blockchain proposal, and developed privacy-preserving technologies that shaped modern cryptography and digital currency. His groundbreaking ideas laid much of the conceptual groundwork that would later influence the creation of Bitcoin and beyond.",
+    ],
+  },
+  {
+    name: "Antonia Martina Durisch",
+    designation: "President of the International Federation for Economic Development",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/antonia-martina-durisch/?originalSubdomain=ch",
+    img: "/images/about/team/antonio.webp",
+    description: [
+      "Antonia Martina Durisch, President of the International Federation for Economic Development, is a global leader in politics, fintech, and sustainability. A WEF Global Shaper and former WBAF Senator, she champions AI, Web3, and equality, driving initiatives from empowering women entrepreneurs to shaping international economic policy.",
+    ],
+  },
   // {
   //   name: "Robin Joffe",
   //   designation: "Partner, Managing Director,Middle East, Africa and South Asia - Frost & Sullivan",
@@ -236,6 +255,16 @@ export const executives = [
     img: "/images/about/team/maz-zaman.webp",
     description: [
       "Maz is a serial entrepreneur and growth architect with a specialized focus on scaling blockchain and Web3 ventures through data-driven strategies. His expertise spans tokenomics design, decentralized ecosystem development, and go-to-market execution for transformative technologies. He has worked with forward-thinking companies such as HyperScaled Ventures and Loop Protocol.",
+    ],
+  },
+  {
+    name: "Roman Melnikov",
+    designation: "Chief Architect",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/romanmelnikov/",
+    img: "/images/about/team/roman.webp",
+    description: [
+      "Chief Architect at Quranium, Roman has 20+ years in decentralized systems, L1/L2 protocol design, and advanced ZK/MPC/FHE applications, delivering secure, scalable solutions from DAG-based consensus to multi-chain privacy infrastructure.",
     ],
   },
 ];

@@ -153,3 +153,12 @@ export const tandcMetaData = {
   url: "https://quranium.org/terms-and-conditions",
   image: "",
 };
+export const republicAllowlistMetaData = {
+  title: "Republic Allowlist | Register for Quranium’s Republic Allowlist | 2025 Access",
+  language: "",
+  theme: "",
+  description:
+    "Sign up for Quranium’s Republic Allowlist. Non-binding registration gives early access to opportunities in our quantum-secure, AI-native blockchain ecosystem.",
+  url: "https://www.quranium.org/republic-allowlist",
+  image: "",
+};

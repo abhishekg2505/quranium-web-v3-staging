@@ -41,7 +41,7 @@ export default function Technical() {
       <HeroSection />
       <WhenAndWhere />
       <FirstUncrackableConversation />
-      <UpcomingEpisodes />
+      {/* <UpcomingEpisodes /> */}
     </main>
   );
 }
