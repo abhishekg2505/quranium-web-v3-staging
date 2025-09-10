@@ -97,7 +97,7 @@ export default function HeroSection() {
       className="relative w-full bg-[url('/images/contact/contact-banner.webp')] bg-cover bg-right sm:bg-center"
     >
       <div className="absolute inset-0 bg-black z-20 hero-overlay" />
-      <div className="relative pt-36 pb-40 md:pt-60 md:pb-60 w-full">
+      <div className="relative pt-36 pb-40 md:pt-60 md:pb-40 w-full">
         <div className="h-16 absolute inset-0 bg-gradient-to-t from-black/0 via-black/40 to-black/90 z-10" />
         <div className="container mx-auto px-4 md:px-20">
           <div className="max-w-7xl mx-auto">
@@ -105,15 +105,19 @@ export default function HeroSection() {
               {/* Left Text Section */}
               <div className="max-w-2xl">
                 <h1 className="text-h4 md:text-h2 font-montserrat font-bold hero-title">
-                  Register for the Republic Allowlist
+                  Republic Allowlist is closed now.
                 </h1>
               </div>
 
               {/* Right Content Section */}
               <div className="flex flex-col items-start space-y-6">
                 <p className="text-lg font-normal max-w-md hero-subtext">
-                  Share a few details to be considered for the Republic allowlist. This registration
-                  is non-binding and your data is handled per our Privacy Policy.
+                  Registrations are now closed as the public pre-sale of Quranium&rsquo;s $QRN token
+                  goes live on Republic 🚀
+                  <br />
+                  <br />
+                  We&rsquo;re grateful for your support in building a future-proof blockchain and
+                  excited to shape the uncrackable future together.
                 </p>
               </div>
             </div>

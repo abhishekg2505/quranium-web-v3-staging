@@ -37,9 +37,9 @@ export default function Contact() {
   return (
     <main className="flex flex-col bg-background">
       <HeroSection />
-      <Suspense fallback={<div>Loading...</div>}>
+      {/* <Suspense fallback={<div>Loading...</div>}>
         <RepublicAllowlistForm />
-      </Suspense>
+      </Suspense> */}
     </main>
   );
 }

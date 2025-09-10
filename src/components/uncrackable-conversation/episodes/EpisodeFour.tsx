@@ -112,7 +112,7 @@ const EpisodeFour: React.FC = () => {
               <h3 className="text-h6 md:text-h5 font-bold mb-2">
                 Episode 4<br />
                 <span className="font-medium">
-                  Join live on September 5, 2025 | Data Sovereignty Before the Quantum Cliff
+                  Aired live on September 5, 2025 | Data Sovereignty Before the Quantum Cliff
                 </span>
               </h3>
 
@@ -122,8 +122,8 @@ const EpisodeFour: React.FC = () => {
                 className="readmore-section overflow-hidden transition-all duration-700 ease-in-out"
               >
                 <p className="text-p2 font-open-sans text-gray-300">
-                  Every day, the world creates over 400 million terabytes of data and that number is
-                  expected to reach 181 zettabytes.
+                  The live virtual event brought together experts in cybersecurity, finance, and
+                  blockchain, addressing a critical question:
                   {!isExpanded && <>... </>}
                   {!isExpanded && (
                     <button
@@ -135,9 +135,8 @@ const EpisodeFour: React.FC = () => {
                   )}
                   {isExpanded && (
                     <>
-                      &nbsp;But as quantum computing advances, the risk of this data falling into
-                      the wrong hands grows exponentially. Nations, enterprises, and individuals
-                      must act now to secure sovereignty before it&rsquo;s too late.
+                      &nbsp;What happens when today&rsquo;s blockchains face the dual threat of
+                      AI-driven attacks and quantum computing&rsquo;s power to break encryption?
                     </>
                   )}
                 </p>
@@ -149,22 +148,21 @@ const EpisodeFour: React.FC = () => {
                     isExpanded ? "max-h-[2000px] opacity-100 mt-4" : "max-h-0 opacity-0"
                   )}
                 >
-                  <p className="text-p2 text-gray-300">
-                    Join us for The Uncrackable Conversation Episode #4 as we explore how
-                    sovereignty can be protected in a quantum-powered world.
-                  </p>
-                  <p className="text-p2 text-gray-300 mt-5 font-bold">Guests :</p>
+                  <p className="text-p2 text-gray-300 mt-5 font-bold">Key themes covered:</p>
 
                   <ul className="list-disc list-outside ml-4 space-y-2 text-p2 text-gray-300">
-                    <li>Christian Rogan: CTO & Founder at Platinum High Integrity Technologies</li>
-                    <li>Michael Gord: CEO & Founder at GDA Capital</li>
-                    <li>Aaron Astley: Founder at Maya | Entreprenuer and Innovator</li>
+                    <li>
+                      The quantum cliff is approaching fast, making quantum-safe security urgent.
+                    </li>
+                    <li>Digital sovereignty is the new foundation of national security.</li>
+                    <li>
+                      Web3 decentralization offers resilience where centralized systems will fail.
+                    </li>
+                    <li>
+                      Banks and governments face long, complex journeys to achieve quantum-ready
+                      sovereignty.
+                    </li>
                   </ul>
-                  <p className="text-p2 text-gray-300 mt-5 font-bold">Host :</p>
-                  <p className="text-p2 text-gray-300">Kapil Dhiman: CEO & Co-Founder, Quranium</p>
-                  <p className="text-p2 text-gray-300">
-                    Save the date - 5th September, 2025 | 12 Noon UTC | Live on LinkedIn & X
-                  </p>
                 </div>
               </div>
             </div>
