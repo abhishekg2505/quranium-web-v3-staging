@@ -182,10 +182,12 @@ import { navLinks } from "@/src/constants/navLink";
 import React, { useState, useRef, useEffect } from "react";
 import gsap from "gsap";
 import { usePathname } from "next/navigation";
+import NotificationBar from "./NotificationBar";
 
 export default function Header() {
   const [openDropdownIndex, setOpenDropdownIndex] = useState<number | null>(null);
   const hideTimeout = useRef<NodeJS.Timeout | null>(null);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const headerRef = useRef<HTMLDivElement>(null);
   const logoRef = useRef<HTMLDivElement>(null);
@@ -193,14 +195,22 @@ export default function Header() {
   const submenuRefs = useRef<(HTMLDivElement | null)[]>([]);
   const contactRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({ delay: 0.2 });
 
       tl.from(headerRef.current, {
-        y: -30,
-        opacity: 0,
+        // y: -30,
+        //opacity: 0,
         duration: 0.6,
         ease: "power3.out",
       })
@@ -290,7 +300,14 @@ export default function Header() {
   const handleSubMenuClick = () => setOpenDropdownIndex(null);
 
   return (
-    <header ref={headerRef} className="fixed z-[60] top-5 left-0 right-0 tracking-tightest">
+    <header
+      ref={headerRef}
+      className={`fixed z-[60] left-0 right-0 tracking-tightest transition-all duration-300 ${
+        isScrolled ? "top-5" : "top-0"
+      }`}
+    >
+      {/* NotificationBar hide on scroll */}
+      {!isScrolled && <NotificationBar />}
       <div className="relative px-4 md:px-10 lg:px-10 xl:px-20">
         <div className="px-5 xl:px-10 py-2.5 md:py-5 max-w-[1180px] mx-auto flex items-center justify-between rounded-[20px] bg-[rgba(80,80,80,0.10)] border border-[rgba(255,255,255,0.06)] backdrop-blur-[122px]">
           {/* Logo */}
