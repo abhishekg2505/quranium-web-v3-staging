@@ -35,7 +35,7 @@ const MobileMenu = () => {
           side="bottom"
           className="h-[calc(100dvh-82px)] bg-background border-t-0 outline-none focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-transparent w-full !max-w-none"
         >
-          <div className="pt-[60px]">
+          <div className="pt-[100px]">
             <nav>
               {navLinks.map((item, idx) => (
                 <div key={item.itemName} className="mb-4">
