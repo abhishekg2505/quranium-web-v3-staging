@@ -82,7 +82,7 @@ export default function HeroSection() {
       className="relative w-full bg-[url('/images/landl/landl-hero.webp')] bg-cover bg-right sm:bg-center"
     >
       <div className="absolute inset-0 bg-black z-20 hero-overlay" />
-      <div className="relative pt-36 pb-[267px] md:pt-60 md:pb-80 w-full">
+      <div className="relative pt-56 pb-[267px] md:pt-64 md:pb-80 w-full">
         <div className="h-16 absolute inset-0 bg-gradient-to-t from-black/0 via-black/40 to-black/90 z-10" />
         <div className="container mx-auto px-8 md:px-20">
           <div className="w-full text-center md:text-left">

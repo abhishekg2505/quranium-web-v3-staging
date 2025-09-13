@@ -8,7 +8,7 @@ export default function HeroSection() {
     // <section className="relative w-full bg-[url('/images/resources/herosection-bg.png')] bg-cover bg-right sm:bg-center">
     <section className="relative w-full ">
       <div className="absolute inset-0 w-full h-full bg-[url('/images/resources/herosection-bg.png')] bg-cover bg-right sm:bg-center opacity-50" />
-      <div className="relative pt-36 pb-40 md:pt-60 md:pb-60 w-full">
+      <div className="relative pt-56 pb-40 md:pt-64 md:pb-60 w-full">
         <div className="h-16 absolute inset-0 bg-gradient-to-t from-black/0 via-black/40 to-black/90 z-10" />
         <div className="container mx-auto px-4 md:px-20">
           <div className="max-w-7xl mx-auto">
