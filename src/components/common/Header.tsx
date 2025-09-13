@@ -302,18 +302,16 @@ export default function Header() {
   return (
     <header
       ref={headerRef}
-      className={`fixed z-[60] left-0 right-0 tracking-tightest transition-all duration-300 ${
-        isScrolled ? "top-5" : "top-0"
-      }`}
+      className="fixed z-[60] top-0 left-0 right-0 tracking-tightest transition-all duration-300"
     >
       {/* NotificationBar hide on scroll */}
-      {!isScrolled && <NotificationBar />}
+      <NotificationBar />
       <div className="relative px-4 md:px-10 lg:px-10 xl:px-20">
-        <div className="px-5 xl:px-10 py-2.5 md:py-5 max-w-[1180px] mx-auto flex items-center justify-between rounded-[20px] bg-[rgba(80,80,80,0.10)] border border-[rgba(255,255,255,0.06)] backdrop-blur-[122px]">
+        <div className="px-5 xl:px-10 py-2.5 md:py-2.5 max-w-[1180px] mx-auto flex items-center justify-between rounded-[20px] bg-[rgba(80,80,80,0.10)] border border-[rgba(255,255,255,0.06)] backdrop-blur-[122px]">
           {/* Logo */}
           <div ref={logoRef}>
             <Link href="/" className="shrink-0 p-3 block">
-              <Image src="/logo.svg" alt="Quranium Logo" width={124} height={18} priority />
+              <Image src="/logo.svg" alt="Quranium Logo" width={152} height={22} priority />
             </Link>
           </div>
 
