@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 const stats = [
   { value: "50+", label: "Global Team" },
   { value: "3", label: "Global Offices" },
-  { value: "150k+", label: "Global Community" },
+  { value: "200k+", label: "Global Community" },
   { value: "", label: "" },
 ];
 

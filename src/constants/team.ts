@@ -76,7 +76,7 @@ export const advisors = [
   {
     name: "Francis Gurry",
     designation: "Former Director General of WIPO",
-    twitter: "",
+    twitter: "https://x.com/Interna55021012",
     linkedin: "https://www.linkedin.com/in/francis-gurry-9bb75a/?originalSubdomain=ch",
     img: "/images/about/team/francis.webp",
     description: [
@@ -86,7 +86,7 @@ export const advisors = [
   {
     name: "David Chaum",
     designation: "Founder of the xx network",
-    twitter: "",
+    twitter: "https://x.com/chaumdotcom",
     linkedin: "https://www.linkedin.com/in/david-chaum-3b219b183/",
     img: "/images/about/team/david.webp",
     description: [
@@ -96,7 +96,7 @@ export const advisors = [
   {
     name: "Antonia Martina Durisch",
     designation: "President of the International Federation for Economic Development",
-    twitter: "",
+    twitter: "https://x.com/AntoniaDurisch",
     linkedin: "https://www.linkedin.com/in/antonia-martina-durisch/?originalSubdomain=ch",
     img: "/images/about/team/antonio.webp",
     description: [
