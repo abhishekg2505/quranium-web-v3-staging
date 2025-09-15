@@ -100,7 +100,7 @@ export default function PressReleases() {
           {/* Roadshow image and info */}
           <div className="flex-1 rounded-2xl overflow-hidden relative">
             <Image
-              src="/images/common/press-releases/convergence-layer.jpg"
+              src="/images/common/press-releases/republic.webp"
               alt="Convergence Layer"
               width={800}
               height={500}
@@ -111,14 +111,13 @@ export default function PressReleases() {
           {/* Roadshow description */}
           <div className="flex flex-col justify-start items-start flex-1 px-4 pt-10 pb-6">
             <h5 className="text-h6 font-montserrat font-bold text-transparent bg-clip-text bg-date-gradient">
-              28 May, 2025
+              15 Sep, 2025
             </h5>
             <p className="text-h5 mb-4">
-              Quranium Launches the Convergence Layer: The uncrackable testnet converging Quantum,
-              Blockchain and AI
+              Quranium Joins Forces with Republic to Expand Global Investor Access
             </p>
             <Link
-              href="https://quranium-org.medium.com/quranium-launches-the-convergence-layer-the-uncrackable-testnet-converging-quantum-blockchain-and-bbd59cd9a21f"
+              href="https://quranium-org.medium.com/quranium-joins-forces-with-republic-to-expand-global-investor-access-488bf18877db"
               target="_blank"
             >
               <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
