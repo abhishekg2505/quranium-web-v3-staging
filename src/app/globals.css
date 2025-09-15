@@ -173,3 +173,7 @@ button:hover svg {
   background-size: 200% 200%;
   background-position: 50% 0%;
 }
+
+body[data-scroll-locked = "1"] {
+  pointer-events: auto !important;
+}
