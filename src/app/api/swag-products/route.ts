@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
-const SHOPIFY_STORE = "swag-store-by-quranium.myshopify.com";
-const STOREFRONT_API_TOKEN = process.env.SHOPIFY_API_KEY; // keep it safe in .env.local
+const SHOPIFY_STORE = process.env.SHOPIFY_BASE_URL;
+const STOREFRONT_API_TOKEN = process.env.SHOPIFY_STOREFRONT_API_TOKEN; // keep it safe in .env.local
 
 export async function GET() {
   try {
@@ -38,7 +38,7 @@ export async function GET() {
       }
     `;
 
-    const response = await fetch(`https://${SHOPIFY_STORE}/api/2025-01/graphql.json`, {
+    const response = await fetch(`${SHOPIFY_STORE}/api/2025-01/graphql.json`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

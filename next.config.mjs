@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "faithful-blessing-e37af8b2a2.media.strapiapp.com",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.shopify.com",
+      },
     ],
   },
 };
