@@ -29,7 +29,7 @@ const SwagStore: React.FC = () => {
     }
     loadProducts();
   }, []);
-  console.log("Products:", products);
+  // console.log("Products:", products);
   useEffect(() => {
     const ctx = gsap.context(() => {
       // Animate h2 after cards

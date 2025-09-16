@@ -7,7 +7,7 @@ export async function GET() {
   try {
     const query = `
       {
-        products(first: 10) {
+        products(first: 20) {
           edges {
             node {
               id
@@ -52,7 +52,7 @@ export async function GET() {
     }
 
     const data = await response.json();
-    console.log("Fetched products:", data);
+    // console.log("Fetched products:", data);
     return NextResponse.json(data.data.products.edges.map((p: any) => p.node));
   } catch (error: any) {
     return NextResponse.json({ error: error.message }, { status: 500 });
