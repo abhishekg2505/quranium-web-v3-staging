@@ -10,6 +10,7 @@ import HowToJoin from "@/src/components/community/HowToJoin";
 import WhatIsQrnRush from "@/src/components/community/WhatIsQrnRush";
 import Qwarriors from "@/src/components/community/Qwarriors";
 import SwagStore from "@/src/components/community/SwagStore";
+import SwagStoreBanner from "@/src/components/community/SwagStoreBanner";
 
 export const metadata = {
   title: {
@@ -46,6 +47,7 @@ export default function Ecosystem() {
     <main className="flex min-h-screen flex-col bg-background">
       <HeroSection />
       <AnchorCards />
+      <SwagStoreBanner />
       <SwagStore />
       <QrnRush />
       <WhatIsQrnRush />

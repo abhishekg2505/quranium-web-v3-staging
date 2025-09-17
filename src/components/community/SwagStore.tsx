@@ -88,33 +88,12 @@ const SwagStore: React.FC = () => {
   return (
     <section
       id="swag-store"
-      className="scroll-mt-24 pt-16 pb-[120px] container mx-auto px-4 md:px-20 bg-background overflow-hidden"
+      className="scroll-mt-24  md:pt-16 pb-[120px] container mx-auto px-4 md:px-20 bg-background overflow-hidden"
     >
       <div className="space-y-0 md:space-y-12">
         <div className="grid md:grid-cols-[60%_40%] gap-6 md:gap-0 items-start pb-[0px]">
           <div>
-            <h2 className="text-h4 md:text-h3 font-montserrat font-semibold">
-              Presenting Quranium Swag Store
-            </h2>
-            <h5 className="text-h5 font-montserrat font-medium my-[15px]">
-              Gear for the Quantum Future, Swag built on the future of trust
-            </h5>
-            <p className="text-p2 font-open-sans text-white-2">
-              From tees and hoodies to caps, the Quranium Swag Store has everything to rep the
-              movement. Each piece carries the spirit of Web3 and the power of quantum secure
-              blockchain. It&rsquo;s more than merch, it&rsquo;s proof of belonging.
-            </p>
-          </div>
-          <div className="md:text-right hidden md:block">
-            <Link href="https://swag-store-by-quranium.myshopify.com/products" target="_blank">
-              <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
-                <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
-                <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
-                  Shop the Swag Store
-                  <MoveRight className="ml-2 w-5 h-5 text-[#ffffff] group-hover:text-[#601dff] transition-all duration-400 group-hover:translate-x-1" />
-                </span>
-              </Button>
-            </Link>
+            <h5 className="text-h4 font-montserrat font-semibold">Featured Products</h5>
           </div>
         </div>
 
@@ -157,7 +136,7 @@ const SwagStore: React.FC = () => {
                 slidesPerView: 4,
               },
             }}
-            className="my-linear-swiper overflow-hidden1 flex mt-10 "
+            className="my-linear-swiper overflow-hidden1 flex"
           >
             {products.map((product, index) => (
               <SwiperSlide key={index}>
