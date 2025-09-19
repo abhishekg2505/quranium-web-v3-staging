@@ -96,7 +96,7 @@ export default function ActionPlan() {
         <div className="relative">
           <Swiper
             modules={[Navigation]}
-            loop
+            loop={false}
             navigation={{
               nextEl: ".swiper-next",
               prevEl: ".swiper-prev",

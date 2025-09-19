@@ -107,7 +107,7 @@ export default function YourPathway() {
               <div className="relative w-full h-auto md:h-[350px] bg-[#0C0318]">
                 {/* Front Side */}
                 <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px] h-full">
-                  <div className="bg-[url('/images/grant-program/grid.png')] bg-no-repeat bg-right-top bg-contain bg-[#0D031B] p-6 h-full rounded-[20px] flex flex-col items-start text-left py-16">
+                  <div className="bg-[url('/images/grant-program/bluebg.webp')] bg-no-repeat bg-right-top bg-contain bg-[#0C0318] p-6 h-full rounded-[20px] flex flex-col items-start text-left py-16">
                     <h3 className="text-[80px] font-montserrat leading-normal font-extralight mt-5 bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
                       {card.title}
                     </h3>

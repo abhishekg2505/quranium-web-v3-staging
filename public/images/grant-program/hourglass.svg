@@ -2,17 +2,17 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M24 4C15.7339 4 11.6009 4 10.3965 6.59836C10.293 6.82171 10.2056 7.05371 10.1353 7.29219C9.31713 10.0666 12.2396 13.2822 18.0846 19.7135L22 24H26L29.9154 19.7135C35.7604 13.2822 38.6829 10.0666 37.8647 7.29219C37.7944 7.05371 37.707 6.82171 37.6035 6.59836C36.3991 4 32.2661 4 24 4Z" fill="url(#paint0_linear_5150_1955)" stroke="url(#paint1_linear_5150_1955)" stroke-width="1.5"/>
 <path opacity="0.5" d="M10.3965 41.4016C11.6009 44 15.7339 44 24 44C32.2661 44 36.3991 44 37.6035 41.4016C37.707 41.1783 37.7944 40.9463 37.8647 40.7078C38.6829 37.9334 35.7604 34.7178 29.9154 28.2865L26 24H22L18.0846 28.2865C12.2396 34.7178 9.31713 37.9334 10.1353 40.7078C10.2056 40.9463 10.293 41.1783 10.3965 41.4016Z" fill="url(#paint2_linear_5150_1955)"/>
 <defs>
-<linearGradient id="paint0_linear_5150_1955" x1="24" y1="4" x2="24" y2="24" gradientUnits="userSpaceOnUse">
-<stop offset="0.0885417" stop-color="white" stop-opacity="0.3"/>
-<stop offset="1" stop-color="white"/>
+<linearGradient id="paint0_linear_5150_1955" x1="11.75" y1="-10.375" x2="18.2496" y2="20.823" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#A3A3A3"/>
 </linearGradient>
-<linearGradient id="paint1_linear_5150_1955" x1="24" y1="4" x2="24" y2="24" gradientUnits="userSpaceOnUse">
-<stop offset="0.0885417" stop-color="white" stop-opacity="0.3"/>
-<stop offset="1" stop-color="white"/>
+<linearGradient id="paint1_linear_5150_1955" x1="11.75" y1="-10.375" x2="18.2496" y2="20.823" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#A3A3A3"/>
 </linearGradient>
-<linearGradient id="paint2_linear_5150_1955" x1="24" y1="24" x2="24" y2="44" gradientUnits="userSpaceOnUse">
-<stop offset="0.0885417" stop-color="white" stop-opacity="0.3"/>
-<stop offset="1" stop-color="white"/>
+<linearGradient id="paint2_linear_5150_1955" x1="11.75" y1="9.625" x2="18.2496" y2="40.823" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#A3A3A3"/>
 </linearGradient>
 </defs>
 </svg>
