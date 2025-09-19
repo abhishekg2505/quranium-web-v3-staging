@@ -119,7 +119,7 @@ export default function HeroSection() {
                       </span>
                     </Button>
                   </Link>
-                  <Link href="/community" target="_blank" rel="noopener noreferrer">
+                  <Link href="/community" target="_self" rel="noopener noreferrer">
                     <Button
                       variant="outline"
                       className="group relative overflow-hidden bg-transparent"
@@ -150,7 +150,7 @@ export default function HeroSection() {
                       </span>
                     </Button>
                   </Link>
-                  <Link href="/community" target="_blank" rel="noopener noreferrer">
+                  <Link href="/community" target="_self" rel="noopener noreferrer">
                     <Button
                       variant="outline"
                       className="group relative overflow-hidden bg-transparent"
