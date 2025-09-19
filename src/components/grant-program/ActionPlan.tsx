@@ -125,7 +125,7 @@ export default function ActionPlan() {
                   <div className="relative w-full">
                     {/* Front Side */}
                     <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px]">
-                      <div className="bg-[url('/images/grant-program/grid.png')] bg-no-repeat bg-right-top bg-[length:150px_150px] bg-[#0D031B] p-6 h-full rounded-[20px] flex flex-col items-start text-left py-10">
+                      <div className="bg-[url('/images/grant-program/grid.png')] bg-no-repeat bg-right-top bg-[length:150px_150px] bg-[#0D031B] hover:bg-[#1B0637] p-6 h-full rounded-[20px] flex flex-col items-start text-left py-10">
                         <h3 className="md:text-p2 font-open-sans text-h6 md:font-montserrat md:font-regular text-center font-medium mt-5 bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
                           {card.title}
                         </h3>
