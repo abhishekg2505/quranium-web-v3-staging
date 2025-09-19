@@ -120,7 +120,7 @@ export default function WhyQuranium() {
               <div className="relative w-full h-auto md:h-[370px] bg-[#0C0318]">
                 {/* Front Side */}
                 <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px] h-full">
-                  <div className="bg-[#0D031B] p-6 h-full rounded-[20px] flex flex-col items-start text-left py-16">
+                  <div className="bg-[url('/images/grant-program/grid.png')] bg-no-repeat bg-right-top bg-contain bg-[#0D031B] p-6 h-full rounded-[20px] flex flex-col items-start text-left py-16">
                     <Image src={card.image} alt="icons" width={48} height={48} />
                     <h5 className="text-h5 font-montserrat font-medium text-left mt-5">
                       {card.title}
