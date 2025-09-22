@@ -25,7 +25,7 @@ const cards = [
   {
     title: "5%",
     description:
-      "of projects have a quantum strategy as the 2030 deadline looms; while various networks remain unready for Q-Day.",
+      "Of projects have a quantum strategy as the 2030 deadline looms; while various networks remain unready for Q-Day.",
   },
   {
     title: "90%",

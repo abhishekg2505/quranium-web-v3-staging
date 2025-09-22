@@ -27,7 +27,7 @@ const cards = [
     image: "/images/grant-program/hourglass.svg",
   },
   {
-    title: "Real adoption only comes from the projects that are built to last.",
+    title: "Real adoption only comes from projects that are built to last.",
 
     image: "/images/grant-program/widget.svg",
   },

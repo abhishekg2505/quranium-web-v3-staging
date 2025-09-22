@@ -19,31 +19,31 @@ const cards = [
     image: "/images/grant-program/shield.svg",
   },
   {
-    title: "Guidance that matters",
+    title: "Guidance That Matters",
     description:
       "Our advisory network includes leaders from PwC, Saudi Aramco, DMCC, The Sandbox, and pioneers in blockchain, AI, and cryptography, bringing decades of expertise to help you build with confidence.",
     image: "/images/grant-program/compass.svg",
   },
   {
-    title: "Hands-on building support",
+    title: "Hands-On Building Support",
     description:
       "From ideas to working dApps, we back you every step of the way. Leverage a growing partner network across DeFi, AI, and infrastructure, supported by a global team of 50+ contributors across 12 countries.",
     image: "/images/grant-program/hand-stars.svg",
   },
   {
-    title: "Test, launch, scale",
+    title: "Test, Launch, Scale",
     description:
       "Access the tools, infrastructure, and community feedback you need to grow with confidence, from first test to full adoption, all within Quranium’s rapidly expanding ecosystem.",
     image: "/images/grant-program/rocket.svg",
   },
   {
-    title: "Community & collaboration",
+    title: "Community & Collaboration",
     description:
       "Build alongside like-minded innovators, from 1M+ gamer alliances to founders and advisors who’ve scaled unicorn L1s, launched global Web3 protocols, and led initiatives at Intel, Google, Uber, and PwC.",
     image: "/images/grant-program/users.svg",
   },
   {
-    title: "Rewards with purpose",
+    title: "Rewards With Purpose",
     description:
       "Compete for grants, grow your project, and leave a lasting mark in Web3’s most quantum-secure ecosystem.",
     image: "/images/grant-program/medal.svg",

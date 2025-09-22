@@ -9,6 +9,10 @@ const anchorCards = [
     title: "DevOps Engineer",
     link: "https://www.careers-page.com/quranium/job/5WVWW87R",
   },
+  {
+    title: "VP of Product (Web3 / L1 Infrastructure)",
+    link: "https://www.careers-page.com/quranium/job/5WV8X6Y5",
+  },
 ];
 
 const JobOpportunity = () => {

@@ -136,7 +136,7 @@ export default function HeroSection() {
               {/* Right Content Section */}
               <div className="flex flex-col items-start space-y-6">
                 <p className="text-p1 font-normal lg:max-w-[461px] hero-subtext">
-                  ADeQUIP, the Decentralized Quantum-Uncrackable Infrastructure Program, is
+                  The DeQUIP, the Decentralized Quantum-Uncrackable Infrastructure Program, is
                   Quranium&rsquo;s grant initiative that supports developers worldwide in creating
                   future-proof projects that enable adoption today and remain uncrackable tomorrow.
                 </p>
