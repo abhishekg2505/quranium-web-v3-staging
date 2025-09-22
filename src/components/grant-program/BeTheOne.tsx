@@ -79,14 +79,14 @@ const BeTheOne = () => {
           <div className="relative z-10">
             <h2
               ref={mainTitleRef}
-              className="text-center md:text-left text-h4 md:text-h2 font-montserrat font-bold text-white mb-[15px]"
+              className="text-center md:text-left text-h3 md:text-h2 font-montserrat font-bold text-white mb-[15px]"
             >
               Be the 1 in 10 <br />
               that lasts.
             </h2>
-            <div ref={headingRef} className="flex flex-row gap-5 mt-5">
+            <div ref={headingRef} className="flex flex-col md:flex-row gap-5 mt-5">
               <Link href="/apply-grant-program" target="_self" rel="noopener noreferrer">
-                <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
+                <Button className="group w-full md:w-auto relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
                   <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                   <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
                     Submit Application
@@ -95,7 +95,10 @@ const BeTheOne = () => {
                 </Button>
               </Link>
               <Link href="/community" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" className="group relative overflow-hidden bg-transparent">
+                <Button
+                  variant="outline"
+                  className="group w-full md:w-auto relative overflow-hidden bg-transparent"
+                >
                   <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                   <span className="relative z-10 flex items-center bg-transparent text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
                     Join Community

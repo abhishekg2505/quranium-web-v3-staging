@@ -93,7 +93,7 @@ const QuraniumChanges = () => {
           <div className="relative z-10">
             <h3
               ref={mainTitleRef}
-              className="text-center md:text-left text-h3 font-montserrat font-semibold text-white mb-[15px]"
+              className="text-center md:text-left text-h4 md:text-h3 font-montserrat font-semibold text-white mb-[15px]"
             >
               Quranium changes that.
             </h3>

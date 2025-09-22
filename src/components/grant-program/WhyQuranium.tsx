@@ -103,7 +103,7 @@ export default function WhyQuranium() {
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
         <h2
           ref={mainTitleRef}
-          className="text-h5 md:text-h3 font-montserrat font-semibold text-center"
+          className="text-h4 md:text-h3 font-montserrat font-semibold text-center"
         >
           Why Quranium
         </h2>

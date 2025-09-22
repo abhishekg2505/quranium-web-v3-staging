@@ -109,9 +109,9 @@ export default function HeroSection() {
                 <h1 className="text-h4 md:text-h2 font-montserrat font-bold hero-title">
                   The DeQUIP Grant <br /> Program
                 </h1>
-                <div className="hidden sm:flex gap-4 mt-5 sm-hero-button">
+                <div className="hidden sm:flex flex-col md:flex-row gap-4 mt-5 sm-hero-button">
                   <Link href="/apply-grant-program" target="_self" rel="noopener noreferrer">
-                    <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
+                    <Button className="group w-full md:w-auto relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
                       <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                       <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
                         Submit Application
@@ -122,7 +122,7 @@ export default function HeroSection() {
                   <Link href="/community" target="_self" rel="noopener noreferrer">
                     <Button
                       variant="outline"
-                      className="group relative overflow-hidden bg-transparent"
+                      className="group w-full md:w-auto relative overflow-hidden bg-transparent"
                     >
                       <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                       <span className="relative z-10 flex items-center bg-transparent text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">
@@ -140,9 +140,9 @@ export default function HeroSection() {
                   Quranium&rsquo;s grant initiative that supports developers worldwide in creating
                   future-proof projects that enable adoption today and remain uncrackable tomorrow.
                 </p>
-                <div className="flex gap-4 mt-10 sm:hidden hero-button">
+                <div className="w-full flex flex-col md:flex-row gap-4 mt-10 sm:hidden hero-button">
                   <Link href="/apply-grant-program" target="_self" rel="noopener noreferrer">
-                    <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
+                    <Button className="group w-full md:w-auto relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
                       <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                       <span className="relative z-10 flex items-center text-[#ffffff] group-hover:text-[#601dff] transition-colors duration-500">
                         Submit Application
@@ -153,7 +153,7 @@ export default function HeroSection() {
                   <Link href="/community" target="_self" rel="noopener noreferrer">
                     <Button
                       variant="outline"
-                      className="group relative overflow-hidden bg-transparent"
+                      className="group w-full md:w-auto relative overflow-hidden bg-transparent"
                     >
                       <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
                       <span className="relative z-10 flex items-center bg-transparent text-[#ffffff] group-hover:text-[#000000] transition-colors duration-500">

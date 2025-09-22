@@ -79,7 +79,7 @@ export default function StandsUncrackable() {
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
         <h2
           ref={mainTitleRef}
-          className="text-h5 md:text-h3 font-montserrat font-normal text-center"
+          className="text-h4 md:text-h3 font-montserrat font-normal text-center"
         >
           With Quranium, your project doesn&rsquo;t just launch. <br />
           It stands uncrackable.

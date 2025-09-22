@@ -85,7 +85,7 @@ export default function YourPathway() {
   return (
     <div ref={sectionRef} className="relative bg-[#030712] px-5 pt-16 pb-24">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
-        <h2 ref={mainTitleRef} className="text-h5 md:text-h3 font-montserrat font-bold">
+        <h2 ref={mainTitleRef} className="text-h4 md:text-h3 font-montserrat font-bold">
           Your pathway to building <br />
           uncrackable projects for Web3
         </h2>

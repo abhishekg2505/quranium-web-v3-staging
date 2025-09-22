@@ -89,7 +89,7 @@ export default function ActionPlan() {
   return (
     <div ref={sectionRef} className="relative bg-[#030712] px-5 pt-16 pb-24">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
-        <h2 ref={mainTitleRef} className="text-h5 md:text-h4 font-montserrat font-bold text-center">
+        <h2 ref={mainTitleRef} className="text-h4 font-montserrat font-bold text-center">
           Action Plan and How it Works?
         </h2>
 
