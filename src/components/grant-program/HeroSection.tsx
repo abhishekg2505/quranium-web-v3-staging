@@ -136,8 +136,8 @@ export default function HeroSection() {
               {/* Right Content Section */}
               <div className="flex flex-col items-start space-y-6">
                 <p className="text-p1 font-normal lg:max-w-[461px] hero-subtext">
-                  The DeQUIP, the Decentralized Quantum-Uncrackable Infrastructure Program, is
-                  Quranium&rsquo;s grant initiative that supports developers worldwide in creating
+                  The Decentralized Quantum-Uncrackable Infrastructure Grant Program, is
+                  Quranium&rsquo;s initiative that supports developers worldwide in creating
                   future-proof projects that enable adoption today and remain uncrackable tomorrow.
                 </p>
                 <div className="w-full flex flex-col md:flex-row gap-4 mt-10 sm:hidden hero-button">
