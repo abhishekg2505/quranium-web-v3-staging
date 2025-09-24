@@ -50,6 +50,7 @@ import {
   thejournalwire,
   timesofblockchain,
   tokeninsight,
+  wirebusiness,
 } from "@/public/images/ecosystem-new/mp";
 
 export const mpLogos = [
@@ -307,8 +308,8 @@ export const mpLogos = [
     url: "https://www.timesofblockchain.com/#",
   },
   {
-    src: tokeninsight,
-    alt: tokeninsight,
-    url: "https://tokeninsight.com/en/cryptocurrencies",
+    src: wirebusiness,
+    alt: wirebusiness,
+    url: "https://www.wired.com/category/business",
   },
 ];
