@@ -162,3 +162,21 @@ export const republicAllowlistMetaData = {
   url: "https://www.quranium.org/republic-allowlist",
   image: "",
 };
+export const grantProgramMetaData = {
+  title: "Quranium DeQUIP Grant Program | Submit Your Application",
+  language: "",
+  theme: "",
+  description:
+    "Apply for Quranium’s DeQUIP Grant Program. $5M in funding for 15 teams building quantum-secure, decentralized projects designed to last beyond Q-Day.",
+  url: "https://www.quranium.org/grant-program",
+  image: "",
+};
+export const applyGrantProgramMetaData = {
+  title: "Apply for Quranium's DeQUIP Grant Program | Submit Project",
+  language: "",
+  theme: "",
+  description:
+    "Apply now for Quranium’s DeQUIP Grant Program. Secure funding, mentorship, and ecosystem support to build decentralized, quantum-secure projects that last.",
+  url: "https://www.quranium.org/apply-grant-program",
+  image: "",
+};

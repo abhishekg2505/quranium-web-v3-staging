@@ -1,5 +1,5 @@
 import HeroSection from "@/src/components/grant-program/HeroSection";
-import { aboutUsMetaData } from "@/src/constants/metadata";
+import { grantProgramMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
 import YourPathway from "@/src/components/grant-program/YourPathway";
 import QuraniumChanges from "@/src/components/grant-program/QuraniumChanges";
@@ -12,30 +12,30 @@ import ActionPlan from "@/src/components/grant-program/ActionPlan";
 
 export const metadata = {
   title: {
-    default: aboutUsMetaData.title,
-    template: `%s | ${aboutUsMetaData.title}`,
+    default: grantProgramMetaData.title,
+    template: `%s | ${grantProgramMetaData.title}`,
   },
-  description: aboutUsMetaData.description,
+  description: grantProgramMetaData.description,
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: aboutUsMetaData.url,
-    title: aboutUsMetaData.title,
-    description: aboutUsMetaData.description,
-    siteName: aboutUsMetaData.title,
+    url: grantProgramMetaData.url,
+    title: grantProgramMetaData.title,
+    description: grantProgramMetaData.description,
+    siteName: grantProgramMetaData.title,
     images: [
       {
         width: 1200,
         height: 630,
         url: `${quraniumPreview.src}?_=44fc893`,
-        alt: aboutUsMetaData.title,
+        alt: grantProgramMetaData.title,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: aboutUsMetaData.title,
-    description: aboutUsMetaData.description,
+    title: grantProgramMetaData.title,
+    description: grantProgramMetaData.description,
     images: [`${quraniumPreview.src}?_=44fc893`],
   },
 };

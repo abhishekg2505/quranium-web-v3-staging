@@ -17,6 +17,8 @@ export const ROUTES = {
   TERMS_AND_CONDITIONS: "terms-and-conditions",
   NEXT_GEN_INNOVATORS: "next-gen-innovators",
   LAYERS_AND_LATTES: "layers-and-lattes",
+  REPUBLIC_ALLOWLIST: "republic-allowlist",
+  GRANT_PROGRAM: "grant-program",
   UNCRACKABLE_CONVERSATION: "the-uncrackable-conversation",
   QSAFE: "https://qsafewallet.com/",
   QRN_FAUCET: "https://faucet.quranium.org/",

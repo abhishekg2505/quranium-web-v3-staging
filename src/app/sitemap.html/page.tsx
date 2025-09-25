@@ -116,6 +116,26 @@ const page = () => {
             Contact Us
           </Link>
         </li>
+        <li>
+          <Link
+            href="https://www.quranium.org/grant-program"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-2xl mb-20"
+          >
+            Grant Program
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="https://www.quranium.org/apply-grant-program"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-2xl mb-20"
+          >
+            Apply Grant Program
+          </Link>
+        </li>
       </ul>
     </main>
   );

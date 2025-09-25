@@ -79,6 +79,14 @@ export const navLinks = [
         subMenuName: "Layers & Lattes",
         subMenuLink: ROUTES?.LAYERS_AND_LATTES,
       },
+      {
+        subMenuName: "Republic Allowlist",
+        subMenuLink: ROUTES?.REPUBLIC_ALLOWLIST,
+      },
+      {
+        subMenuName: "Grant Program",
+        subMenuLink: ROUTES?.GRANT_PROGRAM,
+      },
     ],
   },
   // {

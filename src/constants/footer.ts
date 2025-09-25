@@ -56,6 +56,8 @@ export const footer = [
       { name: "Next Gen Innovators", href: `${ROUTES.NEXT_GEN_INNOVATORS}` },
       { name: "The Uncrackable Conversation", href: `${ROUTES.UNCRACKABLE_CONVERSATION}` },
       { name: "Layers & Lattes", href: `${ROUTES.LAYERS_AND_LATTES}` },
+      { name: "Republic Allowlist", href: `${ROUTES.REPUBLIC_ALLOWLIST}` },
+      { name: "Grant Program", href: `${ROUTES.GRANT_PROGRAM}` },
     ],
   },
   {
