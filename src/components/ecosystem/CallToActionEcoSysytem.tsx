@@ -10,6 +10,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
   {
+    title: "White Paper",
+    link: "https://drive.google.com/file/d/1fDFZ2gUe3NlWKfb54rRvtqrMC5jqUOM1/view?usp=sharing",
+  },
+  {
     title: "Core Chain",
     link: "https://docs.quranium.org/",
   },
@@ -194,7 +198,7 @@ const CallToActionEcoSysytem: React.FC = () => {
           </map>
         </div>
 
-        <div className="mt-9 px-0 grid grid-cols-1 md:grid-cols-4 gap-6 rounded-xl p-6">
+        <div className="mt-9 px-0 grid grid-cols-1 md:grid-cols-5 gap-6 rounded-xl p-6">
           {cards.map((card, index) => (
             <div
               ref={(el) => {

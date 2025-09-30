@@ -84,6 +84,11 @@ export const footer = [
     title: "Documentation",
     links: [
       {
+        name: "White Paper",
+        href: "https://drive.google.com/file/d/1fDFZ2gUe3NlWKfb54rRvtqrMC5jqUOM1/view?usp=sharing",
+        target: true,
+      },
+      {
         name: "Core Chain",
         href: "http://docs.quranium.org",
         target: true,

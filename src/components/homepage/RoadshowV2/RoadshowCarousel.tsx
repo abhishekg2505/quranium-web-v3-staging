@@ -39,9 +39,7 @@ const images = [
   {
     src: "/images/common/roadshow/12.webp",
   },
-  {
-    src: "/images/common/roadshow/13.webp",
-  },
+
   {
     src: "/images/common/roadshow/14.webp",
   },
