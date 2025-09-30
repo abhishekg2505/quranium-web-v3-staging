@@ -10,8 +10,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
   {
-    title: "White Paper",
-    link: "https://drive.google.com/file/d/1fDFZ2gUe3NlWKfb54rRvtqrMC5jqUOM1/view?usp=sharing",
+    title: "Whitepaper",
+    link: "/whitepaper",
   },
   {
     title: "Core Chain",

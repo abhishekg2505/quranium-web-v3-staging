@@ -24,4 +24,5 @@ export const ROUTES = {
   QRN_FAUCET: "https://faucet.quranium.org/",
   QRN_SCAN: "https://testnet.qrnscan.com/",
   NODE_SALE: "https://validators.quranium.org/",
+  WHITEPAPER: "whitepaper",
 };
