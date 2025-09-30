@@ -50,7 +50,7 @@ export default function Footer() {
                     <li key={link.name}>
                       <Link
                         href={link.href}
-                        target={link.href.startsWith("http") ? "_blank" : "_self"}
+                        target={link.target ? "_blank" : "_self"}
                         className="cursor-pointer hover:opacity-60 duration-300"
                       >
                         {link.name}
