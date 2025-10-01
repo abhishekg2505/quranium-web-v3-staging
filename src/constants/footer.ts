@@ -52,7 +52,7 @@ export const footer = [
         href: ROUTES?.QUANTUM_SECURITY_AWARENESS_DAY,
       },
       { name: "DeQUIP", href: ROUTES.DEQUIP },
-      { name: "Quantum Minds Podcast", href: `${ROUTES.QUANTUM_MINDS_PODCAST}` },
+      { name: "Quantum Minds Podcast", href: `${ROUTES.QUANTUM_MINDS_PODCAST}`, target: true },
       { name: "Next Gen Innovators", href: `${ROUTES.NEXT_GEN_INNOVATORS}` },
       { name: "The Uncrackable Conversation", href: `${ROUTES.UNCRACKABLE_CONVERSATION}` },
       { name: "Layers & Lattes", href: `${ROUTES.LAYERS_AND_LATTES}` },

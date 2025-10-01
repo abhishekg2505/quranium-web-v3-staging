@@ -51,6 +51,7 @@ export default function Footer() {
                       <Link
                         href={link.href}
                         target={link.target ? "_blank" : "_self"}
+                        rel={link.target ? "noopener noreferrer" : undefined}
                         className="cursor-pointer hover:opacity-60 duration-300"
                       >
                         {link.name}
