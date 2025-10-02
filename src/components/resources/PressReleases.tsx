@@ -89,8 +89,8 @@ export default function PressReleases() {
           <p className="text-p2 font-open-sans text-white-2 mt-2">
             For Journalists, Industry Analysts, and Influencers: Please contact our PR team for more
             information or to request materials.{" Claire: "}
-            <Link href="mailto:claire@quranium.org" className="underline text-white-1">
-              claire@quranium.org
+            <Link href="mailto:ariadni@quranium.org" className="underline text-white-1">
+              ariadni@quranium.org
             </Link>
           </p>
         </div>

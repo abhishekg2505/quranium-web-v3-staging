@@ -103,8 +103,8 @@ const InMedia = () => {
           <p className="text-center">
             For Journalists, Industry Analysts, and Influencers: Please contact our PR team for more
             information or to request materials. Claire:{" "}
-            <Link href="mailto:claire@quranium.org" className="text-white-2 underline">
-              claire@quranium.org
+            <Link href="mailto:ariadni@quranium.org" className="text-white-2 underline">
+              ariadni@quranium.org
             </Link>
           </p>
         </div> */}
