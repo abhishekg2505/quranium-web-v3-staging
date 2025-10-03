@@ -88,7 +88,7 @@ export default function PressReleases() {
           <h2 className="text-h4 md:text-h3 font-semibold">Recent Press Releases</h2>
           <p className="text-p2 font-open-sans text-white-2 mt-2">
             For Journalists, Industry Analysts, and Influencers: Please contact our PR team for more
-            information or to request materials.{" Claire: "}
+            information or to request materials.{" Ariadni: "}
             <Link href="mailto:ariadni@quranium.org" className="underline text-white-1">
               ariadni@quranium.org
             </Link>
