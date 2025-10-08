@@ -11,15 +11,32 @@ import {
 import { Sheet } from "@/src/components/ui/sheet";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { navLinks } from "@/src/constants/navLink";
 import Image from "next/image";
 
 const MobileMenu = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
   const [openSubMenuIndex, setOpenSubMenuIndex] = useState<number | null>(null);
+  const pathname = usePathname() || "";
 
   const toggleSubMenu = (index: number) => {
     setOpenSubMenuIndex(openSubMenuIndex === index ? null : index);
+  };
+  const normalizePath = (path: string) => {
+    if (!path) return "";
+    return path.startsWith("/") ? path.replace(/\/$/, "") : `/${path.replace(/\/$/, "")}`;
+  };
+
+  // ✅ check if parent or sublink matches current route
+  const isActive = (link: string) => normalizePath(pathname) === normalizePath(link);
+
+  const isParentActive = (item: (typeof navLinks)[0]) => {
+    if (item.link && isActive(item.link)) return true;
+    if (item.subMenu) {
+      return item.subMenu.some((sub) => isActive(sub.subMenuLink));
+    }
+    return false;
   };
 
   return (
@@ -46,12 +63,24 @@ const MobileMenu = () => {
                   >
                     <Link
                       href={item.link || "#"}
-                      className="text-lg font-medium"
+                      className={`text-lg font-medium ${
+                        isParentActive(item)
+                          ? "text-[#AE87FF]" // 🔥 Active color
+                          : "text-white-1"
+                      }`}
                       target={item.link?.startsWith("http") ? "_blank" : "_self"}
                       rel={item.link?.startsWith("http") ? "noopener noreferrer" : ""}
                       onClick={() => item.link && setIsSheetOpen(false)}
                     >
-                      <SheetTitle className="text-white-1 font-normal">{item.itemName}</SheetTitle>
+                      <SheetTitle
+                        className={`text-lg font-normal ${
+                          isParentActive(item)
+                            ? "text-[#AE87FF]" // 🔥 Active color
+                            : "text-white-1"
+                        }`}
+                      >
+                        {item.itemName}
+                      </SheetTitle>
                     </Link>
                     {item.subMenu && <ChevronDown className="ml-2" />}
                   </div>

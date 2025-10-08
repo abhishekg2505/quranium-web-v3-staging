@@ -257,7 +257,10 @@ export default function Header() {
   const pathname = usePathname() || "";
   // console.log("pathname", pathname);
   // Normalize paths (remove trailing slash)
-  const normalizePath = (path: string) => path.replace(/\/$/, "");
+  const normalizePath = (path: string) => {
+    if (!path) return "";
+    return path.startsWith("/") ? path.replace(/\/$/, "") : `/${path.replace(/\/$/, "")}`;
+  };
 
   // Check if parent nav item is active
   const isParentActive = (item: (typeof navLinks)[0]) => {
