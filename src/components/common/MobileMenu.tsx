@@ -98,12 +98,12 @@ const MobileMenu = () => {
                           <Image
                             src={subItem.icon}
                             alt={subItem.subMenuName}
-                            width={65}
-                            height={65}
+                            width={45}
+                            height={45}
                             className="mb-4"
                           />
                           <div>
-                            <h4 className="text-p1 font-open-sans text-left">
+                            <h4 className="text-p2 font-open-sans text-left">
                               {subItem.subMenuName}
                             </h4>
                             <p className="text-p3 font-open-sans text-[#AFAFAF] leading-[100%] text-left">

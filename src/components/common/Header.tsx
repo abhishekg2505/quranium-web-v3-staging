@@ -320,10 +320,16 @@ export default function Header() {
   return (
     <header
       ref={headerRef}
-      className="fixed z-[60] top-5 left-0 right-0 tracking-tightest transition-all duration-300"
+      className="fixed z-[99] top-5 left-0 right-0 tracking-tightest transition-all duration-300"
     >
       <div className="relative px-4 md:px-10 lg:px-10 xl:px-20">
-        <div className="px-5 xl:px-10 py-2.5 md:py-2.5 max-w-[1180px] mx-auto flex items-center justify-between rounded-[20px] bg-[#0C0218] border border-[rgba(255,255,255,0.06)] backdrop-blur-[122px]">
+        <div
+          className={`relative px-5 xl:px-10 py-2.5 md:py-2.5 max-w-[1180px] mx-auto flex items-center justify-between  bg-[#0C0218] ${
+            hoveredNavIdx !== null && navLinks[hoveredNavIdx]?.subMenu
+              ? "border border-b-0 rounded-[20px_20px_0px_0px] border-[rgba(255,255,255,0.06)]"
+              : "border rounded-[20px] border-[rgba(255,255,255,0.06)]"
+          }`}
+        >
           {/* Logo */}
           <div ref={logoRef}>
             <Link href="/" className="shrink-0 p-3 block">
@@ -379,7 +385,7 @@ export default function Header() {
                       ref={(el) => {
                         submenuRefs.current[idx] = el;
                       }}
-                      className="absolute top-full left-0  w-full z-[99] transition-all duration-300 border border-t-0 border-[rgba(255,255,255,0.06)] rounded-[0px_0px_20px_20px] shadow-xl"
+                      className="absolute top-[98%] left-0  w-full z-[99] transition-all duration-300 border border-t-0 border-[rgba(255,255,255,0.06)] rounded-[0px_0px_20px_20px] overflow-hidden"
                       style={{
                         opacity: 0,
                         visibility: "hidden",
@@ -411,18 +417,18 @@ export default function Header() {
                                       ? "noopener noreferrer"
                                       : ""
                                   }
-                                  className="flex flex-row justify-between items-start gap-4 px-4 py-5 text-p3 hover:bg-[#1B0337] rounded-[10px]"
+                                  className="flex flex-row justify-between items-start gap-4 px-4 py-2 text-p3 hover:bg-[#1B0337] rounded-[10px]"
                                 >
                                   <div className="flex flex-row justify-start items-start gap-4">
                                     <Image
                                       src={subItem.icon}
                                       alt={subItem.subMenuName}
-                                      width={65}
-                                      height={65}
+                                      width={45}
+                                      height={45}
                                       className="mb-4"
                                     />
                                     <div className="">
-                                      <p className="text-p1 font-open-sans">
+                                      <p className="text-p2 font-open-sans">
                                         {subItem.subMenuName}
                                       </p>
                                       <p className="text-p3 font-open-sans text-[#AFAFAF] leading-normal">
@@ -442,19 +448,19 @@ export default function Header() {
                             </div>
 
                             {/* Right preview */}
-                            <div className="relative w-1/2 p-6 flex flex-col justify-center items-center text-center">
+                            <div className="relative w-1/2 px-2 flex flex-col justify-center items-center text-center">
                               {"preview" in (hoveredSubItem || {}) && hoveredSubItem?.preview && (
                                 <>
                                   <Image
                                     src={hoveredSubItem.preview.img}
                                     alt={hoveredSubItem.preview.title}
-                                    width={786}
+                                    width={1086}
                                     height={500}
-                                    className="mb-4 max-w-full"
+                                    className="max-w-full"
                                   />
                                   <Link
                                     href={hoveredSubItem.preview.source}
-                                    className="w-full absolute bottom-0 left-0 flex flex-row justify-between items-start gap-4"
+                                    className="absolute bottom-0 left-0 right-0 w-[90%] mx-auto flex flex-row justify-between items-start gap-4"
                                     target={
                                       hoveredSubItem.preview.source.startsWith("http")
                                         ? "_blank"
@@ -510,12 +516,12 @@ export default function Header() {
                                 <Image
                                   src={subItem.icon}
                                   alt={subItem.subMenuName}
-                                  width={65}
-                                  height={65}
+                                  width={45}
+                                  height={45}
                                   className="mb-4"
                                 />
                                 <div className="">
-                                  <p className="text-p1 font-open-sans">{subItem.subMenuName}</p>
+                                  <p className="text-p2 font-open-sans">{subItem.subMenuName}</p>
                                   <p className="text-p3 font-open-sans text-[#AFAFAF] leading-normal">
                                     {subItem.subMenuDesc}
                                   </p>
