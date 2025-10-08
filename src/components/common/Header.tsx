@@ -310,7 +310,7 @@ export default function Header() {
         submenu.style.transform = "translateY(-10px)";
       }
       setHoveredSubItem(null);
-    }, 250); // 👈 250ms delay
+    }, 250);
   };
 
   const handleSubMenuClick = () => {
@@ -385,7 +385,7 @@ export default function Header() {
                       ref={(el) => {
                         submenuRefs.current[idx] = el;
                       }}
-                      className="absolute top-[98%] left-0  w-full z-[99] transition-all duration-300 border border-t-0 border-[rgba(255,255,255,0.06)] rounded-[0px_0px_20px_20px] overflow-hidden"
+                      className="overflow-y-auto absolute top-full left-0  w-full z-[99] transition-all duration-300 border border-t-0 border-[rgba(255,255,255,0.06)] rounded-[0px_0px_20px_20px] overflow-hidden"
                       style={{
                         opacity: 0,
                         visibility: "hidden",

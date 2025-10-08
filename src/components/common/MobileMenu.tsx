@@ -28,7 +28,7 @@ const MobileMenu = () => {
     return path.startsWith("/") ? path.replace(/\/$/, "") : `/${path.replace(/\/$/, "")}`;
   };
 
-  // ✅ check if parent or sublink matches current route
+  //check if parent or sublink matches current route
   const isActive = (link: string) => normalizePath(pathname) === normalizePath(link);
 
   const isParentActive = (item: (typeof navLinks)[0]) => {
