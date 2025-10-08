@@ -12,6 +12,7 @@ import { Sheet } from "@/src/components/ui/sheet";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { navLinks } from "@/src/constants/navLink";
+import Image from "next/image";
 
 const MobileMenu = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
@@ -60,12 +61,33 @@ const MobileMenu = () => {
                         <Link
                           key={subIdx}
                           href={subItem.subMenuLink}
-                          className="block py-1"
+                          className="flex flex-row justify-start items-start gap-4 py-1"
                           target={subItem.subMenuLink.startsWith("http") ? "_blank" : "_self"}
                           rel={subItem.subMenuLink.startsWith("http") ? "noopener noreferrer" : ""}
                           onClick={() => setIsSheetOpen(false)}
                         >
-                          {subItem.subMenuName}
+                          <Image
+                            src={subItem.icon}
+                            alt={subItem.subMenuName}
+                            width={65}
+                            height={65}
+                            className="mb-4"
+                          />
+                          <div>
+                            <h4 className="text-p1 font-open-sans text-left">
+                              {subItem.subMenuName}
+                            </h4>
+                            <p className="text-p3 font-open-sans text-[#AFAFAF] leading-[100%] text-left">
+                              {subItem.subMenuDesc}
+                            </p>
+                          </div>
+                          <Image
+                            src="/images/common/header/right-arrow.svg"
+                            alt="Arrow Right"
+                            width={13}
+                            height={13}
+                            className="mt-2"
+                          />
                         </Link>
                       ))}
                     </div>
