@@ -539,7 +539,7 @@ export default function Header() {
             </nav>
 
             {/* Contact Button */}
-            <div ref={contactRef}>
+            {/* <div ref={contactRef}>
               <Link href="/contact-us">
                 <Button className="group relative overflow-hidden text-[#ffffff] hover:text-[#601dff]">
                   <span className="absolute inset-0 z-0 bg-[#FFFFFF] transform -translate-x-[101%] transition-transform duration-500 ease-in-out group-hover:translate-x-0"></span>
@@ -548,7 +548,7 @@ export default function Header() {
                   </span>
                 </Button>
               </Link>
-            </div>
+            </div> */}
           </div>
 
           {/* Mobile Nav */}
