@@ -385,7 +385,7 @@ export default function Header() {
                       ref={(el) => {
                         submenuRefs.current[idx] = el;
                       }}
-                      className="overflow-y-auto absolute top-full left-0  w-full z-[99] transition-all duration-300 border border-t-0 border-[rgba(255,255,255,0.06)] rounded-[0px_0px_20px_20px] overflow-hidden"
+                      className="overflow-y-auto absolute top-[81%] left-0  w-full z-[99] transition-all duration-300 border bg-[#0C0218] border-t-0 border-[rgba(255,255,255,0.06)] rounded-[0px_0px_20px_20px] overflow-hidden"
                       style={{
                         opacity: 0,
                         visibility: "hidden",
@@ -396,11 +396,8 @@ export default function Header() {
                     >
                       {/* Mega menu for Products */}
                       {item.itemName === "Products" ? (
-                        <div className="pb-10 px-10 bg-[#0C0218] overflow-hidden">
-                          <div className="w-full mb-5">
-                            <p className="text-p4 font-open-sans text-[#AFAFAF]">Products</p>
-                          </div>
-                          <div className="flex w-full">
+                        <div className="pb-10 px-10 overflow-hidden">
+                          <div className="flex w-full gap-10 pt-5">
                             {/* Left list */}
                             <div className="w-1/2">
                               {item.subMenu.map((subItem, subIdx) => (
@@ -496,10 +493,7 @@ export default function Header() {
                       ) : (
                         // Simple dropdown for Initiatives, About, etc.
                         <div className="bg-[#0C0218] pb-10 px-10 overflow-hidden">
-                          <div className="w-full mb-5">
-                            <p className="text-p4 font-open-sans text-[#AFAFAF]">Initiatives</p>
-                          </div>
-                          <div className="grid grid-cold-1 md:grid-cols-2">
+                          <div className="grid grid-cold-1 md:grid-cols-2 gap-x-10 pt-5">
                             {item.subMenu.map((subItem, subIdx) => (
                               <Link
                                 key={subIdx}
