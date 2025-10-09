@@ -123,7 +123,7 @@ const MobileMenu = () => {
                   )}
                 </div>
               ))}
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <Link
                   href="/contact-us"
                   className="text-lg font-medium"
@@ -131,7 +131,7 @@ const MobileMenu = () => {
                 >
                   <SheetTitle className="text-white-1 font-normal">Contact</SheetTitle>
                 </Link>
-              </div>
+              </div> */}
             </nav>
           </div>
         </SheetContent>
