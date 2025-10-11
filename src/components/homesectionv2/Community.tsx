@@ -8,22 +8,39 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
   {
-    title: "Global Roadshow",
-    image: "images/homepagev2/beuncrackable.svg",
-    counter: "300+",
-    description: "F2F Events, 30+ Countries",
+    title: "QRN Rush",
+    image: "/images/homepagev2/qrnrush-frame.png",
+    widthClass: "w-full md:w-[31%]",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ex a quam eleme.",
   },
   {
-    title: "Virtual Roundtables",
-    image: "images/homepagev2/tuc.svg",
-    counter: "178K+",
-    description: "Watch Hours",
+    title: "Developers",
+    image: "/images/homepagev2/qremixai-frame.png",
+    widthClass: "w-full md:w-[31%]",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ex a quam eleme.",
   },
   {
-    title: "Thought Leadership Podcast",
-    image: "images/homepagev2/qmp.svg",
-    counter: "832K+",
-    description: "Watch Hours",
+    title: "DeQuip Grant Program",
+    image: "/images/homepagev2/grant-program-frame.png",
+    widthClass: "w-full md:w-[31%]",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ex a quam eleme.",
+  },
+  {
+    title: "Our Global Roadshow",
+    image: "/images/homepagev2/bu-frame.png",
+    widthClass: "w-full md:w-[48%]",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ex a quam eleme.",
+  },
+  {
+    title: "Quantum Mind Podcast",
+    image: "/images/homepagev2/qmpframe.png",
+    widthClass: "w-full md:w-[48%]",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ex a quam eleme.",
   },
 ];
 
@@ -82,43 +99,34 @@ export default function Community() {
           ref={mainTitleRef}
           className="text-h4 md:text-h3 font-montserrat font-normal text-center"
         >
-          Thought Leadership
+          Community
         </h2>
 
-        <div className="relative grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3  gap-6 mt-[60px]">
+        <div className="relative flex flex-row flex-wrap  gap-6 mt-[60px]">
           {cards.map((card, index) => (
             <div
               key={index}
               ref={(el) => {
                 cardsRef.current[index] = el;
               }}
-              className="group"
+              className={`group ${card.widthClass}`}
             >
-              <div className="relative w-full h-auto md:h-[329px]">
+              <div className="relative w-full h-auto overflow-hidden">
                 {/* Front Side */}
-                <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px]">
-                  <div className="bg-[#181022] hover:bg-[#1B0637] p-6 h-full rounded-[20px] flex flex-col text-center py-16">
-                    <div className="flex flex-row justify-center items-center gap-4">
-                      <Image
-                        src={card.image}
-                        alt={card.title}
-                        width={131}
-                        height={67}
-                        className=""
-                      />
-                      <div
-                        className="h-[60px] w-[1px]"
-                        style={{
-                          background:
-                            "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%)",
-                        }}
-                      ></div>
-                      <p className="text-p3 font-montserrat font-normal">{card.title}</p>
+                <div className="bg-roadshow-reverse-border p-[1px] rounded-[16px]">
+                  <div className="bg-[#181022] hover:bg-[#1B0637]  h-full rounded-[16px] overflow-hidden flex flex-col justify-between text-left">
+                    <div className="flex flex-col justify-center1 items-center1 gap-2 px-[32px] pt-[32px] pb-[40px]">
+                      <h4 className="text-h4 font-montserrat font-semibold">{card.title}</h4>
+                      <p className="text-p1 font-montserrat font-normal">{card.description}</p>
                     </div>
-                    <h3 className="text-h3 font-montserrat leading-normal font-bold text-center mt-5 text-[#C894FF]">
-                      {card.counter}
-                    </h3>
-                    <p className="text-p1 font-montserrat font-normal">{card.description}</p>
+
+                    <Image
+                      src={card.image}
+                      alt={card.title}
+                      width={660}
+                      height={304}
+                      className="w-full"
+                    />
                   </div>
                 </div>
               </div>

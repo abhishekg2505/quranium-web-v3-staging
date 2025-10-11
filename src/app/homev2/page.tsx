@@ -9,6 +9,7 @@ import ClockTicking from "@/src/components/homesectionv2/ClockTicking";
 import QuantumThreat from "@/src/components/homesectionv2/QuantumThreat";
 import ThoughtLeadership from "@/src/components/homesectionv2/ThoughtLeadership";
 import Traction from "@/src/components/homesectionv2/Traction";
+import Community from "@/src/components/homesectionv2/Community";
 
 export const metadata = {
   title: {
@@ -48,6 +49,7 @@ export default function Homev2() {
       <ThoughtLeadership />
       <TeamCarousel />
       <Traction />
+      <Community />
       <QuraniumJourney />
       <Team />
       <UncrackableTeam />
