@@ -9,6 +9,9 @@ import QuantumThreat from "@/src/components/homesectionv2/QuantumThreat";
 import ThoughtLeadership from "@/src/components/homesectionv2/ThoughtLeadership";
 import Traction from "@/src/components/homesectionv2/Traction";
 import Community from "@/src/components/homesectionv2/Community";
+import Partners from "@/src/components/homesectionv2/Partners";
+import BackedBy from "@/src/components/homesectionv2/BackedBy";
+import InstitutionalReady from "@/src/components/homesectionv2/InstitutionalReady";
 
 export const metadata = {
   title: {
@@ -45,10 +48,13 @@ export default function Homev2() {
       <HeroSection />
       <ClockTicking />
       <QuantumThreat />
+      <InstitutionalReady />
+      <BackedBy />
       <ThoughtLeadership />
       <TeamCarousel />
       <Traction />
       <Community />
+      <Partners />
       <Team />
       <UncrackableTeam />
     </main>
