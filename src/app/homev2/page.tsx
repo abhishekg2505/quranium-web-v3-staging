@@ -1,13 +1,14 @@
-import HeroSection from "@/src/components/about/HeroSection";
+import HeroSection from "@/src/components/homesectionv2/HeroSection";
 import UncrackableTeam from "@/src/components/about/UncrackableTeam";
 import Team from "@/src/components/about/Team";
-import Counter from "@/src/components/about/Counter";
-import Mission from "@/src/components/about/Mission";
 import TeamCarousel from "@/src/components/about/TeamCarousel";
-import GlobeWithCountries from "@/src/components/about/GlobeWithCountries";
 import { aboutUsMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
 import QuraniumJourney from "@/src/components/about/QuraniumJourney";
+import ClockTicking from "@/src/components/homesectionv2/ClockTicking";
+import QuantumThreat from "@/src/components/homesectionv2/QuantumThreat";
+import ThoughtLeadership from "@/src/components/homesectionv2/ThoughtLeadership";
+import Traction from "@/src/components/homesectionv2/Traction";
 
 export const metadata = {
   title: {
@@ -38,16 +39,17 @@ export const metadata = {
     images: [`${quraniumPreview.src}?_=44fc893`],
   },
 };
-export default function About() {
+export default function Homev2() {
   return (
     <main className="flex min-h-screen flex-col bg-background">
       <HeroSection />
-      <Mission />
-      <Counter />
+      <ClockTicking />
+      <QuantumThreat />
+      <ThoughtLeadership />
       <TeamCarousel />
+      <Traction />
       <QuraniumJourney />
       <Team />
-      <GlobeWithCountries />
       <UncrackableTeam />
     </main>
   );

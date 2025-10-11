@@ -1,8 +1,5 @@
 "use client";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
-import { MoveLeft, MoveRight } from "lucide-react";
 import Image from "next/image";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
@@ -11,20 +8,28 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
   {
-    title: "15",
-    description: "projects to be selected",
+    counter: "150K+",
+    description: "Community",
   },
   {
-    title: "$5M",
-    description: "to be distributed",
+    counter: "30K+",
+    description: "Wallets created on-chain",
   },
   {
-    title: "16",
-    description: "weeks to learn and build",
+    counter: "153,000+",
+    description: "Testnet Transactions",
+  },
+  {
+    counter: "1,400,000+",
+    description: "Testnet QRN claimed from faucet",
+  },
+  {
+    counter: "1M+",
+    description: "Gamer Alliance",
   },
 ];
 
-export default function StandsUncrackable() {
+export default function Traction() {
   const sectionRef = useRef(null);
   const mainTitleRef = useRef(null);
   const para1Ref = useRef(null);
@@ -79,11 +84,10 @@ export default function StandsUncrackable() {
           ref={mainTitleRef}
           className="text-h4 md:text-h3 font-montserrat font-normal text-center"
         >
-          With Quranium, your project doesn&rsquo;t just launch. <br />
-          It stands uncrackable.
+          Traction
         </h2>
 
-        <div className="relative grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3  gap-6 mt-[60px]">
+        <div className="relative grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5  gap-6 mt-[60px]">
           {cards.map((card, index) => (
             <div
               key={index}
@@ -92,14 +96,14 @@ export default function StandsUncrackable() {
               }}
               className="group"
             >
-              <div className="relative w-full h-auto md:h-[329px] bg-[#0C0318]">
+              <div className="relative w-full h-auto md:h-[200px]">
                 {/* Front Side */}
-                <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px]">
-                  <div className="bg-[url('/images/grant-program/gridbg.png')] bg-no-repeat bg-right-top bg-cover bg-[#0D031B] hover:bg-[#1B0637] p-6 h-full rounded-[20px] flex flex-col items-start text-left py-16">
-                    <h3 className="text-[80px] font-montserrat leading-normal font-extralight text-left mt-5 bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
-                      {card.title}
+                <div className="rounded-[20px] h-full">
+                  <div className="bg-[#181022] hover:bg-[#1B0637] p-6 h-full rounded-[20px] flex flex-col text-center">
+                    <h3 className="text-h4 font-montserrat leading-normal font-bold text-center mt-5 text-[#C894FF]">
+                      {card.counter}
                     </h3>
-                    <p className="text-p2 font-open-sans text-left">{card.description}</p>
+                    <p className="text-p2 font-montserrat font-normal">{card.description}</p>
                   </div>
                 </div>
               </div>
