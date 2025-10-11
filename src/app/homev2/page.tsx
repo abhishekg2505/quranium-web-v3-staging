@@ -1,6 +1,4 @@
 import HeroSection from "@/src/components/homesectionv2/HeroSection";
-import UncrackableTeam from "@/src/components/about/UncrackableTeam";
-import Team from "@/src/components/about/Team";
 import TeamCarousel from "@/src/components/about/TeamCarousel";
 import { aboutUsMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
@@ -55,8 +53,6 @@ export default function Homev2() {
       <Traction />
       <Community />
       <Partners />
-      <Team />
-      <UncrackableTeam />
     </main>
   );
 }
