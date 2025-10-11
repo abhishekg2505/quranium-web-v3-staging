@@ -10,6 +10,7 @@ import Community from "@/src/components/homesectionv2/Community";
 import Partners from "@/src/components/homesectionv2/Partners";
 import BackedBy from "@/src/components/homesectionv2/BackedBy";
 import InstitutionalReady from "@/src/components/homesectionv2/InstitutionalReady";
+import QuantumResistance from "@/src/components/homesectionv2/QuantumResistance";
 
 export const metadata = {
   title: {
@@ -46,6 +47,7 @@ export default function Homev2() {
       <HeroSection />
       <ClockTicking />
       <QuantumThreat />
+      <QuantumResistance />
       <InstitutionalReady />
       <BackedBy />
       <ThoughtLeadership />

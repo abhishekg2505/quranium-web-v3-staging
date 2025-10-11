@@ -100,23 +100,18 @@ const HeroSection = () => {
             ref={cardsRef}
             className="flex items-center justify-center mt-10 md:mt-0 relative w-full h-full"
           >
-            <Image
-              src="/images/homepagev2/heroimg.webp"
-              alt="Quantum"
-              width={406}
-              height={459}
-              className="w-full"
-            />
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="absolute inset-0 w-full h-full object-cover z-0"
-            >
-              <source src="/images/homepagev2/homehero.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <div className="w-[500px] h-[459px] relative">
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="absolute inset-0 w-full h-full object-cover z-0"
+              >
+                <source src="/images/homepagev2/homehero.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
       </div>
