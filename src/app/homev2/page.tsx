@@ -4,7 +4,6 @@ import Team from "@/src/components/about/Team";
 import TeamCarousel from "@/src/components/about/TeamCarousel";
 import { aboutUsMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
-import QuraniumJourney from "@/src/components/about/QuraniumJourney";
 import ClockTicking from "@/src/components/homesectionv2/ClockTicking";
 import QuantumThreat from "@/src/components/homesectionv2/QuantumThreat";
 import ThoughtLeadership from "@/src/components/homesectionv2/ThoughtLeadership";
@@ -50,7 +49,6 @@ export default function Homev2() {
       <TeamCarousel />
       <Traction />
       <Community />
-      <QuraniumJourney />
       <Team />
       <UncrackableTeam />
     </main>

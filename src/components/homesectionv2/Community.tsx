@@ -4,6 +4,8 @@ import Image from "next/image";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { socialMedia } from "@/src/constants/socialMedia";
+import Link from "next/link";
 gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
@@ -97,7 +99,7 @@ export default function Community() {
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
         <h2
           ref={mainTitleRef}
-          className="text-h4 md:text-h3 font-montserrat font-normal text-center"
+          className="text-h4 md:text-h3 font-montserrat font-semibold text-center"
         >
           Community
         </h2>
@@ -130,6 +132,35 @@ export default function Community() {
                   </div>
                 </div>
               </div>
+            </div>
+          ))}
+        </div>
+        <h2
+          ref={mainTitleRef}
+          className="text-h4 md:text-h3 font-montserrat font-semibold text-center mt-[60px]"
+        >
+          Join the Uncrackable Journey
+        </h2>
+        <p className="text-p2 font-open-sans text-center mt-[20px] mb-[16px]">
+          Bringing the disruptors together. Around the world.
+        </p>
+        <div className="flex justify-center items-center space-x-6">
+          {socialMedia.map((social, index) => (
+            <div
+              key={social.name}
+              ref={(el) => {
+                cardsRef.current[index] = el;
+              }}
+            >
+              <Link href={social.link} key={social.name} target="_blank">
+                <Image
+                  src={social.logo}
+                  alt={social.name}
+                  width={40}
+                  height={40}
+                  className="cursor-pointer hover:opacity-50 duration-300 w-6 h-6 md:w-10 md:h-10"
+                />
+              </Link>
             </div>
           ))}
         </div>
