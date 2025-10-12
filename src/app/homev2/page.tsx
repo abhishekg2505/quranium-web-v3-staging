@@ -1,5 +1,5 @@
 import HeroSection from "@/src/components/homesectionv2/HeroSection";
-import TeamCarousel from "@/src/components/about/TeamCarousel";
+import TeamCarousel from "@/src/components/homesectionv2/TeamCarousel";
 import { aboutUsMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
 import ClockTicking from "@/src/components/homesectionv2/ClockTicking";
