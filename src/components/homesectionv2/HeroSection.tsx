@@ -76,7 +76,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto pt-[50px] pb-[106px] md:pt-36 px-[16px]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left ">
           {/* Left Side */}
-          <div className="relative z-10">
+          <div className="relative z-10 order-2 md:order-1">
             <h1
               ref={mainTitleRef}
               className="text-center md:text-left text-h4 md:text-h3 font-montserrat font-semibold text-white mb-[15px]"
@@ -98,7 +98,7 @@ const HeroSection = () => {
           {/* Right Side - Video */}
           <div
             ref={cardsRef}
-            className="flex items-center justify-center mt-10 md:mt-0 relative w-full h-full"
+            className="flex items-center justify-center mt-10 md:mt-0 relative w-full h-full order-1 md:order-2"
           >
             <div className="w-[500px] h-[459px] relative">
               <video

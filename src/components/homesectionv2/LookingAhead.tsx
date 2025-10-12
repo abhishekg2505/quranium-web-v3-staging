@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 const phases = [
   {
     key: "phase1",
-    label: "Phase I – 2025",
+    label: "Phase I 2025",
     color: "bg-[linear-gradient(180deg,#0021C7_0%,#000D4E_100%)]", // blue
     content: (
       <div>
@@ -121,17 +121,69 @@ const phases = [
   },
   {
     key: "phase2",
-    label: "Phase II – 2026",
+    label: "Phase II 2026",
     color: "bg-[linear-gradient(180deg,#00AA4E_0%,#003317_100%)]", // green
     content: (
       <div className="text-white">
-        <h3 className="text-h4 font-semibold font-montserrat mb-4">Phase II Content</h3>
+        <h3 className="text-h4 font-semibold font-montserrat mb-4">
+          Post-quantum Financial Infrastructure
+        </h3>
         <ul className="space-y-3">
           <li className="flex items-start">
-            <span className="text-green-400 mr-2">✓</span>Feature or milestone for 2026
+            <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+              <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+              Secure $8 Trillion Industry
+            </div>
           </li>
           <li className="flex items-start">
-            <span className="text-green-400 mr-2">✓</span>Another improvement
+            <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+              <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+              Solutions for banking and institutional finance
+            </div>
+          </li>
+          <li className="">
+            <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+              <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+              Institutional grade solutions for
+            </div>
+            <ul className="pl-6">
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  Post-quantum BTC
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  Post-quantum reserves
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  Post-quantum DATs
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  Post-quantum banking
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  Post-quantum payments
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  Post-quantum remittance
+                </div>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -139,17 +191,52 @@ const phases = [
   },
   {
     key: "phase3",
-    label: "Phase III – 2027",
+    label: "Phase III 2027",
     color: "bg-[linear-gradient(180deg,#550083_0%,#13001D_100%)]", // purple
     content: (
       <div className="text-white">
-        <h3 className="text-h4 font-semibold font-montserrat mb-4">Phase III Content</h3>
+        <h3 className="text-h4 font-semibold font-montserrat mb-4">
+          Post-quantum Agentic AI Infrastructure
+        </h3>
         <ul className="space-y-3">
           <li className="flex items-start">
-            <span className="text-green-400 mr-2">✓</span>Major roadmap milestone
+            <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+              <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+              Post-quantum Agentic AI Infrastructure
+            </div>
           </li>
-          <li className="flex items-start">
-            <span className="text-green-400 mr-2">✓</span>Future development goal
+
+          <li className="">
+            <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+              <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+              Agent to agent interactions
+            </div>
+            <ul className="pl-6">
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  ID
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  Data
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  Payments
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  IoT
+                </div>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -227,7 +314,7 @@ export default function LookingAhead() {
                   key={p.key}
                   onClick={() => setActivePhase(p.key)}
                   className={`
-                    px-5 py-2 text-h4 font-montserrat rounded-[4px] font-semibold text-white
+                    md:px-5 px-2 py-2 text-h6 md:text-h4 font-montserrat rounded-[16px] md:rounded-[4px] font-semibold text-white
                     ${activePhase === p.key ? p.color : "bg-[#17171a] text-[#a3a3a3]"}
                     transition-colors duration-150 border-none focus:outline-none
                   `}

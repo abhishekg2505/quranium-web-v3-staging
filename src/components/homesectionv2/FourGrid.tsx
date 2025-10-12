@@ -105,10 +105,10 @@ export default function FourGrid() {
               }}
               className={`group ${card.widthClass}`}
             >
-              <div className="relative w-full h-auto overflow-hidden">
+              <div className="relative w-full h-auto md:h-full overflow-hidden">
                 {/* Front Side */}
-                <div className="bg-roadshow-reverse-border p-[1px] rounded-[16px]">
-                  <div className="bg-[#181022] hover:bg-[#1B0637]  h-full rounded-[16px] overflow-hidden flex flex-col justify-between text-left">
+                <div className="bg-roadshow-reverse-border p-[1px] h-auto md:h-full rounded-[16px]">
+                  <div className="bg-[#181022] hover:bg-[#1B0637]  h-auto md:h-full rounded-[16px] overflow-hidden flex flex-col justify-between text-left">
                     <div className="flex flex-col justify-center1 items-center1 gap-2 px-[32px] pt-[32px] pb-[40px]">
                       <h4 className="text-h4 font-montserrat font-semibold">{card.title}</h4>
                       <p className="text-p1 font-montserrat font-normal">{card.description}</p>
