@@ -11,6 +11,9 @@ import Partners from "@/src/components/homesectionv2/Partners";
 import BackedBy from "@/src/components/homesectionv2/BackedBy";
 import InstitutionalReady from "@/src/components/homesectionv2/InstitutionalReady";
 import QuantumResistance from "@/src/components/homesectionv2/QuantumResistance";
+import LeadershipSection from "@/src/components/homesectionv2/LeadershipSection";
+import FourGrid from "@/src/components/homesectionv2/FourGrid";
+import VerticalTimeLine from "@/src/components/homesectionv2/VerticalTimeLine";
 
 export const metadata = {
   title: {
@@ -48,6 +51,7 @@ export default function Homev2() {
       <ClockTicking />
       <QuantumThreat />
       <QuantumResistance />
+      <FourGrid />
       <InstitutionalReady />
       <BackedBy />
       <ThoughtLeadership />
@@ -55,6 +59,8 @@ export default function Homev2() {
       <Traction />
       <Community />
       <Partners />
+      <LeadershipSection />
+      <VerticalTimeLine />
     </main>
   );
 }
