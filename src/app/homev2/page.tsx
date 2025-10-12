@@ -14,6 +14,7 @@ import QuantumResistance from "@/src/components/homesectionv2/QuantumResistance"
 import LeadershipSection from "@/src/components/homesectionv2/LeadershipSection";
 import FourGrid from "@/src/components/homesectionv2/FourGrid";
 import VerticalTimeLine from "@/src/components/homesectionv2/VerticalTimeLine";
+import LookingAhead from "@/src/components/homesectionv2/LookingAhead";
 
 export const metadata = {
   title: {
@@ -61,6 +62,7 @@ export default function Homev2() {
       <Partners />
       <LeadershipSection />
       <VerticalTimeLine />
+      <LookingAhead />
     </main>
   );
 }
