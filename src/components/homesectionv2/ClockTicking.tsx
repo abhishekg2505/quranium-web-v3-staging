@@ -90,7 +90,7 @@ const ClockTicking = () => {
               rapidly approaching <br />
               obsolescence as computing power increases.
             </p>
-            <div className="w-[500px] h-[459px] relative mx-auto">
+            <div className="relative mx-auto w-full max-w-[500px] aspect-[500/459]">
               <video
                 autoPlay
                 muted
@@ -102,6 +102,7 @@ const ClockTicking = () => {
                 Your browser does not support the video tag.
               </video>
             </div>
+
             <h4 className="text-h4 font-montserrat font-semibold mt-[50px] text-center">
               <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
                 The Quantum Threat is Real.
