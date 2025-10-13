@@ -3,7 +3,6 @@ import TeamCarousel from "@/src/components/homesectionv2/TeamCarousel";
 import { aboutUsMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
 import ClockTicking from "@/src/components/homesectionv2/ClockTicking";
-import QuantumThreat from "@/src/components/homesectionv2/QuantumThreat";
 import ThoughtLeadership from "@/src/components/homesectionv2/ThoughtLeadership";
 import Traction from "@/src/components/homesectionv2/Traction";
 import Community from "@/src/components/homesectionv2/Community";
@@ -52,7 +51,6 @@ export default function Homev2() {
     <main className="flex min-h-screen flex-col bg-background">
       <HeroSection />
       <ClockTicking />
-      <QuantumThreat />
       <QuantumResistance />
       <FourGrid />
       <QuantumSecure />
@@ -61,8 +59,8 @@ export default function Homev2() {
       <ThoughtLeadership />
       <TeamCarousel />
       <Community />
-      <Traction />
       <Partners />
+      <Traction />
       <LeadershipSection />
       <VerticalTimeLine />
       <LookingAhead />

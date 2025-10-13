@@ -76,26 +76,28 @@ export default function QuantumSecure() {
   }, []);
 
   return (
-    <div
-      ref={sectionRef}
-      className="relative bg-[#0C0318] px-5 pt-16 pb-24 md:bg-[url('/images/homepagev2/secure.webp')] bg-[length:360px_460px] bg-right-top bg-no-repeat"
-    >
+    <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-16 pb-24">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
-        <div className="relative max-w-[874px]">
+        <div className="relative w-full">
           <h2
             ref={mainTitleRef}
-            className="text-h4 md:text-h3 font-montserrat font-semibold text-left"
+            className="text-h4 md:text-h3 font-montserrat font-semibold text-center"
           >
-            Your on-chain money, assets and data are now secure from quantum attacks.
+            <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
+              Your on-chain money,
+            </span>{" "}
+            assets and data are
+            <br /> now secure from quantum attacks.
           </h2>
-          <p className="text-p1 font-open-sans font-normal text-left">
+          <p className="text-p1 font-open-sans font-normal text-center mt-5">
             Existing L1s like Bitcoin, Ethereum, and Solana rely on ECDSA encryption, which is
-            rapidly approaching obsolescence as computing power increases.
+            rapidly
+            <br /> approaching obsolescence as computing power increases.
           </p>
         </div>
       </div>
-      <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px] mt-[210px]">
-        <h2 ref={mainTitleRef} className="text-h3 md:text-h2 font-montserrat font-bold text-center">
+      <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px] mt-[80px]">
+        <h2 ref={mainTitleRef} className="text-h3 font-montserrat font-semibold text-center">
           Quantum Secure <span className="text-[#C994FE]">Transactions</span>
         </h2>
 

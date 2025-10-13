@@ -24,7 +24,7 @@ export default function InstitutionalReady() {
   return (
     <section className="relative bg-[#030712] py-24 overflow-hidden">
       {/* Left glowing image */}
-      <div className="absolute left-0 top-1/2 -translate-y-1/2 hidden md:block">
+      <div className="absolute left-0 top-[55%] -translate-y-1/2 hidden md:block">
         <Image
           src="/images/homepagev2/left-glow.webp"
           alt="Left Glow"
@@ -35,7 +35,7 @@ export default function InstitutionalReady() {
       </div>
 
       {/* Right glowing image */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 hidden md:block">
+      <div className="absolute right-0 top-[55%] -translate-y-1/2 hidden md:block">
         <Image
           src="/images/homepagev2/right-glow.webp"
           alt="Right Glow"
@@ -49,38 +49,35 @@ export default function InstitutionalReady() {
         <h2 className="text-h3 font-montserrat font-semibold">Institutional Ready</h2>
         <p className="text-p1 font-open-sans mt-4 mb-[60px]">Quramium&rsquo;s Core Advantages</p>
 
-        {/* Center vertical gradient line */}
-        <div className="absolute left-1/2 top-[200px] bottom-0 w-[2px] -translate-x-1/2 bg-gradient-to-b from-transparent via-[#3B82F6] to-transparent"></div>
-
         {/* Cards */}
-        <div className="flex flex-col gap-[52px] relative z-10">
+        <div className="flex flex-col gap-[40px] relative z-10">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="relative bg-[#181022] max-w-[730px] mx-auto border-[1.5px] border-[#FFFFFF33] rounded-[16px] px-8 py-8 md:py-10 text-center"
+              className="relative bg-[#181022] md:w-[854px] mx-auto border-[1.5px] border-[#FFFFFF33] rounded-[16px] p-5 text-center"
             >
-              <div className="absolute left-[-200px] top-1/2 -translate-y-1/2 hidden md:block">
+              <div className="absolute left-[-100px] top-1/2 -translate-y-1/2 hidden md:block">
                 <Image
                   src="/images/homepagev2/white-line.png"
                   alt="Left Image"
-                  width={200}
+                  width={100}
                   height={11}
                   className="object-contain"
                 />
               </div>
 
               {/* Right Image */}
-              <div className="absolute right-[-200px] top-1/2 -translate-y-1/2 hidden md:block">
+              <div className="absolute right-[-100px] top-1/2 -translate-y-1/2 hidden md:block">
                 <Image
                   src="/images/homepagev2/purple-line.png"
                   alt="Right Image"
-                  width={200}
+                  width={100}
                   height={11}
                   className="object-contain"
                 />
               </div>
               <h3 className="text-h4 font-montserrat font-semibold text-[#D6DDE6]">{card.title}</h3>
-              <p className="text-p1 font-open-sans my-5">{card.desc}</p>
+              <p className="text-p1 font-open-sans my-[10px]">{card.desc}</p>
               <p className="text-p1 text-[#C894FF] font-open-sans">{card.sub}</p>
             </div>
           ))}

@@ -13,36 +13,33 @@ const cards = [
     title: "QRN Rush",
     image: "/images/homepagev2/qrnrush-frame.png",
     widthClass: "w-full md:w-[31%]",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ex a quam eleme.",
+    description: "Join QRNRush, a gamified platform to earn rewards, climb ranks, and win prizes.",
   },
   {
     title: "Developers",
     image: "/images/homepagev2/qremixai-frame.png",
     widthClass: "w-full md:w-[31%]",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ex a quam eleme.",
+    description: "Develop, test, and deploy dApps securely on Quranium’s post-quantum ecosystem.",
   },
   {
     title: "DeQuip Grant Program",
     image: "/images/homepagev2/grant-program-frame.png",
     widthClass: "w-full md:w-[31%]",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ex a quam eleme.",
+    description: "Fuel your vision with our milestone-based grants and expert developer support.",
   },
   {
     title: "Our Global Roadshow",
     image: "/images/homepagev2/bu-frame.png",
     widthClass: "w-full md:w-[48%]",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ex a quam eleme.",
+      "Quranium’s Be Uncrackable Roadshow brings quantum security awareness to innovators, builders, and enterprises worldwide.",
   },
   {
     title: "Quantum Mind Podcast",
     image: "/images/homepagev2/qmpframe.png",
     widthClass: "w-full md:w-[48%]",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ex a quam eleme.",
+      "Discover inspiring stories from real innovators shaping the future of AI, quantum, and Web3 on Quantum Minds Podcast.",
   },
 ];
 

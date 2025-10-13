@@ -70,7 +70,7 @@ export default function BackedBy() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="relative bg-[#611DFF] px-5 py-10">
+    <div ref={sectionRef} className="relative bg-[#611DFF] px-5 py-20">
       <div className="relative max-w-[952px] mx-auto px-[16px] md:px-[60px]">
         <h2
           ref={mainTitleRef}
@@ -79,7 +79,7 @@ export default function BackedBy() {
           Backed by
         </h2>
 
-        <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-6 mt-[30px]">
+        <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-center gap-6 mt-[30px]">
           {cards.map((card, index) => (
             <div
               key={index}
