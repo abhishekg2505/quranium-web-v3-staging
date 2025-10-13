@@ -82,7 +82,7 @@ export default function QuantumResistance() {
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
         <h2
           ref={mainTitleRef}
-          className="text-h4 md:text-h3 font-montserrat font-normal text-center"
+          className="text-h4 md:text-h3 font-montserrat font-semibold text-center"
         >
           Quranium:{" "}
           <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
