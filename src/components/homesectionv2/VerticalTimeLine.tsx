@@ -45,8 +45,8 @@ export default function VerticalTimeLine() {
 
   return (
     <>
-      <div className="h-[50px] md:h-[105px]"></div>
-      <div className="w-full px-4 md:pl-10 relative overflow-x-hidden">
+      <div className="h-[50px] md:h-[105px] bg-[#030712]"></div>
+      <div className="w-full px-4 md:pl-10 relative overflow-x-hidden bg-[#030712]">
         <h3 className="text-h5 md:text-h3 font-montserrat font-semibold text-center md:mb-[78px] absolute top-0 left-0 w-full">
           Roadmap
         </h3>

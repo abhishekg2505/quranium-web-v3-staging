@@ -78,13 +78,13 @@ export default function QuantumSecure() {
   return (
     <div
       ref={sectionRef}
-      className="relative bg-[#0C0318] px-5 pt-16 pb-24 bg-[url('/images/homepagev2/secure.webp')] bg-contain bg-right bg-no-repeat"
+      className="relative bg-[#0C0318] px-5 pt-16 pb-24 md:bg-[url('/images/homepagev2/secure.webp')] bg-[length:360px_460px] bg-right-top bg-no-repeat"
     >
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
-        <div className="relative max-w-[974px]">
+        <div className="relative max-w-[874px]">
           <h2
             ref={mainTitleRef}
-            className="text-h4 md:text-h3 font-montserrat font-normal text-left"
+            className="text-h4 md:text-h3 font-montserrat font-semibold text-left"
           >
             Your on-chain money, assets and data are now secure from quantum attacks.
           </h2>
@@ -93,7 +93,26 @@ export default function QuantumSecure() {
             rapidly approaching obsolescence as computing power increases.
           </p>
         </div>
-        <div className="relative grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3  gap-6 mt-[60px]"></div>
+      </div>
+      <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px] mt-[210px]">
+        <h2 ref={mainTitleRef} className="text-h3 md:text-h2 font-montserrat font-bold text-center">
+          Quantum Secure <span className="text-[#C994FE]">Transactions</span>
+        </h2>
+
+        <Image
+          src="/images/homepagev2/chartD.svg"
+          alt="Chart desktop"
+          width={1360}
+          height={931}
+          className="w-full hidden md:block"
+        />
+        <Image
+          src="/images/homepagev2/chartM.svg"
+          alt="Chart mobile"
+          width={1360}
+          height={931}
+          className="w-full md:hidden block"
+        />
       </div>
     </div>
   );
