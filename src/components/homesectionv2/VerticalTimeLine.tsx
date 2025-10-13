@@ -1,80 +1,133 @@
-import { timeline } from "@/src/constants/verticalTimeLine";
+"use client";
 import Image from "next/image";
+import { useRef, useEffect, useState } from "react";
+import { verticalTimeLineData } from "@/src/constants/verticalTimeLineData";
+import VerticalTimeLineCard from "./VerticalTimeLine/VerticalTimeLineCard";
 
-const VerticalTimeLine = () => (
-  <div className="flex flex-col items-center py-10 bg-[#030712] min-h-screen">
-    <h2 className="text-3xl font-bold text-white mb-10">Roadmap</h2>
+export default function VerticalTimeLine() {
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [atEnd, setAtEnd] = useState(false);
+  const [atStart, setAtStart] = useState(true);
 
-    <div className="relative w-full max-w-4xl mx-auto">
-      {/* Middle vertical line (hidden on mobile) */}
-      <div className="hidden md:block absolute left-1/2 top-0 -translate-x-1/2 w-[2px] h-full bg-gradient-to-b from-green-400 via-green-300 to-green-500" />
+  const aboveEvents = verticalTimeLineData.filter((e) => e.row === "above");
+  const belowEvents = verticalTimeLineData.filter((e) => e.row === "below");
 
-      <div
-        className="
-          grid 
-          grid-cols-1 
-          md:grid-cols-2 
-          gap-y-16 gap-x-6
-          relative
-        "
-      >
-        {timeline.map((section, idx) => {
-          const isLeft = idx % 2 === 0;
-          return (
-            <div
-              key={section.period}
-              className={`
-                relative 
-                max-w-[400px] 
-                mx-auto 
-                ${isLeft ? "md:justify-self-end" : "md:justify-self-start"}
-              `}
-            >
-              {/* Connector lines toward the center */}
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
 
-              {/* Card */}
-              <div className="relative bg-[#181022] border border-[#FFFFFF33] rounded-[16px] p-6 shadow-md">
-                <div
-                  className={`hidden md:block absolute top-10 -translate-y-1/2 z-10 ${
-                    isLeft ? "right-[-40px]" : "left-[-40px]"
-                  }`}
-                >
-                  <Image
-                    src={
-                      isLeft
-                        ? "/images/homepagev2/left-green-line.svg" // left card points right
-                        : "/images/homepagev2/right-green-line.svg" // right card points left
-                    }
-                    alt="connector"
-                    width={39}
-                    height={0}
-                    className="object-contain"
-                  />
-                </div>
-                <h3 className="text-xl text-green-300 font-semibold mb-3">{section.period}</h3>
-                <ul className="mt-2 list-none">
-                  {section.items.map((item, i) => (
-                    <li key={i} className="flex flex-row gap-x-2 items-start mt-2">
+    const handleScroll = () => {
+      const scrollLeft = container.scrollLeft;
+      const scrollWidth = container.scrollWidth;
+      const clientWidth = container.clientWidth;
+
+      setAtStart(scrollLeft <= 10);
+      setAtEnd(scrollLeft + clientWidth >= scrollWidth - 10);
+    };
+
+    handleScroll(); // Set initial state
+    container.addEventListener("scroll", handleScroll);
+    return () => container.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleArrowClick = () => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
+
+    if (atEnd) {
+      // If already at end, and user clicks left arrow, go all the way back
+      container.scrollTo({ left: 0, behavior: "smooth" });
+    } else {
+      // Scroll forward by 400px
+      container.scrollBy({ left: 400, behavior: "smooth" });
+    }
+  };
+
+  return (
+    <>
+      <div className="h-[50px] md:h-[105px]"></div>
+      <div className="w-full px-4 md:pl-10 relative overflow-x-hidden">
+        <h3 className="text-h5 md:text-h3 font-montserrat font-semibold text-center md:mb-[78px] absolute top-0 left-0 w-full">
+          Roadmap
+        </h3>
+
+        {/* Scroll Arrow */}
+        {!atStart || !atEnd ? (
+          <div
+            onClick={handleArrowClick}
+            className={`absolute z-[11] top-[48%] md:top-[47%] w-[100px] h-[100px] transition-all duration-500 ${
+              atEnd ? "left-5" : "right-5"
+            } cursor-pointer animate-left-right`}
+          >
+            <Image
+              src="/images/about/btn.svg"
+              alt="Arrow"
+              width={72}
+              height={72}
+              className={`w-[42px] h-[42px] md:w-[72px] md:h-[72px] ${atEnd ? "rotate-180" : ""}`}
+            />
+          </div>
+        ) : null}
+
+        {/* Center line */}
+        <div className="absolute z-10 left-20 right-0 top-1/2 w-[2000px] h-[1.5px] bg-[linear-gradient(90deg,rgba(1,184,121,0)_0%,#01B879_5%,#01B879_93.75%,rgba(1,184,121,0)_100%)]" />
+
+        <div
+          ref={scrollContainerRef}
+          className="scrollablearea overflow-x-auto scrollbar-hide relative pt-[125px] pb-24 px-4 pl-4 md:pl-10 "
+        >
+          <div className="relative z-10 min-w-max1 max-w-[2000px]">
+            {/* ABOVE ROW */}
+            <ul className="flex min-w-max mb-10 pl-[180px]">
+              {verticalTimeLineData.map((event, idx) =>
+                event.row === "above" ? (
+                  <li key={idx} className="relative flex flex-col items-center justify-end">
+                    <VerticalTimeLineCard event={event} />
+                    <div className="aboveImg w-[10px] absolute z-10 -bottom-[40px]">
                       <Image
-                        src="/images/about/star.png"
-                        alt="star"
-                        width={20}
-                        height={24}
-                        className="w-[20px] h-[24px] flex-shrink-0"
+                        src="/images/homepagev2/upward.svg"
+                        alt="Upward"
+                        width={62}
+                        height={10}
                       />
-                      <div className="text-p3 font-open-sans font-normal text-[#D6DDE6]">
-                        {item}
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  </div>
-);
+                    </div>
+                  </li>
+                ) : (
+                  <li key={idx} className="w-[80px] md:w-[110px]" />
+                )
+              )}
+            </ul>
 
-export default VerticalTimeLine;
+            {/* Dots row */}
+            <ul className="flex space-x-16 min-w-max items-center">
+              {verticalTimeLineData.map((_, idx) => (
+                <li key={idx} className="flex justify-center w-[480px]" />
+              ))}
+            </ul>
+
+            {/* BELOW ROW */}
+            <ul className="flex min-w-max mt-10">
+              {verticalTimeLineData.map((event, idx) =>
+                event.row === "below" ? (
+                  <li key={idx} className="relative flex flex-col items-center">
+                    <div className="belowImg w-[10px] absolute z-10 -top-[50px]">
+                      <Image
+                        src="/images/homepagev2/downward.svg"
+                        alt="Downward"
+                        width={62}
+                        height={10}
+                      />
+                    </div>
+                    <VerticalTimeLineCard event={event} />
+                  </li>
+                ) : (
+                  <li key={idx} className="w-[80px] md:w-[110px]" />
+                )
+              )}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
