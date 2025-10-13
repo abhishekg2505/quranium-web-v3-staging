@@ -110,7 +110,7 @@ export default function Traction() {
                       height={40}
                       className="mx-auto"
                     />
-                    <h3 className="text-[60px] font-montserrat leading-none font-bold text-center mt-10 mb-5 text-[#C894FF]">
+                    <h3 className="text-h4 md:text-[60px] font-montserrat leading-none font-bold text-center mt-10 mb-5 text-[#C894FF]">
                       {card.counter}
                     </h3>
                     <p className="text-p2 font-montserrat font-normal">{card.description}</p>
