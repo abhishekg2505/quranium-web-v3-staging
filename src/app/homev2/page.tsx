@@ -16,6 +16,7 @@ import FourGrid from "@/src/components/homesectionv2/FourGrid";
 import VerticalTimeLine from "@/src/components/homesectionv2/VerticalTimeLine";
 import LookingAhead from "@/src/components/homesectionv2/LookingAhead";
 import QuantumSecure from "@/src/components/homesectionv2/QuantumSecure";
+import Articles from "@/src/components/homesectionv2/Articles";
 
 export const metadata = {
   title: {
@@ -65,6 +66,7 @@ export default function Homev2() {
       <LeadershipSection />
       <VerticalTimeLine />
       <LookingAhead />
+      <Articles />
     </main>
   );
 }
