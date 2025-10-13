@@ -337,10 +337,11 @@
 
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 // import { phases } from "@/src/constants/phases"; // your data from above
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { MoveLeftIcon, MoveRightIcon } from "lucide-react";
+import gsap from "gsap";
 const phases = [
   {
     key: "phase1",
@@ -350,7 +351,7 @@ const phases = [
     video: "/videos/homepage/shell-blue.mp4",
     content: (
       <div>
-        <h3 className="text-h4 font-semibold font-montserrat mb-4 text-white">
+        <h3 className="text-h5 font-semibold font-montserrat mb-4 text-white">
           Quantum Secure Layer-1 Blockchain Infrastructure
         </h3>
         <ul className="list-none space-y-3">
@@ -464,7 +465,7 @@ const phases = [
     video: "/videos/homepage/shell-green.mp4",
     content: (
       <div className="text-white">
-        <h3 className="text-h4 font-semibold font-montserrat mb-4">
+        <h3 className="text-h5 font-semibold font-montserrat mb-4">
           Post-quantum Financial Infrastructure
         </h3>
         <ul className="space-y-3">
@@ -536,7 +537,7 @@ const phases = [
     video: "/videos/homepage/shell-purple.mp4",
     content: (
       <div className="text-white">
-        <h3 className="text-h4 font-semibold font-montserrat mb-4">
+        <h3 className="text-h5 font-semibold font-montserrat mb-4">
           Post-quantum Agentic AI Infrastructure
         </h3>
         <ul className="space-y-3">
@@ -586,12 +587,23 @@ const phases = [
 ];
 export default function LookingAhead() {
   const [current, setCurrent] = useState(0);
+  const cardRef = useRef<HTMLDivElement>(null);
 
+  // Animate card when 'current' changes
+  useEffect(() => {
+    if (cardRef.current) {
+      gsap.fromTo(
+        cardRef.current,
+        { opacity: 0, y: 40 },
+        { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }
+      );
+    }
+  }, [current]);
   const nextSlide = () => setCurrent((prev) => (prev + 1) % phases.length);
   const prevSlide = () => setCurrent((prev) => (prev - 1 + phases.length) % phases.length);
 
   return (
-    <section className="relative bg-[#0B0117] text-white py-16 px-5 md:px-16 overflow-hidden">
+    <section className="relative bg-[#0B0117] text-white py-16 px-4 md:px-20">
       <div className="max-w-7xl mx-auto">
         {/* ---- Title ---- */}
         <div className="text-center mb-10">
@@ -615,7 +627,10 @@ export default function LookingAhead() {
         </div>
 
         {/* ---- Slider Layout ---- */}
-        <div className="relative grid grid-cols-1 md:grid-cols-[40%_60%] items-center gap-10">
+        <div
+          ref={cardRef}
+          className="relative grid grid-cols-1 md:grid-cols-[30%_70%] items-center"
+        >
           {/* ---- Left Side (Video) ---- */}
           <div className="flex justify-center items-center relative">
             <video
@@ -631,7 +646,7 @@ export default function LookingAhead() {
 
           {/* ---- Right Side (Content Card) ---- */}
           <div
-            className={`relative transition-all duration-500 rounded-2xl p-8 ${phases[current].color} shadow-lg`}
+            className={`relative transition-all duration-500 rounded-2xl p-8 ${phases[current].tabarea} shadow-lg`}
           >
             {phases[current].content}
           </div>
@@ -639,15 +654,15 @@ export default function LookingAhead() {
           {/* ---- Navigation Arrows ---- */}
           <button
             onClick={prevSlide}
-            className="absolute left-0 md:left-[2%] top-1/2 -translate-y-1/2 bg-[#181022]/60 hover:bg-[#181022]/90 p-3 rounded-full border border-white/20 z-10 transition"
+            className="absolute left-0 md:left-[-4%] top-1/2 -translate-y-1/2 bg-[#181022]/60 hover:bg-[#181022]/90 p-3 rounded-full border border-white/20 z-10 transition"
           >
-            <ChevronLeft className="w-6 h-6" />
+            <MoveLeftIcon className="w-4 h-4 group-hover:stroke-[#ffffff]" />
           </button>
           <button
             onClick={nextSlide}
-            className="absolute right-0 md:right-[2%] top-1/2 -translate-y-1/2 bg-[#181022]/60 hover:bg-[#181022]/90 p-3 rounded-full border border-white/20 z-10 transition"
+            className="group absolute right-0 md:right-[-4%] top-1/2 -translate-y-1/2 bg-[#181022]/60 hover:bg-[#181022]/90 p-3 rounded-full border border-white/20 z-10 transition"
           >
-            <ChevronRight className="w-6 h-6" />
+            <MoveRightIcon className="w-4 h-4 group-hover:stroke-[#ffffff]" />
           </button>
         </div>
       </div>
