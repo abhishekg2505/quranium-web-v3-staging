@@ -60,8 +60,8 @@ export default function Homev2() {
       <BackedBy />
       <ThoughtLeadership />
       <TeamCarousel />
-      <Traction />
       <Community />
+      <Traction />
       <Partners />
       <LeadershipSection />
       <VerticalTimeLine />

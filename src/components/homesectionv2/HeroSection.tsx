@@ -72,9 +72,9 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="px-4 md:px-20 bg-[#0C0318]">
+    <div ref={sectionRef} className="px-4 md:px-20 bg-[#0C0318] md:min-h-screen">
       <div className="max-w-7xl mx-auto pt-[50px] pb-[106px] md:pt-36 px-[16px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left">
           {/* Left Side */}
           <div className="relative z-10 order-2 md:order-1">
             <h1
@@ -99,20 +99,19 @@ const HeroSection = () => {
           <div
             ref={cardsRef}
             className="flex items-center justify-center mt-10 md:mt-0 relative w-full h-full order-1 md:order-2"
+          ></div>
+        </div>
+        <div className="w-[792px] h-[592px] md:absolute right-0 top-0 ">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className=" inset-0 w-full h-full object-contain md:object-fill z-0"
           >
-            <div className="w-[500px] h-[459px] relative">
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="absolute inset-0 w-full h-full object-contain md:object-cover z-0"
-              >
-                <source src="/images/homepagev2/homehero.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
+            <source src="/videos/homepage/herovideo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </div>

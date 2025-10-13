@@ -72,34 +72,47 @@ const ClockTicking = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="px-4 md:px-20 bg-[#0C0318]">
+    <div ref={sectionRef} className="px-4 md:px-20 bg-[#030712]">
       <div className="max-w-7xl mx-auto pb-[50px] px-[16px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left ">
-          {/* Left Side */}
-          <div
-            ref={cardsRef}
-            className="flex items-center justify-center mt-10 md:mt-0 relative w-full h-full"
-          >
-            <Image
-              src="/images/homepagev2/clock.webp"
-              alt="Quantum"
-              width={614}
-              height={595}
-              className="w-full"
-            />
-          </div>
-
-          {/* Right Side - Video */}
+        <div className="grid grid-cols-1  gap-10 items-center text-center md:text-left ">
           <div className="relative z-10">
             <h1
               ref={mainTitleRef}
-              className="text-center md:text-left text-h4 md:text-h3 font-montserrat font-semibold text-white mb-[15px]"
+              className="text-center text-h4 md:text-h3 font-montserrat font-semibold text-white mb-[15px]"
             >
-              The Clock is Ticking: Is Your Blockchain Obsolete?
+              <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
+                The Clock is Ticking,
+              </span>
+              Is Your Blockchain Obsolete?
             </h1>
-            <p ref={headingRef} className="text-p1 font-open-sans mb-[15px]">
+            <p ref={headingRef} className="text-p1 font-open-sans mb-[15px] text-center">
               Existing L1s like Bitcoin, Ethereum, and Solana rely on ECDSA encryption, which is
-              rapidly approaching obsolescence as computing power increases.
+              rapidly approaching <br />
+              obsolescence as computing power increases.
+            </p>
+            <div className="w-[500px] h-[459px] relative mx-auto">
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="absolute inset-0 w-full h-full object-contain md:object-cover z-0"
+              >
+                <source src="/videos/homepage/sandbox.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <h4 className="text-h4 font-montserrat font-semibold mt-[50px] text-center">
+              <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
+                The Quantum Threat is Real.
+              </span>
+              Your Digital Assets Are Not Safe.
+            </h4>
+            <p ref={headingRef} className="text-p1 font-open-sans mb-[15px] text-center">
+              The &rsquo;Store Now, Decrypt Later&rsquo; threat is no longer a theory, it means
+              current smart contracts and wallets
+              <br /> are fundamentally unsafe. A secure solution that lasts 30+ years doesn&rsquo;t
+              exist... until now.
             </p>
           </div>
         </div>
