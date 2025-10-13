@@ -88,7 +88,13 @@ export default function BackedBy() {
               }}
               className="group text-center"
             >
-              <Image src={card.image} alt="company logo" width={131} height={67} className="" />
+              <Image
+                src={card.image}
+                alt="company logo"
+                width={131}
+                height={67}
+                className="mx-auto"
+              />
             </div>
           ))}
         </div>
