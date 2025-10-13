@@ -98,10 +98,21 @@ const HeroSection = () => {
           {/* Right Side - Video */}
           <div
             ref={cardsRef}
-            className="flex items-center justify-center mt-10 md:mt-0 relative w-full h-full order-1 md:order-2"
-          ></div>
+            className="w-[492px] h-[492px] flex items-center justify-center mt-10 md:mt-0 relative md:w-full md:h-full order-1 md:order-2"
+          >
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className=" inset-0 w-full h-full object-contain md:object-fill z-0 md:hidden block"
+            >
+              <source src="/videos/homepage/herovideo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
-        <div className="w-[792px] h-[792px] md:absolute right-0 top-[-100px] ">
+        <div className="w-[792px] h-[792px] md:absolute right-0 top-[-100px] hidden md:block z-0">
           <video
             autoPlay
             muted
