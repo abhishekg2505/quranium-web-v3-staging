@@ -84,7 +84,11 @@ export default function QuantumResistance() {
           ref={mainTitleRef}
           className="text-h4 md:text-h3 font-montserrat font-normal text-center"
         >
-          Quranium: Quantum-Resistance Redefined
+          Quranium:{" "}
+          <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
+            Quantum-Resistance
+          </span>{" "}
+          Redefined
         </h2>
         <p className="text-p1 font-open-sans text-center mt-5">
           Quranium is the first L1 to adopt SLH-DSA (Stateless Hash-Based Digital Signature
@@ -115,7 +119,7 @@ export default function QuantumResistance() {
                 }}
                 className="flex flex-col"
               >
-                <h3 className={`text-h5 font-montserrat leading-normal font-bold ${card.color}`}>
+                <h3 className={`text-h5 font-montserrat leading-normal font-medium ${card.color}`}>
                   {card.title}
                 </h3>
                 <p className="text-p1 font-montserrat font-normal text-[#ECECEC]">
