@@ -375,7 +375,16 @@ export default function Header() {
                       }`}
                     >
                       {item.itemName}
-                      {item.subMenu && <ChevronDown className="stroke-2 text-white-1" size={16} />}
+                      {item.subMenu && (
+                        <ChevronDown
+                          className={`stroke-2 text-white-1 ${
+                            hoveredNavIdx === idx || isParentActive(item)
+                              ? "group-hover:stroke-[#AE87FF]"
+                              : "group-hover:stroke-[#ffffff]"
+                          }`}
+                          size={16}
+                        />
+                      )}
                     </div>
                   )}
 
@@ -399,6 +408,51 @@ export default function Header() {
                         <div className="pb-10 px-10 overflow-hidden">
                           <div className="flex w-full gap-10 pt-5">
                             {/* Left list */}
+                            <div className="relative w-1/2 px-2 flex flex-col justify-center items-center text-center">
+                              {"preview" in (hoveredSubItem || {}) && hoveredSubItem?.preview && (
+                                <>
+                                  <Image
+                                    src={hoveredSubItem.preview.img}
+                                    alt={hoveredSubItem.preview.title}
+                                    width={1086}
+                                    height={500}
+                                    className="max-w-full"
+                                  />
+                                  <Link
+                                    href={hoveredSubItem.preview.source}
+                                    className="absolute bottom-0 left-0 right-0 w-[90%] mx-auto flex flex-row justify-between items-start gap-4"
+                                    target={
+                                      hoveredSubItem.preview.source.startsWith("http")
+                                        ? "_blank"
+                                        : "_self"
+                                    }
+                                    rel={
+                                      hoveredSubItem.preview.source.startsWith("http")
+                                        ? "noopener noreferrer"
+                                        : ""
+                                    }
+                                  >
+                                    <div>
+                                      <h4 className="text-p1 font-open-sans text-left">
+                                        {hoveredSubItem.preview.title}
+                                      </h4>
+                                      <p className="text-p3 font-open-sans text-[#AFAFAF] leading-[100%] text-left">
+                                        {hoveredSubItem.preview.desc}
+                                      </p>
+                                    </div>
+                                    <Image
+                                      src="/images/common/header/right-arrow.svg"
+                                      alt="Arrow Right"
+                                      width={13}
+                                      height={13}
+                                      className="mt-2"
+                                    />
+                                  </Link>
+                                </>
+                              )}
+                            </div>
+
+                            {/* Right preview */}
                             <div className="w-1/2">
                               {item.subMenu.map((subItem, subIdx) => (
                                 <Link
@@ -442,51 +496,6 @@ export default function Header() {
                                   />
                                 </Link>
                               ))}
-                            </div>
-
-                            {/* Right preview */}
-                            <div className="relative w-1/2 px-2 flex flex-col justify-center items-center text-center">
-                              {"preview" in (hoveredSubItem || {}) && hoveredSubItem?.preview && (
-                                <>
-                                  <Image
-                                    src={hoveredSubItem.preview.img}
-                                    alt={hoveredSubItem.preview.title}
-                                    width={1086}
-                                    height={500}
-                                    className="max-w-full"
-                                  />
-                                  <Link
-                                    href={hoveredSubItem.preview.source}
-                                    className="absolute bottom-0 left-0 right-0 w-[90%] mx-auto flex flex-row justify-between items-start gap-4"
-                                    target={
-                                      hoveredSubItem.preview.source.startsWith("http")
-                                        ? "_blank"
-                                        : "_self"
-                                    }
-                                    rel={
-                                      hoveredSubItem.preview.source.startsWith("http")
-                                        ? "noopener noreferrer"
-                                        : ""
-                                    }
-                                  >
-                                    <div>
-                                      <h4 className="text-p1 font-open-sans text-left">
-                                        {hoveredSubItem.preview.title}
-                                      </h4>
-                                      <p className="text-p3 font-open-sans text-[#AFAFAF] leading-[100%] text-left">
-                                        {hoveredSubItem.preview.desc}
-                                      </p>
-                                    </div>
-                                    <Image
-                                      src="/images/common/header/right-arrow.svg"
-                                      alt="Arrow Right"
-                                      width={13}
-                                      height={13}
-                                      className="mt-2"
-                                    />
-                                  </Link>
-                                </>
-                              )}
                             </div>
                           </div>
                         </div>

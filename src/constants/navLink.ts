@@ -143,8 +143,4 @@ export const navLinks = [
       },
     ],
   },
-  {
-    itemName: "Contact",
-    link: ROUTES?.CONTACT_US,
-  },
 ];

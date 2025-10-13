@@ -8,24 +8,34 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
   {
-    counter: "150K+",
+    counter: "150,000+",
     description: "Community",
+    image: "images/homepagev2/community.svg",
   },
   {
-    counter: "30K+",
+    counter: "30,000+",
     description: "Wallets created on-chain",
+    image: "images/homepagev2/wallet.svg",
   },
   {
     counter: "153,000+",
     description: "Testnet Transactions",
+    image: "images/homepagev2/transaction.svg",
   },
   {
     counter: "1,400,000+",
     description: "Testnet QRN claimed from faucet",
+    image: "images/homepagev2/claimed.svg",
   },
   {
-    counter: "1M+",
+    counter: "80+",
+    description: "MOUs signed",
+    image: "images/homepagev2/signed.svg",
+  },
+  {
+    counter: "1,000,000+",
     description: "Gamer Alliance",
+    image: "images/homepagev2/gamer.svg",
   },
 ];
 
@@ -80,14 +90,7 @@ export default function Traction() {
   return (
     <div ref={sectionRef} className="relative bg-[#030712] px-5 pt-16 pb-24">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
-        <h2
-          ref={mainTitleRef}
-          className="text-h4 md:text-h3 font-montserrat font-normal text-center"
-        >
-          Traction
-        </h2>
-
-        <div className="relative grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5  gap-6 mt-[60px]">
+        <div className="relative grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 mt-[60px] gap-5">
           {cards.map((card, index) => (
             <div
               key={index}
@@ -96,11 +99,18 @@ export default function Traction() {
               }}
               className="group"
             >
-              <div className="relative w-full h-auto md:h-[200px]">
+              <div className="relative w-full h-auto md:h-[266px]">
                 {/* Front Side */}
-                <div className="rounded-[20px] h-full">
-                  <div className="bg-[#181022] hover:bg-[#1B0637] p-6 h-full rounded-[20px] flex flex-col text-center">
-                    <h3 className="text-h4 font-montserrat leading-normal font-bold text-center mt-5 text-[#C894FF]">
+                <div className="rounded-[20px] h-full border-[1.5px] border-[#FFFFFF33]">
+                  <div className="bg-[#181022] hover:bg-[#1B0637] p-6 h-full rounded-[20px] flex flex-col items-center text-center">
+                    <Image
+                      src={card.image}
+                      alt={card.description}
+                      width={40}
+                      height={40}
+                      className="mx-auto"
+                    />
+                    <h3 className="text-[60px] font-montserrat leading-none font-bold text-center mt-10 mb-5 text-[#C894FF]">
                       {card.counter}
                     </h3>
                     <p className="text-p2 font-montserrat font-normal">{card.description}</p>

@@ -1,104 +1,68 @@
 import Image from "next/image";
 import { Button } from "@/src/components/ui/button";
-import { MoveRight, ArrowLeft, ArrowRight, MoveLeft } from "lucide-react";
-import { get } from "@/src/lib/axiosInterceptor";
-import { SpotlightData } from "@/src/types/spotlight";
 import Link from "next/link";
-import SpotlightCarousel from "@/src/components/homepage/SpotlightCarousel";
+import { MoveRight } from "lucide-react";
 
-type ApiResponse = {
-  data: SpotlightData[];
-};
+const quraniumInsights = [
+  {
+    imageSrc: "/images/common/quranium-insights/quranium-insights-1.png",
+    altText: "Quantum Security Awareness Day: A New Chapter in Digital Security",
+    description: "Quantum Security Awareness Day: A New Chapter in Digital Security",
+    link: "https://quranium-org.medium.com/quantum-security-awareness-day-a-new-chapter-in-digital-security-ed78fb30ed20",
+  },
+  {
+    imageSrc: "/images/common/quranium-insights/quranium-insights-2.png",
+    altText: "Crypto Wallets 101",
+    description: "Crypto Wallets 101: How Do They Actually Work?",
+    link: "https://quranium-org.medium.com/crypto-wallets-101-how-do-they-actually-work-1f363f4e7c52",
+  },
+  {
+    imageSrc: "/images/common/quranium-insights/quranium-insights-3.png",
+    altText: "QSafe Wallet Launch",
+    description: "April: The Month of Quantum — Two Global Days, One Urgent Conversation",
+    link: "https://quranium-org.medium.com/april-the-month-of-quantum-two-global-days-one-urgent-conversation-1744d0a4736c",
+  },
+  {
+    imageSrc: "/images/common/quranium-insights/quranium-insights-4.png",
+    altText: "Partnership Announcement",
+    description: "The Future-Proof Innovators: A Guide to DeQUIP Brands",
+    link: "https://quranium-org.medium.com/the-future-proof-innovators-a-guide-to-dequip-brands-1557cfc9fabb",
+  },
+];
 
-const Articles = async () => {
-  const response = await get<ApiResponse>(`/api/spot-lights?populate=*&sort=id:desc`);
-  const spotlight = response.data;
-
+export default function Articles() {
   return (
-    <section className="py-16 container mx-auto px-4 md:pl-20 bg-[#030712]">
-      <div className="flex flex-col md:flex-row justify-between items-start lg:items-center">
-        <div>
-          <h2 className="text-h4 md:text-h3 font-montserrat font-semibold">Articles</h2>
-          <p className="pt-2.5 text-p2 font-open-sans text-white-2 max-w-3xl">
-            What&apos;s trending?
-          </p>
+    <section id="blog" className="scroll-mt-24 py-16 container mx-auto px-4 md:px-20 bg-background">
+      <div className="space-y-12">
+        <div className="grid md:grid-cols-[60%_40%] gap-6 md:gap-0 items-center">
+          <div>
+            <h2 className="text-h4 md:text-h3 font-semibold">Articles</h2>
+            <p className="text-p2 font-open-sans text-white-2 mt-2">What&rsquo;s trending?</p>
+          </div>
         </div>
-        <div className="hidden lg:block">
-          <ArticlesCarouselButtons />
+
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+          {quraniumInsights.map((insight, index) => (
+            <Link key={index} href={insight.link} target="_blank">
+              <div
+                key={index}
+                className="flex-1 h-full border border-white-1/10 rounded-2xl overflow-hidden shadow-lg"
+              >
+                <Image
+                  src={insight.imageSrc}
+                  alt={insight.altText}
+                  width={1200}
+                  height={627}
+                  className="object-cover"
+                />
+                <div className="p-4 space-y-2">
+                  <p className="text-h6 text-white-1">{insight.description}</p>
+                </div>
+              </div>
+            </Link>
+          ))}
         </div>
-      </div>
-
-      <SpotlightCarousel spotlight={spotlight} />
-
-      <div className="lg:hidden mx-auto w-max">
-        <ArticlesCarouselButtonsMobile />
       </div>
     </section>
   );
-};
-
-export default Articles;
-
-const ArticlesCarouselButtons = () => {
-  return (
-    <div className="flex items-center">
-      <button
-        id="scrollLeftHomeSpotlight"
-        className="w-[46px] h-[46px] flex items-center justify-center rounded-full duration-300 bg-[#EADCFF]/20 hover:bg-[#EADCFF]/30 disabled:opacity-50"
-        disabled
-      >
-        <Image
-          src="/icons/arrow-left-carousel.svg"
-          alt="arrow-left"
-          className="shrink-0"
-          width={21}
-          height={15}
-        />
-      </button>
-      <button
-        id="scrollRightHomeSpotlight"
-        className="ml-4 w-[46px] h-[46px] flex items-center justify-center rounded-full duration-300 bg-[#EADCFF]/20 hover:bg-[#EADCFF]/30 disabled:opacity-50"
-      >
-        <Image
-          src="/icons/arrow-left-carousel.svg"
-          alt="arrow-right"
-          className="shrink-0 rotate-180"
-          width={21}
-          height={15}
-        />
-      </button>
-    </div>
-  );
-};
-
-const ArticlesCarouselButtonsMobile = () => {
-  return (
-    <div className="flex items-center">
-      <button
-        id="scrollLeftHomeSpotlightMobile"
-        className="w-[46px] h-[46px] flex items-center justify-center rounded-full duration-300 bg-[#EADCFF]/20 hover:bg-[#EADCFF]/30 disabled:opacity-50"
-        disabled
-      >
-        <Image
-          src="/icons/arrow-left-carousel.svg"
-          alt="arrow-left"
-          className="shrink-0"
-          width={21}
-          height={15}
-        />
-      </button>
-      <button
-        id="scrollRightHomeSpotlightMobile"
-        className="ml-4 w-[46px] h-[46px] flex items-center justify-center rounded-full duration-300 bg-[#EADCFF]/20 hover:bg-[#EADCFF]/30 disabled:opacity-50"
-      >
-        <Image
-          src="/icons/arrow-left-carousel.svg"
-          alt="arrow-right"
-          className="shrink-0 rotate-180"
-          width={21}
-          height={15}
-        />
-      </button>
-    </div>
-  );
-};
+}

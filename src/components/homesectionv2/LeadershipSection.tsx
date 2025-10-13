@@ -14,16 +14,19 @@ const cards = [
     title: "Kapil Dhiman",
     image: "/images/homepagev2/kapil.webp",
     description: "Co-founder and CEO",
+    linkedin: "https://www.linkedin.com/in/kapil-dhiman-5a68b0138/",
   },
   {
     title: "Yaduvendra Yadav",
     image: "/images/homepagev2/yaduvendra.webp",
     description: "Co-founder and CTO",
+    linkedin: "https://www.linkedin.com/in/ysy0304/",
   },
   {
     title: "Zeeshan Khan",
     image: "/images/homepagev2/zeeshan.webp",
     description: "Co-founder and COO",
+    linkedin: "https://www.linkedin.com/in/ecozeeshan/",
   },
 ];
 
@@ -107,9 +110,9 @@ export default function LeadershipSection() {
                     />
                     <div className="absolute bottom-0 left-0 w-full">
                       <Link
-                        href=""
+                        href={card.linkedin}
                         className="flex flex-row justify-between items-start gap-4 px-6 py-5 text-p3 hover:bg-[#1B0337] rounded-[10px]"
-                        target="_self"
+                        target="_blank"
                       >
                         <div className="">
                           <p className="text-p2 font-open-sans">{card.title}</p>
