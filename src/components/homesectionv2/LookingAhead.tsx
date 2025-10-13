@@ -617,11 +617,11 @@ export default function LookingAhead() {
             <button
               key={phase.key}
               onClick={() => setCurrent(idx)}
-              className={`px-5 py-2 rounded-[16px] md:rounded-[4px] font-montserrat text-h5 font-medium transition-all duration-300 ${
+              className={`px-5 py-2 rounded-[16px] md:rounded-[4px] font-montserrat text-h5 font-normal transition-all duration-300 ${
                 phase.color
               } ${current === idx ? "" : ""}`}
             >
-              {phase.label}
+              <span className={`${current === idx ? "underline" : ""}`}>{phase.label}</span>
             </button>
           ))}
         </div>
