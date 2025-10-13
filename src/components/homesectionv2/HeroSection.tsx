@@ -101,7 +101,7 @@ const HeroSection = () => {
             className="flex items-center justify-center mt-10 md:mt-0 relative w-full h-full order-1 md:order-2"
           ></div>
         </div>
-        <div className="w-[792px] h-[592px] md:absolute right-0 top-0 ">
+        <div className="w-[792px] h-[792px] md:absolute right-0 top-[-100px] ">
           <video
             autoPlay
             muted
