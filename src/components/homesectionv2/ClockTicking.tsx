@@ -73,7 +73,7 @@ const ClockTicking = () => {
 
   return (
     <div ref={sectionRef} className="px-4 md:px-20 bg-[#030712]">
-      <div className="max-w-7xl mx-auto pb-[50px] px-[16px]">
+      <div className="max-w-7xl mx-auto pt-[80px] pb-[50px] px-[16px]">
         <div className="grid grid-cols-1  gap-10 items-center text-center md:text-left ">
           <div className="relative z-10">
             <h1
