@@ -24,7 +24,7 @@ export default function InstitutionalReady() {
   return (
     <section className="relative bg-[#030712] py-24 px-4 md:px-20 overflow-hidden">
       {/* Left glowing image */}
-      <div className="absolute left-0 top-[55%] -translate-y-1/2 hidden md:block">
+      <div className="absolute left-0 top-[55%] -translate-y-1/2 hidden md:block z-[9]">
         <Image
           src="/images/homepagev2/left-glow.webp"
           alt="Left Glow"
@@ -35,7 +35,7 @@ export default function InstitutionalReady() {
       </div>
 
       {/* Right glowing image */}
-      <div className="absolute right-0 top-[55%] -translate-y-1/2 hidden md:block">
+      <div className="absolute right-0 top-[55%] -translate-y-1/2 hidden md:block z-[9]">
         <Image
           src="/images/homepagev2/right-glow.webp"
           alt="Right Glow"
@@ -56,7 +56,7 @@ export default function InstitutionalReady() {
               key={index}
               className="relative bg-[#181022] md:w-[854px] mx-auto border-[1.5px] border-[#FFFFFF33] rounded-[16px] p-5 text-center"
             >
-              <div className="absolute left-[-100px] top-1/2 -translate-y-1/2 hidden md:block">
+              <div className="absolute left-[-100px] top-1/2 -translate-y-1/2 hidden md:block z-[1]">
                 <Image
                   src="/images/homepagev2/white-line.png"
                   alt="Left Image"
@@ -67,7 +67,7 @@ export default function InstitutionalReady() {
               </div>
 
               {/* Right Image */}
-              <div className="absolute right-[-100px] top-1/2 -translate-y-1/2 hidden md:block">
+              <div className="absolute right-[-100px] top-1/2 -translate-y-1/2 hidden md:block z-[1]">
                 <Image
                   src="/images/homepagev2/purple-line.png"
                   alt="Right Image"
