@@ -27,20 +27,6 @@ const cards = [
     widthClass: "w-full md:w-[31%]",
     description: "Fuel your vision with our milestone-based grants and expert developer support.",
   },
-  {
-    title: "Our Global Roadshow",
-    image: "/images/homepagev2/bu-frame.png",
-    widthClass: "w-full md:w-[48%]",
-    description:
-      "Quranium’s Be Uncrackable Roadshow brings quantum security awareness to innovators, builders, and enterprises worldwide.",
-  },
-  {
-    title: "Quantum Mind Podcast",
-    image: "/images/homepagev2/qmpframe.png",
-    widthClass: "w-full md:w-[48%]",
-    description:
-      "Discover inspiring stories from real innovators shaping the future of AI, quantum, and Web3 on Quantum Minds Podcast.",
-  },
 ];
 
 export default function Community() {
@@ -129,35 +115,6 @@ export default function Community() {
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-        <h2
-          ref={mainTitleRef}
-          className="text-h4 md:text-h3 font-montserrat font-semibold text-center mt-[60px]"
-        >
-          Join the Uncrackable Journey
-        </h2>
-        <p className="text-p2 font-open-sans text-center mt-[20px] mb-[16px]">
-          Bringing the disruptors together. Around the world.
-        </p>
-        <div className="flex justify-center items-center space-x-6">
-          {socialMedia.map((social, index) => (
-            <div
-              key={social.name}
-              ref={(el) => {
-                cardsRef.current[index] = el;
-              }}
-            >
-              <Link href={social.link} key={social.name} target="_blank">
-                <Image
-                  src={social.logo}
-                  alt={social.name}
-                  width={40}
-                  height={40}
-                  className="cursor-pointer hover:opacity-50 duration-300 w-6 h-6 md:w-10 md:h-10"
-                />
-              </Link>
             </div>
           ))}
         </div>

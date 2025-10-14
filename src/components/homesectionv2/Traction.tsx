@@ -8,29 +8,24 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
   {
-    counter: "150,000+",
+    counter: "150k+",
     description: "Community",
     image: "images/homepagev2/community.svg",
-    classcss: "",
   },
   {
-    counter: "30,000+",
+    counter: "40k+",
     description: "Wallets created on-chain",
     image: "images/homepagev2/wallet.svg",
-    classcss: "",
   },
   {
-    counter: "153,000+",
+    counter: "1.5M+",
     description: "Testnet Transactions",
     image: "images/homepagev2/transaction.svg",
-    classcss: "",
   },
-
   {
-    counter: "80+",
+    counter: "110+",
     description: "MOUs signed",
     image: "images/homepagev2/signed.svg",
-    classcss: "col-start-2",
   },
 ];
 
@@ -85,14 +80,14 @@ export default function Traction() {
   return (
     <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-16 pb-24">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
-        <div className="relative grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 mt-[60px] gap-5 ">
+        <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-[60px] gap-5 ">
           {cards.map((card, index) => (
             <div
               key={index}
               ref={(el) => {
                 cardsRef.current[index] = el;
               }}
-              className={`group ${card.classcss}`}
+              className="group"
             >
               <div className="relative w-full h-auto md:h-[266px]">
                 {/* Front Side */}
@@ -101,8 +96,8 @@ export default function Traction() {
                     <Image
                       src={card.image}
                       alt={card.description}
-                      width={40}
-                      height={40}
+                      width={64}
+                      height={64}
                       className="mx-auto"
                     />
                     <h3 className="text-h4 md:text-[60px] font-montserrat leading-none font-bold text-center mt-10 mb-5 text-[#C894FF]">
