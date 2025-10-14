@@ -138,7 +138,7 @@ export default function ThoughtLeadership() {
                         height={304}
                         className="w-full"
                       />
-                      <div className="w-full absolute p-5 bottom-0 left-0 bg-black bg-opacity-50 px-3 py-1 rounded-md">
+                      <div className="w-full absolute p-5 bottom-0 left-0">
                         <h4 className="text-[#C894FF] text-h4 font-montserrat font-semibold">
                           {card.counter}
                         </h4>
