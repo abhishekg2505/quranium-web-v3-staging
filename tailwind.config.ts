@@ -200,6 +200,7 @@ const config: Config = {
           "linear-gradient(90deg, #9B9B9B 17.16%, #FFFFFF 53.21%, #757575 87.23%)",
         "roadshow-reverse-border":
           "linear-gradient(259.62deg, rgba(255, 255, 255, 0.2) -1.03%, rgba(12, 3, 24, 0.2) 107%)",
+        "purple-border": "linear-gradient(180.47deg, #C48FFB 0.4%, #0C0318 115.9%)",
         "team-gradient": `
           linear-gradient(182.72deg, rgba(0,0,0,0) 73.87%, #0C0318 96.61%),
           linear-gradient(358.49deg, rgba(0,0,0,0) 77.87%, #0C0318 98.75%)

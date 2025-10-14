@@ -96,7 +96,7 @@ export default function ThoughtLeadership() {
             >
               <div className="relative w-full h-auto md:h-[329px]">
                 {/* Front Side */}
-                <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px]">
+                <div className="bg-roadshow-reverse-border group-hover:bg-purple-border p-[1px] rounded-[20px]">
                   <div className="bg-[#181022] hover:bg-[#1B0637] p-6 h-full rounded-[20px] flex flex-col text-center py-16">
                     <div className="flex flex-row justify-center items-center gap-4">
                       <Image

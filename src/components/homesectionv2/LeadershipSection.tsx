@@ -99,7 +99,7 @@ export default function LeadershipSection() {
             >
               <div className="relative w-full">
                 {/* Front Side */}
-                <div className="bg-roadshow-reverse-border p-[1px] rounded-[20px]">
+                <div className="bg-roadshow-reverse-border group-hover:bg-purple-border p-[1px] rounded-[20px]">
                   <div className="relative bg-[#181022] overflow-hidden h-full rounded-[20px] flex flex-col">
                     <Image
                       src={card.image}

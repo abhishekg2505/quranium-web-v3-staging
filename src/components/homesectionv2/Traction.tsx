@@ -101,7 +101,7 @@ export default function Traction() {
             >
               <div className="relative w-full h-auto md:h-[266px]">
                 {/* Front Side */}
-                <div className="rounded-[20px] h-full border-[1.5px] border-[#FFFFFF33]">
+                <div className="rounded-[20px] h-full p-[1px] bg-roadshow-reverse-border group-hover:bg-purple-border">
                   <div className="bg-[#181022] hover:bg-[#1B0637] p-6 h-full rounded-[20px] flex flex-col items-center text-center">
                     <Image
                       src={card.image}
