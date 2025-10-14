@@ -6,24 +6,52 @@ import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+// const cards = [
+//   {
+//     title: "Global Roadshow",
+//     image: "images/homepagev2/beuncrackable.svg",
+//     counter: "300+",
+//     description: "F2F Events, 30+ Countries",
+//   },
+//   {
+//     title: "Virtual Roundtables",
+//     image: "images/homepagev2/tuc.svg",
+//     counter: "178K+",
+//     description: "Watch Hours",
+//   },
+//   {
+//     title: "Thought Leadership Podcast",
+//     image: "images/homepagev2/qmp.svg",
+//     counter: "832K+",
+//     description: "Watch Hours",
+//   },
+// ];
 const cards = [
   {
-    title: "Global Roadshow",
-    image: "images/homepagev2/beuncrackable.svg",
+    title: "Our Global Roadshow",
+    image: "/images/homepagev2/bu-frame.png",
+    widthClass: "w-full md:w-[31%]",
+    description:
+      "Quranium’s Be Uncrackable Roadshow brings quantum security awareness to innovators, builders, and enterprises worldwide.",
     counter: "300+",
-    description: "F2F Events, 30+ Countries",
+    subheading: "F2F Events, 30+ Countries",
   },
   {
-    title: "Virtual Roundtables",
-    image: "images/homepagev2/tuc.svg",
-    counter: "178K+",
-    description: "Watch Hours",
-  },
-  {
-    title: "Thought Leadership Podcast",
-    image: "images/homepagev2/qmp.svg",
+    title: "Quantum Mind Podcast",
+    image: "/images/homepagev2/qmpframe.png",
+    widthClass: "w-full md:w-[31%]",
+    description:
+      "Discover inspiring stories from real innovators shaping the future of AI, quantum, and Web3 on Quantum Minds Podcast.",
     counter: "832K+",
-    description: "Watch Hours",
+    subheading: "Watch Hours",
+  },
+  {
+    title: "The Uncrackable Conversation",
+    image: "/images/homepagev2/qmpframe.png",
+    widthClass: "w-full md:w-[31%]",
+    description: "Conversations with the minds building the future of Web3.",
+    counter: "178K+",
+    subheading: "Watch Hours",
   },
 ];
 
@@ -76,7 +104,7 @@ export default function ThoughtLeadership() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-[210px] pb-24">
+    <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-[210px]">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
         <h2
           ref={mainTitleRef}
@@ -85,40 +113,38 @@ export default function ThoughtLeadership() {
           Thought Leadership
         </h2>
 
-        <div className="relative grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3  gap-6 mt-[60px]">
+        <div className="relative flex flex-row flex-wrap  gap-6 mt-[60px]">
           {cards.map((card, index) => (
             <div
               key={index}
               ref={(el) => {
                 cardsRef.current[index] = el;
               }}
-              className="group"
+              className={`group ${card.widthClass}`}
             >
-              <div className="relative w-full h-auto md:h-[329px]">
+              <div className="relative w-full h-auto md:h-full overflow-hidden">
                 {/* Front Side */}
-                <div className="bg-roadshow-reverse-border group-hover:bg-purple-border p-[1px] rounded-[20px]">
-                  <div className="bg-[#181022] hover:bg-[#1B0637] p-6 h-full rounded-[20px] flex flex-col text-center py-16">
-                    <div className="flex flex-row justify-center items-center gap-4">
+                <div className="md:h-full bg-roadshow-reverse-border group-hover:bg-purple-border p-[1px] rounded-[16px]">
+                  <div className="bg-[#181022] hover:bg-[#1B0637]  h-full rounded-[16px] overflow-hidden flex flex-col justify-between text-left">
+                    <div className="flex flex-col justify-center1 items-center1 gap-2 px-[32px] pt-[32px] pb-[40px]">
+                      <h4 className="text-h4 font-montserrat font-semibold">{card.title}</h4>
+                      <p className="text-p1 font-montserrat font-normal">{card.description}</p>
+                    </div>
+                    <div className="w-full relative">
                       <Image
                         src={card.image}
                         alt={card.title}
-                        width={131}
-                        height={67}
-                        className=""
+                        width={660}
+                        height={304}
+                        className="w-full"
                       />
-                      <div
-                        className="h-[60px] w-[1px]"
-                        style={{
-                          background:
-                            "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%)",
-                        }}
-                      ></div>
-                      <p className="text-p3 font-montserrat font-normal">{card.title}</p>
+                      <div className="w-full absolute p-5 bottom-0 left-0 bg-black bg-opacity-50 px-3 py-1 rounded-md">
+                        <h4 className="text-[#C894FF] text-h4 font-montserrat font-semibold">
+                          {card.counter}
+                        </h4>
+                        <h6 className="text-h6 font-montserrat font-medium">{card.subheading}</h6>
+                      </div>
                     </div>
-                    <h3 className="text-h3 font-montserrat leading-normal font-bold text-center mt-5 text-[#C894FF]">
-                      {card.counter}
-                    </h3>
-                    <p className="text-p1 font-montserrat font-normal">{card.description}</p>
                   </div>
                 </div>
               </div>

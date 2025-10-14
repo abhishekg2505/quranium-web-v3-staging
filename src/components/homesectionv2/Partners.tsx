@@ -69,10 +69,8 @@ const Partners = () => {
   };
 
   return (
-    <section className="bg-[#0C0318]">
-      <h2 className="text-h4 text-center font-montserrat font-semibold">
-        Partners and Collaborators
-      </h2>
+    <section className="bg-[#0C0318] pt-[104px]">
+      <h2 className="text-h4 text-center font-montserrat font-semibold">Trusted by</h2>
       <div className="relative pt-5 pb-20 overflow-hidden">
         <div className={`absolute w-full h-full origin-top-left rotate-[2.42deg]`}>
           <div className="bg-violet-2 -mx-[10vw] px-[10vw] py-12">

@@ -76,7 +76,7 @@ export default function QuantumSecure() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-16 pb-24">
+    <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-[104px] pb-24">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
         <div className="relative w-full">
           <h2
@@ -84,19 +84,14 @@ export default function QuantumSecure() {
             className="text-h4 md:text-h3 font-montserrat font-semibold text-center"
           >
             <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
-              Your on-chain money,
+              Your on-chain money, assets
             </span>{" "}
-            assets and data are
+            and data are
             <br /> now secure from quantum attacks.
           </h2>
-          <p className="text-p1 font-open-sans font-normal text-center mt-5">
-            Existing L1s like Bitcoin, Ethereum, and Solana rely on ECDSA encryption, which is
-            rapidly
-            <br /> approaching obsolescence as computing power increases.
-          </p>
         </div>
       </div>
-      <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px] mt-[80px]">
+      <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px] mt-[200px]">
         <h2 ref={mainTitleRef} className="text-h3 font-montserrat font-semibold text-center">
           Quantum Secure <span className="text-[#C994FE]">Transactions</span>
         </h2>

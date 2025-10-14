@@ -7,7 +7,6 @@ import ThoughtLeadership from "@/src/components/homesectionv2/ThoughtLeadership"
 import Traction from "@/src/components/homesectionv2/Traction";
 import Community from "@/src/components/homesectionv2/Community";
 import Partners from "@/src/components/homesectionv2/Partners";
-import BackedBy from "@/src/components/homesectionv2/BackedBy";
 import InstitutionalReady from "@/src/components/homesectionv2/InstitutionalReady";
 import QuantumResistance from "@/src/components/homesectionv2/QuantumResistance";
 import LeadershipSection from "@/src/components/homesectionv2/LeadershipSection";
@@ -15,7 +14,7 @@ import FourGrid from "@/src/components/homesectionv2/FourGrid";
 import VerticalTimeLine from "@/src/components/homesectionv2/VerticalTimeLine";
 import LookingAhead from "@/src/components/homesectionv2/LookingAhead";
 import QuantumSecure from "@/src/components/homesectionv2/QuantumSecure";
-import Articles from "@/src/components/homesectionv2/Articles";
+import Spotlight from "@/src/components/homesectionv2/Spotlight";
 
 export const metadata = {
   title: {
@@ -55,16 +54,15 @@ export default function Homev2() {
       <FourGrid />
       <QuantumSecure />
       <InstitutionalReady />
-      <BackedBy />
+      <Partners />
       <ThoughtLeadership />
       <TeamCarousel />
+      <Spotlight />
       <Community />
-      <Partners />
       <Traction />
       <LeadershipSection />
       <VerticalTimeLine />
       <LookingAhead />
-      <Articles />
     </main>
   );
 }

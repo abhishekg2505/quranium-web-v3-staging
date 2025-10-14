@@ -8,16 +8,19 @@ export default function InstitutionalReady() {
       title: "Time Horizon",
       desc: "Regulated assets (securities, health data, IP) must remain valid 10–30+ years",
       sub: "SLH-DSA (SPHINCS+) hash-based signatures give the most conservative, future proof guarantee",
+      sub2: "",
     },
     {
       title: "Auditability & Compliance",
       desc: "Simpler primitives = easier audits, fewer hidden risks, higher regulator confidence",
       sub: "Hash functions are the most battle-tested primitive in cryptography",
+      sub2: "",
     },
     {
       title: "Trade-off",
       desc: "Institutions want both performance and long term assurance",
-      sub: "Lattice = speed today, Hash based = uncompromising security for decades",
+      sub: "Lattice = speed today but security compromised",
+      sub2: "Hash based = uncompromising security for decades, that’s Quranium",
     },
   ];
 
@@ -79,6 +82,7 @@ export default function InstitutionalReady() {
               <h3 className="text-h4 font-montserrat font-semibold text-[#D6DDE6]">{card.title}</h3>
               <p className="text-p1 font-open-sans my-[10px]">{card.desc}</p>
               <p className="text-p1 text-[#C894FF] font-open-sans">{card.sub}</p>
+              <p className="text-p1 text-[#C894FF] font-open-sans">{card.sub2}</p>
             </div>
           ))}
         </div>
