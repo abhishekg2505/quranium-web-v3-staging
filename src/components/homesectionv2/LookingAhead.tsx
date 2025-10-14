@@ -629,7 +629,7 @@ export default function LookingAhead() {
         {/* ---- Slider Layout ---- */}
         <div
           ref={cardRef}
-          className="relative grid grid-cols-1 md:grid-cols-[30%_70%] items-center"
+          className="relative grid grid-cols-1 md:grid-cols-[30%_70%] items-center mt-5"
         >
           {/* ---- Left Side (Video) ---- */}
           <div className="flex justify-center items-center relative">
@@ -640,7 +640,7 @@ export default function LookingAhead() {
               loop
               muted
               playsInline
-              className="w-full max-w-[360px] object-contain"
+              className="w-full max-w-[360px] object-contain md:scale-[2]"
             />
           </div>
 
