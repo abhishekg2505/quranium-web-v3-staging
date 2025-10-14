@@ -83,7 +83,7 @@ export default function VerticalTimeLine() {
                 event.row === "above" ? (
                   <li key={idx} className="relative flex flex-col items-center justify-end">
                     <VerticalTimeLineCard event={event} />
-                    <div className="aboveImg w-[10px] absolute z-10 -bottom-[40px]">
+                    <div className="aboveImg w-[10px] absolute z-10 -bottom-[43px]">
                       <Image
                         src="/images/homepagev2/upward.svg"
                         alt="Upward"
@@ -110,7 +110,7 @@ export default function VerticalTimeLine() {
               {verticalTimeLineData.map((event, idx) =>
                 event.row === "below" ? (
                   <li key={idx} className="relative flex flex-col items-center">
-                    <div className="belowImg w-[10px] absolute z-10 -top-[50px]">
+                    <div className="belowImg w-[10px] absolute z-10 -top-[43px]">
                       <Image
                         src="/images/homepagev2/downward.svg"
                         alt="Downward"
