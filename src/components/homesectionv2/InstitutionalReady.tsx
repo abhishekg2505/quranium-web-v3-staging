@@ -22,7 +22,7 @@ export default function InstitutionalReady() {
   ];
 
   return (
-    <section className="relative bg-[#030712] py-24 px-4 md:px-20 overflow-hidden">
+    <section className="relative bg-[#010301] py-24 px-4 md:px-20 overflow-hidden">
       {/* Left glowing image */}
       <div className="absolute left-0 top-[55%] -translate-y-1/2 hidden md:block z-[9]">
         <Image

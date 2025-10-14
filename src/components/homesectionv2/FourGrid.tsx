@@ -94,7 +94,7 @@ export default function FourGrid() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="relative bg-[#030712] px-5  pb-24">
+    <div ref={sectionRef} className="relative bg-[#010301] px-5  pb-24">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
         <div className="relative flex flex-row flex-wrap  gap-6 mt-[60px]">
           {cards.map((card, index) => (
