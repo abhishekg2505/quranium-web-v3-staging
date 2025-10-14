@@ -82,7 +82,7 @@ const ClockTicking = () => {
             >
               <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
                 The Clock is Ticking,
-              </span>
+              </span>{" "}
               Is Your Blockchain Obsolete?
             </h1>
             <p ref={headingRef} className="text-p1 font-open-sans mb-[15px] text-center">
@@ -90,7 +90,7 @@ const ClockTicking = () => {
               rapidly approaching <br />
               obsolescence as computing power increases.
             </p>
-            <div className="relative mx-auto w-full max-w-[500px] aspect-[500/459]">
+            <div className="relative mx-auto w-full max-w-[300px] aspect-[300/300]">
               <video
                 autoPlay
                 muted
