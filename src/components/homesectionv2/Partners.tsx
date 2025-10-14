@@ -69,7 +69,7 @@ const Partners = () => {
   };
 
   return (
-    <section className="bg-[#010301]">
+    <section className="bg-[#0C0318]">
       <h2 className="text-h4 text-center font-montserrat font-semibold">
         Partners and Collaborators
       </h2>

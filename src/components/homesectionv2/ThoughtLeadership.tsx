@@ -76,7 +76,7 @@ export default function ThoughtLeadership() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="relative bg-[#010301] px-5 pt-[210px] pb-24">
+    <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-[210px] pb-24">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
         <h2
           ref={mainTitleRef}

@@ -603,7 +603,7 @@ export default function LookingAhead() {
   const prevSlide = () => setCurrent((prev) => (prev - 1 + phases.length) % phases.length);
 
   return (
-    <section className="relative bg-[#010301] text-white py-16 px-4 md:px-20">
+    <section className="relative bg-[#0C0318] text-white py-16 px-4 md:px-20">
       <div className="max-w-7xl mx-auto">
         {/* ---- Title ---- */}
         <div className="text-center mb-10">
