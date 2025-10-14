@@ -65,7 +65,7 @@ const TeamCarousel = () => {
     images.slice(images.length / 2),
   ];
   return (
-    <div className="space-y-8 py-10">
+    <div className="space-y-8 py-10 bg-[#010301]">
       <Carousel direction="left" speed={100}>
         {[...firstRow, ...firstRow].map((img, i) => (
           <div
