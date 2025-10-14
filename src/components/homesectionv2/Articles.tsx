@@ -32,7 +32,7 @@ const quraniumInsights = [
 
 export default function Articles() {
   return (
-    <section id="blog" className="scroll-mt-24 py-16 container mx-auto px-4 md:px-20 bg-background">
+    <section id="blog" className="scroll-mt-24 py-16 container mx-auto px-4 md:px-20 bg-[#030712]">
       <div className="space-y-12">
         <div className="grid md:grid-cols-[60%_40%] gap-6 md:gap-0 items-center">
           <div>
