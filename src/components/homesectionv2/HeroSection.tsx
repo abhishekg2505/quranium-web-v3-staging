@@ -88,7 +88,7 @@ const HeroSection = () => {
               </span>
               <br />
               Blockchain built for <br />
-              institutions
+              Financial Institutions
             </h1>
             <p ref={headingRef} className="text-p1 font-open-sans mb-[15px]">
               Future-proofing the next $10 Trillion of digital assets

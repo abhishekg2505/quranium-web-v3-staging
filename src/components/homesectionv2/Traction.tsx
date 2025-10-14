@@ -11,31 +11,26 @@ const cards = [
     counter: "150,000+",
     description: "Community",
     image: "images/homepagev2/community.svg",
+    classcss: "",
   },
   {
     counter: "30,000+",
     description: "Wallets created on-chain",
     image: "images/homepagev2/wallet.svg",
+    classcss: "",
   },
   {
     counter: "153,000+",
     description: "Testnet Transactions",
     image: "images/homepagev2/transaction.svg",
+    classcss: "",
   },
-  {
-    counter: "1,400,000+",
-    description: "Testnet QRN claimed from faucet",
-    image: "images/homepagev2/claimed.svg",
-  },
+
   {
     counter: "80+",
     description: "MOUs signed",
     image: "images/homepagev2/signed.svg",
-  },
-  {
-    counter: "1,000,000+",
-    description: "Gamer Alliance",
-    image: "images/homepagev2/gamer.svg",
+    classcss: "col-start-2",
   },
 ];
 
@@ -90,14 +85,14 @@ export default function Traction() {
   return (
     <div ref={sectionRef} className="relative bg-[#030712] px-5 pt-16 pb-24">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
-        <div className="relative grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 mt-[60px] gap-5">
+        <div className="relative grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 mt-[60px] gap-5 ">
           {cards.map((card, index) => (
             <div
               key={index}
               ref={(el) => {
                 cardsRef.current[index] = el;
               }}
-              className="group"
+              className={`group ${card.classcss}`}
             >
               <div className="relative w-full h-auto md:h-[266px]">
                 {/* Front Side */}

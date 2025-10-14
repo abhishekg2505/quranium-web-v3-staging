@@ -163,18 +163,7 @@ export const executives = [
       "Sylvain has led major projects, including a 200-million smart meter rollout with the Indian government and the UK’s £1.5bn smart meter initiative, connecting 53 million devices.",
     ],
   },
-  {
-    name: "Wei Jie Chan (Wave)",
-    designation: "Head, SE Asia & Hong Kong",
-    twitter: "",
-    linkedin: "https://www.linkedin.com/in/wei-jie-chan-wave-b1914853/",
-    img: "/images/about/team/wei.webp",
-    description: [
-      "Wei Jie Chan (Wave) is the Southeast Asia Head at Quranium, overseeing regional growth.",
-      "A Chartered Accountant and Certified Internal Auditor, he specializes in digital assets and capital markets.",
-      "With 12 years at PwC, Wave led the Digital Asset practice and worked on blockchain audits, cryptocurrency compliance, and strategy for fintech and digital banking.",
-    ],
-  },
+
   {
     name: "Olivia Karlsson",
     designation: "Chief of Staff to the CEO",
@@ -187,19 +176,7 @@ export const executives = [
       "She is passionate about supporting startups and has deep ties to the Stockholm tech community.",
     ],
   },
-  {
-    name: "Claire Cairns",
-    designation: "Head, Brand Strategy",
-    twitter: "https://x.com/supercryptopr",
-    linkedin: "https://www.linkedin.com/in/clairecblockchain/",
-    img: "/images/about/team/claire.webp",
-    description: [
-      "Claire is the Brand Strategy head at Quranium.",
-      "With over 25 years of PR and marketing experience with companies like Honda, IBM, ING, and Uber, she founded a top 10 European PR agency.",
-      "Claire has won 20+ PR campaign awards and two CEO of the year awards.",
-      "Since 2017, she has focused on blockchain & crypto, contributing to over 100 projects.",
-    ],
-  },
+
   {
     name: "Gagaan Singh Nagi",
     designation: "Head, Brand Experience",
