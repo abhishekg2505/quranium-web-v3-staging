@@ -118,7 +118,7 @@ const phases = [
     key: "phase2",
     label: "Phase II",
     color: "bg-[#017234]",
-    tabarea: "bg-[#013518]",
+    tabarea: "bg-[#003D17]",
     video: "/videos/homepage/shell-green.mp4",
     content: (
       <div className="text-white">
@@ -224,7 +224,7 @@ const phases = [
     key: "phase3",
     label: "Phase III 2026",
     color: "bg-[#01178B]",
-    tabarea: "bg-[#181E3D]",
+    tabarea: "bg-[#192148]",
     video: "/videos/homepage/shell-blue.mp4",
     content: (
       <div className="text-white">
