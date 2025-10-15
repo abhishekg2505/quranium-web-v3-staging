@@ -42,7 +42,7 @@ export default function InstitutionalReady() {
         <Image
           src="/images/homepagev2/right-glow.webp"
           alt="Right Glow"
-          width={230}
+          width={228}
           height={450}
           className="object-contain"
         />
