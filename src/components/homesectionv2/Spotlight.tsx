@@ -18,7 +18,9 @@ const Spotlight = async () => {
     <section className="pt-[160px] pb-16 container mx-auto px-4">
       <div className="flex flex-col md:flex-row justify-between items-start lg:items-center">
         <div>
-          <h2 className="text-h4 md:text-h3 font-montserrat font-semibold">Whats Happening?</h2>
+          <h2 className="text-h4 md:text-h3 font-montserrat font-semibold">
+            What&rsquo;s Happening?
+          </h2>
         </div>
         <div className="hidden lg:block">
           <SpotlightCarouselButtons />

@@ -7,7 +7,7 @@ export default function InstitutionalReady() {
     {
       title: "Time Horizon",
       desc: "Regulated assets (securities, health data, IP) must remain valid 10–30+ years",
-      sub: "SLH-DSA (SPHINCS+) hash-based signatures give the most conservative, future proof guarantee",
+      sub: "SLH-DSA (SPHINCS+) Hash-based signatures give the most conservative, future-proof guarantee",
       sub2: "",
     },
     {
@@ -20,7 +20,7 @@ export default function InstitutionalReady() {
       title: "Trade-off",
       desc: "Institutions want both performance and long term assurance",
       sub: "Lattice = speed today but security compromised",
-      sub2: "Hash based = uncompromising security for decades, that’s Quranium",
+      sub2: "Hash-based = uncompromising security for decades, that’s Quranium",
     },
   ];
 

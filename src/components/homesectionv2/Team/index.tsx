@@ -13,7 +13,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 function Team() {
   const sectionRef = useRef(null);
-
+  const coreTeamSwiper = useRef<any>(null);
+  const advisorSwiper = useRef<any>(null);
   useEffect(() => {
     const ctx = gsap.context(() => {
       // Animate .hero-title1 when "Leadership" section comes into view
@@ -71,7 +72,7 @@ function Team() {
           <h2 className="text-h5 md:text-h3 font-semibold mt-12 mb-8 text-center hero-title2">
             Our Team
           </h2>
-          <div className="relative">
+          <div id="coreteam" className="relative">
             <Swiper
               modules={[Autoplay, Navigation]}
               spaceBetween={20}
@@ -115,7 +116,7 @@ function Team() {
           <h2 className="text-h5 md:text-h3 font-semibold mt-12 mb-8 text-center  hero-title3">
             Advisors
           </h2>
-          <div className="relative">
+          <div id="advisors" className="relative">
             <Swiper
               modules={[Autoplay, Navigation]}
               spaceBetween={20}

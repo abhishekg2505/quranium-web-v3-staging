@@ -32,10 +32,10 @@ export default function TeamCard({ person }: TeamCardProps) {
               height={426}
               className="w-full rounded-[20px]"
             />
-            <div className="absolute bottom-0 left-0 w-full">
+            <div className="absolute bottom-0 left-0 w-full h-[150px]">
               <Link
                 href={person.linkedin}
-                className="flex flex-row justify-between items-start gap-4 px-6 py-5 text-p3 hover:bg-[#1B0337] rounded-[10px]"
+                className="h-full flex flex-row justify-between items-start gap-4 px-6 py-5 text-p3 hover:bg-[#1B0337] rounded-[10px]"
                 target="_blank"
               >
                 <div className="">
