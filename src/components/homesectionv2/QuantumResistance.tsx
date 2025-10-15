@@ -97,7 +97,7 @@ export default function QuantumResistance() {
           Algorithm), <br />
           the most conservative, future-proof security primitive in cryptography.
         </p>
-        <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  gap-6 mt-[60px]">
+        <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  gap-6 mt-[20px] md:mt-[60px]">
           <div className="flex items-center justify-center mt-10 md:mt-0 relative w-full h-full">
             <div className="w-[274px] h-[454px] relative">
               <video

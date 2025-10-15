@@ -73,7 +73,7 @@ const ClockTicking = () => {
 
   return (
     <div ref={sectionRef} className="px-4 md:px-20 bg-[#0C0318]">
-      <div className="max-w-7xl mx-auto pt-[80px] pb-[50px] px-[16px]">
+      <div className="max-w-7xl mx-auto pt-[40px] md:pt-[80px] pb-[50px] px-[16px]">
         <h1
           ref={mainTitleRef}
           className="text-center text-h4 md:text-h3 font-montserrat font-semibold text-white mb-[15px]"

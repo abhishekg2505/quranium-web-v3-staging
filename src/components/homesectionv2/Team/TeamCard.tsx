@@ -30,7 +30,7 @@ export default function TeamCard({ person }: TeamCardProps) {
               alt={person.name}
               width={320}
               height={426}
-              className="w-full rounded-[16px] scale-[1.1]"
+              className="w-full rounded-[16px] h-[369px] md:h-[426px] object-cover"
             />
             <div className="absolute bottom-0 left-0 w-full">
               <Link

@@ -49,7 +49,7 @@ export default function InstitutionalReady() {
       </div>
 
       <div className="relative max-w-4xl mx-auto text-center">
-        <h2 className="text-h3 font-montserrat font-semibold">Institutional Ready</h2>
+        <h2 className="text-h4 md:text-h3 font-montserrat font-semibold">Institutional Ready</h2>
         <p className="text-p1 font-open-sans mt-4 mb-[60px]">Quramium&rsquo;s Core Advantages</p>
 
         {/* Cards */}
