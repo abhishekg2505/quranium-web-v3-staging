@@ -26,7 +26,7 @@ const phases = [
                 width={20}
                 height={20}
               />
-              Core IP developed for Quantum-Secure public ecosystem
+              Core IP developed for Quantum-Secure Layer-1 ecosystem
             </div>
 
             <ul className="pl-6">
@@ -116,7 +116,7 @@ const phases = [
   },
   {
     key: "phase2",
-    label: "Phase II 2026",
+    label: "Phase II",
     color: "bg-[#017234]",
     tabarea: "bg-[#013518]",
     video: "/videos/homepage/shell-green.mp4",
@@ -128,19 +128,23 @@ const phases = [
         <ul className="space-y-3">
           <li className="flex items-start">
             <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
-              <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
-              Secure $8 Trillion Industry
-            </div>
-          </li>
-          <li className="flex items-start">
-            <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
-              <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+              <Image
+                src="/images/homepagev2/check-circle.svg"
+                alt="circle"
+                width={20}
+                height={20}
+              />
               Solutions for banking and institutional finance
             </div>
           </li>
           <li className="">
             <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
-              <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+              <Image
+                src="/images/homepagev2/check-circle.svg"
+                alt="circle"
+                width={20}
+                height={20}
+              />
               Institutional grade solutions for
             </div>
             <ul className="pl-6">
@@ -158,25 +162,67 @@ const phases = [
               </li>
               <li className="flex items-start">
                 <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
-                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  <Image
+                    src="/images/homepagev2/check-circle.svg"
+                    alt="circle"
+                    width={20}
+                    height={20}
+                  />
+                  Post-quantum BTC
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image
+                    src="/images/homepagev2/check-circle.svg"
+                    alt="circle"
+                    width={20}
+                    height={20}
+                  />
+                  Post-quantum reserves
+                </div>
+              </li>
+              <li className="flex items-start">
+                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
+                  <Image
+                    src="/images/homepagev2/check-circle.svg"
+                    alt="circle"
+                    width={20}
+                    height={20}
+                  />
                   Post-quantum DATs
                 </div>
               </li>
               <li className="flex items-start">
                 <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
-                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  <Image
+                    src="/images/homepagev2/check-circle.svg"
+                    alt="circle"
+                    width={20}
+                    height={20}
+                  />
                   Post-quantum banking
                 </div>
               </li>
               <li className="flex items-start">
                 <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
-                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  <Image
+                    src="/images/homepagev2/check-circle.svg"
+                    alt="circle"
+                    width={20}
+                    height={20}
+                  />
                   Post-quantum payments
                 </div>
               </li>
               <li className="flex items-start">
                 <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
-                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
+                  <Image
+                    src="/images/homepagev2/check-circle.svg"
+                    alt="circle"
+                    width={20}
+                    height={20}
+                  />
                   Post-quantum remittance
                 </div>
               </li>
@@ -188,7 +234,7 @@ const phases = [
   },
   {
     key: "phase3",
-    label: "Phase III 2027",
+    label: "Phase III 2026",
     color: "bg-[#01178B]",
     tabarea: "bg-[#181E3D]",
     video: "/videos/homepage/shell-blue.mp4",
