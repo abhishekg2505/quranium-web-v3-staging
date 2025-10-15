@@ -356,7 +356,7 @@ export default function Header() {
                       className="flex items-center gap-2 text-center duration-300 group-hover:text-[#AE87FF]"
                     >
                       <span
-                        className={`text-p1 font-normal leading-[26px]  group-hover:text-[#AE87FF] ${
+                        className={`text-p2 font-normal leading-[26px]  group-hover:text-[#AE87FF] ${
                           hoveredNavIdx === idx || isParentActive(item)
                             ? "text-[#AE87FF]"
                             : "text-white-1"
@@ -368,7 +368,7 @@ export default function Header() {
                     </Link>
                   ) : (
                     <div
-                      className={`flex items-center gap-2 text-p1 font-normal leading-[26px] cursor-pointer ${
+                      className={`flex items-center gap-2 text-p2 font-normal leading-[26px] cursor-pointer ${
                         hoveredNavIdx === idx || isParentActive(item)
                           ? "text-[#AE87FF]"
                           : "text-white-1"
