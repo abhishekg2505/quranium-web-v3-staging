@@ -112,7 +112,7 @@ const HeroSection = () => {
             </video>
           </div>
         </div>
-        <div className="w-[792px] h-[792px] md:absolute right-0 top-[0px] hidden md:block z-0">
+        <div className="w-[792px] h-[792px] md:absolute -right-7 top-[0px] hidden md:block z-0">
           <video
             autoPlay
             muted

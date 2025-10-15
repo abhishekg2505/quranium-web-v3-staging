@@ -154,16 +154,7 @@ export const advisors = [
       "With 20+ years as an IT consultant, he specializes in ERP, IT solutions, Digital Transformation, and Business Continuity, driving growth in high-growth and startup environments.",
     ],
   },
-  {
-    name: "David Chaum",
-    designation: "Founder of the xx network",
-    twitter: "",
-    linkedin: "https://www.linkedin.com/in/david-chaum-3b219b183/",
-    img: "/images/homepagev2/team/david.png",
-    description: [
-      "David Chaum	David Chaum, founder of the xx network, is the inventor of digital cash and a pioneer in cryptography. With a PhD from UC Berkeley, he created eCash, authored the first blockchain proposal, and developed privacy-preserving technologies that shaped modern cryptography and digital currency. His groundbreaking ideas laid much of the conceptual groundwork that would later influence the creation of Bitcoin and beyond.",
-    ],
-  },
+
   {
     name: "Francis Gurry",
     designation: "Former Director General of WIPO",
@@ -174,7 +165,16 @@ export const advisors = [
       "Francis Gurry, former Director General of WIPO, is a renowned IP law expert. An Australian lawyer with a PhD from Cambridge, he modernized global patent and copyright systems, and authored Gurry on Breach of Confidence, a leading UK legal text.",
     ],
   },
-
+  {
+    name: "David Chaum",
+    designation: "Founder of the xx network",
+    twitter: "",
+    linkedin: "https://www.linkedin.com/in/david-chaum-3b219b183/",
+    img: "/images/homepagev2/team/david.png",
+    description: [
+      "David Chaum	David Chaum, founder of the xx network, is the inventor of digital cash and a pioneer in cryptography. With a PhD from UC Berkeley, he created eCash, authored the first blockchain proposal, and developed privacy-preserving technologies that shaped modern cryptography and digital currency. His groundbreaking ideas laid much of the conceptual groundwork that would later influence the creation of Bitcoin and beyond.",
+    ],
+  },
   {
     name: "Antonia Martina Durisch",
     designation: "President of the International Federation for Economic Development",
