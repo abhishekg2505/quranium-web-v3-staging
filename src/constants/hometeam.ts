@@ -4,7 +4,7 @@ export const quraniumteam = [
     designation: "CEO & CO-FOUNDER",
     twitter: "https://x.com/iamkapildhiman",
     linkedin: "https://www.linkedin.com/in/kapil-dhiman-5a68b0138/",
-    img: "/images/about/team/kapil.webp",
+    img: "/images/homepagev2/team/kapil.png",
     description: [
       "Kapil is the Co-Founder & CEO at Quranium. A seasoned leader with 12 years of global, diversified experience dealing with enterprises, startups, and funds.",
       "He was the former Web 3.0 leader at PwC India and an award-winning CEO who crafted the Metaverse Startup of the Year 2023 from scratch.",
@@ -16,7 +16,7 @@ export const quraniumteam = [
     designation: "CTO & CO-FOUNDER",
     twitter: "https://x.com/aqui1991",
     linkedin: "https://www.linkedin.com/in/ysy0304/",
-    img: "/images/about/team/yaduvendra.webp",
+    img: "/images/homepagev2/team/yaduvendra.png",
     description: [
       "Yaduvendra is the Co-Founder & CTO at Quranium. Eminent in the crypto realm since 2010, he merges his computer science genius with pioneering strides in quantum computing.",
       "His initial forays into identifying Bitcoin's blockchain vulnerabilities have propelled Quranium to the vanguard of blockchain innovation.",
@@ -28,7 +28,7 @@ export const quraniumteam = [
     designation: "COO & CO-FOUNDER",
     twitter: "https://x.com/ecozeeshan",
     linkedin: "https://www.linkedin.com/in/ecozeeshan/",
-    img: "/images/about/team/zeeshan.webp",
+    img: "/images/homepagev2/team/zeeshan.png",
     description: [
       "Zeeshan is the Co-Founder & COO at Quranium. With over 11 years of experience in business operations and strategy, he ventured into the crypto space in 2017, broadening his expertise and network.",
       "His significant contribution to a billion-dollar unicorn layer 1 blockchain company underscores his considerable influence. Zeeshan shines in transforming vision into strategic implementation and building vital worldwide partnerships, utilizing his sharp business acumen.",
@@ -39,7 +39,7 @@ export const quraniumteam = [
     designation: "Chief Product Officer",
     twitter: "https://x.com/Mohtajj95",
     linkedin: "https://www.linkedin.com/in/mohit-kapadiya/",
-    img: "/images/about/team/mohit.webp",
+    img: "/images/homepagev2/team/mohit.png",
     description: [
       "Mohit is the Chief Product Officer at Quranium.",
       "He founded TanTheta Software Studio, leading a team of 120+ computer engineers, delivering 65+ Dapps, 220+ Apps, and 600+ Games.",
@@ -52,7 +52,7 @@ export const quraniumteam = [
     designation: "Director of Engineering",
     twitter: "https://x.com/svittecoq",
     linkedin: "https://www.linkedin.com/in/svittecoq/",
-    img: "/images/about/team/sylvain.webp",
+    img: "/images/homepagev2/team/sylvain.png",
     description: [
       "Sylvain is the Director of Engineering at Quranium, with expertise in DLT, IoT, and high-performance software.",
       "He is the founder of FileChain, developing DLT solutions for identity, privacy, and contract management.",
@@ -65,7 +65,7 @@ export const quraniumteam = [
     designation: "Chief of Staff to the CEO",
     twitter: "https://x.com/thelivvielou",
     linkedin: "https://www.linkedin.com/in/olivia-karlsson/",
-    img: "/images/about/team/olivia.webp",
+    img: "/images/homepagev2/team/olivia.png",
     description: [
       "Olivia is the Chief of Staff to the CEO at Quranium.",
       "With an MBA in International Business and Marketing, she co-founded an HR tech startup in Stockholm and raised multiple rounds of funding as a Techstars alumna.",
@@ -78,7 +78,7 @@ export const quraniumteam = [
     designation: "Head, Brand Experience",
     twitter: "https://x.com/gagaansinghnagi",
     linkedin: "https://www.linkedin.com/in/gaganpalsinghnagi/",
-    img: "/images/about/team/gagaan.webp",
+    img: "/images/homepagev2/team/gagaan.png",
     description: [
       "Gagaan is the Brand Experience head at Quranium.",
       "His two decades in marketing gives him wide range of experience in traditional, experiential, and digital marketing.",
@@ -90,7 +90,7 @@ export const quraniumteam = [
     designation: "Head, People & Culture",
     twitter: "https://x.com/MadoVGD",
     linkedin: "https://www.linkedin.com/in/mado-vougadi/",
-    img: "/images/about/team/mado.webp",
+    img: "/images/homepagev2/team/mado.png",
     description: [
       "Mado is the Head of People & Culture at Quranium, specializing in talent acquisition and HR strategy.",
       "With an MBA and CIPD qualification, she has extensive experience in building high-performing teams in the Web3 space.",
@@ -102,7 +102,7 @@ export const quraniumteam = [
     designation: "Investor Relation",
     twitter: "",
     linkedin: "https://www.linkedin.com/in/shin-benjamin-62a16821b/",
-    img: "/images/about/team/benjamin.png",
+    img: "/images/homepagev2/team/benjamin.png",
     description: [
       "Benjamin is the Chief Business Officer at Quranium.",
       "He is a seasoned analyst with over a decade of experience in the CFD market.",
@@ -115,7 +115,7 @@ export const quraniumteam = [
     designation: "Ecosystem Manager",
     twitter: "https://x.com/Issadefiworld",
     linkedin: "https://www.linkedin.com/in/ianissa/",
-    img: "/images/about/team/ian.webp",
+    img: "/images/homepagev2/team/ian.png",
     description: [
       "Ian is the Senior Business Development Manager at Quranium, driving growth in North America with over 9 years of Web3, crypto, and DeFi experience. Excelling in strategic growth and market expansion, he has scaled companies, forged impactful partnerships, and led projects like Hedge-Finance to a $50M market cap.",
     ],
@@ -125,7 +125,7 @@ export const quraniumteam = [
     designation: "Chief Growth Officer",
     twitter: "https://x.com/maz_zaman?s=21&t=FGV9psahzzulGFKR5j3tKw",
     linkedin: "http://linkedin.com/in/maz-zaman",
-    img: "/images/about/team/maz-zaman.webp",
+    img: "/images/homepagev2/team/maz-zaman.png",
     description: [
       "Maz is a serial entrepreneur and growth architect with a specialized focus on scaling blockchain and Web3 ventures through data-driven strategies. His expertise spans tokenomics design, decentralized ecosystem development, and go-to-market execution for transformative technologies. He has worked with forward-thinking companies such as HyperScaled Ventures and Loop Protocol.",
     ],
@@ -135,7 +135,7 @@ export const quraniumteam = [
     designation: "Chief Architect",
     twitter: "",
     linkedin: "https://www.linkedin.com/in/romanmelnikov/",
-    img: "/images/about/team/roman.webp",
+    img: "/images/homepagev2/team/roman.png",
     description: [
       "Chief Architect at Quranium, Roman has 20+ years in decentralized systems, L1/L2 protocol design, and advanced ZK/MPC/FHE applications, delivering secure, scalable solutions from DAG-based consensus to multi-chain privacy infrastructure.",
     ],
@@ -148,7 +148,7 @@ export const advisors = [
     designation: "Chairman, Saudi Quantum Computing Association",
     twitter: "https://x.com/MAlsaiyari",
     linkedin: "https://www.linkedin.com/in/muhammad-al-saiyari-محمد-الصيعري-1082573/",
-    img: "/images/about/team/muhammad.webp",
+    img: "/images/homepagev2/team/muhammad.png",
     description: [
       "Muhammad leads the Quantum Computing program at Saudi Aramco, focusing on leveraging technology to build organizational capabilities.",
       "With 20+ years as an IT consultant, he specializes in ERP, IT solutions, Digital Transformation, and Business Continuity, driving growth in high-growth and startup environments.",
@@ -159,7 +159,7 @@ export const advisors = [
     designation: "CEO, Transform Ventures",
     twitter: "https://x.com/michaelterpin",
     linkedin: "https://www.linkedin.com/in/michaelterpin/",
-    img: "/images/about/team/michael.webp",
+    img: "/images/homepagev2/team/michael.png",
     description: [
       "Known as the 'Godfather of Crypto,' Michael is CEO of Transform Ventures and founder of Transform Group, which launched over 300 blockchain projects, including Ethereum.",
       "He co-founded BitAngels, the first crypto angel network, and CoinAgenda, a key investor conference series.",
@@ -172,41 +172,11 @@ export const advisors = [
     designation: "COO Radiant Souls (AR Rahman), Ex DMCC Director FZ",
     twitter: "https://x.com/JamesDBernard",
     linkedin: "https://www.linkedin.com/in/jamesdbernard/",
-    img: "/images/about/team/james.webp",
+    img: "/images/homepagev2/team/james.png",
     description: [
       "James is the Ex Director at DMCC, with a background in commodity trading and tech innovation.",
       "He co-founded the Dubai Global Blockchain Council, leading blockchain initiatives and helping establish digital asset regulations.",
       "James guides tech startups, supporting the UAE’s rise as a global Web3 and AI hub.",
-    ],
-  },
-  {
-    name: "Francis Gurry",
-    designation: "Former Director General of WIPO",
-    twitter: "https://x.com/Interna55021012",
-    linkedin: "https://www.linkedin.com/in/francis-gurry-9bb75a/?originalSubdomain=ch",
-    img: "/images/about/team/francis.webp",
-    description: [
-      "Francis Gurry, former Director General of WIPO, is a renowned IP law expert. An Australian lawyer with a PhD from Cambridge, he modernized global patent and copyright systems, and authored Gurry on Breach of Confidence, a leading UK legal text.",
-    ],
-  },
-  {
-    name: "David Chaum",
-    designation: "Founder of the xx network",
-    twitter: "https://x.com/chaumdotcom",
-    linkedin: "https://www.linkedin.com/in/david-chaum-3b219b183/",
-    img: "/images/about/team/david.webp",
-    description: [
-      "David Chaum	David Chaum, founder of the xx network, is the inventor of digital cash and a pioneer in cryptography. With a PhD from UC Berkeley, he created eCash, authored the first blockchain proposal, and developed privacy-preserving technologies that shaped modern cryptography and digital currency. His groundbreaking ideas laid much of the conceptual groundwork that would later influence the creation of Bitcoin and beyond.",
-    ],
-  },
-  {
-    name: "Antonia Martina Durisch",
-    designation: "President of the International Federation for Economic Development",
-    twitter: "https://x.com/AntoniaDurisch",
-    linkedin: "https://www.linkedin.com/in/antonia-martina-durisch/?originalSubdomain=ch",
-    img: "/images/about/team/antonio.webp",
-    description: [
-      "Antonia Martina Durisch, President of the International Federation for Economic Development, is a global leader in politics, fintech, and sustainability. A WEF Global Shaper and former WBAF Senator, she champions AI, Web3, and equality, driving initiatives from empowering women entrepreneurs to shaping international economic policy.",
     ],
   },
 
@@ -215,7 +185,7 @@ export const advisors = [
     designation: "Co-founder & COO of The Sandbox",
     twitter: "https://x.com/borgetsebastien?s=21&t=FGV9psahzzulGFKR5j3tKw",
     linkedin: "http://linkedin.com/in/borgetsebastien",
-    img: "/images/about/team/sebastien-borget.webp",
+    img: "/images/homepagev2/team/sebastien-borget.png",
     description: [
       "Sebastien is a visionary Web3 entrepreneur and ecosystem builder with over 14 years of experience scaling startups across blockchain, gaming, and digital art. As Co-Founder and COO of The Sandbox, he pioneered a decentralized metaverse where over 40 million players create, own, and monetize voxel experiences using NFTs and SAND tokens. He is also a Co-Founder of Artverse and President of Blockchain Game Alliance.",
     ],
@@ -225,7 +195,7 @@ export const advisors = [
     designation: "Former White House Lead Communications Engineer",
     twitter: "",
     linkedin: "http://linkedin.com/in/keith-king-03a172128",
-    img: "/images/about/team/john-keith-king.webp",
+    img: "/images/homepagev2/team/john-keith-king.png",
     description: [
       "John Keith King is a highly accomplished enterprise architect and cybersecurity strategist with a distinguished career in U.S. national security and defense technology. His extensive experience reflects a remarkable career in secure communications and advanced technology within high-stakes government environments. Notably, he served as Lead Engineer for the U.S. Presidential Direct Communications Link between The White House and the Kremlin, and has held critical roles at USSPACECOM, USAFRICOM, and the Joint Chiefs of Staff. His work at the U.S. Army Pacific Command, AFRICOM, and SPACECOM further demonstrates his expertise in strategic leadership, cybersecurity, and program management.",
     ],

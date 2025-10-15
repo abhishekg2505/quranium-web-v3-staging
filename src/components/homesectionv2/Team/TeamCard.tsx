@@ -19,76 +19,39 @@ export default function TeamCard({ person }: TeamCardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
 
-  const handleFlip = () => {
-    setIsFlipped(!isFlipped);
-  };
-
-  const handleMouseLeave = () => {
-    setIsFlipped(false);
-  };
-
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (cardRef.current && !cardRef.current.contains(event.target as Node)) {
-        setIsFlipped(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
-
   return (
-    <div className="group [perspective:1000px]" ref={cardRef} onMouseLeave={handleMouseLeave}>
-      <div
-        className={`relative bg-card-border min-h-[460px] w-full rounded-[20px] transition-transform duration-700 [transform-style:preserve-3d] ${
-          isFlipped ? "[transform:rotateY(180deg)]" : ""
-        }`}
-      >
-        {/* Front */}
-        <div className="absolute inset-[1px] p-3 bg-[#0C0318] rounded-[20px] text-left shadow-lg [backface-visibility:hidden]">
-          <div className="flex flex-col items-center">
+    <div className="group overflow-hidden">
+      <div className="relative w-full">
+        {/* Front Side */}
+        <div className="bg-roadshow-reverse-border group-hover:bg-purple-border p-[1px] rounded-[20px]">
+          <div className="relative bg-[#181022] overflow-hidden h-full rounded-[20px] flex flex-col">
             <Image
               src={person.img}
               alt={person.name}
-              width={190}
-              height={190}
-              className="w-[190px] h-[190px] rounded-full mb-4 object-cover"
+              width={320}
+              height={426}
+              className="w-full rounded-[20px]"
             />
-            <h3 className="text-h6 font-medium">{person.name}</h3>
-            <p className="pt-2.5 text-p3 md:text-p2 text-center text-white-2 mb-2">
-              {person.designation}
-            </p>
-
-            <div className="flex gap-2 pt-2">
-              {person.linkedin && (
-                <Link href={person.linkedin} target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src="/social-logo/linkedin.svg"
-                    alt="LinkedIn"
-                    width={18}
-                    height={18}
-                    className=""
-                  />
-                </Link>
-              )}
-
-              {person.twitter && (
-                <Link href={person.twitter} target="_blank" rel="noopener noreferrer">
-                  <Image src="/social-logo/x.svg" alt="X" width={18} height={18} className="" />
-                </Link>
-              )}
-            </div>
-
-            <div className="pt-7">
-              <p
-                className="text-p3 md:text-p2 underline text-white-2 cursor-pointer"
-                onClick={handleFlip}
+            <div className="absolute bottom-0 left-0 w-full">
+              <Link
+                href={person.linkedin}
+                className="flex flex-row justify-between items-start gap-4 px-6 py-5 text-p3 hover:bg-[#1B0337] rounded-[10px]"
+                target="_blank"
               >
-                Read More
-              </p>
+                <div className="">
+                  <p className="text-p2 font-open-sans">{person.name}</p>
+                  <p className="text-p3 font-open-sans text-[#AFAFAF] leading-normal">
+                    {person.designation}
+                  </p>
+                </div>
+                <Image
+                  src="/images/common/header/right-arrow.svg"
+                  alt="Arrow Right"
+                  width={13}
+                  height={13}
+                  className="mt-2"
+                />
+              </Link>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ import Community from "@/src/components/homesectionv2/Community";
 import Partners from "@/src/components/homesectionv2/Partners";
 import InstitutionalReady from "@/src/components/homesectionv2/InstitutionalReady";
 import QuantumResistance from "@/src/components/homesectionv2/QuantumResistance";
-import LeadershipSection from "@/src/components/homesectionv2/LeadershipSection";
+// import LeadershipSection from "@/src/components/homesectionv2/LeadershipSection";
 import InNews from "@/src/components/homesectionv2/InNews";
 import FourGrid from "@/src/components/homesectionv2/FourGrid";
 import VerticalTimeLine from "@/src/components/homesectionv2/VerticalTimeLine";
@@ -17,7 +17,7 @@ import LookingAhead from "@/src/components/homesectionv2/LookingAhead";
 import QuantumSecure from "@/src/components/homesectionv2/QuantumSecure";
 import Spotlight from "@/src/components/homesectionv2/Spotlight";
 import FooterSocial from "@/src/components/homesectionv2/FooterSocial";
-// import Team from "@/src/components/homesectionv2/Team";
+import Team from "@/src/components/homesectionv2/Team";
 
 export const metadata = {
   title: {
@@ -64,8 +64,8 @@ export default function Homev2() {
       <InNews />
       <Community />
       <Traction />
-      <LeadershipSection />
-      {/* <Team /> */}
+      {/* <LeadershipSection /> */}
+      <Team />
       <VerticalTimeLine />
       <LookingAhead />
       <FooterSocial />
