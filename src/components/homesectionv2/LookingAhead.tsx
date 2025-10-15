@@ -10,7 +10,7 @@ const phases = [
     key: "phase1",
     label: "Phase I",
     color: "bg-[#4F0179]",
-    tabarea: "bg-[#250038]",
+    tabarea: "bg-[#290043]",
     video: "/videos/homepage/shell-purple.mp4",
     content: (
       <div>
