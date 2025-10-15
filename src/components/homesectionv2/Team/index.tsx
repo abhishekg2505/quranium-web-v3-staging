@@ -63,9 +63,9 @@ function Team() {
     <section
       ref={sectionRef}
       id="team"
-      className="bg-[#0C0318] py-16 px-4 text-white scroll-mt-20 overflow-clip md:pl-20"
+      className="bg-[#0C0318] py-16 px-4 text-white scroll-mt-20 overflow-clip"
     >
-      <div>
+      <div className="max-w-6xl ml-auto">
         {/* Team Section */}
         <div className="pt-12">
           <h2 className="text-h5 md:text-h3 font-semibold mt-12 mb-8 text-center hero-title2">
