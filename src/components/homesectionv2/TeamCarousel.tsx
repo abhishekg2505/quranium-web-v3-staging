@@ -31,33 +31,6 @@ const images = [
     src: "/images/homepagev2/roadshow/09.webp",
   },
   {
-    src: "/images/homepagev2/roadshow/01.webp",
-  },
-  {
-    src: "/images/homepagev2/roadshow/02.webp",
-  },
-  {
-    src: "/images/homepagev2/roadshow/03.webp",
-  },
-  {
-    src: "/images/homepagev2/roadshow/04.webp",
-  },
-  {
-    src: "/images/homepagev2/roadshow/05.webp",
-  },
-  {
-    src: "/images/homepagev2/roadshow/06.webp",
-  },
-  {
-    src: "/images/homepagev2/roadshow/07.webp",
-  },
-  {
-    src: "/images/homepagev2/roadshow/08.webp",
-  },
-  {
-    src: "/images/homepagev2/roadshow/09.webp",
-  },
-  {
     src: "/images/homepagev2/roadshow/10.png",
   },
   {
