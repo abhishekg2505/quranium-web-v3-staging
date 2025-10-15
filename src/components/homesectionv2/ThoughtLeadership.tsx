@@ -38,7 +38,7 @@ const cards = [
   },
   {
     title: "Quantum Mind Podcast",
-    image: "/images/homepagev2/qmpframe.png",
+    image: "/images/homepagev2/qmp-frame.png",
     widthClass: "w-full md:w-[31%]",
     description:
       "Discover inspiring stories from real innovators shaping the future of AI, quantum, and Web3 on Quantum Minds Podcast.",
@@ -47,7 +47,7 @@ const cards = [
   },
   {
     title: "The Uncrackable Conversation",
-    image: "/images/homepagev2/qmpframe.png",
+    image: "/images/homepagev2/tuc-frame.png",
     widthClass: "w-full md:w-[31%]",
     description: "Conversations with the minds building the future of Web3.",
     counter: "178K+",

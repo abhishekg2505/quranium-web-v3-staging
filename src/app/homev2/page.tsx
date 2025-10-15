@@ -16,7 +16,7 @@ import LookingAhead from "@/src/components/homesectionv2/LookingAhead";
 import QuantumSecure from "@/src/components/homesectionv2/QuantumSecure";
 import Spotlight from "@/src/components/homesectionv2/Spotlight";
 import FooterSocial from "@/src/components/homesectionv2/FooterSocial";
-import Team from "@/src/components/homesectionv2/Team";
+// import Team from "@/src/components/homesectionv2/Team";
 
 export const metadata = {
   title: {
@@ -63,7 +63,7 @@ export default function Homev2() {
       <Community />
       <Traction />
       <LeadershipSection />
-      <Team />
+      {/* <Team /> */}
       <VerticalTimeLine />
       <LookingAhead />
       <FooterSocial />

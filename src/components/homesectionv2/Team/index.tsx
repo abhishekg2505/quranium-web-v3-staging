@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import { MoveLeft, MoveRight } from "lucide-react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import "swiper/css";
 
 gsap.registerPlugin(ScrollTrigger);
 

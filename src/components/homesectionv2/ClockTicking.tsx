@@ -86,7 +86,7 @@ const ClockTicking = () => {
           Existing L1s rely on ECDSA encryption, which is rapidly approaching obsolescence as
           computing power increases.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2  gap-10 items-center text-center md:text-left border-[1.5px] border-[#3A3A3A] rounded-[16px] p-5 md:p-10 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-[40%_60%]  overflow-hidden gap-10 items-center text-center md:text-left border-[1.5px] border-[#3A3A3A] rounded-[16px] p-5 md:p-10 mt-10">
           <div className="relative mx-auto w-full max-w-[300px] aspect-[300/300]">
             <video
               autoPlay

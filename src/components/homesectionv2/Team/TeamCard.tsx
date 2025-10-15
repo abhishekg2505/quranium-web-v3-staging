@@ -92,17 +92,6 @@ export default function TeamCard({ person }: TeamCardProps) {
             </div>
           </div>
         </div>
-
-        {/* Back */}
-        <div className="absolute inset-[1px]  p-6 bg-[#0C0318] rounded-[20px] shadow-lg [backface-visibility:hidden] [transform:rotateY(180deg)] overflow-y-auto flex items-center">
-          <div>
-            {person.description.map((desc, index) => (
-              <p key={index} className={`text-p5 ${index !== 0 ? "pt-2" : ""}`}>
-                {desc}
-              </p>
-            ))}
-          </div>
-        </div>
       </div>
     </div>
   );
