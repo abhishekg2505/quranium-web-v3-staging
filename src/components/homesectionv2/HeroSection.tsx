@@ -73,13 +73,13 @@ const HeroSection = () => {
 
   return (
     <div ref={sectionRef} className="px-4 md:px-20 bg-[#0C0318] overflow-hidden">
-      <div className="relative max-w-7xl mx-auto pt-[50px] pb-[106px] md:pb-[0px] md:pt-36 px-[16px] overflow-hidden">
+      <div className="relative max-w-7xl mx-auto pt-[50px] pb-[106px] md:pb-[0px] md:pt-36 overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left">
           {/* Left Side */}
           <div className="relative z-10 order-2 md:order-1">
             <h1
               ref={mainTitleRef}
-              className="text-center md:text-left text-h5 md:text-h3 font-montserrat font-semibold text-white mb-[15px]"
+              className="text-center md:text-left text-h4 md:text-h3 font-montserrat font-semibold text-white mb-[15px]"
             >
               The World&rsquo;s First
               <br />
