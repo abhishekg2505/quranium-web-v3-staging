@@ -303,14 +303,14 @@ export default function LookingAhead() {
         </div>
 
         {/* ---- Tabs ---- */}
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-between gap-4 md:gap-0">
           {phases.map((phase, idx) => (
             <button
               key={phase.key}
               onClick={() => setCurrent(idx)}
-              className={`px-5 py-2 rounded-[16px] md:rounded-[4px] font-montserrat text-h5 font-normal transition-all duration-300 ${
+              className={`px-5 py-2 w-full  md:w-[32%] rounded-[16px] md:rounded-[4px] font-montserrat text-h5 font-normal transition-all duration-300 ${
                 phase.color
-              } ${current === idx ? "" : ""}`}
+              } ${current === idx ? "opacity-100" : "opacity-30"} `}
             >
               <span className={``}>{phase.label}</span>
             </button>
