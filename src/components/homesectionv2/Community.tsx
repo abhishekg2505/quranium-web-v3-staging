@@ -6,6 +6,7 @@ import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { socialMedia } from "@/src/constants/socialMedia";
 import Link from "next/link";
+import { link } from "fs";
 gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
@@ -14,18 +15,24 @@ const cards = [
     image: "/images/homepagev2/qrnrush-frame.png",
     widthClass: "w-full md:w-[31%]",
     description: "Join QRNRush, a gamified platform to earn rewards, climb ranks, and win prizes.",
+    link: "https://community.quranium.org/qrnrush",
+    target: "_blank",
   },
   {
     title: "Developers",
     image: "/images/homepagev2/qremixai-frame.png",
     widthClass: "w-full md:w-[31%]",
     description: "Develop, test, and deploy dApps securely on Quranium’s post-quantum ecosystem.",
+    link: "https://www.quranium.org/ecosystem#builders",
+    target: "_self",
   },
   {
     title: "DeQuip Grant Program",
     image: "/images/homepagev2/grant-program-frame.png",
     widthClass: "w-full md:w-[31%]",
     description: "Fuel your vision with our milestone-based grants and expert developer support.",
+    link: "https://www.quranium.org/grant-program",
+    target: "_self",
   },
 ];
 
@@ -96,7 +103,11 @@ export default function Community() {
               }}
               className={`group ${card.widthClass}`}
             >
-              <div className="relative w-full h-auto md:h-full overflow-hidden">
+              <Link
+                href={card.link}
+                target={card.target}
+                className="relative w-full h-auto md:h-full overflow-hidden"
+              >
                 {/* Front Side */}
                 <div className="md:h-full bg-roadshow-reverse-border group-hover:bg-purple-border p-[1px] rounded-[16px]">
                   <div className="bg-[#181022] hover:bg-[#1B0637]  h-full rounded-[16px] overflow-hidden flex flex-col justify-between text-left">
@@ -114,7 +125,7 @@ export default function Community() {
                     />
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
