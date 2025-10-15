@@ -11,7 +11,7 @@ const phases = [
     label: "Phase I",
     color: "bg-[#4F0179]",
     tabarea: "bg-[#290043]",
-    video: "/videos/homepage/shell-purple.mp4",
+    video: "/videos/homepage/shell-purple.webm",
     content: (
       <div>
         <h3 className="text-h5 font-semibold font-montserrat mb-4 text-white">
@@ -119,7 +119,7 @@ const phases = [
     label: "Phase II",
     color: "bg-[#017234]",
     tabarea: "bg-[#003D17]",
-    video: "/videos/homepage/shell-green.mp4",
+    video: "/videos/homepage/shell-green.webm",
     content: (
       <div className="text-white">
         <h3 className="text-h5 font-semibold font-montserrat mb-4">
@@ -225,7 +225,7 @@ const phases = [
     label: "Phase III 2026",
     color: "bg-[#01178B]",
     tabarea: "bg-[#192148]",
-    video: "/videos/homepage/shell-blue.mp4",
+    video: "/videos/homepage/shell-blue.webm",
     content: (
       <div className="text-white">
         <h3 className="text-h5 font-semibold font-montserrat mb-4">

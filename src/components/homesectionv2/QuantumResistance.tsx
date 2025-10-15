@@ -19,12 +19,14 @@ const cards = [
   },
   {
     title: "QSafe Quantum-secure Wallet",
-    description: "Integrated with 70 other major chains including BTC, Ethereum, Solana",
+    description:
+      "Access to native Quranium chain tokens and NFTs Integrated with 70 other major chains including BTC, Ethereum, Solana",
     color: "text-[#436AFF]",
   },
   {
     title: "SLH-DSA Layer-1 Infra (Stateless Hash-Based Digital Signature Algorithm)",
-    description: "Hash based cryptography is stronger than lattice-based",
+    description:
+      "Stateless significantly more robust than stateful Hash based cryptography is stronger than lattice-based",
     color: "text-[#B57EFF]",
   },
 ];
@@ -105,7 +107,7 @@ export default function QuantumResistance() {
                 playsInline
                 className="absolute inset-0 w-full h-full object-cover z-0 md:scale-[1.2]"
               >
-                <source src="/videos/homepage/layers.mp4" type="video/mp4" />
+                <source src="/videos/homepage/layers.webm" type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
