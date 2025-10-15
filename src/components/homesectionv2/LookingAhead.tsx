@@ -331,7 +331,7 @@ export default function LookingAhead() {
               loop
               muted
               playsInline
-              className="w-full max-w-[360px] object-contain md:scale-[1.5]"
+              className="w-full max-w-[260px] object-contain"
             />
           </div>
 
