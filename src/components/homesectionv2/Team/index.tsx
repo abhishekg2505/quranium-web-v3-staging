@@ -65,7 +65,7 @@ function Team() {
       id="team"
       className="bg-[#0C0318] py-16 px-4 text-white scroll-mt-20 overflow-clip"
     >
-      <div className="max-w-6xl ml-auto">
+      <div className="max-w-7xl mx-auto">
         {/* Team Section */}
         <div className="pt-12">
           <h2 className="text-h5 md:text-h3 font-semibold mt-12 mb-8 text-center hero-title2">
