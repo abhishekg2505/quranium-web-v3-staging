@@ -85,7 +85,7 @@ export default function Community() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-16 pb-24">
+    <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-16">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
         <h2
           ref={mainTitleRef}

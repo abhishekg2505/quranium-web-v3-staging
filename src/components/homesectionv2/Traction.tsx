@@ -78,7 +78,7 @@ export default function Traction() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-16 pb-24">
+    <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-10 pb-24">
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
         <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-[60px] gap-5 ">
           {cards.map((card, index) => (

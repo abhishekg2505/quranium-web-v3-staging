@@ -38,12 +38,12 @@ export default function InstitutionalReady() {
       </div>
 
       {/* Right glowing image */}
-      <div className="absolute right-0 top-[55%] -translate-y-1/2 hidden md:block z-[9]">
+      <div className="absolute right-0 top-[57%] -translate-y-1/2 hidden md:block z-[9]">
         <Image
           src="/images/homepagev2/right-glow.webp"
           alt="Right Glow"
-          width={250}
-          height={500}
+          width={230}
+          height={450}
           className="object-contain"
         />
       </div>
