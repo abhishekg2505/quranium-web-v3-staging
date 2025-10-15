@@ -1,31 +1,10 @@
 "use client";
 
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-
-// const cards = [
-//   {
-//     title: "Global Roadshow",
-//     image: "images/homepagev2/beuncrackable.svg",
-//     counter: "300+",
-//     description: "F2F Events, 30+ Countries",
-//   },
-//   {
-//     title: "Virtual Roundtables",
-//     image: "images/homepagev2/tuc.svg",
-//     counter: "178K+",
-//     description: "Watch Hours",
-//   },
-//   {
-//     title: "Thought Leadership Podcast",
-//     image: "images/homepagev2/qmp.svg",
-//     counter: "832K+",
-//     description: "Watch Hours",
-//   },
-// ];
 
 export default function QuantumSecure() {
   const sectionRef = useRef(null);
@@ -33,13 +12,28 @@ export default function QuantumSecure() {
   const para1Ref = useRef(null);
   const cardsRef = useRef<Array<HTMLDivElement | null>>([]);
 
+  const words = [
+    "Transactions",
+    "Tokenization",
+    "Identity",
+    "Communication",
+    "Data Security",
+    "Agent AI",
+  ];
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prev) => (prev + 1) % words.length);
+    }, 1500); // change every 1.5 seconds
+    return () => clearInterval(interval);
+  }, []);
+
+  // GSAP animations for the section
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.from(mainTitleRef.current, {
-        scrollTrigger: {
-          trigger: mainTitleRef.current,
-          start: "top 90%",
-        },
+        scrollTrigger: { trigger: mainTitleRef.current, start: "top 90%" },
         opacity: 0,
         y: 30,
         duration: 0.8,
@@ -48,21 +42,16 @@ export default function QuantumSecure() {
       });
 
       gsap.from(para1Ref.current, {
-        scrollTrigger: {
-          trigger: para1Ref.current,
-          start: "top 90%",
-        },
+        scrollTrigger: { trigger: para1Ref.current, start: "top 90%" },
         opacity: 0,
         y: 30,
         duration: 0.8,
         ease: "power2.out",
         delay: 1.5,
       });
+
       gsap.from(cardsRef.current, {
-        scrollTrigger: {
-          trigger: cardsRef.current,
-          start: "top 80%",
-        },
+        scrollTrigger: { trigger: cardsRef.current, start: "top 80%" },
         opacity: 0,
         y: 50,
         stagger: 0.2,
@@ -71,7 +60,6 @@ export default function QuantumSecure() {
         ease: "power2.out",
       });
     }, sectionRef);
-
     return () => ctx.revert();
   }, []);
 
@@ -91,9 +79,16 @@ export default function QuantumSecure() {
           </h2>
         </div>
       </div>
+
+      {/* Animated text section */}
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px] mt-[100px]">
-        <h2 ref={mainTitleRef} className="text-h3 font-montserrat font-semibold text-center">
-          Quantum Secure <span className="text-[#C994FE]">Transactions</span>
+        <h2 className="text-h3 font-montserrat font-semibold text-center flex justify-center items-center gap-2">
+          Quantum Secure{" "}
+          <span className="text-[#C994FE] h-[1em] overflow-hidden inline-block relative">
+            <span key={index} className="block animate-slide-up text-[#C994FE] overflow-visible">
+              {words[index]}
+            </span>
+          </span>
         </h2>
 
         <Image
