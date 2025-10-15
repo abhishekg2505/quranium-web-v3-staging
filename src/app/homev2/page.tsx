@@ -1,6 +1,6 @@
 import HeroSection from "@/src/components/homesectionv2/HeroSection";
 import TeamCarousel from "@/src/components/homesectionv2/TeamCarousel";
-import { aboutUsMetaData } from "@/src/constants/metadata";
+import { siteMetadata } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
 import ClockTicking from "@/src/components/homesectionv2/ClockTicking";
 import ThoughtLeadership from "@/src/components/homesectionv2/ThoughtLeadership";
@@ -21,30 +21,30 @@ import Team from "@/src/components/homesectionv2/Team";
 
 export const metadata = {
   title: {
-    default: aboutUsMetaData.title,
-    template: `%s | ${aboutUsMetaData.title}`,
+    default: siteMetadata.title,
+    template: `%s | ${siteMetadata.title}`,
   },
-  description: aboutUsMetaData.description,
+  description: siteMetadata.description,
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: aboutUsMetaData.url,
-    title: aboutUsMetaData.title,
-    description: aboutUsMetaData.description,
-    siteName: aboutUsMetaData.title,
+    url: siteMetadata.url,
+    title: siteMetadata.title,
+    description: siteMetadata.description,
+    siteName: siteMetadata.title,
     images: [
       {
         width: 1200,
         height: 630,
         url: `${quraniumPreview.src}?_=44fc893`,
-        alt: aboutUsMetaData.title,
+        alt: siteMetadata.title,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: aboutUsMetaData.title,
-    description: aboutUsMetaData.description,
+    title: siteMetadata.title,
+    description: siteMetadata.description,
     images: [`${quraniumPreview.src}?_=44fc893`],
   },
 };

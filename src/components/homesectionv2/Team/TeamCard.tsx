@@ -24,13 +24,13 @@ export default function TeamCard({ person }: TeamCardProps) {
       <div className="relative w-full">
         {/* Front Side */}
         <div className="bg-roadshow-reverse-border group-hover:bg-purple-border p-[1px] rounded-[20px]">
-          <div className="relative bg-[#181022] overflow-hidden h-full rounded-[20px] flex flex-col">
+          <div className="relative bg-[#181022] overflow-hidden h-full rounded-[16px] flex flex-col">
             <Image
               src={person.img}
               alt={person.name}
               width={320}
               height={426}
-              className="w-full rounded-[20px]"
+              className="w-full rounded-[16px] scale-[1.1]"
             />
             <div className="absolute bottom-0 left-0 w-full">
               <Link
