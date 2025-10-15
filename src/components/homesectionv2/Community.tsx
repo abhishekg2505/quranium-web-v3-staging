@@ -27,7 +27,7 @@ const cards = [
     target: "_self",
   },
   {
-    title: "DeQuip Grant Program",
+    title: "DeQUIP Grant Program",
     image: "/images/homepagev2/grant-program-frame.png",
     widthClass: "w-full md:w-[31%]",
     description: "Fuel your vision with our milestone-based grants and expert developer support.",
