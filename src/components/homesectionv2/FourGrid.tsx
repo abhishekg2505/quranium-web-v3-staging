@@ -15,7 +15,7 @@ const cards = [
     description:
       "SLH-DSA is significantly more robust than stateful and lattice-based alternatives, providing security for decades.",
     linkTitle: "Read Whitepaper →",
-    link: "#",
+    link: "https://www.quranium.org/whitepaper",
   },
   {
     title: "EVM-Compatible",
@@ -24,7 +24,7 @@ const cards = [
     description:
       "Don't rebuild your project. Seamlessly deploy your existing Solidity contracts on our quantum-secure foundation.",
     linkTitle: "Read Technical Docs →",
-    link: "#",
+    link: "https://docs.quranium.org/",
   },
   {
     title: "QRemix AI",
@@ -32,7 +32,7 @@ const cards = [
     widthClass: "w-full md:w-[38%]",
     description: "Accelerate development with our AI Smart Contract Deployment tool.",
     linkTitle: "Explore QRemix →",
-    link: "#",
+    link: "https://www.qremix.org/",
   },
   {
     title: "QSafe Wallet",
@@ -41,7 +41,7 @@ const cards = [
     description:
       "Protect your holdings with our native, quantum-secure wallet integrated across 70+ major chains.",
     linkTitle: "Explore QSafe Wallet →",
-    link: "#",
+    link: "https://www.qsafewallet.com/",
   },
 ];
 
@@ -114,6 +114,7 @@ export default function FourGrid() {
                       <p className="text-p1 font-montserrat font-normal">{card.description}</p>
                       <Link
                         href={card.link}
+                        target="_blank"
                         className="text-h6 font-montserrat font-medium text-[#C994FE]"
                       >
                         {card.linkTitle}
