@@ -94,7 +94,7 @@ export default function QuantumSecure() {
           Quantum Secure{" "}
           <span className="text-[#C994FE] h-[1.5em] flex items-center overflow-hidden relative">
             <span className="block animate-slide-up text-[#C994FE] overflow-visible">
-              Transaction
+              Transactions
             </span>
           </span>
         </h2>
