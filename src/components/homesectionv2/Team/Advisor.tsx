@@ -30,7 +30,7 @@ export default function Advisor({ person }: TeamCardProps) {
               alt={person.name}
               width={320}
               height={426}
-              className="w-full rounded-[20px] h-[369px] md:h-[426px] object-cover"
+              className="w-full rounded-[20px]"
             />
             <div className="absolute bottom-0 left-0 w-full h-[150px]">
               <Link
