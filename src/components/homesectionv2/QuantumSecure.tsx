@@ -82,7 +82,7 @@ export default function QuantumSecure() {
 
       {/* Animated text section */}
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px] mt-[100px]">
-        <h2 className="text-h4 md:text-h3 font-montserrat font-semibold text-center hidden md:flex justify-center items-center gap-2">
+        <h2 className="text-h4 md:text-h3 font-montserrat font-semibold text-center hidden md:flex flex-row justify-center items-center gap-2">
           Quantum Secure{" "}
           <span className="text-[#C994FE] h-[1.2em] flex items-center overflow-hidden relative">
             <span key={index} className="block animate-slide-up text-[#C994FE] overflow-visible">
@@ -90,7 +90,7 @@ export default function QuantumSecure() {
             </span>
           </span>
         </h2>
-        <h2 className="text-h4 md:text-h3 font-montserrat font-semibold text-center flex md:hidden justify-center items-center gap-2">
+        <h2 className="text-h4 md:text-h3 font-montserrat font-semibold text-center flex flex-row md:hidden justify-center items-center gap-2">
           Quantum Secure{" "}
           <span className="text-[#C994FE] h-[1.5em] flex items-center overflow-hidden relative">
             <span className="block animate-slide-up text-[#C994FE] overflow-visible">
