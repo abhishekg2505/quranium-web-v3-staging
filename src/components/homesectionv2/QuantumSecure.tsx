@@ -66,7 +66,7 @@ export default function QuantumSecure() {
   return (
     <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-[104px] pb-24">
       <div className="relative max-w-7xl mx-auto md:px-[60px]">
-        <div className="relative w-full">
+        <div className="relative w-full md:max-w-4xl mx-auto text-center">
           <h2
             ref={mainTitleRef}
             className="text-h4 md:text-h3 font-montserrat font-semibold text-center"
@@ -74,8 +74,7 @@ export default function QuantumSecure() {
             <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
               Your on-chain money, assets
             </span>{" "}
-            and data are
-            <br /> now secure from quantum attacks.
+            and data are now secure from quantum attacks.
           </h2>
         </div>
       </div>
