@@ -100,7 +100,7 @@ const ClockTicking = () => {
             </video>
           </div>
           <div className="relative md:pr-20">
-            <h4 className="text-h4 font-montserrat font-semibold mt-[50px] text-left">
+            <h4 className="text-h4 font-montserrat font-semibold  text-left">
               <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
                 The Quantum Threat is Real.
               </span>
