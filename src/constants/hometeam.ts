@@ -101,7 +101,7 @@ export const quraniumteam = [
     name: "Benjamin Shin",
     designation: "Investor Relation",
     twitter: "",
-    linkedin: "https://www.linkedin.com/in/shin-benjamin-62a16821b/",
+    linkedin: "",
     img: "/images/homepagev2/team/benjamin.png",
     description: [
       "Benjamin is the Chief Business Officer at Quranium.",
