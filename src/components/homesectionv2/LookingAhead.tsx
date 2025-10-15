@@ -346,8 +346,8 @@ const phases = [
   {
     key: "phase1",
     label: "Phase I 2025",
-    color: "bg-[linear-gradient(180deg,#0021C7_0%,#000D4E_100%)]",
-    tabarea: "bg-[#0120C533]",
+    color: "bg-[#4F0179]",
+    tabarea: "bg-[#150021]",
     video: "/videos/homepage/shell-blue.mp4",
     content: (
       <div>
@@ -447,12 +447,6 @@ const phases = [
               Established Post-quantum thought leadership
             </div>
           </li>
-          <li className="flex items-start">
-            <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
-              <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
-              Launch public mainnet
-            </div>
-          </li>
         </ul>
       </div>
     ),
@@ -460,7 +454,7 @@ const phases = [
   {
     key: "phase2",
     label: "Phase II 2026",
-    color: "bg-[linear-gradient(180deg,#00AA4E_0%,#003317_100%)]",
+    color: "bg-[#017234]",
     tabarea: "bg-[#013518]",
     video: "/videos/homepage/shell-green.mp4",
     content: (
@@ -532,8 +526,8 @@ const phases = [
   {
     key: "phase3",
     label: "Phase III 2027",
-    color: "bg-[linear-gradient(180deg,#550083_0%,#13001D_100%)]",
-    tabarea: "bg-[#150021]",
+    color: "bg-[#01178B]",
+    tabarea: "bg-[#191E3F]",
     video: "/videos/homepage/shell-purple.mp4",
     content: (
       <div className="text-white">
@@ -621,7 +615,7 @@ export default function LookingAhead() {
                 phase.color
               } ${current === idx ? "" : ""}`}
             >
-              <span className={`${current === idx ? "underline" : ""}`}>{phase.label}</span>
+              <span className={``}>{phase.label}</span>
             </button>
           ))}
         </div>
@@ -629,7 +623,7 @@ export default function LookingAhead() {
         {/* ---- Slider Layout ---- */}
         <div
           ref={cardRef}
-          className="relative grid grid-cols-1 md:grid-cols-[30%_70%] items-center mt-5"
+          className={`relative grid grid-cols-1 md:grid-cols-[30%_70%] items-center mt-5 ${phases[current].tabarea}`}
         >
           {/* ---- Left Side (Video) ---- */}
           <div className="flex justify-center items-center relative">
@@ -645,9 +639,7 @@ export default function LookingAhead() {
           </div>
 
           {/* ---- Right Side (Content Card) ---- */}
-          <div
-            className={`relative transition-all duration-500 rounded-2xl p-8 ${phases[current].tabarea} shadow-lg`}
-          >
+          <div className={`relative transition-all duration-500 rounded-2xl p-8  shadow-lg`}>
             {phases[current].content}
           </div>
 
