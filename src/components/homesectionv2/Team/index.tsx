@@ -69,7 +69,7 @@ function Team() {
         {/* Team Section */}
         <div className="pt-12">
           <h2 className="text-h5 md:text-h3 font-semibold mt-12 mb-8 text-center hero-title2">
-            Team
+            Our Team
           </h2>
           <div className="relative">
             <Swiper
@@ -78,7 +78,7 @@ function Team() {
               slidesPerView={1}
               loop={true}
               speed={600}
-              autoplay={{ delay: 3000, disableOnInteraction: true, pauseOnMouseEnter: true }}
+              autoplay={false}
               navigation={{
                 prevEl: ".swiper-prev2",
                 nextEl: ".swiper-next2",
@@ -122,7 +122,7 @@ function Team() {
               slidesPerView={1}
               loop={true}
               speed={600}
-              autoplay={{ delay: 5000, disableOnInteraction: true, pauseOnMouseEnter: true }}
+              autoplay={false}
               navigation={{
                 prevEl: ".swiper-prev3",
                 nextEl: ".swiper-next3",
