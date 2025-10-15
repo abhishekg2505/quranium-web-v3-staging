@@ -8,7 +8,7 @@ import gsap from "gsap";
 const phases = [
   {
     key: "phase1",
-    label: "Phase I 2025",
+    label: "Phase I",
     color: "bg-[#4F0179]",
     tabarea: "bg-[#250038]",
     video: "/videos/homepage/shell-purple.mp4",
@@ -148,18 +148,6 @@ const phases = [
               Institutional grade solutions for
             </div>
             <ul className="pl-6">
-              <li className="flex items-start">
-                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
-                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
-                  Post-quantum BTC
-                </div>
-              </li>
-              <li className="flex items-start">
-                <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
-                  <Image src="/images/homepagev2/circle.svg" alt="circle" width={20} height={20} />
-                  Post-quantum reserves
-                </div>
-              </li>
               <li className="flex items-start">
                 <div className="flex gap-2 text-h6 font-montserrat font-medium mb-2">
                   <Image
