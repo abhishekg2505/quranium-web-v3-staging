@@ -72,7 +72,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="px-4 md:px-20 bg-[#0C0318]">
+    <div ref={sectionRef} className="px-4 md:px-20 bg-[#0C0318] overflow-hidden">
       <div className="max-w-7xl mx-auto pt-[50px] pb-[106px] md:pb-[0px] md:pt-36 px-[16px] overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left">
           {/* Left Side */}
