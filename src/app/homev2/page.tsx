@@ -10,6 +10,7 @@ import Partners from "@/src/components/homesectionv2/Partners";
 import InstitutionalReady from "@/src/components/homesectionv2/InstitutionalReady";
 import QuantumResistance from "@/src/components/homesectionv2/QuantumResistance";
 import LeadershipSection from "@/src/components/homesectionv2/LeadershipSection";
+import InNews from "@/src/components/homesectionv2/InNews";
 import FourGrid from "@/src/components/homesectionv2/FourGrid";
 import VerticalTimeLine from "@/src/components/homesectionv2/VerticalTimeLine";
 import LookingAhead from "@/src/components/homesectionv2/LookingAhead";
@@ -60,6 +61,7 @@ export default function Homev2() {
       <ThoughtLeadership />
       <TeamCarousel />
       <Spotlight />
+      <InNews />
       <Community />
       <Traction />
       <LeadershipSection />
