@@ -57,6 +57,36 @@ const images = [
   {
     src: "/images/homepagev2/roadshow/09.webp",
   },
+  {
+    src: "/images/homepagev2/roadshow/10.png",
+  },
+  {
+    src: "/images/homepagev2/roadshow/11.png",
+  },
+  {
+    src: "/images/homepagev2/roadshow/12.png",
+  },
+  {
+    src: "/images/homepagev2/roadshow/13.png",
+  },
+  {
+    src: "/images/homepagev2/roadshow/14.png",
+  },
+  {
+    src: "/images/homepagev2/roadshow/15.png",
+  },
+  {
+    src: "/images/homepagev2/roadshow/16.png",
+  },
+  {
+    src: "/images/homepagev2/roadshow/17.png",
+  },
+  {
+    src: "/images/homepagev2/roadshow/18.png",
+  },
+  {
+    src: "/images/homepagev2/roadshow/19.png",
+  },
 ];
 
 const TeamCarousel = () => {
