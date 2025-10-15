@@ -4,6 +4,7 @@ import Image from "next/image";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 gsap.registerPlugin(ScrollTrigger);
 
 // const cards = [
@@ -35,6 +36,8 @@ const cards = [
       "Quranium’s Be Uncrackable Roadshow brings quantum security awareness to innovators, builders, and enterprises worldwide.",
     counter: "300+",
     subheading: "F2F Events, 30+ Countries",
+    link: "https://www.beuncrackable.com/",
+    target: "_blank",
   },
   {
     title: "Quantum Mind Podcast",
@@ -44,6 +47,8 @@ const cards = [
       "Discover inspiring stories from real innovators shaping the future of AI, quantum, and Web3 on Quantum Minds Podcast.",
     counter: "832K+",
     subheading: "Watch Hours",
+    link: "https://www.quantummindspodcast.com/",
+    target: "_blank",
   },
   {
     title: "The Uncrackable Conversation",
@@ -52,6 +57,8 @@ const cards = [
     description: "Conversations with the minds building the future of Web3.",
     counter: "178K+",
     subheading: "Watch Hours",
+    link: "https://www.quranium.org/the-uncrackable-conversation",
+    target: "_self",
   },
 ];
 
@@ -122,7 +129,11 @@ export default function ThoughtLeadership() {
               }}
               className={`group ${card.widthClass}`}
             >
-              <div className="relative w-full h-auto md:h-full overflow-hidden">
+              <Link
+                href={card.link}
+                target={card.target}
+                className="relative w-full h-auto md:h-full overflow-hidden"
+              >
                 {/* Front Side */}
                 <div className="md:h-full bg-roadshow-reverse-border group-hover:bg-purple-border p-[1px] rounded-[16px]">
                   <div className="bg-[#181022] hover:bg-[#1B0637]  h-full rounded-[16px] overflow-hidden flex flex-col justify-between text-left">
@@ -147,7 +158,7 @@ export default function ThoughtLeadership() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
