@@ -8,6 +8,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import { MoveLeft, MoveRight } from "lucide-react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "swiper/css";
+import Advisor from "./Advisor";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -137,7 +138,7 @@ function Team() {
             >
               {advisors.map((person, index) => (
                 <SwiperSlide key={index}>
-                  <TeamCard person={person} />
+                  <Advisor person={person} />
                 </SwiperSlide>
               ))}
             </Swiper>
