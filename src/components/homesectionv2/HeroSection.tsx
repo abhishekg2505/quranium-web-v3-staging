@@ -107,7 +107,7 @@ const HeroSection = () => {
               playsInline
               className="inset-0 w-full h-full object-cover z-0 md:hidden block scale-[2] md:scale-0"
             >
-              <source src="/videos/homepage/herovideo.mp4" type="video/mp4" />
+              <source src="/videos/homepage/herovideo.webm" type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </div>
