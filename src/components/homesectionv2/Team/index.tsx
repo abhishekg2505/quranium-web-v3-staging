@@ -75,12 +75,17 @@ function Team() {
           </h2>
           <div id="coreteam" className="relative">
             <Swiper
+              onSwiper={(swiper) => (coreTeamSwiper.current = swiper)}
               modules={[Autoplay, Navigation]}
               spaceBetween={20}
               slidesPerView={1}
               loop={true}
               speed={600}
-              autoplay={false}
+              autoplay={{
+                delay: 2000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: false,
+              }}
               navigation={{
                 prevEl: ".swiper-prev2",
                 nextEl: ".swiper-next2",
@@ -119,12 +124,17 @@ function Team() {
           </h2>
           <div id="advisors" className="relative">
             <Swiper
+              onSwiper={(swiper) => (advisorSwiper.current = swiper)}
               modules={[Autoplay, Navigation]}
               spaceBetween={20}
               slidesPerView={1}
               loop={true}
               speed={600}
-              autoplay={false}
+              autoplay={{
+                delay: 2000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: false,
+              }}
               navigation={{
                 prevEl: ".swiper-prev3",
                 nextEl: ".swiper-next3",
