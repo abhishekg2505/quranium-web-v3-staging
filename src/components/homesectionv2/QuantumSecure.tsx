@@ -91,7 +91,7 @@ export default function QuantumSecure() {
           </h2>
         </div>
       </div>
-      <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px] mt-[200px]">
+      <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px] mt-[100px]">
         <h2 ref={mainTitleRef} className="text-h3 font-montserrat font-semibold text-center">
           Quantum Secure <span className="text-[#C994FE]">Transactions</span>
         </h2>

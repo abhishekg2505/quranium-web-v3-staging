@@ -87,7 +87,7 @@ const ClockTicking = () => {
           computing power increases.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-[40%_60%]  overflow-hidden gap-10 items-center text-center md:text-left border-[1.5px] border-[#3A3A3A] rounded-[16px] p-5 md:p-10 mt-10">
-          <div className="relative mx-auto w-full max-w-[300px] aspect-[300/300]">
+          <div className="relative mx-auto w-full max-w-[300px] aspect-[300/300] overflow-hidden">
             <video
               autoPlay
               muted
@@ -103,7 +103,8 @@ const ClockTicking = () => {
             <h4 className="text-h4 font-montserrat font-semibold  text-left">
               <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
                 The Quantum Threat is Real.
-              </span>
+              </span>{" "}
+              <br />
               Your Digital Assets Are Not Safe.
             </h4>
             <p ref={headingRef} className="text-p1 font-open-sans mb-[15px] text-left">

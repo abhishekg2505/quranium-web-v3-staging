@@ -41,7 +41,9 @@ const InNews = () => {
   return (
     <section className="py-16 container mx-auto px-4">
       <div>
-        <h2 className="text-h4 text-center font-montserrat font-semibold">In the News</h2>
+        <h2 className="text-h4 md:text-h3 text-center font-montserrat font-semibold">
+          In the News
+        </h2>
 
         <div className="pt-10">
           <div className="p-[1.1px] bg-roadshow-stats-border rounded-[30px]">
