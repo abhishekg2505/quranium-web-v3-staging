@@ -65,7 +65,7 @@ export default function QuantumSecure() {
 
   return (
     <div ref={sectionRef} className="relative bg-[#0C0318] px-5 pt-[104px] pb-24">
-      <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px]">
+      <div className="relative max-w-7xl mx-auto md:px-[60px]">
         <div className="relative w-full">
           <h2
             ref={mainTitleRef}
