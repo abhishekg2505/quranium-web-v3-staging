@@ -8,7 +8,7 @@ export const SpotlightCard = ({ spotlight }: { spotlight: SpotlightData }) => {
         <div className="relative aspect-video overflow-hidden">
           <Image
             src={spotlight.attributes.image.data?.attributes?.url}
-            alt={spotlight.attributes.title}
+            alt={spotlight.attributes.image.data?.attributes?.alternativeText || "Spotlight Image"}
             fill
             className="transition-transform duration-500 ease-in-out group-hover:scale-110 object-fill"
           />

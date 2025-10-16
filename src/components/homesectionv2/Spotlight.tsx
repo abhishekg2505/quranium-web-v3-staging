@@ -13,7 +13,6 @@ type ApiResponse = {
 const Spotlight = async () => {
   const response = await get<ApiResponse>(`/api/spot-lights?populate=*&sort=id:desc`);
   const spotlight = response.data;
-
   return (
     <section className="pt-[160px] pb-16 container mx-auto px-4">
       <div className="flex flex-col md:flex-row justify-between items-start lg:items-center">
