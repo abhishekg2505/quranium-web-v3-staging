@@ -112,9 +112,8 @@ const ClockTicking = () => {
               current smart contracts and wallets are fundamentally unsafe. A secure solution that
               lasts 30+ years doesn&rsquo;t exist...{" "}
               <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text italic">
-                Until now
+                Until now.
               </span>
-              .
             </p>
           </div>
         </div>

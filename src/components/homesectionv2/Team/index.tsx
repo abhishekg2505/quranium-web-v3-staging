@@ -82,7 +82,7 @@ function Team() {
               loop={true}
               speed={600}
               autoplay={{
-                delay: 2000,
+                delay: 3000,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: false,
               }}
