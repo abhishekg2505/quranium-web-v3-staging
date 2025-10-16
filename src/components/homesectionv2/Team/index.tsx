@@ -44,7 +44,7 @@ export default function Team() {
         ease: "power2.out",
       });
 
-      // 🎯 Control autoplay for Core Team Swiper
+      // Control autoplay for Core Team Swiper
       ScrollTrigger.create({
         trigger: "#coreteam",
         start: "top 80%",
@@ -55,7 +55,7 @@ export default function Team() {
         onLeaveBack: () => coreTeamSwiper.current?.autoplay?.stop(),
       });
 
-      // 🎯 Control autoplay for Advisors Swiper
+      // Control autoplay for Advisors Swiper
       ScrollTrigger.create({
         trigger: "#advisors",
         start: "top 80%",

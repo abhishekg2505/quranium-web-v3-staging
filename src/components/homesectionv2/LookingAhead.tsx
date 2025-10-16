@@ -306,6 +306,7 @@ export default function LookingAhead() {
         <div className="flex flex-wrap justify-between gap-4 md:gap-0">
           {phases.map((phase, idx) => (
             <button
+              aria-label={phase.label}
               key={phase.key}
               onClick={() => setCurrent(idx)}
               className={`px-5 py-2 w-full  md:w-[32%] rounded-[16px] md:rounded-[4px] font-montserrat text-h5 font-normal transition-all duration-300 ${
@@ -342,12 +343,14 @@ export default function LookingAhead() {
 
           {/* ---- Navigation Arrows ---- */}
           <button
+            aria-label="Previous slide"
             onClick={prevSlide}
             className="absolute left-0 md:left-[-4%] top-1/2 -translate-y-1/2 bg-[#181022]/60 hover:bg-[#181022]/90 p-3 rounded-full border border-white/20 z-10 transition"
           >
             <MoveLeftIcon className="w-4 h-4 group-hover:stroke-[#ffffff]" />
           </button>
           <button
+            aria-label="Next slide"
             onClick={nextSlide}
             className="group absolute right-0 md:right-[-4%] top-1/2 -translate-y-1/2 bg-[#181022]/60 hover:bg-[#181022]/90 p-3 rounded-full border border-white/20 z-10 transition"
           >

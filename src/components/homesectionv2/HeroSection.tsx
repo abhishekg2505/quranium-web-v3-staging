@@ -74,7 +74,7 @@ const HeroSection = () => {
   return (
     <div ref={sectionRef} className="px-0 md:px-20 bg-[#0C0318] overflow-hidden">
       <div className="relative max-w-7xl mx-auto pt-[50px] pb-[106px] md:pb-[0px] md:pt-36 overflow-hidden">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center text-center md:text-left">
           {/* Left Side */}
           <div className="relative z-10 order-2 md:order-1 md:-mt-[20px]">
             <h1
