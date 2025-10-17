@@ -114,7 +114,7 @@ export default function QuantumResistance() {
         </p>
         <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[40%_60%]  gap-6 mt-[20px] md:mt-[60px]">
           <div className="flex items-center justify-center mt-10 md:mt-0 relative w-full h-full">
-            <div className="w-[274px] h-full relative">
+            <div className="w-[274px] h-[454px] md:h-full relative">
               <video
                 autoPlay
                 muted
