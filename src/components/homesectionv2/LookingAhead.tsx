@@ -321,7 +321,7 @@ export default function LookingAhead() {
         {/* ---- Slider Layout ---- */}
         <div
           ref={cardRef}
-          className={`relative grid grid-cols-1 md:grid-cols-[40%_60%] items-center mt-5 rounded-[16px] py-5 overflow-hidden ${phases[current].tabarea}`}
+          className={`relative grid grid-cols-1 md:grid-cols-[40%_60%] items-center mt-5 rounded-[16px] py-5 ${phases[current].tabarea}`}
         >
           {/* ---- Left Side (Video) ---- */}
           <div className="flex justify-center items-center relative">
@@ -345,14 +345,14 @@ export default function LookingAhead() {
           <button
             aria-label="Previous slide"
             onClick={prevSlide}
-            className="absolute left-0 md:left-[-4%] top-1/2 -translate-y-1/2 bg-[#181022]/60 hover:bg-[#181022]/90 p-3 rounded-full border border-white/20 z-10 transition"
+            className="absolute left-0 md:left-[-2%] top-1/2 -translate-y-1/2 bg-[#181022]/60 hover:bg-[#181022]/90 p-3 rounded-full border border-white/20 z-10 transition"
           >
             <MoveLeftIcon className="w-4 h-4 group-hover:stroke-[#ffffff]" />
           </button>
           <button
             aria-label="Next slide"
             onClick={nextSlide}
-            className="group absolute right-0 md:right-[-4%] top-1/2 -translate-y-1/2 bg-[#181022]/60 hover:bg-[#181022]/90 p-3 rounded-full border border-white/20 z-10 transition"
+            className="group absolute right-0 md:right-[-2%] top-1/2 -translate-y-1/2 bg-[#181022]/60 hover:bg-[#181022]/90 p-3 rounded-full border border-white/20 z-10 transition"
           >
             <MoveRightIcon className="w-4 h-4 group-hover:stroke-[#ffffff]" />
           </button>

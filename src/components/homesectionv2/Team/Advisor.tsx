@@ -20,17 +20,17 @@ export default function Advisor({ person }: TeamCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
 
   return (
-    <div className="group overflow-hidden">
+    <div className="group overflow-hidden border rounded-[16px] hover:border-[#C48FFB]">
       <div className="relative w-full">
         {/* Front Side */}
-        <div className="bg-roadshow-reverse-border group-hover:bg-purple-border p-[1px] rounded-[20px]">
-          <div className="relative bg-[#181022] overflow-hidden h-full rounded-[20px] flex flex-col">
+        <div className="bg-roadshow-reverse-border1 group-hover:bg-purple-border1 p-[0px] rounded-[16px]">
+          <div className="relative bg-[#181022] overflow-hidden h-full rounded-[16px] flex flex-col ">
             <Image
               src={person.img}
               alt={person.name}
               width={320}
               height={426}
-              className="w-full rounded-[20px]"
+              className="w-full rounded-[0px] "
             />
             <div className="absolute bottom-0 left-0 w-full h-[150px]">
               <Link
