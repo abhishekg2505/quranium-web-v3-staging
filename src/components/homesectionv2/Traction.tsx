@@ -18,7 +18,7 @@ const cards = [
     image: "images/homepagev2/wallet.svg",
   },
   {
-    counter: "1.5M+",
+    counter: "1.8M+",
     description: "Testnet Transactions",
     image: "images/homepagev2/transaction.svg",
   },

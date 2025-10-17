@@ -9,24 +9,39 @@ gsap.registerPlugin(ScrollTrigger);
 const cards = [
   {
     title: "EVM Compatible",
-    description: "Seamless deployment of solidity contracts",
+    description: ["Seamless deployment of solidity contracts"],
     color: "text-[#CF57FF]",
   },
   {
+    title: "QxSwap - Quantum-secure Decentralized Exchange",
+    description: [
+      "Institution-grade DEX for high-speed, quantum-secure asset exchange ",
+      "Built for scalable and efficient liquidity across global markets",
+    ],
+
+    color: "text-[#FF77D6]",
+  },
+  {
     title: "QRemix AI ",
-    description: "AI Smart Contract Deployment",
+    description: ["AI Smart Contract Deployment"],
     color: "text-[#00FFA5]",
   },
   {
     title: "QSafe Quantum-secure Wallet",
-    description:
-      "Access to native Quranium chain tokens and NFTs Integrated with 70 other major chains including BTC, Ethereum, Solana",
+    description: [
+      "Access to native Quranium chain tokens and NFTs",
+      "Integrated with 70 other major chains including BTC, Ethereum, Solana",
+    ],
+
     color: "text-[#436AFF]",
   },
   {
     title: "SLH-DSA Layer-1 Infra (Stateless Hash-Based Digital Signature Algorithm)",
-    description:
-      "Stateless significantly more robust than stateful Hash based cryptography is stronger than lattice-based",
+    description: [
+      "Stateless significantly more robust than stateful",
+      "Hash based cryptography is stronger than lattice-based",
+    ],
+
     color: "text-[#B57EFF]",
   },
 ];
@@ -97,9 +112,9 @@ export default function QuantumResistance() {
           Algorithm), <br />
           the most conservative, future-proof security primitive in cryptography.
         </p>
-        <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  gap-6 mt-[20px] md:mt-[60px]">
+        <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[40%_60%]  gap-6 mt-[20px] md:mt-[60px]">
           <div className="flex items-center justify-center mt-10 md:mt-0 relative w-full h-full">
-            <div className="w-[274px] h-[454px] relative">
+            <div className="w-[274px] h-full relative">
               <video
                 autoPlay
                 muted
@@ -124,9 +139,11 @@ export default function QuantumResistance() {
                 <h3 className={`text-h5 font-montserrat leading-normal font-medium ${card.color}`}>
                   {card.title}
                 </h3>
-                <p className="text-p1 font-montserrat font-normal text-[#ECECEC]">
-                  {card.description}
-                </p>
+                {card.description.map((desc, index) => (
+                  <p key={index} className="text-p1 font-montserrat font-normal text-[#ECECEC]">
+                    {desc}
+                  </p>
+                ))}
               </div>
             ))}
           </div>
