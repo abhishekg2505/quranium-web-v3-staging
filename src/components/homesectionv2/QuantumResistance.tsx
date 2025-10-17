@@ -120,7 +120,7 @@ export default function QuantumResistance() {
                 muted
                 loop
                 playsInline
-                className="absolute inset-0 w-full h-full object-cover z-0 md:scale-[1.2]"
+                className="absolute inset-0 w-full h-full object-contain md:object-cover z-0 md:scale-[1.2]"
               >
                 <source src="/videos/homepage/layers.webm" type="video/webm" />
                 Your browser does not support the video tag.
