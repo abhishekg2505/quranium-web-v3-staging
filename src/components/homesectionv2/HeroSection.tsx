@@ -18,6 +18,16 @@ const HeroSection = () => {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
+      gsap.to(".hero-overlay", {
+        opacity: 0,
+        duration: 1.6,
+        ease: "power2.out",
+        delay: 0.2,
+        onComplete: () => {
+          const el = document.querySelector(".hero-overlay");
+          if (el) el.remove();
+        },
+      });
       // Animate h2 after cards
       gsap.from(mainTitleRef.current, {
         scrollTrigger: {
@@ -73,6 +83,7 @@ const HeroSection = () => {
 
   return (
     <div ref={sectionRef} className="px-0 md:px-20 bg-[#0C0318] overflow-hidden">
+      <div className="absolute inset-0 bg-black z-20 hero-overlay" />
       <div className="relative max-w-7xl mx-auto pt-[50px] pb-[106px] md:pb-[0px] md:pt-36 overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-[52%_48%] gap-5 items-center text-center md:text-left">
           {/* Left Side */}

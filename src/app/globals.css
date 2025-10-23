@@ -177,3 +177,10 @@ button:hover svg {
 body[data-scroll-locked = "1"] {
   pointer-events: auto !important;
 }
+.gw > span{
+  background: linear-gradient(258.27deg, #FFFFFF 16.23%, #4C00FF 134.71%);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;            
+  -webkit-text-fill-color: transparent; 
+  }

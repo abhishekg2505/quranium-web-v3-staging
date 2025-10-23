@@ -74,7 +74,7 @@ export default function Team() {
     <section
       ref={sectionRef}
       id="team"
-      className="bg-[#0C0318] py-16 px-4 text-white scroll-mt-20 overflow-clip"
+      className="bg-[#0C0318] py-16 px-4 md:px-20 text-white scroll-mt-20 overflow-clip"
     >
       <div className="max-w-7xl mx-auto">
         {/* Core Team Section */}
@@ -84,16 +84,17 @@ export default function Team() {
           </h2>
           <div id="coreteam" className="relative">
             <Swiper
-              onSwiper={(swiper) => (coreTeamSwiper.current = swiper)}
+              //onSwiper={(swiper) => (coreTeamSwiper.current = swiper)}
               modules={[Autoplay, Navigation]}
               spaceBetween={20}
               slidesPerView={1}
               loop
               speed={600}
-              autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 3000,
+              //   disableOnInteraction: false,
+              // }}
+              autoplay={false}
               navigation={{
                 prevEl: ".swiper-prev2",
                 nextEl: ".swiper-next2",
@@ -112,10 +113,10 @@ export default function Team() {
               ))}
             </Swiper>
             <div className="flex justify-center gap-6 mt-6 md:mt-0 md:block">
-              <div className="swiper-prev2 md:absolute md:-left-0 md:top-1/2 -translate-y-1/2 z-10 bg-[#3C3747] hover:bg-white/20 p-2 rounded-full cursor-pointer">
+              <div className="swiper-prev2 md:absolute md:-left-[50px] md:top-1/2 -translate-y-1/2 z-10 bg-[#3C3747] hover:bg-white/20 p-2 rounded-full cursor-pointer">
                 <MoveLeft className="text-white" />
               </div>
-              <div className="swiper-next2 md:absolute md:-right-0 md:top-1/2 -translate-y-1/2 z-10 bg-[#3C3747] hover:bg-white/20 p-2 rounded-full cursor-pointer">
+              <div className="swiper-next2 md:absolute md:-right-[50px] md:top-1/2 -translate-y-1/2 z-10 bg-[#3C3747] hover:bg-white/20 p-2 rounded-full cursor-pointer">
                 <MoveRight className="text-white" />
               </div>
             </div>
@@ -129,16 +130,17 @@ export default function Team() {
           </h2>
           <div id="advisors" className="relative">
             <Swiper
-              onSwiper={(swiper) => (advisorSwiper.current = swiper)}
+              //onSwiper={(swiper) => (advisorSwiper.current = swiper)}
               modules={[Autoplay, Navigation]}
               spaceBetween={20}
               slidesPerView={1}
               loop
               speed={600}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 2500,
+              //   disableOnInteraction: false,
+              // }}
+              autoplay={false}
               navigation={{
                 prevEl: ".swiper-prev3",
                 nextEl: ".swiper-next3",
@@ -157,10 +159,10 @@ export default function Team() {
               ))}
             </Swiper>
             <div className="flex justify-center gap-6 mt-6 md:mt-0 md:block">
-              <div className="swiper-prev3 md:absolute md:-left-0 md:top-1/2 -translate-y-1/2 z-10 bg-[#3C3747] hover:bg-white/20 p-2 rounded-full cursor-pointer">
+              <div className="swiper-prev3 md:absolute md:-left-[50px] md:top-1/2 -translate-y-1/2 z-10 bg-[#3C3747] hover:bg-white/20 p-2 rounded-full cursor-pointer">
                 <MoveLeft className="text-white" />
               </div>
-              <div className="swiper-next3 md:absolute md:-right-0 md:top-1/2 -translate-y-1/2 z-10 bg-[#3C3747] hover:bg-white/20 p-2 rounded-full cursor-pointer">
+              <div className="swiper-next3 md:absolute md:-right-[50px] md:top-1/2 -translate-y-1/2 z-10 bg-[#3C3747] hover:bg-white/20 p-2 rounded-full cursor-pointer">
                 <MoveRight className="text-white" />
               </div>
             </div>

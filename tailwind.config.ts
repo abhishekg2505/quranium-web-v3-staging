@@ -83,12 +83,13 @@ const config: Config = {
         montserrat: ["var(--font-montserrat)"],
         "open-sans": ["var(--font-open-sans)"],
         staatliches: ["var(--font-staatliches)"],
+        // aspekta: ["var(--font-aspekta)"],
       },
       fontSize: {
         // H1 - Montserrat SemiBold
         h1: ["72px", { lineHeight: "50px", letterSpacing: "-0.03em" }],
         // H2 - Montserrat Bold
-        h2: ["64px", { lineHeight: "66px", letterSpacing: "-0.03em" }],
+        h2: ["60px", { lineHeight: "62px", letterSpacing: "-0.03em" }],
         // H3 - Montserrat SemiBold
         h3: ["46px", { lineHeight: "50px", letterSpacing: "-0.03em" }],
         // H4 - Montserrat SemiBold

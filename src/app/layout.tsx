@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+// import localFont from "next/font/local";
 import { Staatliches, Montserrat, Open_Sans } from "next/font/google";
 import Header from "../components/common/Header";
 import "./globals.css";
@@ -26,7 +27,31 @@ const staatliches = Staatliches({
   display: "swap",
   variable: "--font-staatliches",
 });
-
+// const aspekta = localFont({
+//   src: [
+//     { path: "../fonts/aspekta/otf/Aspekta-50.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-100.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-150.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-200.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-250.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-300.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-350.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-400.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-450.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-500.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-550.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-600.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-650.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-700.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-750.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-800.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-850.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-900.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-950.otf" },
+//     // { path: "../../public/fonts/aspekta/otf/Aspekta-1000.otf" },
+//   ],
+//   variable: "--font-aspekta",
+// });
 export const metadata: Metadata = {
   title: {
     default: siteMetadata.title,

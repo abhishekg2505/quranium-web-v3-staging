@@ -73,7 +73,7 @@ const MobileMenu = () => {
                       onClick={() => item.link && setIsSheetOpen(false)}
                     >
                       <SheetTitle
-                        className={`text-lg font-normal ${
+                        className={`text-lg font-normal leading-normal ${
                           isParentActive(item)
                             ? "text-[#AE87FF]" // 🔥 Active color
                             : "text-white-1"
@@ -103,10 +103,10 @@ const MobileMenu = () => {
                             className="mb-4"
                           />
                           <div>
-                            <h4 className="text-p2 font-open-sans text-left">
+                            <h4 className="text-p2 font-open-sans text-left leading-normal">
                               {subItem.subMenuName}
                             </h4>
-                            <p className="text-p3 font-open-sans text-[#AFAFAF] leading-[100%] text-left">
+                            <p className="text-p3 font-open-sans text-[#AFAFAF] leading-normal text-left">
                               {subItem.subMenuDesc}
                             </p>
                           </div>

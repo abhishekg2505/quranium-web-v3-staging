@@ -105,8 +105,8 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row justify-between lg:items-center gap-10">
               {/* Left Text Section */}
               <div>
-                <h1 className="text-h4 md:text-h2 font-montserrat font-bold hero-title">
-                  The World&rsquo;s First <br /> Convergence Layer
+                <h1 className="text-h4 md:text-h2 font-aspekta font-bold hero-title">
+                  Purpose-Built for the <br /> Future of Finance
                 </h1>
                 <div className="hidden sm:flex gap-4 mt-5 sm-hero-button">
                   <Link href="/contact-us">
@@ -123,11 +123,10 @@ export default function HeroSection() {
               {/* Right Content Section */}
               <div className="flex flex-col items-start space-y-6">
                 <p className="text-p1 font-normal lg:max-w-[461px] hero-subtext">
-                  Founded in early 2024 by Web3 visionaries, Quranium is the world’s first
-                  Convergence Layer; where Quantum, Blockchain, and AI unite.{" "}
-                  <br className="hidden lg:block" /> As a decentralized, Quantum-secure Layer 1,
-                  Quranium enables the shift from siloed technologies to truly interoperable,
-                  autonomous systems.
+                  Founded in early 2024 by Web3 visionaries, Quranium is the world&rsquo;s first
+                  Layer 1 blockchain powered by SLH-DSA, a stateless, hash-based post-quantum
+                  signature scheme that delivers unmatched cryptographic security and resilience
+                  against quantum threats.
                 </p>
                 <div className="flex gap-4 mt-10 sm:hidden hero-button">
                   <Button variant="outline" className="group relative overflow-hidden">

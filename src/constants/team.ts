@@ -116,7 +116,7 @@ export const advisors = [
   //   ],
   // },
   {
-    name: "Sebastien Borget",
+    name: "Sébastien Borget",
     designation: "Co-founder & COO of The Sandbox",
     twitter: "https://x.com/borgetsebastien?s=21&t=FGV9psahzzulGFKR5j3tKw",
     linkedin: "http://linkedin.com/in/borgetsebastien",

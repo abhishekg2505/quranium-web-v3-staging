@@ -173,7 +173,7 @@ export default function Header() {
                           <div className="flex w-full gap-10 pt-5">
                             {/* Left list */}
                             <div className="relative w-1/2 px-2 flex flex-col justify-center items-center text-center">
-                              {"preview" in (hoveredSubItem || {}) && hoveredSubItem?.preview && (
+                              {hoveredSubItem?.preview ? (
                                 <>
                                   <Image
                                     src={hoveredSubItem.preview.img}
@@ -202,6 +202,40 @@ export default function Header() {
                                       </h4>
                                       <p className="text-p3 font-open-sans text-[#AFAFAF] leading-[100%] text-left">
                                         {hoveredSubItem.preview.desc}
+                                      </p>
+                                    </div>
+                                    <Image
+                                      src="/images/common/header/right-arrow.svg"
+                                      alt="Arrow Right"
+                                      width={13}
+                                      height={13}
+                                      className="mt-2"
+                                    />
+                                  </Link>
+                                </>
+                              ) : (
+                                <>
+                                  {/* Fallback content if no preview */}
+                                  <Image
+                                    src="/images/common/header/qsafe-preview.webp"
+                                    alt="QSafe Wallet"
+                                    width={1086}
+                                    height={500}
+                                    className="max-w-full"
+                                  />
+                                  <Link
+                                    href="https://qsafewallet.com"
+                                    className="absolute bottom-0 left-0 right-0 w-[90%] mx-auto flex flex-row justify-between items-start gap-4"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <div>
+                                      <h4 className="text-p1 font-open-sans text-left">
+                                        QSafe Wallet
+                                      </h4>
+                                      <p className="text-p3 font-open-sans text-[#AFAFAF] leading-[100%] text-left">
+                                        Multi-chain, quantum secure, and built for the next
+                                        generation.
                                       </p>
                                     </div>
                                     <Image

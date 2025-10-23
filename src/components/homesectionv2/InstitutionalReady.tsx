@@ -57,7 +57,7 @@ export default function InstitutionalReady() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="relative bg-[#181022] md:w-[854px] mx-auto border-[1.5px] border-[#FFFFFF33] rounded-[16px] p-5 text-center"
+              className="relative bg-[#181022] md:w-[854px] mx-auto border-[1.5px] border-[#FFFFFF33] hover:border-[#C48FFB] rounded-[16px] p-5 text-center"
             >
               <div className="absolute left-[-100px] top-1/2 -translate-y-1/2 hidden md:block z-[1]">
                 <Image
