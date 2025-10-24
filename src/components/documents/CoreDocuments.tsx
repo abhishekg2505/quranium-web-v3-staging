@@ -34,7 +34,7 @@ const anchorCards = [
   {
     title: "Lightpaper",
     desc: "Explore the blueprint behind Quranium’s quantum-secure foundation.",
-    link: "#",
+    link: "https://docsend.com/view/mgz5m2vwpsgvmfkr",
   },
 ];
 
