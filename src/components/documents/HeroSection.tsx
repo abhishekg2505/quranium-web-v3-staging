@@ -105,12 +105,12 @@ export default function HeroSection() {
 
       <div className="relative pt-32 pb-40 md:pt-48 md:pb-60 w-full">
         <div className="h-16 absolute inset-0 bg-gradient-to-t from-black/0 via-black/40 to-black/90 z-10" />
-        <div className="container mx-auto px-4 md:px-20">
+        <div className="container mx-auto px-4 md:px-10 xl:px-20">
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col sm:flex-row justify-between lg:items-center gap-10">
               {/* Left Text Section */}
               <div>
-                <h1 className="text-h4 md:text-h2 font-montserrat font-bold hero-title">
+                <h1 className="text-h4 sm:text-h3 md:text-h2 font-montserrat font-bold hero-title">
                   The Foundation of an <br />
                   Uncrackable Future
                 </h1>

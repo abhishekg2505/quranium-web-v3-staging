@@ -1,35 +1,34 @@
 import HeroSection from "@/src/components/documents/HeroSection";
-
-import { aboutUsMetaData } from "@/src/constants/metadata";
+import { documetsMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
 import CoreDocuments from "@/src/components/documents/CoreDocuments";
 
 export const metadata = {
   title: {
-    default: aboutUsMetaData.title,
-    template: `%s | ${aboutUsMetaData.title}`,
+    default: documetsMetaData.title,
+    template: `%s | ${documetsMetaData.title}`,
   },
-  description: aboutUsMetaData.description,
+  description: documetsMetaData.description,
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: aboutUsMetaData.url,
-    title: aboutUsMetaData.title,
-    description: aboutUsMetaData.description,
-    siteName: aboutUsMetaData.title,
+    url: documetsMetaData.url,
+    title: documetsMetaData.title,
+    description: documetsMetaData.description,
+    siteName: documetsMetaData.title,
     images: [
       {
         width: 1200,
         height: 630,
         url: `${quraniumPreview.src}?_=44fc893`,
-        alt: aboutUsMetaData.title,
+        alt: documetsMetaData.title,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: aboutUsMetaData.title,
-    description: aboutUsMetaData.description,
+    title: documetsMetaData.title,
+    description: documetsMetaData.description,
     images: [`${quraniumPreview.src}?_=44fc893`],
   },
 };
