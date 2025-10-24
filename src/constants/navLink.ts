@@ -30,8 +30,8 @@ export const navLinks = [
     link: ROUTES?.ECOSYSTEM,
   },
   {
-    itemName: "Docs",
-    link: ROUTES?.DOCS,
+    itemName: "Doc",
+    link: ROUTES?.DOC,
   },
   {
     itemName: "Community",

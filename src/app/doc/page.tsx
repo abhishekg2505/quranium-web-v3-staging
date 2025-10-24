@@ -1,7 +1,7 @@
-import HeroSection from "@/src/components/docs/HeroSection";
+import HeroSection from "@/src/components/doc/HeroSection";
 import { documetsMetaData } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
-import CoreDocuments from "@/src/components/docs/CoreDocuments";
+import CoreDocuments from "@/src/components/doc/CoreDocuments";
 
 export const metadata = {
   title: {
