@@ -103,7 +103,7 @@ export default function HeroSection() {
         <Image src="/images/common/svgicons/right-side.png" alt="icon" fill />
       </div>
 
-      <div className="relative pt-32 pb-40 md:pt-48 md:pb-60 w-full">
+      <div className="relative pt-32 pb-40 md:pt-60 md:pb-60 w-full">
         <div className="h-16 absolute inset-0 bg-gradient-to-t from-black/0 via-black/40 to-black/90 z-10" />
         <div className="container mx-auto px-4 md:px-10 xl:px-20">
           <div className="max-w-7xl mx-auto">
