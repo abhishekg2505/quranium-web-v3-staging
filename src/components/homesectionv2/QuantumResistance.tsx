@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const cards = [
   {
-    title: "EVM Compatible",
+    title: "EVM-Compatible",
     description: ["Seamless deployment of solidity contracts"],
     color: "text-[#CF57FF]",
   },
