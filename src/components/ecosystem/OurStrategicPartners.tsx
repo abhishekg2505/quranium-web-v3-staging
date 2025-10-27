@@ -109,9 +109,8 @@ const OurStrategicPartners = () => {
             className="flex flex-col items-center justify-center mt-10 md:mt-0 relative w-full"
           >
             <p className="text-p2 font-open-sans mb-5">
-              We&rsquo;re building the future of secure, intelligent infrastructure, and we&rsquo;re
-              not doing it alone. <strong>Quranium</strong> partners with visionary enterprises,
-              researchers, and developers to co-create the convergence era.
+              In collaborations with visionary enterprises, researchers, and developers worldwide,
+              we&rsquo;re building the foundation for secure and scalable infrastructure.
             </p>
             <div className="mt-[15px]  p-[10px] bg-[#A47FFF26] rounded-[10px] w-fit">
               <p className="text-p3 italic text-[#EAEAEA] font-open-sans leading-normal text-left">

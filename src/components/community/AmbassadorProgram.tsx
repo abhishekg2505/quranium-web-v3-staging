@@ -20,7 +20,7 @@ const threats: ThreatCardProps[] = [
   },
   {
     media: "/images/community/crown.svg",
-    title: "Convergence Leaders (QSquad)",
+    title: "Community Leaders (QSquad)",
     desc: "Educators, content creators, and community catalysts who make complex topics accessible, sparking engagement across workshops, communities, and digital platforms.",
   },
   {

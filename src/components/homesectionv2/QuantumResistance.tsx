@@ -39,7 +39,7 @@ const cards = [
     title: "SLH-DSA Layer-1 Infra (Stateless Hash-Based Digital Signature Algorithm)",
     description: [
       "Stateless significantly more robust than stateful",
-      "Hash based cryptography is stronger than lattice-based",
+      "Hash-based cryptography is stronger than lattice-based",
     ],
 
     color: "text-[#B57EFF]",

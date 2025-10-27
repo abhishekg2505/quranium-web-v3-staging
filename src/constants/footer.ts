@@ -57,7 +57,7 @@ export const footer = [
       { name: "The Uncrackable Conversation", href: `${ROUTES.UNCRACKABLE_CONVERSATION}` },
       { name: "Layers & Lattes", href: `${ROUTES.LAYERS_AND_LATTES}` },
       { name: "Republic Allowlist", href: `${ROUTES.REPUBLIC_ALLOWLIST}` },
-      { name: "Grant Program", href: `${ROUTES.GRANT_PROGRAM}` },
+      { name: "DeQUIP Grant Program", href: `${ROUTES.GRANT_PROGRAM}` },
     ],
   },
   {

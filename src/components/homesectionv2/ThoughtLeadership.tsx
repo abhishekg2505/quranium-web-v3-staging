@@ -44,7 +44,7 @@ const cards = [
     image: "/images/homepagev2/qmp-frame.png",
     widthClass: "w-full md:w-[31%]",
     description:
-      "Discover inspiring stories from real innovators shaping the future of AI, quantum, and Web3 on Quantum Minds Podcast.",
+      "Discover inspiring stories from real innovators shaping the future of AI, quantum, and Web3.",
     counter: "832K+",
     subheading: "Watch Hours",
     link: "https://www.quantummindspodcast.com/",
@@ -54,7 +54,8 @@ const cards = [
     title: "The Uncrackable Conversation",
     image: "/images/homepagev2/tuc-frame.png",
     widthClass: "w-full md:w-[31%]",
-    description: "Conversations with the minds building the future of Web3.",
+    description:
+      "Our monthly virtual series bringing together C-suite leaders, developers, and innovators shaping the future of secure and scalable Web3.",
     counter: "178K+",
     subheading: "Watch Hours",
     link: "https://www.quranium.org/the-uncrackable-conversation",

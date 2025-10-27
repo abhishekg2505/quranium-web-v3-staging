@@ -113,8 +113,8 @@ export default function HeroSection() {
               <div className="flex flex-col items-start space-y-6">
                 <p className="text-p1 font-open-sans max-w-md hero-subtext">
                   A global network of builders, institutions, partners, ambassadors, investors, and
-                  our community; united to create a quantum-secure, AI-ready, resilient digital
-                  future.
+                  our community, united to build a quantum-secure, interoperable, and resilient
+                  digital future.
                 </p>
               </div>
             </div>

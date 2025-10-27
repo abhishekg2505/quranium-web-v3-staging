@@ -72,7 +72,7 @@ export default function QuantumSecure() {
             className="text-h4 md:text-h3 font-montserrat font-semibold text-center"
           >
             <span className="bg-[linear-gradient(258.27deg,#FFFFFF_16.23%,#4C00FF_134.71%)] text-transparent bg-clip-text">
-              Your on-chain money, assets
+              Your on-chain money, assets,
             </span>{" "}
             and data are now secure from quantum attacks.
           </h2>
@@ -82,7 +82,7 @@ export default function QuantumSecure() {
       {/* Animated text section */}
       <div className="relative max-w-7xl mx-auto px-[16px] md:px-[60px] mt-[100px]">
         <h2 className="text-h4 md:text-h3 font-montserrat font-semibold text-center flex flex-wrap justify-center items-center gap-2">
-          Quantum Secure{" "}
+          Quantum-Secure{" "}
           <span className="text-[#C994FE] h-[1.5em] flex items-center overflow-hidden relative">
             <span key={index} className="block animate-slide-up text-[#C994FE] overflow-visible">
               {words[index]}

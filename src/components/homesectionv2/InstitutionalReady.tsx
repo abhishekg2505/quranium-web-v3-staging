@@ -18,7 +18,7 @@ export default function InstitutionalReady() {
     },
     {
       title: "Trade-off",
-      desc: "Institutions want both performance and long term assurance",
+      desc: "Institutions want both performance and long-term assurance",
       sub: "Lattice = speed today but security compromised",
       sub2: "Hash-based = uncompromising security for decades, that’s Quranium",
     },

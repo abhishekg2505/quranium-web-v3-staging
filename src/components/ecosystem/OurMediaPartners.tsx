@@ -112,8 +112,8 @@ const OurMediaPartners = () => {
                 ref={buttonRef}
                 className="text-p3 italic text-[#EAEAEA] font-open-sans leading-normal text-center"
               >
-                If you&rsquo;re a media outlet that shares our vision for a secure, intelligent, and
-                resilient digital future.
+                If you&rsquo;re a media outlet that shares our vision for a secure, resilient, and
+                quantum-secure digital future, we&rsquo;d love to connect and collaborate.
               </p>
             </div>
           </div>

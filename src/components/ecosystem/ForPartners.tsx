@@ -73,13 +73,21 @@ const ForPartners = () => {
               ref={mainTitleRef}
               className="text-h5 md:text-h4 font-montserrat font-medium md:font-semibold"
             >
-              The uncrackable platform builders of the decentralized world have been waiting for.
+              The quantum-secure Layer 1 blockchain built for the future of finance
             </h3>
             <p ref={headingRef} className="pt-[10px] text-white text-p2 font-open-sans">
               Supercomputing, quantum, blockchain and AI are colliding to reshape the digital world.
               Quranium Is built for this convergence: unbreakable security, intelligent
               infrastructure, and limitless scalability. Not patched together. Not upgraded after
-              the fact. Engineered for what&rsquo;s next. The age of convergence has begun.
+              the fact. Engineered for what&rsquo;s next. The age of convergence has
+              begun.Supercomputing, quantum technology, blockchain, and AI are colliding to redefine
+              digital trust. Quranium is purpose-built for this new era, delivering unbreakable
+              security, institutional-grade infrastructure, and limitless scalability. <br />
+              <br />
+              Not patched together. Not upgraded after the fact. Engineered for what&rsquo;s next.{" "}
+              <br />
+              <br />
+              The era of quantum-secure global finance has begun.
             </p>
           </div>
           <div ref={lineRef} className="relative w-full flex items-end justify-end h-full pt-10">

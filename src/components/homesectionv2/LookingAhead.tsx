@@ -107,7 +107,7 @@ const phases = [
                 width={20}
                 height={20}
               />
-              Established Post-quantum thought leadership
+              Established post-quantum thought leadership
             </div>
           </li>
         </ul>
